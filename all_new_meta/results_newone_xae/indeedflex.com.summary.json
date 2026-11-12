@@ -1,21 +1,29 @@
 {
   "root_domain": "indeedflex.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:11:44.423395+00:00",
-  "completed_at": "2026-11-12T21:12:54.293832+00:00",
-  "duration_ms": 69870,
+  "started_at": "2026-11-12T22:57:00.045619+00:00",
+  "completed_at": "2026-11-12T22:58:25.197934+00:00",
+  "duration_ms": 85152,
   "targets_scanned": [
     "indeedflex.com"
   ],
   "total_unique_findings": 69,
-  "fresh_findings_count": 69,
-  "historical_findings_count": 0,
-  "new_findings_count": 69,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 24,
+  "historical_findings_count": 69,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 45,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
+    {
+      "resource": "certspotter",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "bufferover",
       "target": "indeedflex.com",
@@ -25,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "c99",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "builtwith",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "domscan",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +65,87 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "dnsdumpster",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +161,31 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "bevigil",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,118 +209,6 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "intelx",
       "target": "indeedflex.com",
       "recursion_depth": 0,
@@ -225,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "abuseipdb",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -265,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,31 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +325,11 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 59,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidfinder",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,31 +349,7 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 180,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 257,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 259,
+      "duration_ms": 190,
       "error": null
     },
     {
@@ -373,11 +365,19 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 42,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "hackertarget",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 252,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,15 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 14,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 827,
       "error": null
     },
     {
@@ -421,16 +429,8 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 24,
-      "duration_ms": 747,
+      "duration_ms": 855,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1851,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "threatbook",
@@ -439,6 +439,14 @@
       "findings_count": 0,
       "duration_ms": 0,
       "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 921,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "thc",
@@ -453,7 +461,7 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
+      "duration_ms": 3066,
       "error": null
     },
     {
@@ -461,15 +469,7 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 3035,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 14,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3096,
       "error": null
     },
     {
@@ -537,19 +537,19 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "threatcrowd",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23166,
+      "duration_ms": 3059,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "sitedossier",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33087,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -557,23 +557,15 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46840,
+      "duration_ms": 26742,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "indeedflex.com",
-      "recursion_depth": 0,
-      "findings_count": 69,
-      "duration_ms": 58309,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
+      "resource": "reconcloud",
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61709,
+      "duration_ms": 30286,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65849,
+      "duration_ms": 65125,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "indeedflex.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65752,
+      "duration_ms": 62822,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "indeedflex.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 85139,
       "error": null
     }
   ]

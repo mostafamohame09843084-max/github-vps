@@ -1,17 +1,17 @@
 {
   "root_domain": "facebookenterprise.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:42:23.294895+00:00",
-  "completed_at": "2026-11-12T20:43:29.282008+00:00",
-  "duration_ms": 65987,
+  "started_at": "2026-11-12T22:56:49.188189+00:00",
+  "completed_at": "2026-11-12T22:57:58.181201+00:00",
+  "duration_ms": 68993,
   "targets_scanned": [
     "facebookenterprise.com"
   ],
   "total_unique_findings": 8,
-  "fresh_findings_count": 8,
-  "historical_findings_count": 0,
-  "new_findings_count": 8,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 3,
+  "historical_findings_count": 8,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 5,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "arpsyndicate",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "dnsdb",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +41,63 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "github",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,87 +121,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "bufferover",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "c99",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +153,31 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "fofa",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "chinaz",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "domscan",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
@@ -266,6 +258,22 @@
     },
     {
       "resource": "netlas",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +309,15 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 64,
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "rapidapi",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 178,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -345,11 +337,19 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 188,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 266,
+      "duration_ms": 234,
       "error": null
     },
     {
@@ -357,19 +357,11 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 268,
+      "duration_ms": 249,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,7 +381,15 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 73,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 462,
+      "duration_ms": 712,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 997,
+      "duration_ms": 917,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,15 +437,7 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1719,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1655,
       "error": null
     },
     {
@@ -457,15 +449,31 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 100,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3109,
+      "duration_ms": 3053,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "threatminer",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +481,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3581,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "shrewdeye",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3045,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,35 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3140,
+      "duration_ms": 3056,
       "error": null
     },
     {
-      "resource": "waybackarchive",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 24475,
-      "error": null
-    },
-    {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29004,
+      "duration_ms": 20070,
       "error": null
     },
     {
@@ -565,23 +565,15 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33087,
+      "duration_ms": 31643,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "facebookenterprise.com",
-      "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 53717,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61362,
+      "duration_ms": 45588,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "facebookenterprise.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65977,
+      "duration_ms": 65983,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookenterprise.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65657,
       "error": null
     }
   ]
