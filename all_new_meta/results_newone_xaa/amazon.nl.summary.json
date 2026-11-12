@@ -1,87 +1,23 @@
 {
   "root_domain": "amazon.nl",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:11:14.290770+00:00",
-  "completed_at": "2026-11-12T21:12:23.285689+00:00",
-  "duration_ms": 68994,
+  "started_at": "2026-11-12T22:35:29.184101+00:00",
+  "completed_at": "2026-11-12T22:36:38.204651+00:00",
+  "duration_ms": 69020,
   "targets_scanned": [
     "amazon.nl"
   ],
-  "total_unique_findings": 21,
-  "fresh_findings_count": 21,
-  "historical_findings_count": 0,
-  "new_findings_count": 21,
+  "total_unique_findings": 144,
+  "fresh_findings_count": 144,
+  "historical_findings_count": 21,
+  "new_findings_count": 123,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "certspotter",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "argosdns",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "github",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,71 +57,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "fofa",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +81,127 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "domainsproject",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,19 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 23,
       "error": null
     },
     {
       "resource": "intelx",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +249,22 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "amazon.nl",
       "recursion_depth": 0,
@@ -257,15 +273,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "rapidapi",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "pugrecon",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +305,6 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "amazon.nl",
       "recursion_depth": 0,
@@ -305,15 +313,23 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 117,
+      "duration_ms": 63,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidfinder",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 189,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 174,
       "error": null
     },
     {
@@ -361,19 +361,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 289,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "reconeer",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 51,
+      "duration_ms": 528,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -421,7 +421,15 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 10,
-      "duration_ms": 830,
+      "duration_ms": 773,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 10,
+      "duration_ms": 913,
       "error": null
     },
     {
@@ -429,7 +437,7 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 998,
+      "duration_ms": 987,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -441,19 +449,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 10,
-      "duration_ms": 1037,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "amazon.nl",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 123,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3044,
       "error": null
     },
     {
@@ -485,7 +477,15 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3065,
+      "duration_ms": 3068,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3148,
       "error": null
     },
     {
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3352,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22046,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "amazon.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33089,
+      "duration_ms": 3074,
       "error": null
     },
     {
@@ -565,15 +549,23 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46431,
+      "duration_ms": 27410,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "reconcloud",
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61588,
+      "duration_ms": 32386,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 139,
+      "duration_ms": 49941,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 56481,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "amazon.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61386,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "amazon.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65594,
+      "duration_ms": 65367,
       "error": null
     }
   ]

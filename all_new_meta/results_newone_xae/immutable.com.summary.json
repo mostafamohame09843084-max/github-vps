@@ -1,23 +1,31 @@
 {
   "root_domain": "immutable.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:47:09.287404+00:00",
-  "completed_at": "2026-11-12T20:48:15.285534+00:00",
-  "duration_ms": 65998,
+  "started_at": "2026-11-12T22:34:41.183849+00:00",
+  "completed_at": "2026-11-12T22:35:50.213383+00:00",
+  "duration_ms": 69029,
   "targets_scanned": [
     "immutable.com"
   ],
-  "total_unique_findings": 14,
-  "fresh_findings_count": 14,
-  "historical_findings_count": 0,
-  "new_findings_count": 14,
+  "total_unique_findings": 210,
+  "fresh_findings_count": 210,
+  "historical_findings_count": 14,
+  "new_findings_count": 196,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "c99",
+      "resource": "domainsproject",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -26,14 +34,6 @@
     },
     {
       "resource": "coderog",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,63 +57,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "domscan",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,15 +73,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "dnsdb",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +89,23 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "digitalyama",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "c99",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fofa",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "binaryedge",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +145,31 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "bufferover",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "arpsyndicate",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "dnsrepo",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +213,23 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "immutable.com",
       "recursion_depth": 0,
@@ -269,19 +261,11 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 53,
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +281,22 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "immutable.com",
       "recursion_depth": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 158,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "immutable.com",
       "recursion_depth": 0,
@@ -349,7 +341,15 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 182,
+      "duration_ms": 174,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 230,
       "error": null
     },
     {
@@ -365,15 +365,15 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rsecloud",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
       "target": "immutable.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 51,
+      "duration_ms": 500,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,15 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 744,
+      "duration_ms": 726,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 9,
+      "duration_ms": 832,
       "error": null
     },
     {
@@ -429,24 +437,8 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 991,
+      "duration_ms": 1278,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "myssl",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 9,
-      "duration_ms": 1441,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "threatbook",
@@ -457,23 +449,31 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 137,
+      "duration_ms": 159,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3090,
+      "duration_ms": 3044,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "shrewdeye",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11,
+      "duration_ms": 3043,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "immutable.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "immutable.com",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3274,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,7 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3177,
+      "duration_ms": 3097,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10014,
+      "duration_ms": 12626,
       "error": null
     },
     {
@@ -565,23 +557,23 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33078,
+      "duration_ms": 30147,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "immutable.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39055,
+      "findings_count": 198,
+      "duration_ms": 44996,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "threatminer",
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 59638,
+      "duration_ms": 61404,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "immutable.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 65988,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "immutable.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65424,
       "error": null
     }
   ]
