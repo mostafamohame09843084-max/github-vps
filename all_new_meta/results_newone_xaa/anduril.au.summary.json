@@ -1,151 +1,23 @@
 {
   "root_domain": "anduril.au",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:57:47.294092+00:00",
-  "completed_at": "2026-11-12T21:58:56.294412+00:00",
-  "duration_ms": 69000,
+  "started_at": "2026-11-12T23:20:43.192532+00:00",
+  "completed_at": "2026-11-12T23:21:49.181831+00:00",
+  "duration_ms": 65989,
   "targets_scanned": [
     "anduril.au"
   ],
   "total_unique_findings": 77,
-  "fresh_findings_count": 77,
-  "historical_findings_count": 0,
-  "new_findings_count": 77,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 1,
+  "historical_findings_count": 77,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 76,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "domscan",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "censys",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "builtwith",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +57,15 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "bevigil",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +81,135 @@
       "error": null
     },
     {
+      "resource": "dnsrepo",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,15 +229,7 @@
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "digitorus",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -265,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "netlas",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -313,27 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 218,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 68,
       "error": null
     },
     {
@@ -345,19 +329,27 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidfinder",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 74,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 206,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -389,15 +389,7 @@
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 14,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 466,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 950,
+      "duration_ms": 544,
       "error": null
     },
     {
@@ -437,7 +429,7 @@
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1224,
+      "duration_ms": 1000,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -457,23 +449,23 @@
       "error": null
     },
     {
+      "resource": "myssl",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1659,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 3060,
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +473,15 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "shrewdeye",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3063,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,19 +509,11 @@
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 3263,
       "error": null
     },
     {
       "resource": "whoisfreaks",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,35 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3133,
+      "duration_ms": 3127,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "waybackarchive",
       "target": "anduril.au",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33096,
+      "findings_count": 1,
+      "duration_ms": 15608,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "anduril.au",
       "recursion_depth": 0,
-      "findings_count": 77,
-      "duration_ms": 39248,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "anduril.au",
-      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61301,
+      "duration_ms": 20068,
       "error": null
     },
     {
@@ -573,7 +565,23 @@
       "target": "anduril.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61437,
+      "duration_ms": 20679,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29404,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "anduril.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44561,
       "error": null
     },
     {
@@ -582,14 +590,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 65978,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "anduril.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65599,
       "error": null
     }
   ]

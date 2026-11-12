@@ -1,23 +1,55 @@
 {
   "root_domain": "copilotsi.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:38:02.297344+00:00",
-  "completed_at": "2026-11-12T21:39:08.282531+00:00",
-  "duration_ms": 65985,
+  "started_at": "2026-11-12T23:20:46.189978+00:00",
+  "completed_at": "2026-11-12T23:21:52.183480+00:00",
+  "duration_ms": 65993,
   "targets_scanned": [
     "copilotsi.com"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "c99",
+      "resource": "coderog",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "dnsdumpster",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "driftnet",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,23 +81,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "domscan",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,6 +105,70 @@
       "error": null
     },
     {
+      "resource": "c99",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
       "target": "copilotsi.com",
       "recursion_depth": 0,
@@ -105,31 +185,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "builtwith",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "domainsproject",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,59 +209,11 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "abuseipdb",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "copilotsi.com",
       "recursion_depth": 0,
@@ -249,11 +249,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "netlas",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 68,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -265,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "pugrecon",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -274,14 +282,6 @@
     },
     {
       "resource": "onyphe",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "hudsonrock",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 152,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -318,6 +318,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 70,
       "error": null
     },
     {
@@ -341,15 +349,15 @@
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 175,
+      "duration_ms": 191,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -365,7 +373,7 @@
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 251,
       "error": null
     },
     {
@@ -377,23 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
       "resource": "robtex",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 516,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1245,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,43 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 22,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 418,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1180,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "myssl",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1503,
+      "duration_ms": 1289,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 99,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3061,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3047,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -489,6 +481,14 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3043,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "copilotsi.com",
       "recursion_depth": 0,
@@ -505,19 +505,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3287,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
       "error": null
     },
     {
@@ -541,39 +541,15 @@
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3107,
+      "duration_ms": 3059,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "copilotsi.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 27430,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32071,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49901,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "copilotsi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61666,
+      "duration_ms": 20066,
       "error": null
     },
     {
@@ -581,7 +557,31 @@
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61851,
+      "duration_ms": 20444,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30433,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46288,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "copilotsi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44664,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "copilotsi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65975,
+      "duration_ms": 65983,
       "error": null
     }
   ]
