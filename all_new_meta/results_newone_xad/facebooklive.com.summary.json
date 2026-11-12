@@ -1,79 +1,23 @@
 {
   "root_domain": "facebooklive.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:04:59.284444+00:00",
-  "completed_at": "2026-11-12T21:07:16.281438+00:00",
-  "duration_ms": 136996,
+  "started_at": "2026-11-12T23:17:22.206121+00:00",
+  "completed_at": "2026-11-12T23:18:28.190592+00:00",
+  "duration_ms": 65984,
   "targets_scanned": [
     "facebooklive.com"
   ],
-  "total_unique_findings": 2,
-  "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "total_unique_findings": 8,
+  "fresh_findings_count": 8,
+  "historical_findings_count": 2,
+  "new_findings_count": 6,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "coderog",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "facebook",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "google",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "censys",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "fofa",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +81,15 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "arpsyndicate",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,14 +105,6 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdb",
       "target": "facebooklive.com",
       "recursion_depth": 0,
@@ -209,7 +113,111 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "builtwith",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +233,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "abuseipdb",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +289,6 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "facebooklive.com",
       "recursion_depth": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "pugrecon",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,23 @@
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 92,
+      "duration_ms": 89,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 206,
       "error": null
     },
     {
@@ -337,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 192,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 248,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 267,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 255,
       "error": null
     },
     {
@@ -381,19 +381,11 @@
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 68,
       "error": null
     },
     {
       "resource": "robtex",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 736,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1209,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shodanx",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3065,
+      "duration_ms": 14,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 702,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1200,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1265,
       "error": null
     },
     {
@@ -457,11 +449,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 117,
+      "error": null
+    },
+    {
+      "resource": "riddler",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3070,
+      "duration_ms": 3048,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23,
+      "error": null
+    },
+    {
       "resource": "trickest",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "shrewdeye",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3099,
+      "duration_ms": 3052,
       "error": null
     },
     {
@@ -537,11 +537,27 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "sitedossier",
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23893,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3082,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 7170,
       "error": null
     },
     {
@@ -549,39 +565,7 @@
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33102,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61237,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61641,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65989,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebooklive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65893,
+      "duration_ms": 31579,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "facebooklive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 136989,
+      "duration_ms": 42045,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42696,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "facebooklive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65973,
       "error": null
     }
   ]
