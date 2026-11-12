@@ -1,63 +1,31 @@
 {
   "root_domain": "imovie.us",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:48:15.291955+00:00",
-  "completed_at": "2026-11-12T20:49:24.283254+00:00",
-  "duration_ms": 68991,
+  "started_at": "2026-11-12T22:35:50.240341+00:00",
+  "completed_at": "2026-11-12T22:36:59.183292+00:00",
+  "duration_ms": 68942,
   "targets_scanned": [
     "imovie.us"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "github",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "binaryedge",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "domainsproject",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,22 +57,6 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdumpster",
       "target": "imovie.us",
       "recursion_depth": 0,
@@ -129,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "coderog",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +73,31 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fofa",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,15 +121,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "censys",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,15 +137,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "github",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +153,55 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "builtwith",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "certspotter",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -226,6 +210,22 @@
     },
     {
       "resource": "intelx",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +249,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "imovie.us",
       "recursion_depth": 0,
@@ -317,15 +325,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 114,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 181,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -345,23 +345,39 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 185,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 46,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 462,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,15 +393,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "shodan",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,11 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "rapiddns",
       "target": "imovie.us",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 415,
       "error": null
     },
     {
@@ -413,15 +421,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 526,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1154,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 992,
       "error": null
     },
     {
@@ -445,7 +437,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1176,
+      "duration_ms": 1144,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -457,11 +449,27 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 96,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
+      "duration_ms": 3046,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3049,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3072,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
-      "target": "imovie.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "imovie.us",
       "recursion_depth": 0,
@@ -517,7 +509,15 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "imovie.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3131,
+      "duration_ms": 3110,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 21494,
+      "duration_ms": 20062,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31863,
+      "duration_ms": 29278,
       "error": null
     },
     {
@@ -565,7 +565,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61464,
+      "duration_ms": 42782,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61587,
+      "duration_ms": 61516,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 65932,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "imovie.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65597,
+      "duration_ms": 65407,
       "error": null
     }
   ]

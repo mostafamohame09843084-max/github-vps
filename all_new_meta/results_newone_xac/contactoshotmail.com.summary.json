@@ -1,111 +1,31 @@
 {
   "root_domain": "contactoshotmail.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:46:16.287779+00:00",
-  "completed_at": "2026-11-12T20:47:57.292404+00:00",
-  "duration_ms": 101004,
+  "started_at": "2026-11-12T22:35:38.189176+00:00",
+  "completed_at": "2026-11-12T22:36:43.923659+00:00",
+  "duration_ms": 65734,
   "targets_scanned": [
     "contactoshotmail.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
+      "resource": "chaos",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +41,55 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "certspotter",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,6 +113,62 @@
       "error": null
     },
     {
+      "resource": "c99",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "driftnet",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
@@ -161,6 +185,14 @@
       "error": null
     },
     {
+      "resource": "digitalyama",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "github",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
@@ -169,51 +201,11 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "bevigil",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25,
       "error": null
     },
     {
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "abuseipdb",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "intelx",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,47 +289,15 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 88,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 172,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,11 +309,35 @@
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 60,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidapi",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 71,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -364,20 +348,20 @@
       "resource": "hackertarget",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 269,
+      "findings_count": 1,
+      "duration_ms": 552,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "rapiddns",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 506,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -390,6 +374,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 497,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -429,8 +421,24 @@
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1734,
+      "duration_ms": 995,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "riddler",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3047,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3069,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -444,24 +452,24 @@
       "resource": "thc",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 95,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "sitedossier",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3267,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatcrowd",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3099,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -481,19 +489,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3354,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 7819,
       "error": null
     },
     {
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3112,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "myssl",
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23252,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24853,
+      "duration_ms": 23176,
       "error": null
     },
     {
@@ -557,31 +549,7 @@
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33078,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61669,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65984,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "contactoshotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65043,
+      "duration_ms": 31061,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "contactoshotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 100997,
+      "duration_ms": 37244,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46257,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49397,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61345,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "contactoshotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61413,
       "error": null
     }
   ]
