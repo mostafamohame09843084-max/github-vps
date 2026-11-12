@@ -1,23 +1,23 @@
 {
   "root_domain": "facebookrooms.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:28:51.287700+00:00",
-  "completed_at": "2026-11-12T21:30:02.281151+00:00",
-  "duration_ms": 70993,
+  "started_at": "2026-11-12T23:35:04.193644+00:00",
+  "completed_at": "2026-11-12T23:36:10.188387+00:00",
+  "duration_ms": 65994,
   "targets_scanned": [
     "facebookrooms.org"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chaos",
+      "resource": "driftnet",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,39 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "argosdns",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "censys",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "digitalyama",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "binaryedge",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "builtwith",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "domainsproject",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +89,31 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "google",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "c99",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,31 +145,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "facebook",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "domscan",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "dnsrepo",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "certspotter",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "intelx",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -257,31 +257,15 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
       "resource": "odin",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 57,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,23 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -321,14 +321,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 204,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
@@ -337,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 172,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -361,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rsecloud",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 271,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -373,15 +381,7 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 527,
+      "duration_ms": 424,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1093,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1016,
       "error": null
     },
     {
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 115,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 3052,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 21,
+      "error": null
+    },
+    {
       "resource": "urlscan",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3077,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
+      "duration_ms": 3081,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3101,
+      "duration_ms": 3127,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8576,
+      "duration_ms": 30846,
       "error": null
     },
     {
@@ -557,31 +565,7 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33086,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61718,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65980,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookrooms.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65564,
+      "duration_ms": 31993,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "facebookrooms.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 70981,
+      "duration_ms": 36339,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44642,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "facebookrooms.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65986,
       "error": null
     }
   ]
