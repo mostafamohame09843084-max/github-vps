@@ -1,135 +1,23 @@
 {
   "root_domain": "indeed.tech",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:10:35.035006+00:00",
-  "completed_at": "2026-11-12T21:11:44.381184+00:00",
-  "duration_ms": 69346,
+  "started_at": "2026-11-12T22:55:55.305075+00:00",
+  "completed_at": "2026-11-12T22:57:00.006108+00:00",
+  "duration_ms": 64701,
   "targets_scanned": [
     "indeed.tech"
   ],
   "total_unique_findings": 726,
-  "fresh_findings_count": 726,
-  "historical_findings_count": 0,
-  "new_findings_count": 726,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 33,
+  "historical_findings_count": 726,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 693,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "driftnet",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "argosdns",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,71 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "digitalyama",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +129,31 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "c99",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "domscan",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,27 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "huntermap",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -241,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "digitorus",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "indeed.tech",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 90,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 3,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -337,27 +329,27 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 74,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 225,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 271,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 280,
+      "duration_ms": 189,
       "error": null
     },
     {
@@ -369,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -413,31 +413,7 @@
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1013,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "rapiddns",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 30,
-      "duration_ms": 973,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -445,7 +421,15 @@
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 1166,
+      "duration_ms": 800,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 30,
+      "duration_ms": 860,
       "error": null
     },
     {
@@ -457,19 +441,35 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 921,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "riddler",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3081,
+      "duration_ms": 3045,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "shrewdeye",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 3045,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatcrowd",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3122,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3096,
-      "error": null
-    },
-    {
       "resource": "sitedossier",
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "indeed.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33071,
+      "duration_ms": 3271,
       "error": null
     },
     {
@@ -565,15 +549,15 @@
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44424,
+      "duration_ms": 23511,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "reconcloud",
       "target": "indeed.tech",
       "recursion_depth": 0,
-      "findings_count": 708,
-      "duration_ms": 53174,
+      "findings_count": 0,
+      "duration_ms": 29785,
       "error": null
     },
     {
@@ -581,7 +565,7 @@
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65237,
+      "duration_ms": 49247,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "indeed.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65836,
+      "duration_ms": 49541,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64413,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "indeed.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61397,
       "error": null
     }
   ]
