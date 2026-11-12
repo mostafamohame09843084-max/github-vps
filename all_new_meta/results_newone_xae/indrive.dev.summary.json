@@ -1,143 +1,23 @@
 {
   "root_domain": "indrive.dev",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:24:24.344676+00:00",
-  "completed_at": "2026-11-12T21:25:30.506395+00:00",
-  "duration_ms": 66161,
+  "started_at": "2026-11-12T23:10:00.200464+00:00",
+  "completed_at": "2026-11-12T23:11:10.188968+00:00",
+  "duration_ms": 69988,
   "targets_scanned": [
     "indrive.dev"
   ],
   "total_unique_findings": 1676,
-  "fresh_findings_count": 1676,
-  "historical_findings_count": 0,
-  "new_findings_count": 1676,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 25,
+  "historical_findings_count": 1676,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1651,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "dnsdumpster",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,6 +33,46 @@
       "error": null
     },
     {
+      "resource": "binaryedge",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "arpsyndicate",
       "target": "indrive.dev",
       "recursion_depth": 0,
@@ -161,23 +81,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "c99",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +97,71 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "argosdns",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +185,35 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "bevigil",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -237,7 +229,15 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "profundis",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "odin",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 92,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hudsonrock",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 189,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -345,19 +329,35 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 68,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidfinder",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 190,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -366,6 +366,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 252,
       "error": null
     },
     {
@@ -385,11 +393,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "shodan",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,31 +421,7 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 25,
-      "duration_ms": 458,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 991,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 436,
       "error": null
     },
     {
@@ -453,27 +429,11 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1201,
+      "duration_ms": 1234,
       "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "riddler",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -485,11 +445,11 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3044,
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "thc",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -501,11 +461,35 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 3503,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "trickest",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,15 +505,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,15 +517,39 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3158,
+      "duration_ms": 3052,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "windvane",
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20463,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "zoomeyeapi",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 7035,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23073,
       "error": null
     },
     {
@@ -557,23 +557,15 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33093,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "indrive.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33981,
+      "duration_ms": 30599,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "indrive.dev",
       "recursion_depth": 0,
-      "findings_count": 1655,
-      "duration_ms": 58308,
+      "findings_count": 0,
+      "duration_ms": 42046,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61585,
+      "duration_ms": 61410,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "indrive.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65928,
+      "duration_ms": 65969,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "indrive.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65954,
       "error": null
     }
   ]
