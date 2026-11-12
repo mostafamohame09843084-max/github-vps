@@ -1,29 +1,21 @@
 {
   "root_domain": "facebookrecruiting.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:23:39.301161+00:00",
-  "completed_at": "2026-11-12T21:25:41.293354+00:00",
-  "duration_ms": 121992,
+  "started_at": "2026-11-12T23:31:46.200466+00:00",
+  "completed_at": "2026-11-12T23:32:52.182671+00:00",
+  "duration_ms": 65982,
   "targets_scanned": [
     "facebookrecruiting.com"
   ],
-  "total_unique_findings": 4,
-  "fresh_findings_count": 4,
-  "historical_findings_count": 0,
-  "new_findings_count": 4,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 7,
+  "fresh_findings_count": 5,
+  "historical_findings_count": 4,
+  "new_findings_count": 3,
+  "reused_historical_findings_count": 2,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "digitalyama",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "dnsdumpster",
       "target": "facebookrecruiting.com",
@@ -41,78 +33,6 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
@@ -121,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "bevigil",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +57,55 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "binaryedge",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "arpsyndicate",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "argosdns",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +145,23 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "driftnet",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "chaos",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +193,35 @@
       "error": null
     },
     {
+      "resource": "google",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -225,7 +233,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "leakix",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,23 +257,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +273,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "pugrecon",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,14 +305,6 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
@@ -321,11 +321,19 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 205,
+      "duration_ms": 181,
       "error": null
     },
     {
@@ -337,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 244,
+      "duration_ms": 223,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -377,15 +377,23 @@
       "error": null
     },
     {
+      "resource": "rsecloud",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 51,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "securitytrails",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 464,
+      "duration_ms": 702,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 997,
+      "duration_ms": 910,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,7 +437,7 @@
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1363,
+      "duration_ms": 1275,
       "error": null
     },
     {
@@ -452,8 +452,8 @@
       "resource": "thc",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 5,
+      "duration_ms": 119,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3072,
       "error": null
     },
     {
@@ -485,11 +477,11 @@
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
+      "duration_ms": 3051,
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +489,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "virustotal",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "sitedossier",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,51 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33069,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 41712,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61989,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 62121,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "facebookrecruiting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65966,
+      "duration_ms": 3059,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "facebookrecruiting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 121979,
+      "duration_ms": 20068,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20443,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27939,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45989,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44765,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "facebookrecruiting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65964,
       "error": null
     }
   ]
