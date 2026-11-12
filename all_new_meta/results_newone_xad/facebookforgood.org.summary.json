@@ -1,23 +1,71 @@
 {
   "root_domain": "facebookforgood.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:50:28.289875+00:00",
-  "completed_at": "2026-11-12T20:51:34.279270+00:00",
-  "duration_ms": 65989,
+  "started_at": "2026-11-12T23:03:51.260994+00:00",
+  "completed_at": "2026-11-12T23:04:57.181810+00:00",
+  "duration_ms": 65920,
   "targets_scanned": [
     "facebookforgood.org"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "driftnet",
+      "resource": "fullhunt",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,15 +89,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "dnsrepo",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,135 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "github",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +121,87 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "digitalyama",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,39 +217,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 27,
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "intelx",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,6 +241,38 @@
       "error": null
     },
     {
+      "resource": "leakix",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "pugrecon",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 170,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 180,
+      "duration_ms": 72,
       "error": null
     },
     {
@@ -337,23 +329,15 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 177,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 254,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,15 +349,23 @@
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 279,
+      "duration_ms": 231,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "redhuntlabs",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -429,8 +429,16 @@
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1897,
+      "duration_ms": 1159,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1744,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -444,16 +452,8 @@
       "resource": "thc",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3121,
+      "findings_count": 1,
+      "duration_ms": 127,
       "error": null
     },
     {
@@ -461,23 +461,7 @@
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3201,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3567,
+      "duration_ms": 3042,
       "error": null
     },
     {
@@ -489,7 +473,39 @@
       "error": null
     },
     {
+      "resource": "trickest",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
       "resource": "virustotal",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "facebookforgood.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3056,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +521,7 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3120,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,19 +537,19 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3271,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "threatcrowd",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33086,
+      "duration_ms": 3094,
       "error": null
     },
     {
@@ -549,23 +557,15 @@
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33579,
+      "duration_ms": 20068,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "reconcloud",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35305,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "facebookforgood.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47072,
+      "duration_ms": 29421,
       "error": null
     },
     {
@@ -573,15 +573,15 @@
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50079,
+      "duration_ms": 44596,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62287,
+      "duration_ms": 61517,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "facebookforgood.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 65912,
       "error": null
     }
   ]
