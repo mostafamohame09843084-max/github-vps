@@ -1,95 +1,23 @@
 {
   "root_domain": "insight.ly",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:54:27.291549+00:00",
-  "completed_at": "2026-11-12T21:55:36.296722+00:00",
-  "duration_ms": 69005,
+  "started_at": "2026-11-12T23:39:32.185761+00:00",
+  "completed_at": "2026-11-12T23:40:38.205339+00:00",
+  "duration_ms": 66019,
   "targets_scanned": [
     "insight.ly"
   ],
   "total_unique_findings": 108,
-  "fresh_findings_count": 108,
-  "historical_findings_count": 0,
-  "new_findings_count": 108,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 102,
+  "historical_findings_count": 108,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 6,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "facebook",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "binaryedge",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsdb",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "argosdns",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,6 +57,30 @@
       "error": null
     },
     {
+      "resource": "fullhunt",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bufferover",
       "target": "insight.ly",
       "recursion_depth": 0,
@@ -153,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "digitalyama",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +105,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "certspotter",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "builtwith",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +129,79 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "github",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,31 +217,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "intelx",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +229,43 @@
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "netlas",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 12,
+      "duration_ms": 56,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "insight.ly",
       "recursion_depth": 0,
@@ -317,7 +325,7 @@
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 106,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -341,15 +349,7 @@
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 205,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 12,
-      "duration_ms": 269,
+      "duration_ms": 184,
       "error": null
     },
     {
@@ -357,27 +357,11 @@
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83,
+      "duration_ms": 45,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 391,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -390,6 +374,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 252,
       "error": null
     },
     {
@@ -417,28 +417,20 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 91,
-      "duration_ms": 761,
-      "error": null
-    },
-    {
       "resource": "myssl",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 1009,
+      "duration_ms": 897,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "rapiddns",
       "target": "insight.ly",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1155,
-      "error": "'list' object has no attribute 'get'"
+      "findings_count": 91,
+      "duration_ms": 891,
+      "error": null
     },
     {
       "resource": "thc",
@@ -457,15 +449,31 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "racent",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3210,
+      "duration_ms": 920,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "riddler",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3066,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "threatminer",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +481,7 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3431,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3455,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "insight.ly",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "shrewdeye",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,27 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3165,
+      "duration_ms": 3130,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "sitedossier",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27404,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "insight.ly",
-      "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 33027,
+      "duration_ms": 3271,
       "error": null
     },
     {
@@ -565,23 +557,23 @@
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33098,
+      "duration_ms": 32075,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "crtsh",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61426,
+      "duration_ms": 42068,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65979,
+      "duration_ms": 43844,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "insight.ly",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65193,
+      "duration_ms": 49667,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "insight.ly",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65988,
       "error": null
     }
   ]
