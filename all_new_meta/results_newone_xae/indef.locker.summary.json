@@ -1,23 +1,23 @@
 {
   "root_domain": "indef.locker",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:12:54.304073+00:00",
-  "completed_at": "2026-11-12T21:14:03.283681+00:00",
-  "duration_ms": 68979,
+  "started_at": "2026-11-12T22:58:25.203405+00:00",
+  "completed_at": "2026-11-12T22:59:31.193372+00:00",
+  "duration_ms": 65989,
   "targets_scanned": [
     "indef.locker"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "domscan",
+      "resource": "facebook",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,31 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "chinaz",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,6 +65,38 @@
       "error": null
     },
     {
+      "resource": "coderog",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "certspotter",
       "target": "indef.locker",
       "recursion_depth": 0,
@@ -49,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "builtwith",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +113,15 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "google",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,70 +145,6 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
       "target": "indef.locker",
       "recursion_depth": 0,
@@ -153,39 +153,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "digitalyama",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +177,43 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "binaryedge",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -225,19 +225,27 @@
       "error": null
     },
     {
+      "resource": "huntermap",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 26,
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "leakix",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -257,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "profundis",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 174,
       "error": null
     },
     {
@@ -333,7 +333,7 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 191,
+      "duration_ms": 68,
       "error": null
     },
     {
@@ -345,11 +345,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 231,
+      "duration_ms": 173,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -361,22 +369,6 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 241,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 40,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "indef.locker",
       "recursion_depth": 0,
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 245,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "rsecloud",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 489,
+      "duration_ms": 428,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1092,
+      "duration_ms": 1025,
       "error": null
     },
     {
@@ -441,14 +441,6 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1673,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
       "resource": "threatbook",
       "target": "indef.locker",
       "recursion_depth": 0,
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "racent",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1195,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "riddler",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3048,
       "error": null
     },
     {
@@ -485,11 +477,27 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3212,
+      "duration_ms": 3041,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "virustotal",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +521,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3115,
+      "duration_ms": 3063,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 29906,
+      "duration_ms": 4875,
       "error": null
     },
     {
@@ -557,15 +557,7 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30200,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "indef.locker",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33079,
+      "duration_ms": 8483,
       "error": null
     },
     {
@@ -573,15 +565,15 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61807,
+      "duration_ms": 20636,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "reconcloud",
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65968,
+      "duration_ms": 29745,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "indef.locker",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65468,
+      "duration_ms": 49945,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "indef.locker",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65980,
       "error": null
     }
   ]

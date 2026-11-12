@@ -1,23 +1,23 @@
 {
   "root_domain": "bingpromotionaldepartment.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:32:27.351693+00:00",
-  "completed_at": "2026-11-12T21:34:09.286260+00:00",
-  "duration_ms": 101934,
+  "started_at": "2026-11-12T22:58:37.191229+00:00",
+  "completed_at": "2026-11-12T22:59:43.181505+00:00",
+  "duration_ms": 65990,
   "targets_scanned": [
     "bingpromotionaldepartment.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
+      "resource": "censys",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,55 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "github",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +89,39 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "driftnet",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,111 +145,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +161,38 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
@@ -193,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "c99",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +209,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "huntermap",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +225,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 25,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -266,14 +266,6 @@
     },
     {
       "resource": "netlas",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
@@ -313,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 111,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 173,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -345,19 +337,27 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 76,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 294,
+      "duration_ms": 190,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -369,15 +369,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 248,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,23 +421,7 @@
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 434,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1347,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 437,
       "error": null
     },
     {
@@ -445,8 +429,24 @@
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1988,
+      "duration_ms": 999,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1290,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 146,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -461,7 +461,7 @@
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3067,
+      "duration_ms": 3056,
       "error": null
     },
     {
@@ -469,7 +469,7 @@
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3058,
+      "duration_ms": 3135,
       "error": null
     },
     {
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "sitedossier",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3270,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,51 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3130,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33081,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39651,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46420,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61702,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "bingpromotionaldepartment.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65920,
+      "duration_ms": 3109,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "bingpromotionaldepartment.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 101926,
+      "duration_ms": 20064,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20505,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29374,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26982,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43488,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "bingpromotionaldepartment.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65982,
       "error": null
     }
   ]
