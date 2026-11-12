@@ -1,21 +1,29 @@
 {
   "root_domain": "andrewknoxtea.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:45:07.791848+00:00",
-  "completed_at": "2026-11-12T21:46:13.281731+00:00",
-  "duration_ms": 65489,
+  "started_at": "2026-11-12T23:07:10.186116+00:00",
+  "completed_at": "2026-11-12T23:08:19.181127+00:00",
+  "duration_ms": 68995,
   "targets_scanned": [
     "andrewknoxtea.com"
   ],
   "total_unique_findings": 3,
-  "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 3,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
+    {
+      "resource": "c99",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "facebook",
       "target": "andrewknoxtea.com",
@@ -33,87 +41,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "arpsyndicate",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,23 +57,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "binaryedge",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "argosdns",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +81,23 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "digitalyama",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "builtwith",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +129,91 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "domainsproject",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 19,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
@@ -249,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +261,19 @@
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 31,
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hudsonrock",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 184,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 40,
       "error": null
     },
     {
@@ -345,19 +329,35 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidfinder",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
+      "duration_ms": 77,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 96,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -377,23 +377,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "alienvault",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 178,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 415,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1004,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,27 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "shodanx",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1208,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 453,
       "error": null
     },
     {
@@ -457,19 +441,27 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3080,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "thc",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 914,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1095,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "trickest",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3054,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3051,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3035,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 3355,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3103,
+      "duration_ms": 3048,
       "error": null
     },
     {
@@ -557,15 +557,7 @@
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7438,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "andrewknoxtea.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 27263,
+      "duration_ms": 5856,
       "error": null
     },
     {
@@ -573,15 +565,15 @@
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33082,
+      "duration_ms": 30432,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "threatminer",
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 37454,
+      "findings_count": 0,
+      "duration_ms": 42169,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "andrewknoxtea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65480,
+      "duration_ms": 65994,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "andrewknoxtea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65795,
       "error": null
     }
   ]
