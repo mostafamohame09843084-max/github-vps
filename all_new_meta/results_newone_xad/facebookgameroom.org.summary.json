@@ -1,39 +1,23 @@
 {
   "root_domain": "facebookgameroom.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:58:02.289198+00:00",
-  "completed_at": "2026-11-12T20:59:11.282560+00:00",
-  "duration_ms": 68993,
+  "started_at": "2026-11-12T23:10:34.186810+00:00",
+  "completed_at": "2026-11-12T23:11:43.183352+00:00",
+  "duration_ms": 68996,
   "targets_scanned": [
     "facebookgameroom.org"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "binaryedge",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "facebook",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "builtwith",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,55 +49,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "google",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "arpsyndicate",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,31 +73,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "driftnet",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +89,111 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "binaryedge",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,19 +209,11 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
@@ -265,14 +273,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
       "resource": "pugrecon",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,27 +309,11 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 86,
+      "duration_ms": 70,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 183,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidfinder",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 186,
       "error": null
     },
     {
@@ -357,11 +349,27 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 267,
+      "duration_ms": 250,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 272,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,15 +389,7 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 725,
+      "duration_ms": 707,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1234,
+      "duration_ms": 965,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,7 +437,7 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1392,
+      "duration_ms": 1134,
       "error": null
     },
     {
@@ -452,8 +452,8 @@
       "resource": "thc",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 114,
       "error": null
     },
     {
@@ -461,19 +461,19 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3140,
+      "duration_ms": 3047,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3157,
+      "duration_ms": 36,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3503,
+      "duration_ms": 3077,
       "error": null
     },
     {
       "resource": "whoisfreaks",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3198,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33075,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "facebookgameroom.org",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 43261,
+      "duration_ms": 3065,
       "error": null
     },
     {
@@ -565,15 +557,23 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61697,
+      "duration_ms": 23801,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "reconcloud",
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61344,
+      "duration_ms": 31758,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "facebookgameroom.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42061,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 65980,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "facebookgameroom.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65471,
+      "duration_ms": 65624,
       "error": null
     }
   ]
