@@ -1,31 +1,23 @@
 {
   "root_domain": "copilot.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:29:37.290026+00:00",
-  "completed_at": "2026-11-12T21:30:43.287520+00:00",
-  "duration_ms": 65997,
+  "started_at": "2026-11-12T23:12:51.186208+00:00",
+  "completed_at": "2026-11-12T23:14:00.185806+00:00",
+  "duration_ms": 68999,
   "targets_scanned": [
     "copilot.com"
   ],
-  "total_unique_findings": 35,
-  "fresh_findings_count": 35,
-  "historical_findings_count": 0,
-  "new_findings_count": 35,
+  "total_unique_findings": 36,
+  "fresh_findings_count": 36,
+  "historical_findings_count": 35,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "google",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "builtwith",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +33,63 @@
       "error": null
     },
     {
+      "resource": "coderog",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,22 +113,6 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdumpster",
       "target": "copilot.com",
       "recursion_depth": 0,
@@ -89,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "facebook",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "domscan",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "censys",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "fofa",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,30 +177,6 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
       "target": "copilot.com",
       "recursion_depth": 0,
@@ -185,22 +193,6 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
       "target": "copilot.com",
       "recursion_depth": 0,
@@ -209,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "dnsrepo",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 27,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "copilot.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 93,
+      "findings_count": 3,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 180,
-      "error": null
-    },
-    {
       "resource": "rapidfinder",
       "target": "copilot.com",
       "recursion_depth": 0,
@@ -345,11 +337,27 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "copilot.com",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 230,
+      "findings_count": 0,
+      "duration_ms": 64,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 205,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -361,23 +369,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 14,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 9,
-      "duration_ms": 500,
+      "duration_ms": 706,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 1261,
+      "duration_ms": 810,
       "error": null
     },
     {
@@ -437,16 +437,8 @@
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1301,
+      "duration_ms": 958,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "threatbook",
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 26,
+      "duration_ms": 114,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3067,
+      "duration_ms": 3043,
       "error": null
     },
     {
@@ -481,31 +481,15 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3054,
+      "duration_ms": 28,
       "error": null
     },
     {
       "resource": "virustotal",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3352,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "shrewdeye",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3056,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3109,
+      "duration_ms": 3072,
       "error": null
     },
     {
@@ -549,15 +557,7 @@
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31072,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45105,
+      "duration_ms": 29670,
       "error": null
     },
     {
@@ -565,23 +565,15 @@
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 31,
-      "duration_ms": 62136,
+      "duration_ms": 56185,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "submd",
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60630,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "copilot.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61338,
+      "duration_ms": 61685,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "copilot.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 65988,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "copilot.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65664,
       "error": null
     }
   ]

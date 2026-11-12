@@ -1,111 +1,23 @@
 {
   "root_domain": "android.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:49:47.348054+00:00",
-  "completed_at": "2026-11-12T21:50:56.290520+00:00",
-  "duration_ms": 68942,
+  "started_at": "2026-11-12T23:12:03.983996+00:00",
+  "completed_at": "2026-11-12T23:13:29.190592+00:00",
+  "duration_ms": 85206,
   "targets_scanned": [
     "android.com"
   ],
   "total_unique_findings": 47,
-  "fresh_findings_count": 47,
-  "historical_findings_count": 0,
-  "new_findings_count": 47,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 27,
+  "historical_findings_count": 47,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 20,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "digitalyama",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "dnsdb",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,6 +33,30 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bevigil",
       "target": "android.com",
       "recursion_depth": 0,
@@ -129,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "digitalyama",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +73,31 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "fullhunt",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,15 +113,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "fofa",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "domscan",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,15 +137,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "censys",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +153,55 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "github",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "argosdns",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -226,6 +210,22 @@
     },
     {
       "resource": "intelx",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 22,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "android.com",
       "recursion_depth": 0,
@@ -265,7 +257,23 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
       "resource": "odin",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "android.com",
       "recursion_depth": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 5,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 86,
+      "duration_ms": 56,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidfinder",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 183,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 229,
+      "duration_ms": 196,
       "error": null
     },
     {
@@ -365,7 +365,15 @@
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 240,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -382,14 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
       "error": null
     },
     {
@@ -413,31 +413,23 @@
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 27,
       "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 25,
-      "duration_ms": 750,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1018,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 1365,
+      "duration_ms": 753,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 17,
+      "duration_ms": 1005,
       "error": null
     },
     {
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "racent",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1175,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "riddler",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3074,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -473,6 +473,14 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
       "resource": "urlscan",
       "target": "android.com",
       "recursion_depth": 0,
@@ -481,23 +489,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
       "resource": "virustotal",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -537,11 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3272,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3107,
+      "duration_ms": 3088,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33080,
+      "duration_ms": 30276,
       "error": null
     },
     {
@@ -557,31 +565,7 @@
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43797,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 14,
-      "duration_ms": 44888,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61628,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "android.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65923,
+      "duration_ms": 45424,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "android.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65551,
+      "duration_ms": 60500,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65188,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "android.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 85192,
       "error": null
     }
   ]
