@@ -1,39 +1,23 @@
 {
   "root_domain": "inbox.hotmail",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:01:02.293125+00:00",
-  "completed_at": "2026-11-12T21:02:11.282627+00:00",
-  "duration_ms": 68989,
+  "started_at": "2026-11-12T22:48:10.188108+00:00",
+  "completed_at": "2026-11-12T22:49:16.196990+00:00",
+  "duration_ms": 66008,
   "targets_scanned": [
     "inbox.hotmail"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "google",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "arpsyndicate",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,119 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "digitalyama",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "bufferover",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "c99",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +65,47 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "argosdns",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "chinaz",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +129,83 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "domainsproject",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "digitorus",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,7 +253,15 @@
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 74,
+      "duration_ms": 34,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,27 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 177,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 58,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 173,
       "error": null
     },
     {
@@ -361,27 +361,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 376,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 164,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 243,
       "error": null
     },
     {
@@ -393,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,39 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 530,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1011,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2112,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "threatbook",
+      "resource": "shodan",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -449,7 +409,47 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 17,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 503,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 971,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "thc",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1019,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -461,7 +461,7 @@
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
+      "duration_ms": 3035,
       "error": null
     },
     {
@@ -481,15 +481,31 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3071,
+      "duration_ms": 27,
       "error": null
     },
     {
       "resource": "virustotal",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3061,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,19 +521,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
       "error": null
     },
     {
@@ -529,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3271,
       "error": null
     },
     {
@@ -541,7 +549,7 @@
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3149,
+      "duration_ms": 3100,
       "error": null
     },
     {
@@ -549,39 +557,7 @@
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10546,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 32346,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33093,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61488,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "inbox.hotmail",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65977,
+      "duration_ms": 25837,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "inbox.hotmail",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65453,
+      "duration_ms": 23852,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31689,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 43489,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "inbox.hotmail",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65999,
       "error": null
     }
   ]

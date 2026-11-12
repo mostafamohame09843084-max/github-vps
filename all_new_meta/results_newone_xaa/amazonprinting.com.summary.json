@@ -1,31 +1,23 @@
 {
   "root_domain": "amazonprinting.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:24:41.290102+00:00",
-  "completed_at": "2026-11-12T21:25:47.283010+00:00",
-  "duration_ms": 65992,
+  "started_at": "2026-11-12T22:48:15.188478+00:00",
+  "completed_at": "2026-11-12T22:49:21.184064+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "amazonprinting.com"
   ],
   "total_unique_findings": 10,
   "fresh_findings_count": 10,
-  "historical_findings_count": 0,
-  "new_findings_count": 10,
+  "historical_findings_count": 10,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "bufferover",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "arpsyndicate",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,79 +33,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "certspotter",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "censys",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "chaos",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "fofa",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +81,15 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "fullhunt",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "c99",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "google",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +129,79 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "argosdns",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,19 +221,11 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 34,
       "error": null
     },
     {
       "resource": "intelx",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,6 +257,22 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
       "resource": "onyphe",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,23 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
+      "duration_ms": 63,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 66,
       "error": null
     },
     {
@@ -333,11 +349,19 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 173,
+      "duration_ms": 187,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "reconeer",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,19 +373,11 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 248,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 280,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rsecloud",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,15 +393,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "shodan",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 850,
+      "duration_ms": 876,
       "error": null
     },
     {
@@ -429,16 +429,8 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1155,
+      "duration_ms": 1254,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "myssl",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1629,
-      "error": null
     },
     {
       "resource": "thc",
@@ -446,6 +438,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1514,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3048,
       "error": null
     },
     {
@@ -481,15 +473,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
+      "resource": "urlscan",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,7 +481,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "shrewdeye",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3042,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3352,
+      "duration_ms": 36,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "amazonprinting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3187,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "amazonprinting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20769,
+      "duration_ms": 3068,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28409,
+      "duration_ms": 7072,
       "error": null
     },
     {
@@ -565,7 +565,7 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33084,
+      "duration_ms": 32843,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 10,
-      "duration_ms": 38380,
+      "duration_ms": 33982,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "amazonprinting.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 35955,
+      "duration_ms": 56001,
       "error": null
     },
     {
