@@ -1,23 +1,39 @@
 {
   "root_domain": "facebookcontentcourt.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:38:00.288179+00:00",
-  "completed_at": "2026-11-12T20:39:06.280765+00:00",
-  "duration_ms": 65992,
+  "started_at": "2026-11-12T22:53:06.199030+00:00",
+  "completed_at": "2026-11-12T22:54:36.194530+00:00",
+  "duration_ms": 89995,
   "targets_scanned": [
     "facebookcontentcourt.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
+      "resource": "dnsdb",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "c99",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "censys",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +73,15 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "dnsrepo",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -66,30 +90,6 @@
     },
     {
       "resource": "builtwith",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,39 +113,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "bufferover",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fofa",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +137,15 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "driftnet",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +161,30 @@
       "error": null
     },
     {
+      "resource": "argosdns",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bevigil",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "certspotter",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,23 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "dnsdumpster",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,30 +233,6 @@
       "error": null
     },
     {
-      "resource": "intelx",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "merklemap",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -266,6 +258,22 @@
     },
     {
       "resource": "odin",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 112,
+      "duration_ms": 64,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,11 +329,19 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 182,
+      "duration_ms": 174,
       "error": null
     },
     {
@@ -349,7 +349,15 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 223,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,11 +365,19 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
+      "duration_ms": 270,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "reconeer",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 58,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 70,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 525,
+      "duration_ms": 434,
       "error": null
     },
     {
@@ -429,8 +429,16 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1199,
+      "duration_ms": 918,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1319,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,19 +449,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1332,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 114,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3094,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3115,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -505,11 +505,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3583,
+      "duration_ms": 3077,
       "error": null
     },
     {
@@ -537,19 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3556,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3133,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29037,
+      "duration_ms": 3054,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33082,
+      "duration_ms": 32487,
       "error": null
     },
     {
@@ -565,23 +565,15 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46349,
+      "duration_ms": 41860,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "waybackarchive",
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50044,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebookcontentcourt.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61640,
+      "duration_ms": 44754,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "facebookcontentcourt.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65979,
+      "duration_ms": 65974,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "facebookcontentcourt.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 89987,
       "error": null
     }
   ]
