@@ -1,23 +1,79 @@
 {
   "root_domain": "facebookfashion.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:44:35.332973+00:00",
-  "completed_at": "2026-11-12T20:46:06.293460+00:00",
-  "duration_ms": 90960,
+  "started_at": "2026-11-12T22:59:24.196548+00:00",
+  "completed_at": "2026-11-12T23:00:30.939779+00:00",
+  "duration_ms": 66743,
   "targets_scanned": [
     "facebookfashion.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
+      "resource": "driftnet",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +97,39 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "dnsdb",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +145,23 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "domscan",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,111 +185,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +201,19 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "bevigil",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -225,22 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "leakix",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -266,6 +258,22 @@
     },
     {
       "resource": "odin",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 81,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 66,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 173,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 238,
+      "duration_ms": 217,
       "error": null
     },
     {
@@ -365,15 +365,7 @@
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -393,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "reconeer",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 462,
+      "duration_ms": 471,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 908,
+      "duration_ms": 1019,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,15 +437,15 @@
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1110,
+      "duration_ms": 1202,
       "error": null
     },
     {
       "resource": "thc",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 104,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3044,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
@@ -505,15 +505,23 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "whoisxml",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3483,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatminer",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26,
+      "error": null
+    },
+    {
+      "resource": "zoomeyeapi",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "sitedossier",
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -541,47 +549,7 @@
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3127,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 21717,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33076,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61545,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61485,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "facebookfashion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65939,
+      "duration_ms": 3094,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "facebookfashion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 90953,
+      "duration_ms": 20066,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29936,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32772,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65979,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookfashion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 63402,
       "error": null
     }
   ]
