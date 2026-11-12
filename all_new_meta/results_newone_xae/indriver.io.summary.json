@@ -1,39 +1,79 @@
 {
   "root_domain": "indriver.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:28:30.303533+00:00",
-  "completed_at": "2026-11-12T21:29:39.283803+00:00",
-  "duration_ms": 68980,
+  "started_at": "2026-11-12T23:13:28.195289+00:00",
+  "completed_at": "2026-11-12T23:14:54.197434+00:00",
+  "duration_ms": 86002,
   "targets_scanned": [
     "indriver.io"
   ],
   "total_unique_findings": 12,
-  "fresh_findings_count": 12,
-  "historical_findings_count": 0,
-  "new_findings_count": 12,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 7,
+  "historical_findings_count": 12,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 5,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "digitalyama",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,103 +97,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "chaos",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,6 +113,62 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "certspotter",
       "target": "indriver.io",
       "recursion_depth": 0,
@@ -177,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "argosdns",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "chinaz",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "arpsyndicate",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,19 +201,11 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "binaryedge",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26,
       "error": null
     },
     {
@@ -233,7 +225,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "netlas",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "pugrecon",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "indriver.io",
       "recursion_depth": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 75,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 180,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,19 +329,35 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 180,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 452,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 158,
       "error": null
     },
     {
@@ -417,19 +417,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapiddns",
       "target": "indriver.io",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 904,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 976,
+      "findings_count": 6,
+      "duration_ms": 486,
       "error": null
     },
     {
@@ -437,16 +429,8 @@
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1205,
+      "duration_ms": 1015,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "threatbook",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "thc",
@@ -457,19 +441,35 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1110,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
+      "duration_ms": 3066,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "trickest",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "shrewdeye",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3106,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3114,
+      "duration_ms": 3269,
       "error": null
     },
     {
       "resource": "whoisfreaks",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,27 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3657,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3089,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 20160,
       "error": null
     },
     {
@@ -549,23 +557,7 @@
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33079,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 12,
-      "duration_ms": 37456,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "indriver.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61232,
+      "duration_ms": 33064,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61720,
+      "duration_ms": 42062,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "indriver.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44827,
       "error": null
     },
     {
@@ -581,15 +581,15 @@
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65967,
+      "duration_ms": 65975,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "crtsh",
       "target": "indriver.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65322,
+      "duration_ms": 85991,
       "error": null
     }
   ]
