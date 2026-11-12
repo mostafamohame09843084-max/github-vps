@@ -1,61 +1,21 @@
 {
   "root_domain": "andurildev.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:03:24.297450+00:00",
-  "completed_at": "2026-11-12T22:04:33.336963+00:00",
-  "duration_ms": 69039,
+  "started_at": "2026-11-12T23:26:13.223593+00:00",
+  "completed_at": "2026-11-12T23:27:19.243237+00:00",
+  "duration_ms": 66019,
   "targets_scanned": [
     "andurildev.com"
   ],
-  "total_unique_findings": 337,
-  "fresh_findings_count": 337,
-  "historical_findings_count": 0,
-  "new_findings_count": 337,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 349,
+  "fresh_findings_count": 79,
+  "historical_findings_count": 337,
+  "new_findings_count": 12,
+  "reused_historical_findings_count": 270,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "driftnet",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "certspotter",
       "target": "andurildev.com",
@@ -65,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsdb",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "fullhunt",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "censys",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,15 +65,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "dnsdumpster",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "fofa",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,22 +113,6 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "coderog",
       "target": "andurildev.com",
       "recursion_depth": 0,
@@ -193,7 +121,71 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "argosdns",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "bevigil",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
+      "resource": "intelx",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -249,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "anubis",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -273,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "quake",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +281,14 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "onyphe",
       "target": "andurildev.com",
       "recursion_depth": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,19 +309,11 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
+      "duration_ms": 59,
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 69,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 176,
+      "duration_ms": 203,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,11 +365,19 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 43,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "hackertarget",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 280,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 245,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 459,
+      "duration_ms": 423,
       "error": null
     },
     {
@@ -429,23 +429,15 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 954,
+      "duration_ms": 984,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "threatbook",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "myssl",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1165,
+      "duration_ms": 1542,
       "error": null
     },
     {
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3089,
+      "duration_ms": 3046,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3045,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3350,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3341,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3138,
+      "duration_ms": 3085,
       "error": null
     },
     {
@@ -549,7 +557,15 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28048,
+      "duration_ms": 8744,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "andurildev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20069,
       "error": null
     },
     {
@@ -557,23 +573,15 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33101,
+      "duration_ms": 31374,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "waybackarchive",
       "target": "andurildev.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42185,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 336,
-      "duration_ms": 45927,
+      "findings_count": 78,
+      "duration_ms": 29297,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "andurildev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65978,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "andurildev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65628,
+      "duration_ms": 65956,
       "error": null
     }
   ]
