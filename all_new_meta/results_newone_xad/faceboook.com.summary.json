@@ -1,23 +1,63 @@
 {
   "root_domain": "faceboook.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:48:13.286248+00:00",
-  "completed_at": "2026-11-12T21:49:22.282895+00:00",
-  "duration_ms": 68996,
+  "started_at": "2026-11-12T23:51:52.200122+00:00",
+  "completed_at": "2026-11-12T23:52:58.182808+00:00",
+  "duration_ms": 65982,
   "targets_scanned": [
     "faceboook.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "total_unique_findings": 8,
+  "fresh_findings_count": 8,
+  "historical_findings_count": 1,
+  "new_findings_count": 7,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "certspotter",
+      "resource": "argosdns",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,95 +81,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "arpsyndicate",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "fofa",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "binaryedge",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "digitalyama",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "censys",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +145,55 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "dnsdb",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +209,22 @@
       "error": null
     },
     {
+      "resource": "intelx",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
+      "error": null
+    },
+    {
       "resource": "huntermap",
       "target": "faceboook.com",
       "recursion_depth": 0,
@@ -217,7 +233,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "leakix",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,14 +246,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 110,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 185,
+      "duration_ms": 72,
       "error": null
     },
     {
@@ -345,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 261,
+      "duration_ms": 175,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 273,
+      "duration_ms": 199,
       "error": null
     },
     {
@@ -369,11 +361,19 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 781,
+      "duration_ms": 721,
       "error": null
     },
     {
@@ -429,23 +429,15 @@
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1357,
+      "duration_ms": 944,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "myssl",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1686,
+      "duration_ms": 1598,
       "error": null
     },
     {
@@ -457,19 +449,27 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 8,
+      "duration_ms": 106,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3080,
+      "duration_ms": 3067,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "shrewdeye",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3078,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "trickest",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3273,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65,
       "error": null
     },
     {
@@ -537,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3351,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3119,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25960,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "faceboook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33088,
+      "duration_ms": 3074,
       "error": null
     },
     {
@@ -573,15 +549,15 @@
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42131,
+      "duration_ms": 20069,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "reconcloud",
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66002,
+      "duration_ms": 31382,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "faceboook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65573,
+      "duration_ms": 29056,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61308,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61707,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "faceboook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65968,
       "error": null
     }
   ]
