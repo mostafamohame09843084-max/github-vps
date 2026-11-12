@@ -1,79 +1,23 @@
 {
   "root_domain": "facebookwallet.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:47:07.284910+00:00",
-  "completed_at": "2026-11-12T21:48:13.283071+00:00",
-  "duration_ms": 65998,
+  "started_at": "2026-11-12T23:50:46.193704+00:00",
+  "completed_at": "2026-11-12T23:51:52.193677+00:00",
+  "duration_ms": 65999,
   "targets_scanned": [
     "facebookwallet.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "arpsyndicate",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "chinaz",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "fullhunt",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "dnsrepo",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,31 +81,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "certspotter",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +97,87 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "c99",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,19 +193,27 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "binaryedge",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "huntermap",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 27,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "pugrecon",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,14 +305,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 190,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 184,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 215,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -365,15 +365,7 @@
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
+      "duration_ms": 252,
       "error": null
     },
     {
@@ -382,6 +374,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 15,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 509,
+      "duration_ms": 441,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 934,
+      "duration_ms": 995,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1278,
+      "error": null
     },
     {
       "resource": "thc",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 95,
       "error": null
     },
     {
@@ -449,19 +457,19 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "riddler",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1218,
+      "duration_ms": 3062,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "urlscan",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2369,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -473,19 +481,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3048,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3073,
       "error": null
     },
     {
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 6085,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8783,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebookwallet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33087,
+      "duration_ms": 20075,
       "error": null
     },
     {
@@ -573,7 +557,7 @@
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41889,
+      "duration_ms": 20765,
       "error": null
     },
     {
@@ -581,7 +565,23 @@
       "target": "facebookwallet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48606,
+      "duration_ms": 23769,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26967,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebookwallet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33084,
       "error": null
     },
     {

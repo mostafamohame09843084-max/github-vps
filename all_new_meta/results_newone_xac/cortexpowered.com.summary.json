@@ -1,15 +1,15 @@
 {
   "root_domain": "cortexpowered.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:07:18.283909+00:00",
-  "completed_at": "2026-11-12T22:08:24.296289+00:00",
-  "duration_ms": 66012,
+  "started_at": "2026-11-12T23:50:41.187324+00:00",
+  "completed_at": "2026-11-12T23:51:47.184896+00:00",
+  "duration_ms": 65997,
   "targets_scanned": [
     "cortexpowered.com"
   ],
-  "total_unique_findings": 5,
-  "fresh_findings_count": 5,
-  "historical_findings_count": 0,
+  "total_unique_findings": 10,
+  "fresh_findings_count": 10,
+  "historical_findings_count": 5,
   "new_findings_count": 5,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,7 +17,15 @@
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chinaz",
+      "resource": "fofa",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "domainsproject",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,39 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "fullhunt",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "driftnet",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,54 +121,6 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
@@ -137,23 +129,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "chinaz",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "facebook",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "c99",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "certspotter",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "builtwith",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +185,27 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "dnsdb",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -222,6 +214,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28,
       "error": null
     },
     {
@@ -305,23 +305,15 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 67,
+      "findings_count": 1,
+      "duration_ms": 36,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,27 +329,35 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 185,
+      "duration_ms": 176,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 237,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -369,15 +369,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 250,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 14,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 498,
+      "duration_ms": 536,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1314,
+      "duration_ms": 994,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1619,
+      "error": null
     },
     {
       "resource": "thc",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 4,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -449,27 +457,19 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1527,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3111,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3068,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "urlscan",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3085,
+      "duration_ms": 3283,
       "error": null
     },
     {
@@ -537,35 +537,27 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "cortexpowered.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3350,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3136,
+      "duration_ms": 3131,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "waybackarchive",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 26420,
+      "findings_count": 8,
+      "duration_ms": 11959,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "threatminer",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26567,
+      "duration_ms": 20606,
       "error": null
     },
     {
@@ -573,15 +565,23 @@
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33089,
+      "duration_ms": 32231,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "crtsh",
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49914,
+      "duration_ms": 42050,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "cortexpowered.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44622,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "cortexpowered.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65998,
+      "duration_ms": 65985,
       "error": null
     }
   ]
