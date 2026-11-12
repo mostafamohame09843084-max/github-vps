@@ -1,63 +1,23 @@
 {
   "root_domain": "facebookportal.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:18:11.357862+00:00",
-  "completed_at": "2026-11-12T21:19:17.280437+00:00",
-  "duration_ms": 65922,
+  "started_at": "2026-11-12T23:27:19.188514+00:00",
+  "completed_at": "2026-11-12T23:28:25.180725+00:00",
+  "duration_ms": 65992,
   "targets_scanned": [
     "facebookportal.org"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "domainsproject",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "dnsdb",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,31 +49,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "digitalyama",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,6 +65,94 @@
       "error": null
     },
     {
+      "resource": "argosdns",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
       "target": "facebookportal.org",
       "recursion_depth": 0,
@@ -137,7 +161,31 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "domainsproject",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,62 +209,6 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "huntermap",
       "target": "facebookportal.org",
       "recursion_depth": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 30,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -257,15 +257,23 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 36,
       "error": null
     },
     {
       "resource": "odin",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 91,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 226,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 80,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidscan",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 189,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 190,
       "error": null
     },
     {
@@ -365,15 +365,15 @@
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63,
+      "duration_ms": 44,
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "rsecloud",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 460,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,7 +385,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 263,
+      "error": null
+    },
+    {
+      "resource": "shodan",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 435,
+      "duration_ms": 520,
       "error": null
     },
     {
@@ -429,8 +429,16 @@
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1041,
+      "duration_ms": 1075,
       "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1167,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "threatbook",
@@ -444,24 +452,24 @@
       "resource": "thc",
       "target": "facebookportal.org",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 117,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1238,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "riddler",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3083,
+      "duration_ms": 3058,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3048,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3099,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "whoisfreaks",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3665,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3276,
       "error": null
     },
     {
@@ -541,31 +541,7 @@
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3173,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10306,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28684,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebookportal.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33083,
+      "duration_ms": 3107,
       "error": null
     },
     {
@@ -573,7 +549,23 @@
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34470,
+      "duration_ms": 20072,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26820,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33098,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61621,
+      "duration_ms": 41885,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "facebookportal.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44635,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "facebookportal.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65914,
+      "duration_ms": 65976,
       "error": null
     }
   ]
