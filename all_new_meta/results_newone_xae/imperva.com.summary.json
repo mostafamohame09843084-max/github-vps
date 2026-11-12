@@ -1,39 +1,23 @@
 {
   "root_domain": "imperva.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:52:48.284945+00:00",
-  "completed_at": "2026-11-12T20:54:08.302043+00:00",
-  "duration_ms": 80017,
+  "started_at": "2026-11-12T22:40:23.204634+00:00",
+  "completed_at": "2026-11-12T22:41:29.240380+00:00",
+  "duration_ms": 66035,
   "targets_scanned": [
     "imperva.com"
   ],
-  "total_unique_findings": 115,
-  "fresh_findings_count": 115,
-  "historical_findings_count": 0,
-  "new_findings_count": 115,
+  "total_unique_findings": 365,
+  "fresh_findings_count": 365,
+  "historical_findings_count": 115,
+  "new_findings_count": 250,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "github",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "fofa",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,103 +33,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "bufferover",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,30 +49,6 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
       "target": "imperva.com",
       "recursion_depth": 0,
@@ -193,7 +57,23 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domscan",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +89,143 @@
       "error": null
     },
     {
+      "resource": "google",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +237,11 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 39,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "netlas",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,39 +265,7 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
       "resource": "profundis",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +281,22 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "imperva.com",
       "recursion_depth": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "imperva.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83,
+      "findings_count": 15,
+      "duration_ms": 69,
       "error": null
     },
     {
@@ -321,11 +321,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 71,
       "error": null
     },
     {
@@ -345,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "imperva.com",
       "recursion_depth": 0,
-      "findings_count": 15,
-      "duration_ms": 269,
+      "findings_count": 0,
+      "duration_ms": 204,
       "error": null
     },
     {
@@ -365,23 +365,7 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 93,
-      "duration_ms": 770,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -393,7 +377,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +385,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hackertarget",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 872,
+      "duration_ms": 254,
       "error": null
     },
     {
-      "resource": "shodanx",
+      "resource": "shodan",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -425,12 +409,36 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 93,
+      "duration_ms": 757,
+      "error": null
+    },
+    {
       "resource": "myssl",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 23,
-      "duration_ms": 1344,
+      "duration_ms": 803,
       "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1226,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "threatbook",
@@ -444,24 +452,24 @@
       "resource": "thc",
       "target": "imperva.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 186,
+      "duration_ms": 149,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2011,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "riddler",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3072,
+      "duration_ms": 3060,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -469,19 +477,11 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
+      "duration_ms": 3047,
       "error": null
     },
     {
       "resource": "trickest",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3268,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "whoisfreaks",
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3099,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27548,
+      "duration_ms": 3084,
       "error": null
     },
     {
@@ -557,7 +549,23 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33079,
+      "duration_ms": 29075,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43578,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "imperva.com",
+      "recursion_depth": 0,
+      "findings_count": 184,
+      "duration_ms": 45734,
       "error": null
     },
     {
@@ -565,7 +573,7 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37750,
+      "duration_ms": 50648,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61418,
+      "duration_ms": 61347,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "imperva.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "imperva.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 79992,
+      "duration_ms": 65965,
       "error": null
     }
   ]

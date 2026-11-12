@@ -1,103 +1,39 @@
 {
   "root_domain": "amazon.sg",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:15:50.299740+00:00",
-  "completed_at": "2026-11-12T21:17:04.311472+00:00",
-  "duration_ms": 74011,
+  "started_at": "2026-11-12T22:40:05.208167+00:00",
+  "completed_at": "2026-11-12T22:41:11.189854+00:00",
+  "duration_ms": 65981,
   "targets_scanned": [
     "amazon.sg"
   ],
-  "total_unique_findings": 63,
-  "fresh_findings_count": 63,
-  "historical_findings_count": 0,
-  "new_findings_count": 63,
+  "total_unique_findings": 64,
+  "fresh_findings_count": 64,
+  "historical_findings_count": 63,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
+      "resource": "facebook",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bufferover",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +49,47 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "dnsdumpster",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "binaryedge",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +121,23 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "driftnet",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +153,15 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fofa",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,31 +177,31 @@
       "error": null
     },
     {
+      "resource": "arpsyndicate",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,15 +229,7 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "leakix",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -270,6 +262,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -305,23 +305,15 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "amazon.sg",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 89,
+      "findings_count": 4,
+      "duration_ms": 66,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,19 +329,35 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 78,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 231,
+      "duration_ms": 180,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -361,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "robtex",
       "target": "amazon.sg",
       "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 281,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -377,15 +385,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 245,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "shodan",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 24,
-      "duration_ms": 592,
+      "duration_ms": 489,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 10,
-      "duration_ms": 709,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 774,
       "error": null
     },
     {
@@ -445,8 +437,16 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 991,
+      "duration_ms": 1238,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "thc",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 55,
+      "duration_ms": 108,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -461,7 +461,15 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3081,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -477,15 +485,7 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -509,7 +509,7 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -541,47 +541,7 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3082,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25693,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33070,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61402,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65971,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "amazon.sg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65592,
+      "duration_ms": 3073,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "amazon.sg",
       "recursion_depth": 0,
       "findings_count": 57,
-      "duration_ms": 73980,
+      "duration_ms": 27890,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28211,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28900,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49633,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61287,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "amazon.sg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65962,
       "error": null
     }
   ]
