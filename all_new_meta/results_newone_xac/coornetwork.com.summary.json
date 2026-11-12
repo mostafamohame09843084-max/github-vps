@@ -1,15 +1,15 @@
 {
   "root_domain": "coornetwork.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:22:02.287074+00:00",
-  "completed_at": "2026-11-12T21:24:03.297250+00:00",
-  "duration_ms": 121010,
+  "started_at": "2026-11-12T23:06:09.076239+00:00",
+  "completed_at": "2026-11-12T23:07:18.184744+00:00",
+  "duration_ms": 69108,
   "targets_scanned": [
     "coornetwork.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,7 +17,7 @@
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "c99",
+      "resource": "certspotter",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,55 +25,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "coderog",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "bevigil",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "censys",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "domainsproject",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "argosdns",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +73,23 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "driftnet",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,23 +105,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "fullhunt",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,6 +129,14 @@
       "error": null
     },
     {
+      "resource": "google",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsrepo",
       "target": "coornetwork.com",
       "recursion_depth": 0,
@@ -185,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "github",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "binaryedge",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "chinaz",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +221,15 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "coornetwork.com",
       "recursion_depth": 0,
@@ -269,11 +261,11 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 40,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "pugrecon",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,27 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 110,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 196,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -345,19 +329,35 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidfinder",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 236,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 277,
+      "duration_ms": 67,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 190,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -369,15 +369,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 77,
+      "duration_ms": 251,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 523,
+      "duration_ms": 415,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1232,
+      "duration_ms": 1263,
       "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "thc",
+      "resource": "myssl",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1611,
       "error": null
     },
     {
@@ -449,11 +449,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "thc",
       "target": "coornetwork.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1690,
+      "findings_count": 1,
+      "duration_ms": 95,
       "error": null
     },
     {
@@ -461,11 +461,19 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3216,
+      "duration_ms": 3037,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "threatminer",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +481,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3179,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "coornetwork.com",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "shrewdeye",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3046,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "sitedossier",
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3484,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -549,39 +549,7 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3591,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33072,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46387,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65990,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "coornetwork.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65469,
+      "duration_ms": 3068,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "coornetwork.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 121002,
+      "duration_ms": 20065,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25384,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30418,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65094,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "coornetwork.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65802,
       "error": null
     }
   ]
