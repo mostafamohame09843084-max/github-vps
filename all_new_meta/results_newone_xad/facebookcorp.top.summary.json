@@ -1,23 +1,23 @@
 {
   "root_domain": "facebookcorp.top",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:39:06.283787+00:00",
-  "completed_at": "2026-11-12T20:40:34.352509+00:00",
-  "duration_ms": 88068,
+  "started_at": "2026-11-12T22:54:36.202554+00:00",
+  "completed_at": "2026-11-12T22:55:42.198832+00:00",
+  "duration_ms": 65996,
   "targets_scanned": [
     "facebookcorp.top"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "coderog",
+      "resource": "facebook",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,63 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdumpster",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,87 +49,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +65,118 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
@@ -209,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "argosdns",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +193,39 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "c99",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
       "resource": "huntermap",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +249,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 73,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "digitorus",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
+      "duration_ms": 80,
       "error": null
     },
     {
@@ -318,14 +318,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 182,
       "error": null
     },
     {
@@ -349,7 +341,15 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 278,
+      "duration_ms": 226,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 231,
       "error": null
     },
     {
@@ -361,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 258,
       "error": null
     },
     {
@@ -385,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 473,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 461,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1041,
+      "duration_ms": 437,
       "error": null
     },
     {
@@ -437,19 +429,27 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1175,
+      "duration_ms": 992,
       "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "threatbook",
+      "resource": "myssl",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1249,
       "error": null
     },
     {
       "resource": "thc",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 114,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -461,7 +461,7 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -477,7 +477,7 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3457,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -549,39 +549,7 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3166,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33079,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36047,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65988,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookcorp.top",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65586,
+      "duration_ms": 3104,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "facebookcorp.top",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88062,
+      "duration_ms": 20064,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28664,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28754,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41783,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "facebookcorp.top",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65980,
       "error": null
     }
   ]
