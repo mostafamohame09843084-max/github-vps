@@ -1,183 +1,23 @@
 {
   "root_domain": "copilot.ai",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:28:28.290826+00:00",
-  "completed_at": "2026-11-12T21:29:37.283578+00:00",
-  "duration_ms": 68992,
+  "started_at": "2026-11-12T23:11:42.188343+00:00",
+  "completed_at": "2026-11-12T23:12:51.183027+00:00",
+  "duration_ms": 68994,
   "targets_scanned": [
     "copilot.ai"
   ],
   "total_unique_findings": 6,
   "fresh_findings_count": 6,
-  "historical_findings_count": 0,
-  "new_findings_count": 6,
+  "historical_findings_count": 6,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "c99",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +33,134 @@
       "error": null
     },
     {
+      "resource": "github",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsrepo",
       "target": "copilot.ai",
       "recursion_depth": 0,
@@ -201,7 +169,47 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "fofa",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +225,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 30,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -234,14 +242,6 @@
     },
     {
       "resource": "leakix",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "anubis",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 196,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,31 +329,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rapidfinder",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +341,27 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 531,
+      "duration_ms": 60,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "alienvault",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 192,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +369,23 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hackertarget",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 250,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 15,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 709,
+      "duration_ms": 705,
       "error": null
     },
     {
@@ -429,8 +429,16 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 959,
+      "duration_ms": 1139,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1227,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,19 +449,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1203,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "copilot.ai",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 113,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3038,
       "error": null
     },
     {
@@ -485,11 +477,11 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3036,
+      "duration_ms": 3046,
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +489,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "virustotal",
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -518,6 +502,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3269,
       "error": null
     },
     {
@@ -541,31 +541,7 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3118,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28502,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33087,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "copilot.ai",
-      "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 38382,
+      "duration_ms": 3108,
       "error": null
     },
     {
@@ -573,7 +549,31 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61652,
+      "duration_ms": 20774,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31447,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46052,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "copilot.ai",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 52594,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65972,
+      "duration_ms": 65984,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "copilot.ai",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65382,
+      "duration_ms": 65671,
       "error": null
     }
   ]
