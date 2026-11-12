@@ -1,29 +1,21 @@
 {
   "root_domain": "angieslist.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:08:00.342974+00:00",
-  "completed_at": "2026-11-12T22:09:09.342029+00:00",
-  "duration_ms": 68999,
+  "started_at": "2026-11-12T23:30:37.255033+00:00",
+  "completed_at": "2026-11-12T23:31:43.187736+00:00",
+  "duration_ms": 65932,
   "targets_scanned": [
     "angieslist.com"
   ],
   "total_unique_findings": 157,
-  "fresh_findings_count": 157,
-  "historical_findings_count": 0,
-  "new_findings_count": 157,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 48,
+  "historical_findings_count": 157,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 109,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "coderog",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "arpsyndicate",
       "target": "angieslist.com",
@@ -33,23 +25,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "builtwith",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,6 +41,14 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
       "target": "angieslist.com",
       "recursion_depth": 0,
@@ -73,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "fofa",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "driftnet",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,31 +89,39 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "dnsrepo",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,31 +153,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "bevigil",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -194,6 +162,38 @@
     },
     {
       "resource": "dnsdumpster",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +217,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 41,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "angieslist.com",
       "recursion_depth": 0,
@@ -265,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "angieslist.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 77,
+      "findings_count": 10,
+      "duration_ms": 62,
       "error": null
     },
     {
@@ -318,14 +318,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 218,
       "error": null
     },
     {
@@ -345,19 +337,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 10,
-      "duration_ms": 248,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 262,
+      "duration_ms": 68,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 160,
       "error": null
     },
     {
@@ -373,7 +365,7 @@
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -382,6 +374,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 19,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 43,
-      "duration_ms": 777,
+      "duration_ms": 479,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1155,
+      "duration_ms": 920,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "thc",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
     },
     {
       "resource": "myssl",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1312,
+      "duration_ms": 2479,
       "error": null
     },
     {
@@ -449,23 +457,15 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3045,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +473,15 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3051,
+      "duration_ms": 21,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3281,
+      "duration_ms": 3054,
       "error": null
     },
     {
       "resource": "whoisfreaks",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,35 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3115,
+      "duration_ms": 3087,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20072,
       "error": null
     },
     {
@@ -549,15 +565,7 @@
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33058,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 146,
-      "duration_ms": 37939,
+      "duration_ms": 32026,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53192,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61543,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "angieslist.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65930,
+      "duration_ms": 43564,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "angieslist.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65558,
+      "duration_ms": 44785,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "angieslist.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65909,
       "error": null
     }
   ]
