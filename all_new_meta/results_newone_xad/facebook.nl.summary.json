@@ -1,135 +1,23 @@
 {
   "root_domain": "facebook.nl",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:22:15.313266+00:00",
-  "completed_at": "2026-11-12T20:23:24.283694+00:00",
-  "duration_ms": 68970,
+  "started_at": "2026-11-12T22:37:29.205250+00:00",
+  "completed_at": "2026-11-12T22:38:38.182510+00:00",
+  "duration_ms": 68977,
   "targets_scanned": [
     "facebook.nl"
   ],
-  "total_unique_findings": 11,
-  "fresh_findings_count": 11,
-  "historical_findings_count": 0,
-  "new_findings_count": 11,
+  "total_unique_findings": 12,
+  "fresh_findings_count": 12,
+  "historical_findings_count": 11,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "domscan",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "argosdns",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "chinaz",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "fullhunt",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "coderog",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "c99",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,19 +89,131 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "censys",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 32,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "facebook.nl",
       "recursion_depth": 0,
@@ -309,11 +309,19 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 102,
+      "duration_ms": 69,
       "error": null
     },
     {
       "resource": "rapidapi",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,15 +341,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 187,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 197,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 211,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 267,
+      "duration_ms": 224,
       "error": null
     },
     {
@@ -369,15 +361,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56,
+      "duration_ms": 265,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "reconeer",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 69,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 10,
-      "duration_ms": 750,
+      "duration_ms": 857,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 978,
+      "duration_ms": 1073,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1217,
+      "duration_ms": 1242,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -452,8 +452,8 @@
       "resource": "thc",
       "target": "facebook.nl",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 12,
+      "duration_ms": 123,
       "error": null
     },
     {
@@ -461,7 +461,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3093,
+      "duration_ms": 3060,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3101,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3069,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3358,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "facebook.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3573,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3114,
+      "duration_ms": 3122,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33074,
+      "duration_ms": 31737,
       "error": null
     },
     {
@@ -557,7 +565,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 40844,
+      "duration_ms": 45918,
       "error": null
     },
     {
@@ -565,15 +573,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61699,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebook.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61561,
+      "duration_ms": 61637,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65955,
+      "duration_ms": 65969,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "facebook.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65556,
+      "duration_ms": 65602,
       "error": null
     }
   ]

@@ -1,15 +1,15 @@
 {
   "root_domain": "contattimsn.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:47:57.296094+00:00",
-  "completed_at": "2026-11-12T20:49:06.281637+00:00",
-  "duration_ms": 68985,
+  "started_at": "2026-11-12T22:36:43.932847+00:00",
+  "completed_at": "2026-11-12T22:37:53.182293+00:00",
+  "duration_ms": 69249,
   "targets_scanned": [
     "contattimsn.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,7 +17,47 @@
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "domainsproject",
+      "resource": "arpsyndicate",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,30 +81,6 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
       "target": "contattimsn.com",
       "recursion_depth": 0,
@@ -73,15 +89,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "chinaz",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,39 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "dnsdumpster",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "coderog",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,15 +129,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "argosdns",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "builtwith",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "bevigil",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsrepo",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 33,
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "huntermap",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "leakix",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 68,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,7 +257,23 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
       "resource": "odin",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "quake",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +305,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "rapidapi",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,15 +317,15 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 78,
+      "duration_ms": 54,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "hudsonrock",
       "target": "contattimsn.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 67,
       "error": null
     },
     {
@@ -341,15 +349,15 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 175,
+      "duration_ms": 179,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "contattimsn.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 235,
+      "findings_count": 0,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -358,22 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 262,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 73,
       "error": null
     },
     {
@@ -393,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "hackertarget",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 244,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 463,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1336,
+      "duration_ms": 819,
       "error": null
     },
     {
@@ -437,15 +429,23 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1729,
+      "duration_ms": 974,
       "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3046,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3046,
       "error": null
     },
     {
@@ -457,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "contattimsn.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3056,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
+      "findings_count": 1,
+      "duration_ms": 109,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 9,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3047,
+      "duration_ms": 3269,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3555,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3114,
+      "duration_ms": 3066,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29876,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "contattimsn.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33081,
+      "duration_ms": 11657,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61046,
+      "duration_ms": 17161,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 22445,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "contattimsn.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31745,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65979,
+      "duration_ms": 65251,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "contattimsn.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65622,
+      "duration_ms": 65848,
       "error": null
     }
   ]
