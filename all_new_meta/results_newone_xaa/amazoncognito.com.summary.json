@@ -1,23 +1,23 @@
 {
   "root_domain": "amazoncognito.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:21:02.136737+00:00",
-  "completed_at": "2026-11-12T21:22:07.308228+00:00",
-  "duration_ms": 65171,
+  "started_at": "2026-11-12T22:44:51.350969+00:00",
+  "completed_at": "2026-11-12T22:46:00.203204+00:00",
+  "duration_ms": 68852,
   "targets_scanned": [
     "amazoncognito.com"
   ],
   "total_unique_findings": 136,
   "fresh_findings_count": 136,
-  "historical_findings_count": 0,
-  "new_findings_count": 136,
+  "historical_findings_count": 136,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "bufferover",
+      "resource": "arpsyndicate",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,39 +25,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "chinaz",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "dnsrepo",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "c99",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "bevigil",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,55 +81,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "dnsdumpster",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +105,87 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fullhunt",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "driftnet",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +209,15 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "abuseipdb",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -214,22 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
       "error": null
     },
     {
@@ -249,19 +249,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 78,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 17,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -337,27 +329,35 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 83,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 184,
+      "duration_ms": 179,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 251,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 17,
-      "duration_ms": 255,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 243,
       "error": null
     },
     {
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 19,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 37,
-      "duration_ms": 854,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 909,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 37,
+      "duration_ms": 823,
+      "error": null
+    },
+    {
       "resource": "myssl",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 31,
-      "duration_ms": 1248,
+      "duration_ms": 865,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "racent",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 997,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "riddler",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3051,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3044,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 3088,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3071,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26906,
+      "duration_ms": 9423,
       "error": null
     },
     {
@@ -557,23 +557,7 @@
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34070,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41945,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "amazoncognito.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49764,
+      "duration_ms": 29428,
       "error": null
     },
     {
@@ -581,7 +565,15 @@
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 51,
-      "duration_ms": 53599,
+      "duration_ms": 29911,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61285,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "amazoncognito.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65137,
+      "duration_ms": 65819,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "amazoncognito.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65506,
       "error": null
     }
   ]

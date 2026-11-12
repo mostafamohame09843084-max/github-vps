@@ -1,119 +1,23 @@
 {
   "root_domain": "contocons.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:57:00.289062+00:00",
-  "completed_at": "2026-11-12T20:58:09.281743+00:00",
-  "duration_ms": 68992,
+  "started_at": "2026-11-12T22:44:38.184724+00:00",
+  "completed_at": "2026-11-12T22:45:47.182106+00:00",
+  "duration_ms": 68997,
   "targets_scanned": [
     "contocons.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "censys",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "dnsrepo",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "builtwith",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "facebook",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +97,23 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "fullhunt",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +129,47 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "fofa",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +185,30 @@
       "error": null
     },
     {
+      "resource": "argosdns",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "contocons.com",
       "recursion_depth": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 25,
       "error": null
     },
     {
       "resource": "huntermap",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +241,11 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
       "error": null
     },
     {
@@ -273,7 +257,23 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 96,
+      "duration_ms": 74,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,7 +345,15 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "alienvault",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 184,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,31 +361,15 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "reconeer",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 174,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 253,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 279,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rsecloud",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 266,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 534,
+      "duration_ms": 459,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1219,
+      "duration_ms": 995,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,15 +437,15 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1377,
+      "duration_ms": 1438,
       "error": null
     },
     {
       "resource": "thc",
       "target": "contocons.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 110,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
+      "duration_ms": 3055,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -481,23 +489,7 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12,
-      "error": null
-    },
-    {
       "resource": "virustotal",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,15 +505,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3072,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,7 +513,23 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3042,
+      "error": null
+    },
+    {
       "resource": "zoomeyeapi",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "windvane",
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -549,23 +549,7 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3095,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25990,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "contocons.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29154,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33069,
+      "duration_ms": 32419,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40126,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "contocons.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61599,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65990,
+      "duration_ms": 65987,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "contocons.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65622,
+      "duration_ms": 65677,
       "error": null
     }
   ]

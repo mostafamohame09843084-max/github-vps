@@ -1,167 +1,23 @@
 {
   "root_domain": "imtbl.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:57:35.289874+00:00",
-  "completed_at": "2026-11-12T20:58:44.571256+00:00",
-  "duration_ms": 69281,
+  "started_at": "2026-11-12T22:44:50.380714+00:00",
+  "completed_at": "2026-11-12T22:45:56.517185+00:00",
+  "duration_ms": 66136,
   "targets_scanned": [
     "imtbl.com"
   ],
-  "total_unique_findings": 2314,
-  "fresh_findings_count": 2314,
-  "historical_findings_count": 0,
-  "new_findings_count": 2314,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 2431,
+  "fresh_findings_count": 2401,
+  "historical_findings_count": 2314,
+  "new_findings_count": 117,
+  "reused_historical_findings_count": 30,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "fofa",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "fullhunt",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,15 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "argosdns",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +57,151 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "domscan",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "binaryedge",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -249,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 106,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -337,19 +337,27 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 203,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 225,
+      "duration_ms": 63,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -361,30 +369,6 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 245,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
       "target": "imtbl.com",
       "recursion_depth": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "rapiddns",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 34,
+      "duration_ms": 725,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 16,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1016,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "rapiddns",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 34,
-      "duration_ms": 955,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 941,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "myssl",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1152,
+      "duration_ms": 1181,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1815,
       "error": null
     },
     {
@@ -454,6 +446,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 2400,
+      "duration_ms": 327,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3046,
+      "error": null
+    },
+    {
       "resource": "trickest",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3061,
       "error": null
     },
     {
@@ -513,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3268,
       "error": null
     },
     {
@@ -537,35 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3130,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3269,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9779,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "imtbl.com",
-      "recursion_depth": 0,
-      "findings_count": 2313,
-      "duration_ms": 32848,
+      "duration_ms": 3109,
       "error": null
     },
     {
@@ -573,15 +549,15 @@
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33080,
+      "duration_ms": 30036,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65994,
+      "duration_ms": 44832,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "imtbl.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65637,
+      "duration_ms": 50222,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61870,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61670,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "imtbl.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65788,
       "error": null
     }
   ]
