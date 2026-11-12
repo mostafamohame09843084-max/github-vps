@@ -1,9 +1,9 @@
 {
   "root_domain": "india.android",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:16:15.307109+00:00",
-  "completed_at": "2026-11-12T21:17:39.282076+00:00",
-  "duration_ms": 83974,
+  "started_at": "2026-11-12T23:01:46.194681+00:00",
+  "completed_at": "2026-11-12T23:02:55.182122+00:00",
+  "duration_ms": 68987,
   "targets_scanned": [
     "india.android"
   ],
@@ -17,71 +17,7 @@
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "c99",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "bufferover",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,15 +41,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "certspotter",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "builtwith",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,39 +65,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "facebook",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,14 +81,6 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdb",
       "target": "india.android",
       "recursion_depth": 0,
@@ -201,7 +89,119 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "india.android",
       "recursion_depth": 0,
@@ -273,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "digitorus",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 29,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,63 +289,15 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 192,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 257,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +309,47 @@
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 260,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 253,
       "error": null
     },
     {
@@ -373,7 +357,23 @@
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 511,
       "error": null
     },
     {
@@ -413,31 +413,23 @@
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 17,
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "racent",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 486,
-      "error": null
+      "duration_ms": 926,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1155,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1060,
       "error": null
     },
     {
@@ -449,19 +441,27 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatbook",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1164,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 0,
+      "error": null
     },
     {
       "resource": "riddler",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3078,
+      "duration_ms": 3046,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3047,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3062,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -497,7 +497,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "sitedossier",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3354,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +541,15 @@
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3140,
+      "duration_ms": 3063,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 9567,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12262,
+      "duration_ms": 25759,
       "error": null
     },
     {
@@ -557,31 +565,7 @@
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33095,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61345,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65965,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "india.android",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65555,
+      "duration_ms": 31844,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "india.android",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83967,
+      "duration_ms": 45164,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65974,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "india.android",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65320,
       "error": null
     }
   ]

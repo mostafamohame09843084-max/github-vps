@@ -1,15 +1,15 @@
 {
   "root_domain": "bingpubcenter.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:35:44.300626+00:00",
-  "completed_at": "2026-11-12T21:36:53.282437+00:00",
-  "duration_ms": 68981,
+  "started_at": "2026-11-12T23:01:25.199217+00:00",
+  "completed_at": "2026-11-12T23:02:51.200635+00:00",
+  "duration_ms": 86001,
   "targets_scanned": [
     "bingpubcenter.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,111 +17,7 @@
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "facebook",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "domscan",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,6 +33,14 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "google",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
@@ -145,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsdumpster",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +57,23 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "chinaz",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -162,6 +82,62 @@
     },
     {
       "resource": "domainsproject",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,22 +161,6 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
@@ -209,11 +169,43 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "fofa",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,7 +225,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "abuseipdb",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,11 +269,11 @@
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 31,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -337,27 +337,27 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 173,
+      "duration_ms": 207,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 211,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 66,
       "error": null
     },
     {
@@ -369,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 281,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 461,
+      "duration_ms": 463,
       "error": null
     },
     {
@@ -429,8 +429,24 @@
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1126,
+      "duration_ms": 1156,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1186,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 113,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,27 +457,19 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1155,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
+      "duration_ms": 3056,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3083,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
       "error": null
     },
     {
@@ -537,51 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3353,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22039,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33095,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61423,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61747,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "bingpubcenter.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65970,
+      "duration_ms": 3066,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "bingpubcenter.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65592,
+      "duration_ms": 18703,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28033,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31269,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65974,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "bingpubcenter.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 85991,
       "error": null
     }
   ]
