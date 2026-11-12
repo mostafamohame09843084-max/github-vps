@@ -1,23 +1,63 @@
 {
   "root_domain": "inshur.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:48:51.290272+00:00",
-  "completed_at": "2026-11-12T21:49:57.369451+00:00",
-  "duration_ms": 66079,
+  "started_at": "2026-11-12T23:34:02.189276+00:00",
+  "completed_at": "2026-11-12T23:35:08.237698+00:00",
+  "duration_ms": 66048,
   "targets_scanned": [
     "inshur.com"
   ],
-  "total_unique_findings": 620,
-  "fresh_findings_count": 620,
-  "historical_findings_count": 0,
-  "new_findings_count": 620,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 666,
+  "fresh_findings_count": 295,
+  "historical_findings_count": 620,
+  "new_findings_count": 46,
+  "reused_historical_findings_count": 371,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "digitalyama",
+      "resource": "bufferover",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,31 +81,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "domainsproject",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,31 +97,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "chinaz",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "google",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "fullhunt",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "binaryedge",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsdb",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "chaos",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "driftnet",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +177,14 @@
       "error": null
     },
     {
+      "resource": "digitalyama",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdumpster",
       "target": "inshur.com",
       "recursion_depth": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fofa",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,19 +201,11 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "certspotter",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
       "error": null
     },
     {
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "digitorus",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +241,14 @@
       "error": null
     },
     {
+      "resource": "merklemap",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "inshur.com",
       "recursion_depth": 0,
@@ -257,31 +257,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 55,
       "error": null
     },
     {
       "resource": "netlas",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +289,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "pugrecon",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,23 +309,15 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 58,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 187,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 188,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 241,
+      "duration_ms": 240,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -373,15 +373,7 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 72,
       "error": null
     },
     {
@@ -393,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,16 +421,16 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 27,
-      "duration_ms": 907,
+      "duration_ms": 750,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "inshur.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1220,
-      "error": "'list' object has no attribute 'get'"
+      "findings_count": 1,
+      "duration_ms": 845,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,12 +441,12 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "racent",
       "target": "inshur.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 1603,
-      "error": null
+      "findings_count": 0,
+      "duration_ms": 1007,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "thc",
@@ -461,7 +461,7 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3071,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3037,
+      "error": null
+    },
+    {
       "resource": "urlscan",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3092,
       "error": null
     },
     {
@@ -501,7 +501,7 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3279,
       "error": null
     },
     {
@@ -521,7 +521,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "zoomeyeapi",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,7 +529,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "windvane",
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,39 +541,15 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3117,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28417,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33094,
+      "duration_ms": 3055,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "inshur.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49874,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "inshur.com",
-      "recursion_depth": 0,
-      "findings_count": 618,
-      "duration_ms": 64914,
+      "findings_count": 291,
+      "duration_ms": 12438,
       "error": null
     },
     {
@@ -581,7 +557,31 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62094,
+      "duration_ms": 20733,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31659,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42048,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "inshur.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46285,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "inshur.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 65980,
       "error": null
     }
   ]
