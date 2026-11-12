@@ -1,53 +1,21 @@
 {
   "root_domain": "facebookpositivityparade.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:19:17.283485+00:00",
-  "completed_at": "2026-11-12T21:20:27.708498+00:00",
-  "duration_ms": 70425,
+  "started_at": "2026-11-12T23:28:25.193649+00:00",
+  "completed_at": "2026-11-12T23:29:31.181993+00:00",
+  "duration_ms": 65988,
   "targets_scanned": [
     "facebookpositivityparade.com"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "domscan",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "binaryedge",
       "target": "facebookpositivityparade.com",
@@ -57,7 +25,23 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chaos",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "censys",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "bevigil",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,6 +89,14 @@
       "error": null
     },
     {
+      "resource": "fullhunt",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
@@ -113,31 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "coderog",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -146,30 +114,6 @@
     },
     {
       "resource": "google",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "domscan",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +145,63 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "github",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,15 +213,7 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -234,6 +226,14 @@
     },
     {
       "resource": "huntermap",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,19 +257,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -289,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "anubis",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 178,
+      "duration_ms": 79,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 182,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 262,
+      "duration_ms": 228,
       "error": null
     },
     {
@@ -365,15 +365,7 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 270,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 262,
       "error": null
     },
     {
@@ -385,11 +377,19 @@
       "error": null
     },
     {
+      "resource": "rsecloud",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 160,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 718,
+      "duration_ms": 729,
       "error": null
     },
     {
@@ -429,8 +429,16 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1234,
+      "duration_ms": 924,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1311,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -444,16 +452,8 @@
       "resource": "thc",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1331,
+      "findings_count": 2,
+      "duration_ms": 121,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3059,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
+      "duration_ms": 3049,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -537,11 +537,27 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3269,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3124,
+      "duration_ms": 3109,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "facebookpositivityparade.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20073,
       "error": null
     },
     {
@@ -549,15 +565,7 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33082,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 30548,
+      "duration_ms": 31084,
       "error": null
     },
     {
@@ -565,15 +573,15 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42448,
+      "duration_ms": 43291,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "waybackarchive",
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61304,
+      "duration_ms": 44632,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "facebookpositivityparade.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65989,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "facebookpositivityparade.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 70415,
+      "duration_ms": 65976,
       "error": null
     }
   ]

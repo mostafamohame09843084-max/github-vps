@@ -1,95 +1,23 @@
 {
   "root_domain": "inglexhsg.digital",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:43:18.286048+00:00",
-  "completed_at": "2026-11-12T21:44:24.280616+00:00",
-  "duration_ms": 65994,
+  "started_at": "2026-11-12T23:28:32.198731+00:00",
+  "completed_at": "2026-11-12T23:29:38.179387+00:00",
+  "duration_ms": 65980,
   "targets_scanned": [
     "inglexhsg.digital"
   ],
   "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 0,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "bufferover",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "chinaz",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,39 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "domscan",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "dnsdumpster",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,39 +57,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "fullhunt",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +73,135 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "c99",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +217,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +225,23 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "digitorus",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,31 +257,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 56,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "leakix",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,11 +273,43 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -317,15 +325,7 @@
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 188,
+      "duration_ms": 67,
       "error": null
     },
     {
@@ -345,35 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 257,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 262,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 185,
       "error": null
     },
     {
@@ -385,7 +361,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "redhuntlabs",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +369,23 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hackertarget",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 259,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 468,
+      "duration_ms": 420,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 994,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 996,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1067,
       "error": null
     },
     {
@@ -457,19 +441,27 @@
       "error": null
     },
     {
+      "resource": "racent",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1204,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "thc",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3079,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3085,
+      "duration_ms": 3062,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3352,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3059,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,35 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3269,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3141,
+      "duration_ms": 3091,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "inglexhsg.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20074,
       "error": null
     },
     {
@@ -549,7 +565,7 @@
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33104,
+      "duration_ms": 31405,
       "error": null
     },
     {
@@ -557,15 +573,7 @@
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45513,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 56942,
+      "duration_ms": 44804,
       "error": null
     },
     {
@@ -573,15 +581,7 @@
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55404,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "inglexhsg.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61537,
+      "duration_ms": 61327,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "inglexhsg.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65986,
+      "duration_ms": 65970,
       "error": null
     }
   ]

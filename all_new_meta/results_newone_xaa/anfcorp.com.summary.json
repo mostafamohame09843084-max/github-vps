@@ -1,103 +1,23 @@
 {
   "root_domain": "anfcorp.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:05:42.290200+00:00",
-  "completed_at": "2026-11-12T22:06:51.328597+00:00",
-  "duration_ms": 69038,
+  "started_at": "2026-11-12T23:28:25.195846+00:00",
+  "completed_at": "2026-11-12T23:29:31.226458+00:00",
+  "duration_ms": 66030,
   "targets_scanned": [
     "anfcorp.com"
   ],
-  "total_unique_findings": 301,
-  "fresh_findings_count": 301,
-  "historical_findings_count": 0,
-  "new_findings_count": 301,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 329,
+  "fresh_findings_count": 112,
+  "historical_findings_count": 301,
+  "new_findings_count": 28,
+  "reused_historical_findings_count": 217,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "bevigil",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "digitalyama",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "driftnet",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +49,23 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "certspotter",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +89,103 @@
       "error": null
     },
     {
+      "resource": "arpsyndicate",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdb",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chinaz",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,19 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -249,7 +241,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +261,11 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 47,
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,27 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 74,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 9,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 66,
       "error": null
     },
     {
@@ -341,23 +349,7 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 179,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 9,
-      "duration_ms": 236,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 175,
       "error": null
     },
     {
@@ -369,6 +361,14 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "anfcorp.com",
       "recursion_depth": 0,
@@ -377,15 +377,23 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "hackertarget",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
+      "resource": "shodan",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 72,
-      "duration_ms": 845,
+      "duration_ms": 849,
       "error": null
     },
     {
@@ -429,16 +429,8 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 913,
+      "duration_ms": 990,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "threatbook",
@@ -453,7 +445,15 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1320,
+      "duration_ms": 1921,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -461,15 +461,15 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3095,
+      "duration_ms": 3049,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3054,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3047,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "anfcorp.com",
       "recursion_depth": 0,
@@ -505,23 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,43 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3269,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3128,
+      "duration_ms": 3103,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27126,
+      "duration_ms": 20062,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "anfcorp.com",
+      "recursion_depth": 0,
+      "findings_count": 51,
+      "duration_ms": 17394,
       "error": null
     },
     {
@@ -557,23 +573,15 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33112,
+      "duration_ms": 30559,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 236,
-      "duration_ms": 53479,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61535,
+      "duration_ms": 43129,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "anfcorp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "anfcorp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65606,
+      "duration_ms": 65973,
       "error": null
     }
   ]
