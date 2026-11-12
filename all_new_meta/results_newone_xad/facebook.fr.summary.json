@@ -1,71 +1,23 @@
 {
   "root_domain": "facebook.fr",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:18:47.838045+00:00",
-  "completed_at": "2026-11-12T20:19:56.287216+00:00",
-  "duration_ms": 68449,
+  "started_at": "2026-11-12T22:34:02.111634+00:00",
+  "completed_at": "2026-11-12T22:35:11.197546+00:00",
+  "duration_ms": 69085,
   "targets_scanned": [
     "facebook.fr"
   ],
-  "total_unique_findings": 23,
-  "fresh_findings_count": 23,
-  "historical_findings_count": 0,
-  "new_findings_count": 23,
+  "total_unique_findings": 54,
+  "fresh_findings_count": 54,
+  "historical_findings_count": 23,
+  "new_findings_count": 31,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "arpsyndicate",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdumpster",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "facebook",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "dnsrepo",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -98,6 +50,22 @@
     },
     {
       "resource": "google",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,63 +89,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +113,111 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "digitalyama",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -214,22 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "facebook.fr",
       "recursion_depth": 0,
@@ -265,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "crtsh",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 92,
+      "duration_ms": 106,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 191,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,19 +329,27 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 237,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
+      "resource": "rapidscan",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 258,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 113,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 209,
       "error": null
     },
     {
@@ -366,6 +358,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 224,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -382,14 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
       "error": null
     },
     {
@@ -413,7 +413,15 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 21,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 45,
+      "duration_ms": 489,
       "error": null
     },
     {
@@ -421,7 +429,7 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 20,
-      "duration_ms": 1012,
+      "duration_ms": 743,
       "error": null
     },
     {
@@ -429,16 +437,16 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1170,
+      "duration_ms": 1034,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "thc",
       "target": "facebook.fr",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1332,
-      "error": "'list' object has no attribute 'get'"
+      "findings_count": 25,
+      "duration_ms": 123,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "racent",
       "target": "facebook.fr",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
+      "findings_count": 2,
+      "duration_ms": 3052,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3072,
+      "error": null
+    },
+    {
       "resource": "trickest",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 16,
       "error": null
     },
     {
@@ -501,7 +501,7 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3054,
       "error": null
     },
     {
@@ -521,7 +521,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "zoomeyeapi",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,7 +529,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "windvane",
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +541,7 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3270,
       "error": null
     },
     {
@@ -549,23 +549,7 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3147,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33069,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "facebook.fr",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 57279,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62306,
+      "duration_ms": 24918,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31240,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "facebook.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61544,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65434,
+      "duration_ms": 65060,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "facebook.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65085,
+      "duration_ms": 65765,
       "error": null
     }
   ]
