@@ -1,37 +1,21 @@
 {
   "root_domain": "indexnow.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:15:09.301216+00:00",
-  "completed_at": "2026-11-12T21:16:15.301147+00:00",
-  "duration_ms": 65999,
+  "started_at": "2026-11-12T23:00:40.192925+00:00",
+  "completed_at": "2026-11-12T23:01:46.190744+00:00",
+  "duration_ms": 65997,
   "targets_scanned": [
     "indexnow.org"
   ],
   "total_unique_findings": 3,
   "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "historical_findings_count": 3,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "google",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "dnsdumpster",
       "target": "indexnow.org",
@@ -41,71 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "censys",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +41,79 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,6 +137,38 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bufferover",
       "target": "indexnow.org",
       "recursion_depth": 0,
@@ -153,47 +177,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "binaryedge",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +193,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "builtwith",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -222,6 +214,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -249,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "hudsonrock",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 94,
       "error": null
     },
     {
@@ -329,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 70,
       "error": null
     },
     {
@@ -345,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 269,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 174,
       "error": null
     },
     {
@@ -373,11 +357,11 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 79,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "redhuntlabs",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -390,6 +374,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 243,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 499,
+      "duration_ms": 441,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 1121,
+      "duration_ms": 815,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2013,
+      "duration_ms": 1178,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -461,15 +461,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3043,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "urlscan",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 3269,
       "error": null
     },
     {
@@ -537,19 +537,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3269,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3166,
+      "duration_ms": 3054,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20731,
       "error": null
     },
     {
@@ -557,15 +557,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7920,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "indexnow.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 18584,
+      "duration_ms": 26141,
       "error": null
     },
     {
@@ -573,7 +565,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33108,
+      "duration_ms": 30045,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 41928,
+      "duration_ms": 56161,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "indexnow.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62667,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "indexnow.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65992,
+      "duration_ms": 65982,
       "error": null
     }
   ]
