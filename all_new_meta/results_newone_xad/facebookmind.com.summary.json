@@ -1,31 +1,23 @@
 {
   "root_domain": "facebookmind.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:12:20.291948+00:00",
-  "completed_at": "2026-11-12T21:13:57.281815+00:00",
-  "duration_ms": 96989,
+  "started_at": "2026-11-12T23:22:55.191885+00:00",
+  "completed_at": "2026-11-12T23:24:01.189930+00:00",
+  "duration_ms": 65998,
   "targets_scanned": [
     "facebookmind.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "builtwith",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "coderog",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,71 +41,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "c99",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "binaryedge",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -138,6 +66,94 @@
     },
     {
       "resource": "certspotter",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "domscan",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,15 +185,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "arpsyndicate",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,27 +201,11 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "dnsdb",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
       "error": null
     },
     {
@@ -233,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -249,19 +241,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "onyphe",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,15 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 99,
+      "duration_ms": 65,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "alienvault",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 183,
       "error": null
     },
     {
@@ -337,23 +337,7 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 185,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 242,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,11 +349,19 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 263,
+      "duration_ms": 226,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 256,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,7 +381,15 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 455,
+      "duration_ms": 507,
       "error": null
     },
     {
@@ -429,23 +429,15 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1248,
+      "duration_ms": 1054,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "myssl",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1312,
+      "duration_ms": 2950,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 97,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3072,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3060,
       "error": null
     },
     {
@@ -485,11 +477,27 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
+      "duration_ms": 3037,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "virustotal",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,15 +517,7 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3476,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3273,
       "error": null
     },
     {
@@ -541,47 +541,7 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3141,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33093,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61573,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61516,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65981,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookmind.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65595,
+      "duration_ms": 3082,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "facebookmind.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 96982,
+      "duration_ms": 20072,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25062,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31897,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42063,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44652,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "facebookmind.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65986,
       "error": null
     }
   ]

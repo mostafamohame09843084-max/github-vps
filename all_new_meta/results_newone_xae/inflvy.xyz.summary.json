@@ -1,37 +1,21 @@
 {
   "root_domain": "inflvy.xyz",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:37:45.573994+00:00",
-  "completed_at": "2026-11-12T21:38:51.286293+00:00",
-  "duration_ms": 65712,
+  "started_at": "2026-11-12T23:22:59.215107+00:00",
+  "completed_at": "2026-11-12T23:24:05.184577+00:00",
+  "duration_ms": 65969,
   "targets_scanned": [
     "inflvy.xyz"
   ],
   "total_unique_findings": 32,
-  "fresh_findings_count": 32,
-  "historical_findings_count": 0,
-  "new_findings_count": 32,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 0,
+  "historical_findings_count": 32,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 32,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "fofa",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "arpsyndicate",
       "target": "inflvy.xyz",
@@ -49,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "coderog",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "censys",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "dnsdumpster",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "certspotter",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,47 +73,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "fofa",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +89,86 @@
       "error": null
     },
     {
+      "resource": "github",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domscan",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
@@ -193,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "bevigil",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "dnsrepo",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +221,11 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 56,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +253,27 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 60,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "odin",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 74,
+      "duration_ms": 96,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,19 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 174,
+      "duration_ms": 248,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 222,
+      "duration_ms": 255,
       "error": null
     },
     {
@@ -358,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 253,
       "error": null
     },
     {
@@ -381,19 +381,11 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 47,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 14,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 520,
+      "duration_ms": 453,
       "error": null
     },
     {
@@ -429,8 +429,16 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 926,
+      "duration_ms": 930,
       "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 962,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "threatbook",
@@ -439,14 +447,6 @@
       "findings_count": 0,
       "duration_ms": 0,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1189,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "thc",
@@ -461,15 +461,7 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3058,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -477,7 +469,7 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
+      "duration_ms": 3045,
       "error": null
     },
     {
@@ -489,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "urlscan",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,7 +489,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "virustotal",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -517,11 +509,11 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 3265,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3146,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14451,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 32,
-      "duration_ms": 26020,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "inflvy.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33067,
+      "duration_ms": 3065,
       "error": null
     },
     {
@@ -573,7 +549,15 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44112,
+      "duration_ms": 6188,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 21099,
       "error": null
     },
     {
@@ -581,7 +565,23 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61450,
+      "duration_ms": 20552,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30465,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "inflvy.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34022,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "inflvy.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65699,
+      "duration_ms": 65951,
       "error": null
     }
   ]
