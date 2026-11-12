@@ -1,175 +1,23 @@
 {
   "root_domain": "facebookmail.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:07:16.288172+00:00",
-  "completed_at": "2026-11-12T21:08:22.285842+00:00",
-  "duration_ms": 65997,
+  "started_at": "2026-11-12T23:18:28.245234+00:00",
+  "completed_at": "2026-11-12T23:19:34.189290+00:00",
+  "duration_ms": 65944,
   "targets_scanned": [
     "facebookmail.com"
   ],
-  "total_unique_findings": 32,
-  "fresh_findings_count": 32,
-  "historical_findings_count": 0,
-  "new_findings_count": 32,
+  "total_unique_findings": 37,
+  "fresh_findings_count": 37,
+  "historical_findings_count": 32,
+  "new_findings_count": 5,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsdumpster",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "censys",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +33,87 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "dnsdb",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 6,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +129,54 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chaos",
       "target": "facebookmail.com",
       "recursion_depth": 0,
@@ -209,7 +185,23 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "certspotter",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,11 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 52,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "intelx",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +241,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 94,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "facebookmail.com",
       "recursion_depth": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "rapidapi",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 145,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "anubis",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 76,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 190,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,19 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 227,
+      "duration_ms": 249,
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hackertarget",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 233,
+      "duration_ms": 251,
       "error": null
     },
     {
@@ -361,19 +369,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 70,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 15,
       "error": null
     },
     {
@@ -421,15 +421,31 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 26,
-      "duration_ms": 752,
+      "duration_ms": 737,
       "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1001,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1281,
+      "duration_ms": 1190,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 30,
+      "duration_ms": 106,
       "error": null
     },
     {
@@ -441,35 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1244,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
       "resource": "riddler",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 3065,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3093,
       "error": null
     },
     {
@@ -489,7 +481,23 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3052,
+      "error": null
+    },
+    {
       "resource": "virustotal",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -501,15 +509,7 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3128,
+      "duration_ms": 3094,
       "error": null
     },
     {
@@ -549,7 +549,15 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26972,
+      "duration_ms": 7998,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 12756,
       "error": null
     },
     {
@@ -557,23 +565,7 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33085,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 17,
-      "duration_ms": 50861,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51070,
+      "duration_ms": 31010,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61502,
+      "duration_ms": 41838,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61032,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "facebookmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 65907,
       "error": null
     }
   ]
