@@ -1,45 +1,21 @@
 {
   "root_domain": "faceebook.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:49:22.289194+00:00",
-  "completed_at": "2026-11-12T21:50:28.283133+00:00",
-  "duration_ms": 65993,
+  "started_at": "2026-11-12T23:52:58.192125+00:00",
+  "completed_at": "2026-11-12T23:54:04.183167+00:00",
+  "duration_ms": 65991,
   "targets_scanned": [
     "faceebook.com"
   ],
-  "total_unique_findings": 13,
-  "fresh_findings_count": 13,
-  "historical_findings_count": 0,
-  "new_findings_count": 13,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 14,
+  "fresh_findings_count": 4,
+  "historical_findings_count": 13,
+  "new_findings_count": 1,
+  "reused_historical_findings_count": 10,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "censys",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "arpsyndicate",
       "target": "faceebook.com",
@@ -49,47 +25,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "github",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +41,39 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "driftnet",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,15 +89,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "google",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "facebook",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "digitalyama",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "fullhunt",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +145,47 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "c99",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +201,19 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "certspotter",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -217,23 +225,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28,
-      "error": null
-    },
-    {
       "resource": "intelx",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +241,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 99,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 87,
       "error": null
     },
     {
@@ -333,7 +325,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 186,
+      "duration_ms": 191,
       "error": null
     },
     {
@@ -345,15 +337,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 243,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 245,
+      "duration_ms": 231,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 253,
       "error": null
     },
     {
@@ -389,15 +389,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 464,
+      "duration_ms": 482,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1127,
+      "duration_ms": 993,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,7 +437,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1234,
+      "duration_ms": 1298,
       "error": null
     },
     {
@@ -452,8 +452,8 @@
       "resource": "thc",
       "target": "faceebook.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 113,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3079,
+      "duration_ms": 3061,
       "error": null
     },
     {
@@ -489,23 +481,15 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 16,
+      "error": null
+    },
+    {
       "resource": "virustotal",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -518,6 +502,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3027,
       "error": null
     },
     {
@@ -537,19 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "faceebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3270,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3109,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "faceebook.com",
-      "recursion_depth": 0,
-      "findings_count": 12,
-      "duration_ms": 14149,
+      "duration_ms": 3086,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28412,
+      "duration_ms": 29504,
       "error": null
     },
     {
@@ -565,7 +565,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33075,
+      "duration_ms": 33070,
       "error": null
     },
     {
@@ -573,15 +573,15 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41178,
+      "duration_ms": 42046,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "waybackarchive",
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61597,
+      "duration_ms": 61644,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "faceebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 65973,
       "error": null
     }
   ]
