@@ -1,23 +1,103 @@
 {
   "root_domain": "facebookstudios.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:43:49.283635+00:00",
-  "completed_at": "2026-11-12T21:44:55.280500+00:00",
-  "duration_ms": 65996,
+  "started_at": "2026-11-12T23:47:25.209762+00:00",
+  "completed_at": "2026-11-12T23:48:34.181740+00:00",
+  "duration_ms": 68971,
   "targets_scanned": [
     "facebookstudios.org"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsdb",
+      "resource": "fofa",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,31 +121,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "arpsyndicate",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,95 +137,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "google",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "binaryedge",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +161,39 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsdumpster",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
       "resource": "intelx",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,19 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -265,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "odin",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 180,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -334,6 +326,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 207,
       "error": null
     },
     {
@@ -349,7 +349,7 @@
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 293,
       "error": null
     },
     {
@@ -361,19 +361,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 292,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "rapiddns",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 517,
       "error": null
     },
     {
@@ -385,15 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 54,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,27 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 18,
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "alienvault",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 450,
+      "duration_ms": 981,
       "error": null
     },
     {
@@ -429,8 +429,24 @@
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 967,
+      "duration_ms": 971,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1126,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 122,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1118,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3082,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -473,14 +473,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3061,
-      "error": null
-    },
-    {
       "resource": "urlscan",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
@@ -489,11 +481,27 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 14,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3049,
       "error": null
     },
     {
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3263,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3274,
       "error": null
     },
     {
@@ -541,15 +549,7 @@
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3136,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 21161,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -557,7 +557,15 @@
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33095,
+      "duration_ms": 31586,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42026,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44331,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53025,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facebookstudios.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61330,
+      "duration_ms": 44370,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "facebookstudios.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65989,
+      "duration_ms": 65968,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebookstudios.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65520,
       "error": null
     }
   ]
