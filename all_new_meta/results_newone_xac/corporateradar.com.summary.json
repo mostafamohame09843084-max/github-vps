@@ -1,23 +1,23 @@
 {
   "root_domain": "corporateradar.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:58:20.419233+00:00",
-  "completed_at": "2026-11-12T21:59:26.283071+00:00",
-  "duration_ms": 65863,
+  "started_at": "2026-11-12T23:41:48.310091+00:00",
+  "completed_at": "2026-11-12T23:42:54.180411+00:00",
+  "duration_ms": 65870,
   "targets_scanned": [
     "corporateradar.com"
   ],
-  "total_unique_findings": 2,
+  "total_unique_findings": 3,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
-  "reused_historical_findings_count": 0,
+  "historical_findings_count": 2,
+  "new_findings_count": 1,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "domainsproject",
+      "resource": "driftnet",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,87 +33,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +49,23 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsdb",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "censys",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "certspotter",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +97,23 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "bevigil",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fofa",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +145,15 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "dnsdumpster",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +169,55 @@
       "error": null
     },
     {
+      "resource": "facebook",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "huntermap",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +229,11 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 20,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "merklemap",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -266,14 +266,6 @@
     },
     {
       "resource": "odin",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "corporateradar.com",
       "recursion_depth": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -329,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 82,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "corporateradar.com",
       "recursion_depth": 0,
@@ -337,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 204,
+      "duration_ms": 182,
       "error": null
     },
     {
@@ -349,7 +357,7 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 246,
       "error": null
     },
     {
@@ -365,15 +373,7 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 553,
+      "duration_ms": 66,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,15 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 15,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 495,
       "error": null
     },
     {
@@ -421,23 +429,15 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1194,
+      "duration_ms": 1204,
       "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "alienvault",
+      "resource": "myssl",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1771,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1470,
       "error": null
     },
     {
@@ -449,19 +449,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "thc",
       "target": "corporateradar.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1858,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3097,
+      "findings_count": 1,
+      "duration_ms": 105,
       "error": null
     },
     {
@@ -469,7 +461,7 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3178,
+      "duration_ms": 3043,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisxml",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "corporateradar.com",
       "recursion_depth": 0,
@@ -509,11 +517,11 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3456,
+      "duration_ms": 3270,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "windvane",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,51 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3104,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28880,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33084,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42021,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "corporateradar.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 46141,
+      "duration_ms": 3076,
       "error": null
     },
     {
@@ -581,7 +549,39 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52789,
+      "duration_ms": 20074,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26097,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29320,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42551,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "corporateradar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61743,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "corporateradar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65855,
+      "duration_ms": 65862,
       "error": null
     }
   ]
