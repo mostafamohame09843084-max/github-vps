@@ -1,23 +1,23 @@
 {
   "root_domain": "indeed.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:08:14.288344+00:00",
-  "completed_at": "2026-11-12T21:09:23.328984+00:00",
-  "duration_ms": 69040,
+  "started_at": "2026-11-12T22:53:40.191036+00:00",
+  "completed_at": "2026-11-12T22:54:46.234836+00:00",
+  "duration_ms": 66043,
   "targets_scanned": [
     "indeed.com"
   ],
   "total_unique_findings": 330,
   "fresh_findings_count": 330,
-  "historical_findings_count": 0,
-  "new_findings_count": 330,
+  "historical_findings_count": 330,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
+      "resource": "driftnet",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "bevigil",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "arpsyndicate",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,55 +57,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "bufferover",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,55 +73,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +89,119 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "censys",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,7 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 8,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 86,
       "error": null
     },
     {
@@ -337,27 +337,27 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 184,
+      "duration_ms": 173,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 210,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 15,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 53,
-      "duration_ms": 780,
+      "duration_ms": 760,
       "error": null
     },
     {
@@ -429,11 +429,11 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 995,
+      "duration_ms": 935,
       "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "thc",
+      "resource": "threatbook",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -445,11 +445,11 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 15,
-      "duration_ms": 1418,
+      "duration_ms": 1881,
       "error": null
     },
     {
-      "resource": "threatbook",
+      "resource": "thc",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -461,15 +461,7 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
+      "duration_ms": 3033,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +497,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3475,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "sitedossier",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +541,7 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3128,
+      "duration_ms": 3100,
       "error": null
     },
     {
@@ -549,39 +549,7 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33074,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44009,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47126,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 280,
-      "duration_ms": 48834,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "indeed.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61776,
+      "duration_ms": 29093,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "indeed.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65614,
+      "duration_ms": 28827,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44898,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 280,
+      "duration_ms": 52559,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61452,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "indeed.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65981,
       "error": null
     }
   ]
