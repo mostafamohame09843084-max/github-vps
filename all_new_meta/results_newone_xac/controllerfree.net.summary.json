@@ -1,16 +1,16 @@
 {
   "root_domain": "controllerfree.net",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:02:42.283432+00:00",
-  "completed_at": "2026-11-12T21:03:51.281678+00:00",
-  "duration_ms": 68998,
+  "started_at": "2026-11-12T22:50:17.193155+00:00",
+  "completed_at": "2026-11-12T22:51:23.183634+00:00",
+  "duration_ms": 65990,
   "targets_scanned": [
     "controllerfree.net"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
@@ -18,126 +18,6 @@
   "resource_executions": [
     {
       "resource": "certspotter",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "c99",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +65,55 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +129,79 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "arpsyndicate",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,27 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "intelx",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,15 +249,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
+      "resource": "netlas",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "abuseipdb",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,14 +289,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "pugrecon",
       "target": "controllerfree.net",
       "recursion_depth": 0,
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "controllerfree.net",
       "recursion_depth": 0,
@@ -313,11 +321,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 139,
+      "duration_ms": 62,
       "error": null
     },
     {
@@ -329,14 +337,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 182,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "controllerfree.net",
       "recursion_depth": 0,
@@ -345,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 81,
+      "duration_ms": 200,
       "error": null
     },
     {
@@ -369,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "reconeer",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 580,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 254,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 587,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1021,
+      "duration_ms": 466,
       "error": null
     },
     {
@@ -437,8 +429,16 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 996,
+      "duration_ms": 938,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1167,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -452,16 +452,8 @@
       "resource": "thc",
       "target": "controllerfree.net",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1196,
+      "findings_count": 1,
+      "duration_ms": 127,
       "error": null
     },
     {
@@ -469,11 +461,19 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3070,
+      "duration_ms": 3057,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "threatminer",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 17,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -501,11 +501,11 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3043,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +541,7 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3355,
+      "duration_ms": 3557,
       "error": null
     },
     {
@@ -549,39 +549,7 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28707,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32459,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41861,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "controllerfree.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65989,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "controllerfree.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65587,
+      "duration_ms": 18582,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26665,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30811,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42057,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "controllerfree.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65971,
       "error": null
     }
   ]
