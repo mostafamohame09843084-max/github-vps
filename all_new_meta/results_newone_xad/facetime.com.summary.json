@@ -1,119 +1,23 @@
 {
   "root_domain": "facetime.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:50:28.290023+00:00",
-  "completed_at": "2026-11-12T21:51:34.284369+00:00",
-  "duration_ms": 65994,
+  "started_at": "2026-11-12T23:54:04.192806+00:00",
+  "completed_at": "2026-11-12T23:55:10.183277+00:00",
+  "duration_ms": 65990,
   "targets_scanned": [
     "facetime.com"
   ],
-  "total_unique_findings": 20,
-  "fresh_findings_count": 20,
-  "historical_findings_count": 0,
-  "new_findings_count": 20,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 21,
+  "fresh_findings_count": 6,
+  "historical_findings_count": 20,
+  "new_findings_count": 1,
+  "reused_historical_findings_count": 15,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "facebook",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsrepo",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "fullhunt",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,15 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "binaryedge",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +65,62 @@
       "error": null
     },
     {
+      "resource": "censys",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bevigil",
       "target": "facetime.com",
       "recursion_depth": 0,
@@ -193,7 +129,47 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "arpsyndicate",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,23 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "coderog",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +217,23 @@
       "error": null
     },
     {
+      "resource": "intelx",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "huntermap",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -262,14 +270,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 183,
       "error": null
     },
     {
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "anubis",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 202,
+      "duration_ms": 71,
       "error": null
     },
     {
@@ -321,7 +321,7 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "rapidfinder",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,11 +333,11 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 247,
+      "duration_ms": 248,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidscan",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,15 +349,15 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 251,
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "reconeer",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 294,
+      "duration_ms": 67,
       "error": null
     },
     {
@@ -369,19 +369,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 55,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 463,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,15 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 416,
+      "duration_ms": 420,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 827,
       "error": null
     },
     {
@@ -429,16 +437,8 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1190,
+      "duration_ms": 1009,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "myssl",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 1418,
-      "error": null
     },
     {
       "resource": "threatbook",
@@ -452,8 +452,8 @@
       "resource": "thc",
       "target": "facetime.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 3,
+      "duration_ms": 116,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3083,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3079,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3088,
+      "duration_ms": 3058,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,19 +505,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3354,
       "error": null
     },
     {
@@ -541,7 +541,23 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3154,
+      "duration_ms": 3114,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20072,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facetime.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23708,
       "error": null
     },
     {
@@ -549,15 +565,7 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11867,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20635,
+      "duration_ms": 28823,
       "error": null
     },
     {
@@ -565,23 +573,15 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33070,
+      "duration_ms": 32704,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "threatminer",
       "target": "facetime.com",
       "recursion_depth": 0,
-      "findings_count": 18,
-      "duration_ms": 34623,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "facetime.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 47191,
+      "findings_count": 0,
+      "duration_ms": 61400,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "facetime.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 65967,
       "error": null
     }
   ]

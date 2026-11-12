@@ -1,23 +1,31 @@
 {
   "root_domain": "cosmosdb.net",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:10:42.282968+00:00",
-  "completed_at": "2026-11-12T22:11:48.295991+00:00",
-  "duration_ms": 66013,
+  "started_at": "2026-11-12T23:53:59.191722+00:00",
+  "completed_at": "2026-11-12T23:55:05.181594+00:00",
+  "duration_ms": 65989,
   "targets_scanned": [
     "cosmosdb.net"
   ],
-  "total_unique_findings": 1,
+  "total_unique_findings": 2,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
-  "reused_historical_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chaos",
+      "resource": "bevigil",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,6 +41,14 @@
       "error": null
     },
     {
+      "resource": "google",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
@@ -41,39 +57,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "digitalyama",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,23 +73,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "github",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "dnsrepo",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsdb",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "argosdns",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +113,15 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "chaos",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "facebook",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "domscan",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "fofa",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +169,31 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "certspotter",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -206,6 +206,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -225,11 +233,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "merklemap",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -241,27 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "pugrecon",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 184,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
@@ -345,11 +337,27 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 267,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 187,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -358,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 63,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "hackertarget",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 457,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -413,15 +413,15 @@
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 27,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapiddns",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 666,
+      "duration_ms": 437,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 992,
+      "duration_ms": 1194,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,15 +437,7 @@
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1347,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1255,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 116,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3117,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 3063,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3074,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3101,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3352,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3552,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,15 +541,15 @@
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3105,
+      "duration_ms": 3086,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "cosmosdb.net",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 15001,
+      "findings_count": 0,
+      "duration_ms": 20066,
       "error": null
     },
     {
@@ -565,15 +557,7 @@
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15045,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "cosmosdb.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26591,
+      "duration_ms": 23735,
       "error": null
     },
     {
@@ -581,7 +565,23 @@
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33055,
+      "duration_ms": 31214,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61344,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "cosmosdb.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61623,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "cosmosdb.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66004,
+      "duration_ms": 65981,
       "error": null
     }
   ]
