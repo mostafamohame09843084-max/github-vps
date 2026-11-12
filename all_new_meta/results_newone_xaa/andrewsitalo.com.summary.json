@@ -1,87 +1,23 @@
 {
   "root_domain": "andrewsitalo.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:46:13.288785+00:00",
-  "completed_at": "2026-11-12T21:47:22.282939+00:00",
-  "duration_ms": 68994,
+  "started_at": "2026-11-12T23:08:19.183999+00:00",
+  "completed_at": "2026-11-12T23:09:28.185455+00:00",
+  "duration_ms": 69001,
   "targets_scanned": [
     "andrewsitalo.com"
   ],
   "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 0,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "facebook",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "argosdns",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,87 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "dnsdb",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +49,47 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "fullhunt",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +105,115 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "github",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -226,14 +226,6 @@
     },
     {
       "resource": "huntermap",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "netlas",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "netlas",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -273,7 +265,23 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38,
+      "error": null
+    },
+    {
       "resource": "profundis",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,19 +305,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "hudsonrock",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 59,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -321,19 +321,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 191,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 67,
       "error": null
     },
     {
@@ -345,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 225,
+      "duration_ms": 171,
       "error": null
     },
     {
@@ -361,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 255,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 41,
       "error": null
     },
     {
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 251,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "rsecloud",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 486,
+      "duration_ms": 438,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1213,
+      "duration_ms": 929,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -445,7 +445,7 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1457,
+      "duration_ms": 1418,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "riddler",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 2890,
+      "findings_count": 0,
+      "duration_ms": 3069,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3117,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -501,11 +501,11 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3305,
+      "duration_ms": 3043,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +541,7 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3562,
+      "duration_ms": 3508,
       "error": null
     },
     {
@@ -549,15 +549,15 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3159,
+      "duration_ms": 3059,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28415,
+      "duration_ms": 20070,
       "error": null
     },
     {
@@ -565,15 +565,7 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33074,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "andrewsitalo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61289,
+      "duration_ms": 29664,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 48161,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "andrewsitalo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61361,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "andrewsitalo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65610,
+      "duration_ms": 65682,
       "error": null
     }
   ]
