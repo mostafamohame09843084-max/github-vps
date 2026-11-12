@@ -1,119 +1,23 @@
 {
   "root_domain": "imprint.co",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T20:54:08.321448+00:00",
-  "completed_at": "2026-11-12T20:55:17.304020+00:00",
-  "duration_ms": 68982,
+  "started_at": "2026-11-12T22:41:29.267368+00:00",
+  "completed_at": "2026-11-12T22:42:35.205881+00:00",
+  "duration_ms": 65938,
   "targets_scanned": [
     "imprint.co"
   ],
   "total_unique_findings": 139,
-  "fresh_findings_count": 139,
-  "historical_findings_count": 0,
-  "new_findings_count": 139,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 132,
+  "historical_findings_count": 139,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 7,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "builtwith",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +33,15 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fofa",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "binaryedge",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,23 +73,23 @@
       "error": null
     },
     {
+      "resource": "dnsrepo",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domainsproject",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +105,39 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "github",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -206,6 +150,70 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -225,11 +233,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "leakix",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -241,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "abuseipdb",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "pugrecon",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,39 +297,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 78,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,7 +309,15 @@
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 91,
+      "duration_ms": 68,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -345,15 +329,55 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 260,
+      "duration_ms": 197,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 209,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 263,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -366,30 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 64,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 352,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 748,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1116,
+      "duration_ms": 434,
       "error": null
     },
     {
@@ -437,8 +429,24 @@
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1232,
+      "duration_ms": 1199,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "riddler",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3055,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3065,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -452,16 +460,8 @@
       "resource": "thc",
       "target": "imprint.co",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3218,
+      "findings_count": 132,
+      "duration_ms": 74,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3175,
+      "duration_ms": 3499,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisfreaks",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "imprint.co",
       "recursion_depth": 0,
@@ -505,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3462,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3063,
       "error": null
     },
     {
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3107,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9167,
+      "duration_ms": 6874,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "myssl",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32065,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "imprint.co",
-      "recursion_depth": 0,
-      "findings_count": 139,
-      "duration_ms": 51705,
+      "duration_ms": 23068,
       "error": null
     },
     {
@@ -573,15 +557,15 @@
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61543,
+      "duration_ms": 20787,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "reconcloud",
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65952,
+      "duration_ms": 31028,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "imprint.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65389,
+      "duration_ms": 34479,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45022,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "imprint.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65906,
       "error": null
     }
   ]

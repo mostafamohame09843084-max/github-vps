@@ -1,9 +1,9 @@
 {
   "root_domain": "amazon.speech.sim",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:17:04.321757+00:00",
-  "completed_at": "2026-11-12T21:18:47.283788+00:00",
-  "duration_ms": 102962,
+  "started_at": "2026-11-12T22:41:11.201116+00:00",
+  "completed_at": "2026-11-12T22:42:17.183044+00:00",
+  "duration_ms": 65981,
   "targets_scanned": [
     "amazon.speech.sim"
   ],
@@ -17,39 +17,7 @@
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "bevigil",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "domscan",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,30 +33,6 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
@@ -97,31 +41,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "merklemap",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "driftnet",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "intelx",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "chaos",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "builtwith",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +97,15 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "abuseipdb",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "digitalyama",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -210,6 +138,86 @@
     },
     {
       "resource": "coderog",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,27 +241,11 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "dnsdb",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
       "error": null
     },
     {
@@ -273,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
+      "duration_ms": 56,
       "error": null
     },
     {
@@ -329,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 195,
+      "duration_ms": 66,
       "error": null
     },
     {
@@ -345,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 181,
       "error": null
     },
     {
@@ -361,27 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 263,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hackertarget",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 254,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -402,6 +394,14 @@
     },
     {
       "resource": "shodanx",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "securitytrails",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -421,15 +421,23 @@
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 531,
+      "duration_ms": 425,
       "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1329,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 963,
+      "duration_ms": 2115,
       "error": null
     },
     {
@@ -441,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1253,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
       "resource": "thc",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 134,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3086,
+      "duration_ms": 3096,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3220,
       "error": null
     },
     {
@@ -497,7 +497,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3484,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,39 +541,7 @@
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3104,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33110,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61401,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61630,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "amazon.speech.sim",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65950,
+      "duration_ms": 3091,
       "error": null
     },
     {
@@ -581,7 +549,31 @@
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65591,
+      "duration_ms": 5995,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 9208,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20332,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32634,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "amazon.speech.sim",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 102954,
+      "duration_ms": 46319,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "amazon.speech.sim",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65972,
       "error": null
     }
   ]
