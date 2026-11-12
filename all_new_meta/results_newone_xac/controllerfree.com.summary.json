@@ -1,39 +1,23 @@
 {
   "root_domain": "controllerfree.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:01:33.283145+00:00",
-  "completed_at": "2026-11-12T21:02:42.280579+00:00",
-  "duration_ms": 68997,
+  "started_at": "2026-11-12T22:49:11.190369+00:00",
+  "completed_at": "2026-11-12T22:50:17.184810+00:00",
+  "duration_ms": 65994,
   "targets_scanned": [
     "controllerfree.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "binaryedge",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,70 +41,6 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
       "target": "controllerfree.com",
       "recursion_depth": 0,
@@ -137,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "builtwith",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,31 +73,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "arpsyndicate",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +89,111 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "github",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,19 +209,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
       "resource": "intelx",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -257,14 +257,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "controllerfree.com",
       "recursion_depth": 0,
@@ -273,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "abuseipdb",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "controllerfree.com",
       "recursion_depth": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
+      "duration_ms": 62,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,47 +345,23 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 249,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
+      "duration_ms": 53,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 424,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 14,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 441,
+      "duration_ms": 439,
       "error": null
     },
     {
@@ -429,23 +429,23 @@
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 954,
+      "duration_ms": 1243,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "myssl",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2594,
+      "duration_ms": 1333,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 98,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3085,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3158,
       "error": null
     },
     {
@@ -486,6 +478,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3076,
       "error": null
     },
     {
@@ -509,19 +509,11 @@
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 3264,
       "error": null
     },
     {
       "resource": "whoisxml",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,43 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3125,
+      "duration_ms": 3088,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20070,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23760,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "controllerfree.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26833,
       "error": null
     },
     {
@@ -553,27 +577,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 38914,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61610,
-      "error": null
-    },
-    {
       "resource": "threatminer",
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61677,
+      "duration_ms": 61370,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "controllerfree.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "controllerfree.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65617,
+      "duration_ms": 65983,
       "error": null
     }
   ]

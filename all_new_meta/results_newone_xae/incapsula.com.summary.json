@@ -1,151 +1,23 @@
 {
   "root_domain": "incapsula.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:02:11.288766+00:00",
-  "completed_at": "2026-11-12T21:04:12.294788+00:00",
-  "duration_ms": 121006,
+  "started_at": "2026-11-12T22:49:16.200417+00:00",
+  "completed_at": "2026-11-12T22:50:22.185546+00:00",
+  "duration_ms": 65985,
   "targets_scanned": [
     "incapsula.com"
   ],
   "total_unique_findings": 34,
-  "fresh_findings_count": 34,
-  "historical_findings_count": 0,
-  "new_findings_count": 34,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 33,
+  "historical_findings_count": 34,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "google",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +33,39 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "domscan",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domainsproject",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "binaryedge",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "fofa",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "certspotter",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +121,91 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "coderog",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -249,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 112,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "hudsonrock",
       "target": "incapsula.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 260,
+      "findings_count": 3,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -345,11 +329,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "incapsula.com",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 299,
+      "findings_count": 0,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 358,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 257,
       "error": null
     },
     {
@@ -373,15 +373,7 @@
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 157,
       "error": null
     },
     {
@@ -393,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 33,
-      "duration_ms": 720,
+      "duration_ms": 456,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 1175,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1747,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "threatbook",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 782,
       "error": null
     },
     {
@@ -457,19 +441,27 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 993,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "riddler",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3116,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3294,
+      "duration_ms": 3063,
       "error": null
     },
     {
@@ -489,23 +481,15 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3050,
+      "error": null
+    },
+    {
       "resource": "virustotal",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3353,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,11 +505,19 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3473,
       "error": null
     },
     {
@@ -537,11 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3237,
+      "duration_ms": 3069,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20068,
       "error": null
     },
     {
@@ -549,31 +557,7 @@
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33069,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61280,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61618,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "incapsula.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 30724,
       "error": null
     },
     {
@@ -581,15 +565,31 @@
       "target": "incapsula.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65276,
+      "duration_ms": 49487,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "submd",
       "target": "incapsula.com",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 120992,
+      "findings_count": 0,
+      "duration_ms": 61633,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61711,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "incapsula.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65969,
       "error": null
     }
   ]
