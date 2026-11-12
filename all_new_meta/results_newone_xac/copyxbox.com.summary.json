@@ -1,15 +1,15 @@
 {
   "root_domain": "copyxbox.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:42:32.289853+00:00",
-  "completed_at": "2026-11-12T21:43:41.711958+00:00",
-  "duration_ms": 69422,
+  "started_at": "2026-11-12T23:24:55.340213+00:00",
+  "completed_at": "2026-11-12T23:26:32.270016+00:00",
+  "duration_ms": 96929,
   "targets_scanned": [
     "copyxbox.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,79 +17,7 @@
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsdumpster",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "domscan",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -98,62 +26,6 @@
     },
     {
       "resource": "certspotter",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,6 +49,54 @@
       "error": null
     },
     {
+      "resource": "dnsrepo",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
       "target": "copyxbox.com",
       "recursion_depth": 0,
@@ -185,7 +105,63 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsdb",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "bevigil",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,23 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "driftnet",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +217,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +225,23 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
       "resource": "leakix",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
       "error": null
     },
     {
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "copyxbox.com",
       "recursion_depth": 0,
@@ -317,15 +325,7 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 267,
+      "duration_ms": 80,
       "error": null
     },
     {
@@ -345,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 269,
+      "duration_ms": 187,
       "error": null
     },
     {
@@ -361,19 +361,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "reconeer",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 295,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "hackertarget",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -385,15 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 62,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 443,
+      "duration_ms": 435,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 984,
+      "duration_ms": 998,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1139,
+      "error": null
     },
     {
       "resource": "thc",
       "target": "copyxbox.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 97,
       "error": null
     },
     {
@@ -449,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1208,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3092,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3063,
       "error": null
     },
     {
@@ -485,7 +477,15 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3257,
+      "duration_ms": 3064,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3661,
       "error": null
     },
     {
@@ -521,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "sitedossier",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -537,19 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3110,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27016,
+      "duration_ms": 3059,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33077,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "copyxbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33667,
+      "duration_ms": 31143,
       "error": null
     },
     {
@@ -573,7 +557,15 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61424,
+      "duration_ms": 41899,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44935,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 65836,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "copyxbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65496,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "copyxbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69414,
+      "duration_ms": 96918,
       "error": null
     }
   ]

@@ -1,55 +1,31 @@
 {
   "root_domain": "informal.systems",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:39:57.343134+00:00",
-  "completed_at": "2026-11-12T21:41:06.286026+00:00",
-  "duration_ms": 68942,
+  "started_at": "2026-11-12T23:25:14.229176+00:00",
+  "completed_at": "2026-11-12T23:26:20.183845+00:00",
+  "duration_ms": 65954,
   "targets_scanned": [
     "informal.systems"
   ],
   "total_unique_findings": 23,
-  "fresh_findings_count": 23,
-  "historical_findings_count": 0,
-  "new_findings_count": 23,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 9,
+  "historical_findings_count": 23,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 14,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
+      "resource": "driftnet",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdb",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +41,63 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "chinaz",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,23 +121,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "digitalyama",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,55 +137,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "binaryedge",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +153,30 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
       "target": "informal.systems",
       "recursion_depth": 0,
@@ -193,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "google",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "bevigil",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,7 +213,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 40,
       "error": null
     },
     {
@@ -233,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "informal.systems",
       "recursion_depth": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "merklemap",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -270,6 +262,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -305,7 +305,23 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +333,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
+      "duration_ms": 71,
       "error": null
     },
     {
@@ -333,23 +349,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 196,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 206,
       "error": null
     },
     {
@@ -361,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 249,
+      "duration_ms": 258,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -377,14 +385,6 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
       "target": "informal.systems",
       "recursion_depth": 0,
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -421,7 +421,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 9,
-      "duration_ms": 931,
+      "duration_ms": 479,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1058,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 848,
       "error": null
     },
     {
@@ -449,11 +441,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "racent",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1425,
+      "duration_ms": 2872,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -461,7 +461,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3083,
+      "duration_ms": 3195,
       "error": null
     },
     {
@@ -477,7 +477,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3086,
+      "duration_ms": 3178,
       "error": null
     },
     {
@@ -509,7 +509,7 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3356,
+      "duration_ms": 3527,
       "error": null
     },
     {
@@ -541,31 +541,15 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3171,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33078,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "informal.systems",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44440,
+      "duration_ms": 3103,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "informal.systems",
       "recursion_depth": 0,
-      "findings_count": 23,
-      "duration_ms": 62040,
+      "findings_count": 0,
+      "duration_ms": 20082,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61612,
+      "duration_ms": 20377,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "reconcloud",
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65926,
+      "duration_ms": 31323,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45503,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "informal.systems",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65530,
+      "duration_ms": 47302,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "informal.systems",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65941,
       "error": null
     }
   ]
