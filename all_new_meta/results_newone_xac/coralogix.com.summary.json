@@ -1,143 +1,23 @@
 {
   "root_domain": "coralogix.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:47:05.327949+00:00",
-  "completed_at": "2026-11-12T21:48:14.317722+00:00",
-  "duration_ms": 68989,
+  "started_at": "2026-11-12T23:29:55.313682+00:00",
+  "completed_at": "2026-11-12T23:31:01.229074+00:00",
+  "duration_ms": 65915,
   "targets_scanned": [
     "coralogix.com"
   ],
-  "total_unique_findings": 200,
-  "fresh_findings_count": 200,
-  "historical_findings_count": 0,
-  "new_findings_count": 200,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 209,
+  "fresh_findings_count": 193,
+  "historical_findings_count": 200,
+  "new_findings_count": 9,
+  "reused_historical_findings_count": 16,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "github",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "dnsdumpster",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsdb",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "digitalyama",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +73,119 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "bevigil",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,23 +201,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "coderog",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -265,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "hudsonrock",
       "target": "coralogix.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
+      "findings_count": 17,
+      "duration_ms": 38,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "rapidapi",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,11 +289,11 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "digitorus",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -305,15 +305,39 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 74,
+      "duration_ms": 60,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,35 +353,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "reconeer",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 17,
-      "duration_ms": 262,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -369,19 +369,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 251,
       "error": null
     },
     {
@@ -393,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,15 +421,31 @@
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 45,
-      "duration_ms": 509,
+      "duration_ms": 736,
       "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1089,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 1073,
+      "duration_ms": 1313,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 152,
+      "duration_ms": 148,
       "error": null
     },
     {
@@ -441,35 +457,11 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1273,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3079,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3047,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 10,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3351,
+      "duration_ms": 3089,
       "error": null
     },
     {
@@ -537,11 +537,27 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3471,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
+      "duration_ms": 3068,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20066,
       "error": null
     },
     {
@@ -549,39 +565,7 @@
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27294,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30249,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41838,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 159,
-      "duration_ms": 63155,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "coralogix.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65945,
+      "duration_ms": 20034,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "coralogix.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65522,
+      "duration_ms": 23573,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30806,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "coralogix.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65867,
       "error": null
     }
   ]

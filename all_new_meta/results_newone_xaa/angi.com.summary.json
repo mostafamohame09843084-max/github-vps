@@ -1,29 +1,21 @@
 {
   "root_domain": "angi.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:06:51.350381+00:00",
-  "completed_at": "2026-11-12T22:08:00.321729+00:00",
-  "duration_ms": 68971,
+  "started_at": "2026-11-12T23:29:31.274001+00:00",
+  "completed_at": "2026-11-12T23:30:37.205874+00:00",
+  "duration_ms": 65931,
   "targets_scanned": [
     "angi.com"
   ],
   "total_unique_findings": 188,
-  "fresh_findings_count": 188,
-  "historical_findings_count": 0,
-  "new_findings_count": 188,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 27,
+  "historical_findings_count": 188,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 161,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "dnsrepo",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "driftnet",
       "target": "angi.com",
@@ -33,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "dnsdb",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "argosdns",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +49,39 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "binaryedge",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,70 +105,6 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
       "target": "angi.com",
       "recursion_depth": 0,
@@ -177,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "fullhunt",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "bevigil",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fofa",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +153,59 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "builtwith",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
+      "error": null
+    },
+    {
       "resource": "leakix",
       "target": "angi.com",
       "recursion_depth": 0,
@@ -249,19 +249,27 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 5,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -273,15 +281,15 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "abuseipdb",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 45,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "rapidapi",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +313,7 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 64,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
+      "resource": "profundis",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "angi.com",
       "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 230,
+      "findings_count": 0,
+      "duration_ms": 72,
       "error": null
     },
     {
@@ -345,19 +345,19 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 186,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 54,
+      "duration_ms": 242,
       "error": null
     },
     {
@@ -366,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 391,
       "error": null
     },
     {
@@ -390,6 +382,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,31 +421,15 @@
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 22,
-      "duration_ms": 736,
+      "duration_ms": 738,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1853,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 3095,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 861,
       "error": null
     },
     {
@@ -457,11 +441,27 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1224,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
       "resource": "riddler",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3092,
+      "duration_ms": 3059,
       "error": null
     },
     {
@@ -485,7 +485,7 @@
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3094,
+      "duration_ms": 3073,
       "error": null
     },
     {
@@ -501,11 +501,11 @@
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
+      "duration_ms": 3470,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,15 +541,7 @@
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3085,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20585,
+      "duration_ms": 3088,
       "error": null
     },
     {
@@ -557,31 +549,23 @@
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28552,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "angi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33086,
+      "duration_ms": 10113,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "angi.com",
       "recursion_depth": 0,
-      "findings_count": 177,
-      "duration_ms": 51191,
+      "findings_count": 0,
+      "duration_ms": 20066,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "threatminer",
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65922,
+      "duration_ms": 20772,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "angi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65419,
+      "duration_ms": 23550,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29847,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "angi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65912,
       "error": null
     }
   ]

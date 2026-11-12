@@ -1,55 +1,23 @@
 {
   "root_domain": "bingsdeal.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:03:22.283109+00:00",
-  "completed_at": "2026-11-12T22:04:31.282240+00:00",
-  "duration_ms": 68999,
+  "started_at": "2026-11-12T23:29:34.195532+00:00",
+  "completed_at": "2026-11-12T23:30:40.198147+00:00",
+  "duration_ms": 66002,
   "targets_scanned": [
     "bingsdeal.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "github",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "certspotter",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "argosdns",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +49,23 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "facebook",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,39 +81,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "c99",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "chaos",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "fullhunt",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "dnsdb",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "digitalyama",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +137,47 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "coderog",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "dnsrepo",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +201,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "domscan",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,7 +225,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,19 +269,11 @@
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 70,
+      "duration_ms": 28,
       "error": null
     },
     {
       "resource": "onyphe",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,11 @@
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 112,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +337,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 175,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 205,
+      "duration_ms": 58,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 188,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 264,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,15 +421,31 @@
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 452,
+      "duration_ms": 492,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "racent",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1165,
+      "duration_ms": 946,
+      "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "myssl",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1318,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 120,
       "error": null
     },
     {
@@ -441,35 +457,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1330,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1568,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3050,
       "error": null
     },
     {
@@ -481,15 +473,39 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3090,
+      "duration_ms": 3073,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "virustotal",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3574,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +521,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3087,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "zoomeyeapi",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,43 +537,19 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3350,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3142,
+      "duration_ms": 3061,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8194,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "bingsdeal.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33079,
+      "duration_ms": 20068,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41967,
+      "duration_ms": 20378,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65996,
+      "duration_ms": 28502,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30874,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "bingsdeal.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65645,
+      "duration_ms": 44606,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "bingsdeal.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65989,
       "error": null
     }
   ]
