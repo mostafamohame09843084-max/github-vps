@@ -1,23 +1,23 @@
 {
   "root_domain": "indriverapp.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:30:55.282612+00:00",
-  "completed_at": "2026-11-12T21:32:04.362628+00:00",
-  "duration_ms": 69080,
+  "started_at": "2026-11-12T23:16:03.189393+00:00",
+  "completed_at": "2026-11-12T23:17:09.181689+00:00",
+  "duration_ms": 65992,
   "targets_scanned": [
     "indriverapp.com"
   ],
   "total_unique_findings": 559,
-  "fresh_findings_count": 559,
-  "historical_findings_count": 0,
-  "new_findings_count": 559,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 11,
+  "historical_findings_count": 559,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 548,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsdumpster",
+      "resource": "chaos",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "domainsproject",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +49,79 @@
       "error": null
     },
     {
+      "resource": "certspotter",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +145,15 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "bevigil",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,95 +169,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "github",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +193,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "c99",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "abuseipdb",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 31,
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "huntermap",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +257,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "indriverapp.com",
       "recursion_depth": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "indriverapp.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 91,
+      "findings_count": 5,
+      "duration_ms": 50,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 179,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,27 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "indriverapp.com",
       "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 252,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 71,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 191,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 271,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 8,
-      "duration_ms": 907,
+      "duration_ms": 725,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1237,
+      "duration_ms": 1140,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,15 +437,7 @@
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1565,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1675,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3099,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3049,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -521,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "indriverapp.com",
       "recursion_depth": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3559,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,7 @@
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3089,
+      "duration_ms": 3077,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27145,
+      "duration_ms": 16373,
       "error": null
     },
     {
@@ -565,23 +557,15 @@
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33075,
+      "duration_ms": 32168,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "indriverapp.com",
-      "recursion_depth": 0,
-      "findings_count": 556,
-      "duration_ms": 56854,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
+      "resource": "threatminer",
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65989,
+      "duration_ms": 41773,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "indriverapp.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65608,
+      "duration_ms": 42340,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65059,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "indriverapp.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65982,
       "error": null
     }
   ]
