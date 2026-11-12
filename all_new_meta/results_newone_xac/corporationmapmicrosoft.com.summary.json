@@ -1,87 +1,23 @@
 {
   "root_domain": "corporationmapmicrosoft.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:00:35.414250+00:00",
-  "completed_at": "2026-11-12T22:01:44.892236+00:00",
-  "duration_ms": 69477,
+  "started_at": "2026-11-12T23:44:01.520884+00:00",
+  "completed_at": "2026-11-12T23:45:07.182851+00:00",
+  "duration_ms": 65661,
   "targets_scanned": [
     "corporationmapmicrosoft.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "github",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "facebook",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,31 +41,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "chinaz",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,6 +65,14 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "certspotter",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
@@ -161,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "driftnet",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +89,23 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "fofa",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,14 +121,6 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdb",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
@@ -201,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "arpsyndicate",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +137,71 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "fullhunt",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +217,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25,
-      "error": null
-    },
-    {
-      "resource": "leakix",
+      "resource": "huntermap",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +225,23 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
       "resource": "merklemap",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,39 +257,23 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 61,
       "error": null
     },
     {
       "resource": "odin",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +289,7 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 59,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
+      "resource": "profundis",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -321,15 +297,23 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "pugrecon",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 174,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "onyphe",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,19 +329,27 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 88,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "rapidfinder",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 237,
       "error": null
     },
     {
@@ -369,6 +361,14 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 255,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
@@ -377,19 +377,19 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 360,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 433,
+      "duration_ms": 469,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 908,
+      "duration_ms": 921,
       "error": "'list' object has no attribute 'get'"
     },
     {
@@ -437,15 +437,15 @@
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1429,
+      "duration_ms": 2290,
       "error": null
     },
     {
       "resource": "thc",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 98,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -481,15 +473,39 @@
       "error": null
     },
     {
+      "resource": "urlscan",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3090,
+      "duration_ms": 3055,
       "error": null
     },
     {
       "resource": "virustotal",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3272,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,19 +521,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3352,
       "error": null
     },
     {
@@ -529,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3197,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25216,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33081,
+      "duration_ms": 3085,
       "error": null
     },
     {
@@ -565,23 +549,7 @@
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43353,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61654,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "corporationmapmicrosoft.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65858,
+      "duration_ms": 13575,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "corporationmapmicrosoft.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69471,
+      "duration_ms": 20068,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26825,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30249,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41770,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "corporationmapmicrosoft.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65643,
       "error": null
     }
   ]
