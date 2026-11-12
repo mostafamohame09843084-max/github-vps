@@ -1,23 +1,23 @@
 {
   "root_domain": "facebooksafetycheck.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:30:02.285060+00:00",
-  "completed_at": "2026-11-12T21:31:28.290387+00:00",
-  "duration_ms": 86005,
+  "started_at": "2026-11-12T23:36:10.195530+00:00",
+  "completed_at": "2026-11-12T23:37:15.179958+00:00",
+  "duration_ms": 64984,
   "targets_scanned": [
     "facebooksafetycheck.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "argosdns",
+      "resource": "fofa",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,63 +25,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "google",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,47 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "driftnet",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "dnsdumpster",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "github",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +73,71 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsrepo",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "argosdns",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "censys",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 24,
       "error": null
     },
     {
       "resource": "intelx",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "rapidapi",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 185,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -345,11 +337,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 262,
+      "duration_ms": 182,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 229,
       "error": null
     },
     {
@@ -361,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 282,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 261,
       "error": null
     },
     {
@@ -389,7 +381,15 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 15,
       "error": null
     },
     {
@@ -421,7 +421,15 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 461,
+      "duration_ms": 491,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1341,
       "error": null
     },
     {
@@ -429,8 +437,16 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 992,
+      "duration_ms": 1904,
       "error": "'list' object has no attribute 'get'"
+    },
+    {
+      "resource": "thc",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 37,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,35 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1421,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3090,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3102,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -489,15 +481,15 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "shrewdeye",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3045,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "virustotal",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,11 +501,19 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3263,
+      "duration_ms": 3272,
       "error": null
     },
     {
       "resource": "whoisfreaks",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,23 +541,7 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3162,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33095,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37560,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -565,7 +549,15 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41851,
+      "duration_ms": 20752,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30455,
       "error": null
     },
     {
@@ -573,15 +565,7 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45014,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "facebooksafetycheck.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 32550,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "facebooksafetycheck.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85993,
+      "duration_ms": 62061,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60533,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "facebooksafetycheck.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64974,
       "error": null
     }
   ]
