@@ -1,109 +1,21 @@
 {
   "root_domain": "amazonalexa.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:18:47.286818+00:00",
-  "completed_at": "2026-11-12T21:19:53.297244+00:00",
-  "duration_ms": 66010,
+  "started_at": "2026-11-12T22:42:17.186586+00:00",
+  "completed_at": "2026-11-12T22:43:26.198309+00:00",
+  "duration_ms": 69011,
   "targets_scanned": [
     "amazonalexa.com"
   ],
-  "total_unique_findings": 108,
-  "fresh_findings_count": 108,
-  "historical_findings_count": 0,
-  "new_findings_count": 108,
+  "total_unique_findings": 110,
+  "fresh_findings_count": 110,
+  "historical_findings_count": 108,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "chaos",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "github",
       "target": "amazonalexa.com",
@@ -113,39 +25,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "arpsyndicate",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "driftnet",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "dnsdb",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +73,135 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "facebook",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,11 +213,11 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 23,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,27 +261,11 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 31,
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "netlas",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,31 +281,23 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 71,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,7 +309,15 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 221,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 76,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 236,
+      "duration_ms": 263,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 84,
       "error": null
     },
     {
@@ -361,14 +369,6 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 253,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
@@ -377,19 +377,19 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 353,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 59,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,15 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 45,
-      "duration_ms": 550,
+      "duration_ms": 724,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 782,
       "error": null
     },
     {
@@ -429,24 +437,8 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 940,
+      "duration_ms": 1161,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "myssl",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 1651,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "threatbook",
@@ -457,23 +449,23 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 61,
+      "duration_ms": 106,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3087,
+      "duration_ms": 3057,
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +473,15 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3050,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
@@ -513,11 +505,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3270,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3084,
+      "duration_ms": 3106,
       "error": null
     },
     {
@@ -549,23 +557,7 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33081,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37288,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "amazonalexa.com",
-      "recursion_depth": 0,
-      "findings_count": 32,
-      "duration_ms": 36189,
+      "duration_ms": 32268,
       "error": null
     },
     {
@@ -573,15 +565,15 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 93,
-      "duration_ms": 42353,
+      "duration_ms": 39518,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61586,
+      "duration_ms": 44931,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "amazonalexa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 65987,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "amazonalexa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65563,
       "error": null
     }
   ]
