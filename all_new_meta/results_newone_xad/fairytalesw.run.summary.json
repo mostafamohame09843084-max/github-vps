@@ -1,23 +1,23 @@
 {
   "root_domain": "fairytalesw.run",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:55:01.302562+00:00",
-  "completed_at": "2026-11-12T21:56:07.280714+00:00",
-  "duration_ms": 65978,
+  "started_at": "2026-11-12T23:59:08.209652+00:00",
+  "completed_at": "2026-11-13T00:00:14.190005+00:00",
+  "duration_ms": 65980,
   "targets_scanned": [
     "fairytalesw.run"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "certspotter",
+      "resource": "builtwith",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,15 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "chinaz",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,31 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "c99",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -50,14 +82,6 @@
     },
     {
       "resource": "censys",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,39 +105,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "domscan",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,63 +121,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsrepo",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +137,83 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -222,14 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
       "error": null
     },
     {
@@ -261,7 +261,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 90,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -329,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 195,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
@@ -337,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 214,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 234,
+      "duration_ms": 226,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 266,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 447,
+      "duration_ms": 436,
       "error": null
     },
     {
@@ -429,23 +429,23 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1705,
+      "duration_ms": 1044,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "myssl",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1978,
+      "duration_ms": 1087,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 98,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3067,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3054,
       "error": null
     },
     {
@@ -481,19 +489,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3069,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -505,23 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3270,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,27 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3112,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 14576,
+      "duration_ms": 3105,
       "error": null
     },
     {
@@ -557,7 +557,15 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 14262,
+      "duration_ms": 10041,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "fairytalesw.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20078,
       "error": null
     },
     {
@@ -565,7 +573,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33079,
+      "duration_ms": 30347,
       "error": null
     },
     {
@@ -573,15 +581,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34202,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "fairytalesw.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61501,
+      "duration_ms": 62629,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "fairytalesw.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65962,
+      "duration_ms": 65972,
       "error": null
     }
   ]
