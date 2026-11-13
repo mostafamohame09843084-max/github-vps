@@ -1,29 +1,21 @@
 {
   "root_domain": "fandom.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:07:22.309292+00:00",
-  "completed_at": "2026-11-12T22:08:28.308607+00:00",
-  "duration_ms": 65999,
+  "started_at": "2026-11-13T00:08:59.229726+00:00",
+  "completed_at": "2026-11-13T00:09:36.827887+00:00",
+  "duration_ms": 37598,
   "targets_scanned": [
     "fandom.com"
   ],
-  "total_unique_findings": 201,
-  "fresh_findings_count": 201,
-  "historical_findings_count": 0,
-  "new_findings_count": 201,
+  "total_unique_findings": 16032,
+  "fresh_findings_count": 16032,
+  "historical_findings_count": 201,
+  "new_findings_count": 15831,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "binaryedge",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "c99",
       "target": "fandom.com",
@@ -33,31 +25,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "fullhunt",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -66,6 +34,22 @@
     },
     {
       "resource": "arpsyndicate",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,79 +73,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "builtwith",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "domscan",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "coderog",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +113,119 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "bevigil",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,47 +241,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "odin",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +257,23 @@
       "error": null
     },
     {
+      "resource": "leakix",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "profundis",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,23 +305,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "anubis",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 70,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,23 +329,7 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 241,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -361,23 +337,31 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 192,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 258,
+      "duration_ms": 227,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 252,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "redhuntlabs",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "reconeer",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 43,
-      "duration_ms": 825,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 97,
-      "duration_ms": 825,
+      "duration_ms": 761,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 43,
+      "duration_ms": 885,
       "error": null
     },
     {
@@ -437,15 +437,15 @@
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1906,
+      "duration_ms": 1010,
       "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3045,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 3050,
       "error": null
     },
     {
@@ -485,7 +485,7 @@
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 6,
       "error": null
     },
     {
@@ -494,6 +494,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3272,
       "error": null
     },
     {
@@ -513,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "fandom.com",
       "recursion_depth": 0,
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "commoncrawl",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 4577,
       "error": null
     },
     {
@@ -549,31 +549,7 @@
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3085,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10804,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 58,
-      "duration_ms": 27020,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "fandom.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33072,
+      "duration_ms": 3078,
       "error": null
     },
     {
@@ -581,15 +557,39 @@
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49620,
+      "duration_ms": 3434,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "thc",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 15938,
+      "duration_ms": 9083,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 58,
+      "duration_ms": 23876,
+      "error": null
+    },
+    {
+      "resource": "submd",
       "target": "fandom.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65964,
+      "duration_ms": 30015,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "fandom.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34075,
       "error": null
     }
   ]
