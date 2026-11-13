@@ -1,29 +1,21 @@
 {
   "root_domain": "fanatical.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T22:05:04.308025+00:00",
-  "completed_at": "2026-11-12T22:06:13.284249+00:00",
-  "duration_ms": 68976,
+  "started_at": "2026-11-13T00:07:04.186386+00:00",
+  "completed_at": "2026-11-13T00:07:48.304751+00:00",
+  "duration_ms": 44118,
   "targets_scanned": [
     "fanatical.com"
   ],
-  "total_unique_findings": 27,
-  "fresh_findings_count": 27,
-  "historical_findings_count": 0,
-  "new_findings_count": 27,
+  "total_unique_findings": 29,
+  "fresh_findings_count": 29,
+  "historical_findings_count": 27,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "chinaz",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "certspotter",
       "target": "fanatical.com",
@@ -33,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "argosdns",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,87 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "domainsproject",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "censys",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "binaryedge",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "c99",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "bufferover",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "chinaz",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +105,22 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "google",
       "target": "fanatical.com",
       "recursion_depth": 0,
@@ -201,7 +129,87 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "fullhunt",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +225,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -249,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "abuseipdb",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,7 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -341,15 +341,7 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 190,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 262,
+      "duration_ms": 226,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 258,
       "error": null
     },
     {
@@ -373,7 +373,7 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15,
+      "duration_ms": 13,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 9,
-      "duration_ms": 486,
+      "duration_ms": 741,
       "error": null
     },
     {
@@ -429,23 +429,15 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1271,
+      "duration_ms": 1241,
       "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
     },
     {
       "resource": "myssl",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 13,
-      "duration_ms": 1999,
+      "duration_ms": 1799,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 15,
+      "duration_ms": 108,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3056,
       "error": null
     },
     {
@@ -485,7 +477,15 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3053,
+      "duration_ms": 3051,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3358,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -537,43 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3092,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 12,
-      "duration_ms": 29776,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33081,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61728,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "fanatical.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61641,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -581,7 +549,15 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65964,
+      "duration_ms": 4565,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3088,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "fanatical.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65597,
+      "duration_ms": 23804,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33108,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 12,
+      "duration_ms": 39127,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "fanatical.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42835,
       "error": null
     }
   ]
