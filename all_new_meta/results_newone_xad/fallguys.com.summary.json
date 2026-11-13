@@ -1,181 +1,21 @@
 {
   "root_domain": "fallguys.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:59:28.294077+00:00",
-  "completed_at": "2026-11-12T22:00:37.288397+00:00",
-  "duration_ms": 68994,
+  "started_at": "2026-11-13T00:03:26.653016+00:00",
+  "completed_at": "2026-11-13T00:03:59.887465+00:00",
+  "duration_ms": 33234,
   "targets_scanned": [
     "fallguys.com"
   ],
   "total_unique_findings": 8,
-  "fresh_findings_count": 8,
-  "historical_findings_count": 0,
-  "new_findings_count": 8,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 6,
+  "historical_findings_count": 8,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 2,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
-    {
-      "resource": "chaos",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "censys",
       "target": "fallguys.com",
@@ -201,6 +41,14 @@
       "error": null
     },
     {
+      "resource": "fullhunt",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
       "target": "fallguys.com",
       "recursion_depth": 0,
@@ -209,11 +57,155 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "google",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
       "resource": "leakix",
       "target": "fallguys.com",
       "recursion_depth": 0,
@@ -249,22 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "fallguys.com",
       "recursion_depth": 0,
@@ -273,11 +257,19 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -290,6 +282,14 @@
     },
     {
       "resource": "onyphe",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 182,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -345,11 +337,27 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "crtsh",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 102,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 192,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,11 +365,11 @@
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 289,
+      "duration_ms": 231,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rsecloud",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -409,11 +409,19 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 246,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,16 +429,16 @@
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 724,
+      "duration_ms": 742,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "fallguys.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 907,
-      "error": "'list' object has no attribute 'get'"
+      "findings_count": 1,
+      "duration_ms": 924,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -444,32 +452,24 @@
       "resource": "thc",
       "target": "fallguys.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 5,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 1235,
-      "error": null
-    },
-    {
-      "resource": "riddler",
+      "resource": "racent",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
+      "duration_ms": 992,
+      "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "urlscan",
+      "resource": "threatminer",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "urlscan",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3043,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "fallguys.com",
       "recursion_depth": 0,
@@ -505,23 +513,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3097,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,27 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3044,
+      "error": null
+    },
+    {
       "resource": "sitedossier",
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -549,39 +557,7 @@
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3115,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 14309,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27116,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33083,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "fallguys.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65995,
+      "duration_ms": 3102,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "fallguys.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65586,
+      "duration_ms": 3431,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 4564,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 10942,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "fallguys.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33118,
       "error": null
     }
   ]
