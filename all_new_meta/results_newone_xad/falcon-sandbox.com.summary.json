@@ -1,95 +1,23 @@
 {
   "root_domain": "falcon-sandbox.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:57:13.301587+00:00",
-  "completed_at": "2026-11-12T21:58:19.295836+00:00",
-  "duration_ms": 65994,
+  "started_at": "2026-11-13T00:01:20.189833+00:00",
+  "completed_at": "2026-11-13T00:02:24.199870+00:00",
+  "duration_ms": 64010,
   "targets_scanned": [
     "falcon-sandbox.com"
   ],
-  "total_unique_findings": 107,
-  "fresh_findings_count": 107,
-  "historical_findings_count": 0,
-  "new_findings_count": 107,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 110,
+  "fresh_findings_count": 94,
+  "historical_findings_count": 107,
+  "new_findings_count": 3,
+  "reused_historical_findings_count": 16,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "certspotter",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "argosdns",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,31 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "coderog",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "binaryedge",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +57,15 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "driftnet",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "bevigil",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,15 +97,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "github",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +113,95 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "digitalyama",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "huntermap",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
@@ -270,6 +262,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -317,15 +317,15 @@
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 57,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "crtsh",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 107,
       "error": null
     },
     {
@@ -337,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 227,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,15 +349,15 @@
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 234,
+      "duration_ms": 194,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 251,
+      "findings_count": 6,
+      "duration_ms": 233,
       "error": null
     },
     {
@@ -369,19 +369,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -409,11 +409,19 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 279,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -421,16 +429,16 @@
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 84,
-      "duration_ms": 817,
+      "duration_ms": 622,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1242,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 904,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -444,32 +452,24 @@
       "resource": "thc",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 8,
+      "duration_ms": 112,
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "racent",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1534,
-      "error": null
+      "duration_ms": 1015,
+      "error": "'list' object has no attribute 'get'"
     },
     {
-      "resource": "riddler",
+      "resource": "threatminer",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3083,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3087,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "riddler",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3122,
       "error": null
     },
     {
@@ -513,15 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3284,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,35 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3082,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3269,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3105,
+      "duration_ms": 3109,
       "error": null
     },
     {
@@ -549,15 +565,7 @@
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12586,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 20237,
+      "duration_ms": 27710,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33096,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 18,
-      "duration_ms": 39196,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "falcon-sandbox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61609,
+      "duration_ms": 31538,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "falcon-sandbox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65969,
+      "duration_ms": 49600,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "falcon-sandbox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62909,
       "error": null
     }
   ]
