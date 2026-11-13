@@ -1,23 +1,55 @@
 {
   "root_domain": "falcondfy.digital",
   "recursive_depth": 0,
-  "started_at": "2026-11-12T21:58:19.309271+00:00",
-  "completed_at": "2026-11-12T21:59:28.283365+00:00",
-  "duration_ms": 68974,
+  "started_at": "2026-11-13T00:02:24.218206+00:00",
+  "completed_at": "2026-11-13T00:03:26.650196+00:00",
+  "duration_ms": 62431,
   "targets_scanned": [
     "falcondfy.digital"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 71,
   "failed_resource_executions": 1,
   "resource_executions": [
     {
-      "resource": "dnsdb",
+      "resource": "github",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,23 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "dnsdb",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,55 +89,15 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +113,63 @@
       "error": null
     },
     {
+      "resource": "censys",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "argosdns",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,22 +193,6 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
@@ -185,31 +201,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "domscan",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 23,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -242,6 +234,14 @@
     },
     {
       "resource": "leakix",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,19 +265,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
-      "resource": "profundis",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
@@ -309,27 +309,11 @@
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 84,
+      "duration_ms": 66,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 178,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,19 +329,27 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 230,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "crtsh",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 113,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 172,
       "error": null
     },
     {
@@ -369,11 +361,27 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 217,
+      "error": null
+    },
+    {
+      "resource": "securitytrails",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 306,
       "error": null
     },
     {
@@ -393,15 +401,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "reconeer",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 134,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +421,7 @@
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,31 +429,15 @@
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 447,
+      "duration_ms": 407,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1327,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1863,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1073,
       "error": null
     },
     {
@@ -457,12 +449,20 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 100,
+      "error": null
+    },
+    {
+      "resource": "racent",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3112,
-      "error": null
+      "duration_ms": 1172,
+      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "trickest",
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3275,
-      "error": null
-    },
-    {
       "resource": "urlscan",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3139,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3473,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -537,43 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3351,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3133,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33078,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35000,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 36852,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "falcondfy.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42155,
+      "duration_ms": 3117,
       "error": null
     },
     {
@@ -581,7 +557,7 @@
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65976,
+      "duration_ms": 4601,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "falcondfy.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65380,
+      "duration_ms": 18567,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32063,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41883,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "falcondfy.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61949,
       "error": null
     }
   ]
