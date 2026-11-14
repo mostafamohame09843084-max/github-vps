@@ -1,85 +1,21 @@
 {
   "root_domain": "made.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:48:38.192374+00:00",
-  "completed_at": "2026-11-13T08:49:44.189273+00:00",
-  "duration_ms": 65996,
+  "started_at": "2026-11-14T14:55:57.494696+00:00",
+  "completed_at": "2026-11-14T14:57:06.496832+00:00",
+  "duration_ms": 69002,
   "targets_scanned": [
     "made.com"
   ],
-  "total_unique_findings": 58,
-  "fresh_findings_count": 58,
-  "historical_findings_count": 0,
-  "new_findings_count": 58,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 61,
+  "fresh_findings_count": 34,
+  "historical_findings_count": 58,
+  "new_findings_count": 3,
+  "reused_historical_findings_count": 27,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "fullhunt",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "builtwith",
       "target": "made.com",
@@ -89,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "arpsyndicate",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,31 +41,15 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +65,63 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "c99",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "google",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "domainsproject",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +161,23 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "fofa",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +193,27 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "certspotter",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -217,23 +225,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
       "resource": "huntermap",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 34,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +289,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "pugrecon",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 99,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,15 +313,15 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "anubis",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 65,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "rapidfinder",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -341,19 +333,11 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 204,
+      "duration_ms": 189,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 241,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 270,
       "error": null
     },
     {
@@ -373,15 +373,7 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 86,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -393,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 21,
-      "duration_ms": 529,
+      "duration_ms": 1667,
       "error": null
     },
     {
@@ -429,31 +429,7 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1553,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2820,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1767,
       "error": null
     },
     {
@@ -461,11 +437,19 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
+      "duration_ms": 3050,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "thc",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 27,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +465,23 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
       "resource": "trickest",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -517,7 +517,7 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3493,
+      "duration_ms": 3274,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3084,
+      "duration_ms": 3062,
       "error": null
     },
     {
@@ -549,7 +549,23 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10584,
+      "duration_ms": 9865,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 14098,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20068,
       "error": null
     },
     {
@@ -557,31 +573,7 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33195,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 58,
-      "duration_ms": 45335,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49558,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "made.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61389,
+      "duration_ms": 26889,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "made.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 66002,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "made.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65555,
       "error": null
     }
   ]
