@@ -1,9 +1,9 @@
 {
   "root_domain": "nordcom",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:51:36.190339+00:00",
-  "completed_at": "2026-11-13T08:52:42.179684+00:00",
-  "duration_ms": 65989,
+  "started_at": "2026-11-14T14:55:03.495068+00:00",
+  "completed_at": "2026-11-14T14:56:29.492366+00:00",
+  "duration_ms": 85997,
   "targets_scanned": [
     "nordcom"
   ],
@@ -13,59 +13,19 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "chaos",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "arpsyndicate",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,55 +41,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "bufferover",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +57,39 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "coderog",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "dnsdumpster",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +129,31 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "driftnet",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +169,51 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "builtwith",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -222,14 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
       "error": null
     },
     {
@@ -257,14 +257,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "nordcom",
       "recursion_depth": 0,
@@ -273,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "digitorus",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,23 +317,7 @@
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 91,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 200,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 76,
       "error": null
     },
     {
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 196,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 240,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 253,
       "error": null
     },
     {
@@ -361,19 +369,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 270,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,16 +421,32 @@
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 546,
+      "duration_ms": 918,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1212,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 1785,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3057,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,35 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2014,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3071,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3057,
+      "duration_ms": 3069,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3358,
       "error": null
     },
     {
@@ -497,15 +497,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3274,
+      "duration_ms": 3092,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "threatminer",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3115,
+      "duration_ms": 20327,
       "error": null
     },
     {
@@ -549,15 +549,15 @@
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8001,
+      "duration_ms": 25552,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "racent",
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29930,
+      "duration_ms": 30539,
       "error": null
     },
     {
@@ -565,23 +565,7 @@
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33088,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53124,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "nordcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61618,
+      "duration_ms": 31842,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "nordcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65977,
+      "duration_ms": 65985,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65632,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "nordcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 85988,
       "error": null
     }
   ]
