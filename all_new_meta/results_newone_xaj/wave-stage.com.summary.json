@@ -1,71 +1,23 @@
 {
   "root_domain": "wave-stage.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:57:03.497805+00:00",
-  "completed_at": "2026-11-14T16:58:12.492413+00:00",
-  "duration_ms": 68994,
+  "started_at": "2026-11-14T17:38:57.841273+00:00",
+  "completed_at": "2026-11-14T17:40:07.840167+00:00",
+  "duration_ms": 69998,
   "targets_scanned": [
     "wave-stage.com"
   ],
-  "total_unique_findings": 12,
-  "fresh_findings_count": 12,
-  "historical_findings_count": 0,
-  "new_findings_count": 12,
+  "total_unique_findings": 16,
+  "fresh_findings_count": 16,
+  "historical_findings_count": 12,
+  "new_findings_count": 4,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "dnsdb",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -74,14 +26,6 @@
     },
     {
       "resource": "fullhunt",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,71 +49,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "builtwith",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +89,119 @@
       "error": null
     },
     {
+      "resource": "censys",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,7 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -261,7 +261,7 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,27 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 64,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 187,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -345,15 +329,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 252,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -361,15 +337,31 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 98,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "alienvault",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 174,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 63,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 246,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 11,
-      "duration_ms": 560,
+      "duration_ms": 781,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1432,
+      "duration_ms": 1610,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3048,
       "error": null
     },
     {
@@ -441,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3083,
+      "duration_ms": 3047,
       "error": null
     },
     {
       "resource": "thc",
       "target": "wave-stage.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3068,
+      "findings_count": 7,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -469,11 +469,11 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 3267,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3120,
+      "duration_ms": 3133,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "racent",
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11345,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 25652,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "wave-stage.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31329,
+      "duration_ms": 13422,
       "error": null
     },
     {
@@ -565,7 +549,23 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43308,
+      "duration_ms": 15978,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30663,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "wave-stage.com",
+      "recursion_depth": 0,
+      "findings_count": 11,
+      "duration_ms": 49305,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 65986,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "wave-stage.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65091,
+      "duration_ms": 65878,
       "error": null
     }
   ]
