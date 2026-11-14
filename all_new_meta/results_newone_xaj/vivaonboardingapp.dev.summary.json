@@ -1,111 +1,23 @@
 {
   "root_domain": "vivaonboardingapp.dev",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:49:25.189352+00:00",
-  "completed_at": "2026-11-13T08:50:34.182291+00:00",
-  "duration_ms": 68992,
+  "started_at": "2026-11-14T14:56:50.494116+00:00",
+  "completed_at": "2026-11-14T14:57:56.489953+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "vivaonboardingapp.dev"
   ],
   "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 0,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "c99",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "argosdns",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "bevigil",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "censys",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "binaryedge",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +89,15 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "facebook",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +113,102 @@
       "error": null
     },
     {
+      "resource": "fullhunt",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "huntermap",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 30,
       "error": null
     },
     {
       "resource": "intelx",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +241,14 @@
       "error": null
     },
     {
+      "resource": "merklemap",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
@@ -257,11 +257,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
+      "duration_ms": 67,
       "error": null
     },
     {
@@ -329,31 +329,15 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 216,
+      "duration_ms": 176,
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,23 +349,23 @@
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 239,
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 255,
       "error": null
     },
     {
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "reconeer",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,27 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 17,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1074,
       "error": null
     },
     {
@@ -421,23 +429,15 @@
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 515,
+      "duration_ms": 2798,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 989,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "myssl",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1125,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -449,39 +449,39 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3065,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
+      "duration_ms": 3053,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 59,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +497,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3090,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3157,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "vivaonboardingapp.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9171,
-      "error": null
-    },
-    {
       "resource": "reconcloud",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33087,
+      "duration_ms": 31876,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 44675,
+      "findings_count": 0,
+      "duration_ms": 42052,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42189,
+      "duration_ms": 41984,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 43517,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48825,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vivaonboardingapp.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65611,
+      "duration_ms": 60105,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vivaonboardingapp.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65986,
       "error": null
     }
   ]

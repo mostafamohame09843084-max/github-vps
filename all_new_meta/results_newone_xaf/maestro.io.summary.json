@@ -1,23 +1,191 @@
 {
   "root_domain": "maestro.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:49:44.199106+00:00",
-  "completed_at": "2026-11-13T08:50:53.229877+00:00",
-  "duration_ms": 69030,
+  "started_at": "2026-11-14T14:57:06.506700+00:00",
+  "completed_at": "2026-11-14T14:58:16.591220+00:00",
+  "duration_ms": 70084,
   "targets_scanned": [
     "maestro.io"
   ],
-  "total_unique_findings": 308,
-  "fresh_findings_count": 308,
-  "historical_findings_count": 0,
-  "new_findings_count": 308,
+  "total_unique_findings": 564,
+  "fresh_findings_count": 564,
+  "historical_findings_count": 308,
+  "new_findings_count": 256,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "binaryedge",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsrepo",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -34,174 +202,6 @@
     },
     {
       "resource": "builtwith",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +229,11 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 41,
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,11 +269,27 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 56,
       "error": null
     },
     {
       "resource": "pugrecon",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 58,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,39 +313,7 @@
       "error": null
     },
     {
-      "resource": "quake",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 68,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -341,19 +325,19 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 197,
+      "duration_ms": 177,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidfinder",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 267,
+      "duration_ms": 231,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -381,19 +381,11 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 44,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,16 +421,24 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 38,
-      "duration_ms": 824,
+      "duration_ms": 937,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1213,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 1136,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3058,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,27 +449,27 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3042,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "maestro.io",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 437,
+      "duration_ms": 289,
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "sitedossier",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1263,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3072,
+      "duration_ms": 3274,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3055,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "maestro.io",
       "recursion_depth": 0,
@@ -501,7 +501,7 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3086,
+      "duration_ms": 3059,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "maestro.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3553,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27616,
+      "duration_ms": 10138,
       "error": null
     },
     {
@@ -557,7 +549,15 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33105,
+      "duration_ms": 28163,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "maestro.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36097,
       "error": null
     },
     {
@@ -565,7 +565,7 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41920,
+      "duration_ms": 41974,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 290,
-      "duration_ms": 53268,
+      "duration_ms": 63172,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65970,
+      "duration_ms": 65975,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "maestro.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65602,
+      "duration_ms": 65703,
       "error": null
     }
   ]
