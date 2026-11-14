@@ -1,23 +1,23 @@
 {
   "root_domain": "quicktimestreaming.net",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:56:54.191553+00:00",
-  "completed_at": "2026-11-13T08:58:00.182622+00:00",
-  "duration_ms": 65991,
+  "started_at": "2026-11-14T15:02:20.495870+00:00",
+  "completed_at": "2026-11-14T15:03:29.492172+00:00",
+  "duration_ms": 68996,
   "targets_scanned": [
     "quicktimestreaming.net"
   ],
   "total_unique_findings": 3,
   "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "historical_findings_count": 3,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
+      "resource": "bufferover",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,31 +25,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "fullhunt",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,111 +49,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "binaryedge",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +73,22 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
@@ -209,7 +97,111 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "driftnet",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +221,11 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 28,
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "intelx",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,11 +253,27 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 31,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "netlas",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +309,27 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 67,
       "error": null
     },
     {
       "resource": "rapidapi",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 183,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,35 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 182,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 245,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 283,
+      "duration_ms": 251,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 257,
       "error": null
     },
     {
@@ -381,7 +381,7 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 473,
+      "duration_ms": 450,
       "error": null
     },
     {
@@ -429,23 +429,23 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1122,
+      "duration_ms": 1224,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1263,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3064,
+      "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 131,
+      "findings_count": 0,
+      "duration_ms": 3092,
       "error": null
     },
     {
@@ -457,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3088,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3079,
+      "findings_count": 2,
+      "duration_ms": 131,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3276,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3092,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "whoisfreaks",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3352,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -537,43 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3125,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9264,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33077,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49871,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "quicktimestreaming.net",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 61745,
+      "duration_ms": 8906,
       "error": null
     },
     {
@@ -581,7 +549,31 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61482,
+      "duration_ms": 20661,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26721,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30610,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 36511,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "quicktimestreaming.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 65985,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "quicktimestreaming.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65191,
       "error": null
     }
   ]
