@@ -1,9 +1,9 @@
 {
   "root_domain": "stats-getmeetio.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:41:37.204833+00:00",
-  "completed_at": "2026-11-13T08:42:43.179866+00:00",
-  "duration_ms": 65975,
+  "started_at": "2026-11-14T14:50:38.500173+00:00",
+  "completed_at": "2026-11-14T14:51:47.491172+00:00",
+  "duration_ms": 68990,
   "targets_scanned": [
     "stats-getmeetio.com"
   ],
@@ -13,11 +13,27 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "google",
+      "resource": "dnsdb",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "certspotter",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,6 +65,14 @@
       "error": null
     },
     {
+      "resource": "builtwith",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "driftnet",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
@@ -57,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "fofa",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +89,31 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "dnsrepo",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "censys",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "google",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fullhunt",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,39 +177,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "facebook",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "bevigil",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "arpsyndicate",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,15 +209,15 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "abuseipdb",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 39,
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "intelx",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +233,11 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "merklemap",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26,
       "error": null
     },
     {
@@ -241,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "netlas",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,27 +269,11 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
       "resource": "pugrecon",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,15 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 76,
+      "duration_ms": 89,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,7 +333,7 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 173,
+      "duration_ms": 197,
       "error": null
     },
     {
@@ -349,7 +349,7 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 235,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -357,11 +357,27 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 262,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,23 +421,31 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 486,
+      "duration_ms": 478,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1141,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1434,
+      "duration_ms": 1506,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3055,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -453,15 +461,15 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 114,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "threatminer",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 14,
       "error": null
     },
     {
@@ -481,27 +489,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3107,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3263,
       "error": null
     },
     {
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3353,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3122,
+      "duration_ms": 3109,
       "error": null
     },
     {
@@ -549,23 +549,7 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12225,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33077,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "stats-getmeetio.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33991,
+      "duration_ms": 5907,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60078,
+      "duration_ms": 29247,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "reconcloud",
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61578,
+      "duration_ms": 32624,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52928,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "stats-getmeetio.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65963,
+      "duration_ms": 65989,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "stats-getmeetio.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65532,
       "error": null
     }
   ]

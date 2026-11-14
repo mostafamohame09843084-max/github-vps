@@ -1,23 +1,31 @@
 {
   "root_domain": "nofrills.ca",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:47:03.189016+00:00",
-  "completed_at": "2026-11-13T08:48:12.192605+00:00",
-  "duration_ms": 69003,
+  "started_at": "2026-11-14T14:50:25.493930+00:00",
+  "completed_at": "2026-11-14T14:51:35.501161+00:00",
+  "duration_ms": 70007,
   "targets_scanned": [
     "nofrills.ca"
   ],
-  "total_unique_findings": 53,
-  "fresh_findings_count": 53,
-  "historical_findings_count": 0,
-  "new_findings_count": 53,
+  "total_unique_findings": 54,
+  "fresh_findings_count": 54,
+  "historical_findings_count": 53,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fofa",
+      "resource": "certspotter",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "facebook",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "c99",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsrepo",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "bevigil",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,23 +81,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "driftnet",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +97,15 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "dnsdb",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "arpsyndicate",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "chaos",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "censys",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +145,31 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "bufferover",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,39 +193,15 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdumpster",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,11 +213,11 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 23,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -253,7 +253,7 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "nofrills.ca",
       "recursion_depth": 0,
@@ -313,7 +321,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 180,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 192,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 223,
+      "duration_ms": 240,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 278,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 68,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 62,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,23 +421,23 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 40,
-      "duration_ms": 885,
+      "duration_ms": 815,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1226,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1696,
+      "duration_ms": 1101,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -452,36 +452,36 @@
       "resource": "thc",
       "target": "nofrills.ca",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 53,
+      "duration_ms": 138,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3074,
+      "duration_ms": 3229,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3481,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3275,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "nofrills.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3118,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -557,7 +541,15 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8079,
+      "duration_ms": 16261,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20509,
       "error": null
     },
     {
@@ -565,7 +557,7 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 39,
-      "duration_ms": 32239,
+      "duration_ms": 28381,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33080,
+      "duration_ms": 29154,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "nofrills.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53450,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65988,
+      "duration_ms": 65997,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "nofrills.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65634,
+      "duration_ms": 65604,
       "error": null
     }
   ]
