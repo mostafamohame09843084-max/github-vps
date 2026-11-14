@@ -1,79 +1,23 @@
 {
   "root_domain": "masterclass.ninja",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:41:06.537812+00:00",
-  "completed_at": "2026-11-14T16:42:15.494051+00:00",
-  "duration_ms": 68956,
+  "started_at": "2026-11-14T17:30:54.910950+00:00",
+  "completed_at": "2026-11-14T17:32:17.308490+00:00",
+  "duration_ms": 82397,
   "targets_scanned": [
     "masterclass.ninja"
   ],
   "total_unique_findings": 8,
   "fresh_findings_count": 8,
-  "historical_findings_count": 0,
-  "new_findings_count": 8,
+  "historical_findings_count": 8,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bufferover",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "argosdns",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "chaos",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,79 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdb",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +65,55 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "certspotter",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +129,87 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "censys",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +221,11 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 41,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +257,23 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitorus",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 47,
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "onyphe",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,31 +297,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 112,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -325,7 +309,23 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 239,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 83,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 261,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -389,15 +389,7 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 380,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 466,
       "error": null
     },
     {
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 453,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1025,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 484,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 2423,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3041,
+      "duration_ms": 3027,
       "error": null
     },
     {
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 98,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
+      "duration_ms": 3034,
       "error": null
     },
     {
@@ -469,7 +469,7 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 3353,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,7 +505,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -517,15 +517,7 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3061,
       "error": null
     },
     {
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "windvane",
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20390,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,23 +541,7 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23392,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 25430,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "masterclass.ninja",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28458,
+      "duration_ms": 16428,
       "error": null
     },
     {
@@ -573,7 +549,23 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34958,
+      "duration_ms": 24520,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31376,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42088,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65935,
+      "duration_ms": 65923,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "masterclass.ninja",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65103,
+      "duration_ms": 65023,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "masterclass.ninja",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 82387,
       "error": null
     }
   ]
