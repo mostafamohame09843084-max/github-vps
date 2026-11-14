@@ -1,55 +1,23 @@
 {
   "root_domain": "wau-miau.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:55:54.500482+00:00",
-  "completed_at": "2026-11-14T16:57:03.491677+00:00",
-  "duration_ms": 68991,
+  "started_at": "2026-11-14T17:37:48.840124+00:00",
+  "completed_at": "2026-11-14T17:38:57.837108+00:00",
+  "duration_ms": 68996,
   "targets_scanned": [
     "wau-miau.com"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 1,
-  "new_findings_count": 1,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "censys",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "domainsproject",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,47 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "certspotter",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,63 +65,15 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "arpsyndicate",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "bevigil",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +97,111 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "dnsrepo",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +213,23 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "wau-miau.com",
       "recursion_depth": 0,
@@ -273,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "hudsonrock",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -297,11 +289,27 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -317,7 +325,15 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
+      "duration_ms": 87,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,23 +349,7 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 185,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 222,
+      "duration_ms": 178,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 264,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 246,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 455,
+      "duration_ms": 536,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1072,
+      "duration_ms": 1417,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3046,
       "error": null
     },
     {
@@ -449,23 +449,23 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3100,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 3052,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "thc",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 69,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -477,11 +477,11 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 3267,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +497,7 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3144,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3104,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "wau-miau.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 9202,
-      "error": null
-    },
-    {
       "resource": "racent",
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11490,
+      "duration_ms": 9594,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27506,
+      "duration_ms": 26447,
       "error": null
     },
     {
@@ -565,7 +557,15 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33097,
+      "duration_ms": 32392,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "wau-miau.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 43561,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61512,
+      "duration_ms": 61509,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 65988,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "wau-miau.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65199,
+      "duration_ms": 65125,
       "error": null
     }
   ]
