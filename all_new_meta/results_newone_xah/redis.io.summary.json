@@ -1,23 +1,175 @@
 {
   "root_domain": "redis.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:44:30.528291+00:00",
-  "completed_at": "2026-11-14T16:45:36.511129+00:00",
-  "duration_ms": 65982,
+  "started_at": "2026-11-14T17:33:05.856253+00:00",
+  "completed_at": "2026-11-14T17:34:20.954120+00:00",
+  "duration_ms": 75097,
   "targets_scanned": [
     "redis.io"
   ],
-  "total_unique_findings": 1277,
-  "fresh_findings_count": 84,
+  "total_unique_findings": 23466,
+  "fresh_findings_count": 23466,
   "historical_findings_count": 1277,
-  "new_findings_count": 0,
-  "reused_historical_findings_count": 1193,
+  "new_findings_count": 22189,
+  "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "argosdns",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fofa",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,151 +209,15 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "abuseipdb",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "huntermap",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -210,22 +226,6 @@
     },
     {
       "resource": "intelx",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,22 +249,6 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "redis.io",
       "recursion_depth": 0,
@@ -273,7 +257,23 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "hudsonrock",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 56,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "digitorus",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
+      "duration_ms": 68,
       "error": null
     },
     {
@@ -321,11 +321,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 184,
+      "duration_ms": 77,
       "error": null
     },
     {
@@ -345,31 +345,23 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 159,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "redis.io",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 281,
+      "findings_count": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 247,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 81,
-      "duration_ms": 1006,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 11,
-      "duration_ms": 1842,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,43 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 17,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 81,
+      "duration_ms": 746,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 11,
+      "duration_ms": 1959,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3052,
+      "duration_ms": 3064,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3046,
       "error": null
     },
     {
@@ -457,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3048,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3479,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "urlscan",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3092,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "crtsh",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 2902,
+      "duration_ms": 8900,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3280,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "racent",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
+      "duration_ms": 10895,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 23462,
+      "duration_ms": 14147,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10468,
+      "duration_ms": 28414,
       "error": null
     },
     {
@@ -557,31 +565,15 @@
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30692,
+      "duration_ms": 30557,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "threatminer",
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42022,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45054,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "redis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51026,
+      "duration_ms": 61657,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "redis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65958,
+      "duration_ms": 65971,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "redis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65572,
       "error": null
     }
   ]
