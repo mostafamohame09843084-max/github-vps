@@ -1,21 +1,29 @@
 {
   "root_domain": "wavecell.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:58:12.525168+00:00",
-  "completed_at": "2026-11-14T16:59:18.514735+00:00",
-  "duration_ms": 65989,
+  "started_at": "2026-11-14T17:40:07.850658+00:00",
+  "completed_at": "2026-11-14T17:41:19.852318+00:00",
+  "duration_ms": 72001,
   "targets_scanned": [
     "wavecell.com"
   ],
-  "total_unique_findings": 98,
-  "fresh_findings_count": 98,
-  "historical_findings_count": 3,
-  "new_findings_count": 95,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 100,
+  "fresh_findings_count": 86,
+  "historical_findings_count": 98,
+  "new_findings_count": 2,
+  "reused_historical_findings_count": 14,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "coderog",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "chaos",
       "target": "wavecell.com",
@@ -25,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "google",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "dnsdumpster",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,103 +65,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "domainsproject",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "chinaz",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +89,15 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "digitalyama",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "dnsdb",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +121,107 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "bevigil",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 51,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "wavecell.com",
       "recursion_depth": 0,
@@ -265,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
       "resource": "onyphe",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "wavecell.com",
       "recursion_depth": 0,
@@ -305,15 +305,23 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "rapidapi",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 77,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "hudsonrock",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "anubis",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 81,
       "error": null
     },
     {
@@ -341,23 +349,7 @@
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 173,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 210,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 178,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 257,
       "error": null
     },
     {
@@ -381,7 +381,7 @@
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 91,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 21,
-      "duration_ms": 721,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1578,
+      "duration_ms": 752,
       "error": null
     },
     {
@@ -437,15 +429,23 @@
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3087,
       "error": null
     },
     {
       "resource": "thc",
       "target": "wavecell.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 24,
+      "duration_ms": 75,
       "error": null
     },
     {
@@ -457,11 +457,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3086,
+      "duration_ms": 3560,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3134,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 19,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "wavecell.com",
       "recursion_depth": 0,
@@ -497,15 +497,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "racent",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 10407,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3134,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7620,
+      "duration_ms": 9938,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13441,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "wavecell.com",
-      "recursion_depth": 0,
-      "findings_count": 73,
-      "duration_ms": 32830,
+      "duration_ms": 23506,
       "error": null
     },
     {
@@ -573,15 +557,15 @@
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32932,
+      "duration_ms": 30813,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "crtsh",
       "target": "wavecell.com",
       "recursion_depth": 0,
-      "findings_count": 30,
-      "duration_ms": 57167,
+      "findings_count": 73,
+      "duration_ms": 44410,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "wavecell.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65961,
+      "duration_ms": 65981,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61758,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "wavecell.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65379,
       "error": null
     }
   ]
