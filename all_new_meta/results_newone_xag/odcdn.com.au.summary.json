@@ -1,23 +1,23 @@
 {
   "root_domain": "odcdn.com.au",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:42:29.000164+00:00",
-  "completed_at": "2026-11-14T16:43:38.497015+00:00",
-  "duration_ms": 69496,
+  "started_at": "2026-11-14T17:27:05.843434+00:00",
+  "completed_at": "2026-11-14T17:28:15.842702+00:00",
+  "duration_ms": 69999,
   "targets_scanned": [
     "odcdn.com.au"
   ],
   "total_unique_findings": 34,
   "fresh_findings_count": 34,
-  "historical_findings_count": 22,
-  "new_findings_count": 12,
+  "historical_findings_count": 34,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
+      "resource": "c99",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsdb",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,47 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "google",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,15 +97,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "digitalyama",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,23 +113,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "dnsdumpster",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,14 +129,6 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "driftnet",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
@@ -129,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "builtwith",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "bevigil",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,31 +153,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "censys",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +169,30 @@
       "error": null
     },
     {
+      "resource": "coderog",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fofa",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
@@ -193,15 +201,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "binaryedge",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 40,
       "error": null
     },
     {
       "resource": "intelx",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +249,23 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 45,
       "error": null
     },
     {
       "resource": "odin",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,23 +305,15 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 78,
+      "duration_ms": 63,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,31 +329,7 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 220,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 263,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 264,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -369,7 +337,31 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "anubis",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 99,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 179,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 556,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 19,
-      "duration_ms": 755,
+      "duration_ms": 1164,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1355,
+      "duration_ms": 1472,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3033,
       "error": null
     },
     {
       "resource": "thc",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 8,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -449,19 +457,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3079,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
+      "duration_ms": 3056,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3276,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
@@ -505,15 +505,23 @@
       "error": null
     },
     {
+      "resource": "whoisxml",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3115,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "zoomeyeapi",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7386,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31028,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "odcdn.com.au",
-      "recursion_depth": 0,
-      "findings_count": 32,
-      "duration_ms": 31938,
+      "duration_ms": 8187,
       "error": null
     },
     {
@@ -565,7 +549,23 @@
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35062,
+      "duration_ms": 15276,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30930,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "odcdn.com.au",
+      "recursion_depth": 0,
+      "findings_count": 32,
+      "duration_ms": 33619,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61365,
+      "duration_ms": 61659,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65480,
+      "duration_ms": 65973,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "odcdn.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65381,
+      "duration_ms": 65471,
       "error": null
     }
   ]
