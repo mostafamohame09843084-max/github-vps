@@ -1,79 +1,23 @@
 {
   "root_domain": "volans.tech",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:08:58.188897+00:00",
-  "completed_at": "2026-11-13T09:10:04.186338+00:00",
-  "duration_ms": 65997,
+  "started_at": "2026-11-14T15:16:36.501364+00:00",
+  "completed_at": "2026-11-14T15:18:45.585781+00:00",
+  "duration_ms": 129084,
   "targets_scanned": [
     "volans.tech"
   ],
-  "total_unique_findings": 33,
-  "fresh_findings_count": 33,
-  "historical_findings_count": 0,
-  "new_findings_count": 33,
+  "total_unique_findings": 59,
+  "fresh_findings_count": 59,
+  "historical_findings_count": 33,
+  "new_findings_count": 26,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bevigil",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "fofa",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,39 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "domscan",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,31 +49,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "chaos",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "chinaz",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +81,79 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "dnsdb",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "censys",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "argosdns",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,19 +261,11 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 32,
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,19 +309,11 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 64,
+      "duration_ms": 79,
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 178,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 181,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 242,
+      "duration_ms": 252,
       "error": null
     },
     {
@@ -365,15 +365,7 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 284,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 76,
+      "duration_ms": 264,
       "error": null
     },
     {
@@ -382,6 +374,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 17,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 32,
-      "duration_ms": 492,
+      "duration_ms": 782,
       "error": null
     },
     {
@@ -429,16 +429,8 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1211,
+      "duration_ms": 1457,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1435,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "threatbook",
@@ -461,15 +453,15 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3055,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3108,
+      "duration_ms": 3358,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3085,
+      "error": null
+    },
+    {
       "resource": "windvane",
       "target": "volans.tech",
       "recursion_depth": 0,
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "racent",
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
+      "duration_ms": 13212,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7967,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "volans.tech",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 18572,
+      "duration_ms": 19285,
       "error": null
     },
     {
@@ -565,7 +557,15 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33070,
+      "duration_ms": 32445,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "volans.tech",
+      "recursion_depth": 0,
+      "findings_count": 38,
+      "duration_ms": 53610,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61475,
+      "duration_ms": 61716,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 65974,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "volans.tech",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 129058,
       "error": null
     }
   ]
