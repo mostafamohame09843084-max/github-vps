@@ -1,71 +1,23 @@
 {
   "root_domain": "qubit.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:47:31.190532+00:00",
-  "completed_at": "2026-11-13T08:48:40.187476+00:00",
-  "duration_ms": 68996,
+  "started_at": "2026-11-14T14:52:55.493388+00:00",
+  "completed_at": "2026-11-14T14:54:05.499372+00:00",
+  "duration_ms": 70005,
   "targets_scanned": [
     "qubit.com"
   ],
   "total_unique_findings": 54,
   "fresh_findings_count": 54,
-  "historical_findings_count": 0,
-  "new_findings_count": 54,
+  "historical_findings_count": 54,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "c99",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "censys",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,39 +49,31 @@
       "error": null
     },
     {
+      "resource": "dnsrepo",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +89,103 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "dnsdb",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +201,19 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "facebook",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 58,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "qubit.com",
       "recursion_depth": 0,
@@ -249,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 87,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 188,
+      "duration_ms": 88,
       "error": null
     },
     {
@@ -337,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 197,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
       "target": "qubit.com",
       "recursion_depth": 0,
@@ -345,39 +345,23 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 251,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 254,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 255,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "reconeer",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,31 +421,23 @@
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 26,
-      "duration_ms": 793,
+      "duration_ms": 799,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1187,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 1264,
+      "duration_ms": 1174,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "qubit.com",
       "recursion_depth": 0,
-      "findings_count": 28,
-      "duration_ms": 68,
+      "findings_count": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -457,23 +449,23 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "qubit.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3057,
+      "findings_count": 28,
+      "duration_ms": 45,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "shrewdeye",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 3051,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +473,15 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "sitedossier",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3269,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatcrowd",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3057,
+      "duration_ms": 3065,
       "error": null
     },
     {
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "racent",
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3350,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3091,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "qubit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33111,
+      "duration_ms": 18555,
       "error": null
     },
     {
@@ -565,7 +549,23 @@
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43305,
+      "duration_ms": 18780,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20600,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "qubit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30330,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 47,
-      "duration_ms": 55560,
+      "duration_ms": 45235,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65978,
+      "duration_ms": 66003,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "qubit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65634,
+      "duration_ms": 65830,
       "error": null
     }
   ]
