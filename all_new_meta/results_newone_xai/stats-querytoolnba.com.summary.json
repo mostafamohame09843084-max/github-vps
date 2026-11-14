@@ -1,9 +1,9 @@
 {
   "root_domain": "stats-querytoolnba.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:42:43.183143+00:00",
-  "completed_at": "2026-11-13T08:43:49.183208+00:00",
-  "duration_ms": 66000,
+  "started_at": "2026-11-14T14:51:47.493946+00:00",
+  "completed_at": "2026-11-14T14:52:53.489759+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "stats-querytoolnba.com"
   ],
@@ -13,11 +13,35 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
+      "resource": "dnsdumpster",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "fofa",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "chinaz",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +81,31 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "bevigil",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,15 +137,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "digitalyama",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,31 +153,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,38 +169,6 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdb",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
@@ -193,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "arpsyndicate",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "censys",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "binaryedge",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +221,15 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -261,7 +261,7 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -317,15 +317,7 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 91,
       "error": null
     },
     {
@@ -337,19 +329,19 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 174,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 224,
+      "duration_ms": 187,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 241,
+      "duration_ms": 243,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 253,
       "error": null
     },
     {
@@ -369,19 +369,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 87,
       "error": null
     },
     {
@@ -413,7 +413,15 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 25,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1309,
       "error": null
     },
     {
@@ -421,16 +429,16 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 447,
+      "duration_ms": 1269,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1171,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3042,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,35 +449,19 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2509,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 104,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3079,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "urlscan",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -494,6 +494,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3085,
       "error": null
     },
     {
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,51 +537,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "racent",
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3105,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27654,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33078,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42175,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "stats-querytoolnba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47946,
+      "duration_ms": 11367,
       "error": null
     },
     {
@@ -581,7 +549,39 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49631,
+      "duration_ms": 17460,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24997,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30877,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31588,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "stats-querytoolnba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61682,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "stats-querytoolnba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65992,
+      "duration_ms": 65986,
       "error": null
     }
   ]
