@@ -1,23 +1,23 @@
 {
   "root_domain": "quip.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:05:16.309226+00:00",
-  "completed_at": "2026-11-13T09:06:22.243286+00:00",
-  "duration_ms": 65934,
+  "started_at": "2026-11-14T15:10:21.666295+00:00",
+  "completed_at": "2026-11-14T15:11:33.515534+00:00",
+  "duration_ms": 71849,
   "targets_scanned": [
     "quip.com"
   ],
-  "total_unique_findings": 432,
-  "fresh_findings_count": 432,
-  "historical_findings_count": 0,
-  "new_findings_count": 432,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 449,
+  "fresh_findings_count": 146,
+  "historical_findings_count": 432,
+  "new_findings_count": 17,
+  "reused_historical_findings_count": 303,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domscan",
+      "resource": "github",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "censys",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "binaryedge",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "arpsyndicate",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "dnsdumpster",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,6 +89,14 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
       "target": "quip.com",
       "recursion_depth": 0,
@@ -105,7 +105,23 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "argosdns",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "domainsproject",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +145,15 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "chinaz",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "driftnet",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "domscan",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,31 +201,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "builtwith",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,7 @@
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -253,7 +253,7 @@
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -305,19 +305,27 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 72,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 93,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 224,
       "error": null
     },
     {
@@ -337,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hudsonrock",
       "target": "quip.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 207,
+      "findings_count": 12,
+      "duration_ms": 234,
       "error": null
     },
     {
@@ -349,19 +357,27 @@
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 11,
-      "duration_ms": 259,
+      "duration_ms": 244,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 113,
       "error": null
     },
     {
@@ -420,32 +420,32 @@
       "resource": "rapiddns",
       "target": "quip.com",
       "recursion_depth": 0,
-      "findings_count": 16,
-      "duration_ms": 1576,
+      "findings_count": 17,
+      "duration_ms": 1707,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1691,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3093,
+      "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "shrewdeye",
       "target": "quip.com",
       "recursion_depth": 0,
-      "findings_count": 16,
-      "duration_ms": 2875,
+      "findings_count": 0,
+      "duration_ms": 3084,
       "error": null
     },
     {
       "resource": "thc",
       "target": "quip.com",
       "recursion_depth": 0,
-      "findings_count": 393,
-      "duration_ms": 222,
+      "findings_count": 100,
+      "duration_ms": 69,
       "error": null
     },
     {
@@ -457,11 +457,19 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "sitedossier",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3146,
+      "duration_ms": 3270,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -473,19 +481,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "threatcrowd",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3095,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3088,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3101,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 7316,
       "error": null
     },
     {
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "myssl",
       "target": "quip.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3464,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3197,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "quip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 8070,
+      "findings_count": 17,
+      "duration_ms": 24174,
       "error": null
     },
     {
@@ -565,15 +549,23 @@
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33078,
+      "duration_ms": 29632,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "crtsh",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 30660,
+      "error": null
+    },
+    {
+      "resource": "racent",
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33954,
+      "duration_ms": 39124,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61521,
+      "duration_ms": 42149,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "quip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65863,
+      "duration_ms": 65814,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "quip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65265,
       "error": null
     }
   ]
