@@ -1,31 +1,23 @@
 {
   "root_domain": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:59:18.537413+00:00",
-  "completed_at": "2026-11-14T17:00:24.489282+00:00",
-  "duration_ms": 65951,
+  "started_at": "2026-11-14T17:41:19.863537+00:00",
+  "completed_at": "2026-11-14T17:42:40.948544+00:00",
+  "duration_ms": 81085,
   "targets_scanned": [
     "waws-prod-bn1-013.eastus2.cloudapp.azure.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bufferover",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
+      "resource": "digitalyama",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,46 +33,6 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "google",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
@@ -89,63 +41,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "intelx",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +57,47 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "github",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "fofa",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,23 +129,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "c99",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,6 +145,62 @@
       "error": null
     },
     {
+      "resource": "facebook",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
@@ -233,7 +209,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "argosdns",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +217,31 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "driftnet",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -253,7 +253,7 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -321,7 +321,7 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidscan",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,15 +329,7 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 194,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidfinder",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,15 +341,7 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 225,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 83,
       "error": null
     },
     {
@@ -365,11 +349,19 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 253,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "alienvault",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 286,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,11 +381,11 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 163,
+      "duration_ms": 65,
       "error": null
     },
     {
-      "resource": "shodanx",
+      "resource": "robtex",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -402,6 +394,14 @@
     },
     {
       "resource": "securitytrails",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shodanx",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -421,7 +421,7 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 459,
+      "duration_ms": 463,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 836,
+      "duration_ms": 837,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -441,27 +449,27 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3046,
       "error": null
     },
     {
       "resource": "thc",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 157,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3104,
+      "duration_ms": 3577,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3592,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3069,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3095,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "racent",
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13714,
+      "duration_ms": 10190,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24739,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22462,
+      "duration_ms": 28296,
       "error": null
     },
     {
@@ -565,15 +557,7 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33086,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 56473,
+      "duration_ms": 32070,
       "error": null
     },
     {
@@ -581,7 +565,7 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61723,
+      "duration_ms": 61271,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65943,
+      "duration_ms": 65963,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65856,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "waws-prod-bn1-013.eastus2.cloudapp.azure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 81077,
       "error": null
     }
   ]
