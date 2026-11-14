@@ -1,29 +1,21 @@
 {
   "root_domain": "masterclass.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:39:24.521081+00:00",
-  "completed_at": "2026-11-14T16:41:06.517741+00:00",
-  "duration_ms": 101996,
+  "started_at": "2026-11-14T17:29:44.870358+00:00",
+  "completed_at": "2026-11-14T17:30:54.883202+00:00",
+  "duration_ms": 70012,
   "targets_scanned": [
     "masterclass.com"
   ],
-  "total_unique_findings": 23,
-  "fresh_findings_count": 23,
-  "historical_findings_count": 0,
-  "new_findings_count": 23,
+  "total_unique_findings": 288,
+  "fresh_findings_count": 288,
+  "historical_findings_count": 23,
+  "new_findings_count": 265,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "fofa",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "binaryedge",
       "target": "masterclass.com",
@@ -33,63 +25,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "github",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,15 +41,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "censys",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsdumpster",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "facebook",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,15 +81,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "bufferover",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "chinaz",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "bevigil",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +113,31 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "argosdns",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +153,67 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "dnsrepo",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -225,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "intelx",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,19 +249,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -313,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "masterclass.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 96,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -337,23 +329,15 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 203,
+      "duration_ms": 73,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 237,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,19 +349,11 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 276,
+      "duration_ms": 249,
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 62,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "redhuntlabs",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +361,31 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 269,
+      "error": null
+    },
+    {
       "resource": "robtex",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 21,
-      "duration_ms": 780,
+      "duration_ms": 925,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 1578,
+      "duration_ms": 1115,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3051,
       "error": null
     },
     {
@@ -445,7 +445,7 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -457,11 +457,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 268,
+      "duration_ms": 88,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3242,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "masterclass.com",
       "recursion_depth": 0,
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3272,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3061,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3067,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9601,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -557,7 +541,15 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24196,
+      "duration_ms": 13558,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25960,
       "error": null
     },
     {
@@ -565,7 +557,23 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31743,
+      "duration_ms": 31002,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 234,
+      "duration_ms": 64214,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "masterclass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61591,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65965,
+      "duration_ms": 65957,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "masterclass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65408,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "masterclass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 101963,
+      "duration_ms": 65710,
       "error": null
     }
   ]
