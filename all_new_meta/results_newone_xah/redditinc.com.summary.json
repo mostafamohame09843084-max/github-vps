@@ -1,23 +1,23 @@
 {
   "root_domain": "redditinc.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:35:55.497976+00:00",
-  "completed_at": "2026-11-14T16:37:21.505330+00:00",
-  "duration_ms": 86007,
+  "started_at": "2026-11-14T17:19:08.265514+00:00",
+  "completed_at": "2026-11-14T17:20:17.840976+00:00",
+  "duration_ms": 69575,
   "targets_scanned": [
     "redditinc.com"
   ],
-  "total_unique_findings": 11,
-  "fresh_findings_count": 7,
+  "total_unique_findings": 14,
+  "fresh_findings_count": 14,
   "historical_findings_count": 11,
-  "new_findings_count": 0,
-  "reused_historical_findings_count": 4,
+  "new_findings_count": 3,
+  "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
+      "resource": "arpsyndicate",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,15 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "builtwith",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,39 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domscan",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,15 +97,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "bevigil",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,6 +113,22 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "github",
       "target": "redditinc.com",
       "recursion_depth": 0,
@@ -89,31 +137,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "coderog",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "facebook",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "dnsrepo",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "chinaz",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fofa",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,47 +201,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "binaryedge",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 79,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "digitorus",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -265,23 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 55,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +289,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "onyphe",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hudsonrock",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 231,
+      "duration_ms": 56,
       "error": null
     },
     {
@@ -337,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 86,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "redditinc.com",
       "recursion_depth": 0,
@@ -345,19 +345,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 197,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
+      "duration_ms": 89,
       "error": null
     },
     {
@@ -366,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
       "error": null
     },
     {
@@ -393,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hackertarget",
       "target": "redditinc.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 10,
+      "duration_ms": 522,
       "error": null
     },
     {
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 579,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 1454,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 21,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 496,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 8,
+      "duration_ms": 3171,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3071,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "redditinc.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3119,
+      "findings_count": 7,
+      "duration_ms": 67,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "commoncrawl",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3466,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "trickest",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3279,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3091,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3588,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "threatcrowd",
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12437,
+      "duration_ms": 3090,
       "error": null
     },
     {
@@ -549,7 +549,23 @@
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19848,
+      "duration_ms": 13303,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 23008,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "redditinc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25847,
       "error": null
     },
     {
@@ -557,7 +573,7 @@
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30109,
+      "duration_ms": 29221,
       "error": null
     },
     {
@@ -565,15 +581,7 @@
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41925,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 61601,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "redditinc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65035,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "redditinc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 85996,
+      "duration_ms": 65886,
       "error": null
     }
   ]
