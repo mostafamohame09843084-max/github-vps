@@ -1,23 +1,23 @@
 {
   "root_domain": "voicestesting.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:07:52.188125+00:00",
-  "completed_at": "2026-11-13T09:08:58.182029+00:00",
-  "duration_ms": 65993,
+  "started_at": "2026-11-14T15:15:20.492265+00:00",
+  "completed_at": "2026-11-14T15:16:36.496222+00:00",
+  "duration_ms": 76003,
   "targets_scanned": [
     "voicestesting.com"
   ],
   "total_unique_findings": 4,
-  "fresh_findings_count": 4,
-  "historical_findings_count": 0,
-  "new_findings_count": 4,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 1,
+  "historical_findings_count": 4,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 3,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
+      "resource": "chinaz",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "censys",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "coderog",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "arpsyndicate",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "fofa",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,31 +73,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "dnsdumpster",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +89,55 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "argosdns",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,30 +161,6 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
       "target": "voicestesting.com",
       "recursion_depth": 0,
@@ -169,15 +169,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "driftnet",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "builtwith",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "bufferover",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
       "resource": "huntermap",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,19 +257,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 40,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "netlas",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,11 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 95,
+      "duration_ms": 77,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,23 +341,7 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 169,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 179,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 246,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 256,
       "error": null
     },
     {
@@ -369,7 +369,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +381,11 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,15 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 22,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1580,
       "error": null
     },
     {
@@ -421,31 +429,15 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 789,
+      "duration_ms": 1576,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1383,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "myssl",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1470,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3052,
       "error": null
     },
     {
@@ -457,11 +449,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "threatbook",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3081,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -469,7 +461,7 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
+      "duration_ms": 3099,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3272,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "whoisxml",
       "target": "voicestesting.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 3826,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3098,
       "error": null
     },
     {
@@ -537,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3153,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 14975,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "voicestesting.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27785,
+      "duration_ms": 20504,
       "error": null
     },
     {
@@ -573,15 +549,23 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33080,
+      "duration_ms": 30772,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "racent",
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61458,
+      "duration_ms": 45342,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45389,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "voicestesting.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 65990,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65104,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "voicestesting.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 75994,
       "error": null
     }
   ]
