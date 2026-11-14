@@ -1,87 +1,23 @@
 {
   "root_domain": "redis.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:43:20.496801+00:00",
-  "completed_at": "2026-11-14T16:44:30.505057+00:00",
-  "duration_ms": 70008,
+  "started_at": "2026-11-14T17:31:56.840170+00:00",
+  "completed_at": "2026-11-14T17:33:05.847622+00:00",
+  "duration_ms": 69007,
   "targets_scanned": [
     "redis.com"
   ],
   "total_unique_findings": 72,
-  "fresh_findings_count": 71,
-  "historical_findings_count": 62,
-  "new_findings_count": 10,
-  "reused_historical_findings_count": 1,
+  "fresh_findings_count": 62,
+  "historical_findings_count": 72,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 10,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdumpster",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "github",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,87 +41,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "argosdns",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +57,151 @@
       "error": null
     },
     {
+      "resource": "domainsproject",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsrepo",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
       "resource": "intelx",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,11 +257,19 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -297,47 +289,15 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 60,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 206,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,7 +309,47 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 233,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 90,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 225,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 273,
+      "duration_ms": 246,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,7 +421,15 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 29,
-      "duration_ms": 768,
+      "duration_ms": 487,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 8,
+      "duration_ms": 870,
       "error": null
     },
     {
@@ -429,15 +437,7 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3049,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3074,
       "error": null
     },
     {
@@ -449,19 +449,19 @@
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3040,
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "thc",
       "target": "redis.com",
       "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 3397,
+      "findings_count": 57,
+      "duration_ms": 114,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3555,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3100,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "redis.com",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "sitedossier",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,35 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "redis.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3086,
+      "error": null
+    },
+    {
       "resource": "racent",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11630,
+      "duration_ms": 14725,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28358,
+      "duration_ms": 23099,
       "error": null
     },
     {
@@ -557,23 +565,15 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32065,
+      "duration_ms": 30977,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "redis.com",
-      "recursion_depth": 0,
-      "findings_count": 66,
-      "duration_ms": 37398,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42040,
+      "duration_ms": 30495,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 65993,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "redis.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65603,
+      "duration_ms": 65526,
       "error": null
     }
   ]

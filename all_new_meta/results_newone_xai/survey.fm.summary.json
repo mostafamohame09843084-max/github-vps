@@ -1,23 +1,23 @@
 {
   "root_domain": "survey.fm",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:46:52.507346+00:00",
-  "completed_at": "2026-11-14T16:47:58.519024+00:00",
-  "duration_ms": 66011,
+  "started_at": "2026-11-14T17:32:02.861667+00:00",
+  "completed_at": "2026-11-14T17:33:12.075121+00:00",
+  "duration_ms": 69213,
   "targets_scanned": [
     "survey.fm"
   ],
-  "total_unique_findings": 99,
-  "fresh_findings_count": 99,
-  "historical_findings_count": 3,
-  "new_findings_count": 96,
+  "total_unique_findings": 1854,
+  "fresh_findings_count": 1854,
+  "historical_findings_count": 99,
+  "new_findings_count": 1755,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
+      "resource": "fullhunt",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "builtwith",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "bevigil",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "argosdns",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,6 +57,22 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
       "target": "survey.fm",
       "recursion_depth": 0,
@@ -65,7 +81,71 @@
       "error": null
     },
     {
+      "resource": "github",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,63 +169,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "digitalyama",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "dnsrepo",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "bufferover",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "facebook",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,23 +209,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "huntermap",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +229,11 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 31,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "leakix",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "netlas",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,19 +265,19 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "quake",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "hudsonrock",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 65,
       "error": null
     },
     {
@@ -317,15 +325,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 67,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 194,
+      "duration_ms": 80,
       "error": null
     },
     {
@@ -345,19 +345,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 246,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 283,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 281,
       "error": null
     },
     {
@@ -369,19 +369,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 62,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 95,
-      "duration_ms": 798,
+      "duration_ms": 524,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 982,
+      "duration_ms": 785,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3092,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -461,15 +453,15 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3142,
+      "duration_ms": 3063,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 3275,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 1843,
+      "duration_ms": 863,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "survey.fm",
       "recursion_depth": 0,
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3476,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,19 +537,19 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3120,
+      "duration_ms": 3101,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 14542,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11619,
+      "duration_ms": 20046,
       "error": null
     },
     {
@@ -557,7 +565,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29279,
+      "duration_ms": 27684,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33063,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33913,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "survey.fm",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 39952,
+      "duration_ms": 28878,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "survey.fm",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 65967,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "survey.fm",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65044,
       "error": null
     }
   ]
