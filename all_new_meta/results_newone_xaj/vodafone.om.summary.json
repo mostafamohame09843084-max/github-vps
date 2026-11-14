@@ -1,135 +1,23 @@
 {
   "root_domain": "vodafone.om",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:05:36.854186+00:00",
-  "completed_at": "2026-11-13T09:06:46.192912+00:00",
-  "duration_ms": 69338,
+  "started_at": "2026-11-14T15:13:09.267956+00:00",
+  "completed_at": "2026-11-14T15:14:14.506922+00:00",
+  "duration_ms": 65238,
   "targets_scanned": [
     "vodafone.om"
   ],
-  "total_unique_findings": 62,
-  "fresh_findings_count": 62,
-  "historical_findings_count": 0,
-  "new_findings_count": 62,
+  "total_unique_findings": 98,
+  "fresh_findings_count": 98,
+  "historical_findings_count": 62,
+  "new_findings_count": 36,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "github",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "fofa",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "domscan",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +57,55 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "c99",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +121,99 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "google",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "vodafone.om",
       "recursion_depth": 0,
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,23 +317,7 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 71,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 192,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 70,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 169,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 231,
+      "duration_ms": 242,
       "error": null
     },
     {
@@ -365,15 +365,15 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 251,
+      "duration_ms": 261,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -385,15 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 56,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 62,
-      "duration_ms": 539,
+      "duration_ms": 859,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1056,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1629,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "threatbook",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1129,
       "error": null
     },
     {
@@ -461,11 +445,11 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
+      "duration_ms": 3069,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -477,11 +461,27 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3129,
+      "duration_ms": 3041,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +497,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3456,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +541,23 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3111,
+      "duration_ms": 3076,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 9747,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "vodafone.om",
+      "recursion_depth": 0,
+      "findings_count": 71,
+      "duration_ms": 17702,
       "error": null
     },
     {
@@ -549,15 +565,7 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11794,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 15107,
+      "duration_ms": 18235,
       "error": null
     },
     {
@@ -565,15 +573,15 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33102,
+      "duration_ms": 30679,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "waybackarchive",
       "target": "vodafone.om",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61625,
+      "findings_count": 15,
+      "duration_ms": 32653,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "vodafone.om",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65318,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "vodafone.om",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65874,
+      "duration_ms": 65213,
       "error": null
     }
   ]

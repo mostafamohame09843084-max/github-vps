@@ -1,23 +1,87 @@
 {
   "root_domain": "stisfmye.xyz",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:02:33.185043+00:00",
-  "completed_at": "2026-11-13T09:03:39.181473+00:00",
-  "duration_ms": 65996,
+  "started_at": "2026-11-14T15:12:48.562059+00:00",
+  "completed_at": "2026-11-14T15:13:54.501699+00:00",
+  "duration_ms": 65939,
   "targets_scanned": [
     "stisfmye.xyz"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
+      "resource": "bufferover",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,79 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +121,15 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "fofa",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,14 +145,6 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
@@ -161,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "dnsrepo",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +161,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "coderog",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,39 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "domainsproject",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +225,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "anubis",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -249,15 +249,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,23 +305,15 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 103,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "rapidscan",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 200,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,15 +341,7 @@
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 240,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 208,
       "error": null
     },
     {
@@ -369,19 +353,27 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 387,
       "error": null
     },
     {
@@ -393,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 359,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 443,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
+      "resource": "shodan",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 16,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 462,
+      "error": null
+    },
+    {
       "resource": "myssl",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1008,
+      "duration_ms": 1287,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3054,
       "error": null
     },
     {
@@ -457,15 +449,7 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1287,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +457,31 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3054,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,7 +497,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +513,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,43 +537,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3480,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3205,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10209,
+      "duration_ms": 16213,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "racent",
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33075,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "stisfmye.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41822,
+      "duration_ms": 22358,
       "error": null
     },
     {
@@ -581,7 +557,31 @@
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61507,
+      "duration_ms": 20789,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 25013,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30087,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "stisfmye.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49431,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "stisfmye.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65989,
+      "duration_ms": 65930,
       "error": null
     }
   ]
