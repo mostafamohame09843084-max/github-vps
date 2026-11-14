@@ -1,87 +1,23 @@
 {
   "root_domain": "vivian.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:50:34.197819+00:00",
-  "completed_at": "2026-11-13T08:51:42.187151+00:00",
-  "duration_ms": 67989,
+  "started_at": "2026-11-14T14:57:56.493111+00:00",
+  "completed_at": "2026-11-14T14:59:05.493177+00:00",
+  "duration_ms": 69000,
   "targets_scanned": [
     "vivian.com"
   ],
   "total_unique_findings": 27,
-  "fresh_findings_count": 27,
-  "historical_findings_count": 0,
-  "new_findings_count": 27,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 7,
+  "historical_findings_count": 27,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 20,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fofa",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "certspotter",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,55 +33,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domainsproject",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +57,15 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "chaos",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +81,22 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsrepo",
       "target": "vivian.com",
       "recursion_depth": 0,
@@ -193,7 +105,39 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "driftnet",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +153,55 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "domscan",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chinaz",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -226,6 +210,22 @@
     },
     {
       "resource": "huntermap",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "digitorus",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,14 +305,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 91,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "vivian.com",
       "recursion_depth": 0,
@@ -321,19 +313,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 84,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 190,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 191,
       "error": null
     },
     {
@@ -345,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidfinder",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 262,
+      "duration_ms": 244,
       "error": null
     },
     {
@@ -369,11 +361,19 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 41,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -421,7 +421,7 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 535,
+      "duration_ms": 1608,
       "error": null
     },
     {
@@ -429,7 +429,23 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 811,
+      "duration_ms": 3293,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -441,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1269,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 27,
-      "duration_ms": 1979,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -469,7 +469,7 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 40,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisxml",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "vivian.com",
       "recursion_depth": 0,
@@ -505,15 +513,15 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "sitedossier",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3078,
+      "duration_ms": 3270,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "windvane",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "vivian.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3126,
+      "duration_ms": 3109,
       "error": null
     },
     {
@@ -565,7 +549,23 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26283,
+      "duration_ms": 9146,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20065,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vivian.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30876,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33085,
+      "duration_ms": 31800,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65972,
+      "duration_ms": 66004,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "vivian.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65966,
+      "duration_ms": 65584,
       "error": null
     }
   ]
