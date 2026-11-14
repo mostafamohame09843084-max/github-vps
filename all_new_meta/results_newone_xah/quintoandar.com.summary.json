@@ -1,71 +1,23 @@
 {
   "root_domain": "quintoandar.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:02:52.189537+00:00",
-  "completed_at": "2026-11-13T09:04:06.967230+00:00",
-  "duration_ms": 74777,
+  "started_at": "2026-11-14T15:08:05.504871+00:00",
+  "completed_at": "2026-11-14T15:09:11.490902+00:00",
+  "duration_ms": 65986,
   "targets_scanned": [
     "quintoandar.com"
   ],
-  "total_unique_findings": 5,
-  "fresh_findings_count": 5,
-  "historical_findings_count": 0,
-  "new_findings_count": 5,
+  "total_unique_findings": 6,
+  "fresh_findings_count": 6,
+  "historical_findings_count": 5,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "chinaz",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,22 +33,6 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "c99",
       "target": "quintoandar.com",
       "recursion_depth": 0,
@@ -105,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "certspotter",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,79 +49,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "arpsyndicate",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +65,143 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +225,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 35,
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,6 +257,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "quintoandar.com",
       "recursion_depth": 0,
@@ -274,14 +274,6 @@
     },
     {
       "resource": "onyphe",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "quake",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,23 @@
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 74,
+      "duration_ms": 62,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,15 +341,15 @@
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 198,
+      "duration_ms": 183,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "hudsonrock",
       "target": "quintoandar.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 225,
       "error": null
     },
     {
@@ -349,7 +357,7 @@
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 241,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -361,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -377,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 286,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "reconeer",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -421,23 +421,31 @@
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 1083,
+      "duration_ms": 791,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1135,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1262,
+      "duration_ms": 1217,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3049,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3040,
       "error": null
     },
     {
@@ -453,27 +461,19 @@
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 128,
+      "duration_ms": 138,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "sitedossier",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3269,
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3075,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3051,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,51 +529,27 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3136,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29826,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33088,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61531,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "quintoandar.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "quintoandar.com",
       "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 9924,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65593,
+      "duration_ms": 15334,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "quintoandar.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 74766,
+      "duration_ms": 15568,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28376,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31063,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61723,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "quintoandar.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65975,
       "error": null
     }
   ]
