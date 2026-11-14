@@ -1,37 +1,21 @@
 {
   "root_domain": "steamstatic.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:53:00.229851+00:00",
-  "completed_at": "2026-11-13T08:54:06.191209+00:00",
-  "duration_ms": 65961,
+  "started_at": "2026-11-14T15:03:21.734308+00:00",
+  "completed_at": "2026-11-14T15:04:30.497288+00:00",
+  "duration_ms": 68762,
   "targets_scanned": [
     "steamstatic.com"
   ],
   "total_unique_findings": 46,
   "fresh_findings_count": 46,
-  "historical_findings_count": 0,
-  "new_findings_count": 46,
+  "historical_findings_count": 46,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "dnsrepo",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "censys",
       "target": "steamstatic.com",
@@ -41,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "domscan",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +33,23 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "argosdns",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -58,30 +58,6 @@
     },
     {
       "resource": "dnsdumpster",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "digitalyama",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,23 +105,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "builtwith",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "certspotter",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "c99",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +137,23 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "github",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsrepo",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,23 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "arpsyndicate",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,11 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 23,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +253,31 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -282,14 +290,6 @@
     },
     {
       "resource": "profundis",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,7 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 75,
+      "duration_ms": 85,
       "error": null
     },
     {
@@ -325,15 +325,7 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 183,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 179,
       "error": null
     },
     {
@@ -345,11 +337,19 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 260,
+      "duration_ms": 256,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "steamstatic.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 268,
+      "findings_count": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -377,11 +377,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "steamstatic.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 60,
+      "findings_count": 2,
+      "duration_ms": 326,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 863,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -429,7 +421,23 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 12,
-      "duration_ms": 838,
+      "duration_ms": 828,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 1231,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -441,31 +449,7 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2877,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
       "resource": "threatbook",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3080,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -477,7 +461,23 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3087,
+      "duration_ms": 3091,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,11 +509,11 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3354,
+      "duration_ms": 3356,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,23 +541,15 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3124,
+      "duration_ms": 3093,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "racent",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27779,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "steamstatic.com",
-      "recursion_depth": 0,
-      "findings_count": 45,
-      "duration_ms": 30516,
+      "duration_ms": 12026,
       "error": null
     },
     {
@@ -565,23 +557,23 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33101,
+      "duration_ms": 29736,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42150,
+      "duration_ms": 30160,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "crtsh",
       "target": "steamstatic.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49515,
+      "findings_count": 45,
+      "duration_ms": 41189,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "steamstatic.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65943,
+      "duration_ms": 65758,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "steamstatic.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65259,
       "error": null
     }
   ]
