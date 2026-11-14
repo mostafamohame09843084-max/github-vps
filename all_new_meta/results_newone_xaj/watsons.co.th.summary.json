@@ -1,23 +1,23 @@
 {
   "root_domain": "watsons.co.th",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:44:00.509660+00:00",
-  "completed_at": "2026-11-14T16:45:09.496082+00:00",
-  "duration_ms": 68986,
+  "started_at": "2026-11-14T17:24:52.853403+00:00",
+  "completed_at": "2026-11-14T17:25:58.846208+00:00",
+  "duration_ms": 65992,
   "targets_scanned": [
     "watsons.co.th"
   ],
-  "total_unique_findings": 30,
-  "fresh_findings_count": 30,
+  "total_unique_findings": 66,
+  "fresh_findings_count": 66,
   "historical_findings_count": 30,
-  "new_findings_count": 0,
+  "new_findings_count": 36,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
+      "resource": "bevigil",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "dnsdb",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "digitalyama",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,30 +49,6 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "arpsyndicate",
       "target": "watsons.co.th",
       "recursion_depth": 0,
@@ -81,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "dnsrepo",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +65,31 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "fofa",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +113,15 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "c99",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,6 +137,14 @@
       "error": null
     },
     {
+      "resource": "chinaz",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
       "target": "watsons.co.th",
       "recursion_depth": 0,
@@ -137,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "dnsdumpster",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "builtwith",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "domainsproject",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "domscan",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +185,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "argosdns",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +201,19 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "bufferover",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "watsons.co.th",
       "recursion_depth": 0,
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "watsons.co.th",
       "recursion_depth": 0,
@@ -265,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "hudsonrock",
       "target": "watsons.co.th",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 69,
+      "findings_count": 1,
+      "duration_ms": 54,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +281,6 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "watsons.co.th",
       "recursion_depth": 0,
@@ -305,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "onyphe",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,15 +297,23 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "pugrecon",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "digitorus",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,19 +329,35 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 217,
+      "duration_ms": 174,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "watsons.co.th",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 242,
+      "findings_count": 0,
+      "duration_ms": 70,
       "error": null
     },
     {
@@ -364,8 +372,8 @@
       "resource": "hackertarget",
       "target": "watsons.co.th",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
+      "findings_count": 50,
+      "duration_ms": 471,
       "error": null
     },
     {
@@ -385,11 +393,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "shodan",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -401,19 +409,19 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 21,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 62,
+      "duration_ms": 714,
       "error": null
     },
     {
@@ -421,7 +429,7 @@
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 30,
-      "duration_ms": 782,
+      "duration_ms": 794,
       "error": null
     },
     {
@@ -429,15 +437,7 @@
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 1617,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1525,
       "error": null
     },
     {
@@ -449,31 +449,23 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 55,
+      "duration_ms": 69,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3072,
+      "duration_ms": 3060,
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3081,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 6,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +473,15 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "shrewdeye",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3069,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "watsons.co.th",
       "recursion_depth": 0,
@@ -505,23 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3264,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3176,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 8018,
+      "duration_ms": 3065,
       "error": null
     },
     {
@@ -557,7 +549,15 @@
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12004,
+      "duration_ms": 18693,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24907,
       "error": null
     },
     {
@@ -565,23 +565,7 @@
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33090,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45971,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "watsons.co.th",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65051,
+      "duration_ms": 28643,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "watsons.co.th",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65567,
+      "duration_ms": 56029,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61711,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "watsons.co.th",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65972,
       "error": null
     }
   ]
