@@ -1,0 +1,596 @@
+{
+  "root_domain": "portswigger.com",
+  "recursive_depth": 0,
+  "started_at": "2026-11-14T15:49:04.501900+00:00",
+  "completed_at": "2026-11-14T15:50:14.512647+00:00",
+  "duration_ms": 70010,
+  "targets_scanned": [
+    "portswigger.com"
+  ],
+  "total_unique_findings": 65,
+  "fresh_findings_count": 65,
+  "historical_findings_count": 0,
+  "new_findings_count": 65,
+  "reused_historical_findings_count": 0,
+  "total_resource_executions": 72,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
+  "resource_executions": [
+    {
+      "resource": "chaos",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 80,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 174,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 242,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 265,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "shodan",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "securitytrails",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shodanx",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 806,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 1235,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3059,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3036,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 63,
+      "duration_ms": 144,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3050,
+      "error": null
+    },
+    {
+      "resource": "zoomeyeapi",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "windvane",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26612,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31710,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38867,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42186,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65064,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65978,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "portswigger.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65826,
+      "error": null
+    }
+  ]
+}
