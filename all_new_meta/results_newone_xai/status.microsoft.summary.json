@@ -1,199 +1,23 @@
 {
   "root_domain": "status.microsoft",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:45:09.262323+00:00",
-  "completed_at": "2026-11-13T08:46:18.183645+00:00",
-  "duration_ms": 68921,
+  "started_at": "2026-11-14T14:54:02.498081+00:00",
+  "completed_at": "2026-11-14T14:55:08.492118+00:00",
+  "duration_ms": 65994,
   "targets_scanned": [
     "status.microsoft"
   ],
   "total_unique_findings": 11,
   "fresh_findings_count": 11,
-  "historical_findings_count": 0,
-  "new_findings_count": 11,
+  "historical_findings_count": 11,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +33,190 @@
       "error": null
     },
     {
+      "resource": "dnsrepo",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "status.microsoft",
       "recursion_depth": 0,
@@ -217,15 +225,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 40,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "leakix",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,31 +249,23 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "digitorus",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 67,
       "error": null
     },
     {
       "resource": "netlas",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,7 @@
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56,
+      "duration_ms": 85,
       "error": null
     },
     {
@@ -329,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "status.microsoft",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 248,
+      "findings_count": 0,
+      "duration_ms": 199,
       "error": null
     },
     {
@@ -349,35 +349,19 @@
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 259,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 279,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 278,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "reconeer",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 19,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 504,
+      "duration_ms": 511,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 932,
+      "duration_ms": 1117,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3047,
       "error": null
     },
     {
       "resource": "thc",
       "target": "status.microsoft",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 11,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1503,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "riddler",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
       "resource": "urlscan",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3083,
       "error": null
     },
     {
@@ -505,15 +505,23 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "whoisxml",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3093,
+      "error": null
+    },
+    {
+      "resource": "zoomeyeapi",
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "crtsh",
       "target": "status.microsoft",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3162,
+      "findings_count": 11,
+      "duration_ms": 13989,
       "error": null
     },
     {
@@ -549,7 +549,15 @@
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27903,
+      "duration_ms": 15281,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 17601,
       "error": null
     },
     {
@@ -557,31 +565,7 @@
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33069,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 11,
-      "duration_ms": 40894,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61542,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "status.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65904,
+      "duration_ms": 30278,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "status.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65479,
+      "duration_ms": 37504,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61473,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "status.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65974,
       "error": null
     }
   ]
