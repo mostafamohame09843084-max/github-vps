@@ -1,9 +1,9 @@
 {
   "root_domain": "str-iherb.biz",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:10:28.194262+00:00",
-  "completed_at": "2026-11-13T09:11:34.180333+00:00",
-  "duration_ms": 65986,
+  "started_at": "2026-11-14T15:20:42.505143+00:00",
+  "completed_at": "2026-11-14T15:21:48.500165+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "str-iherb.biz"
   ],
@@ -13,11 +13,11 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
+      "resource": "dnsdb",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "arpsyndicate",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "chinaz",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +41,23 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "dnsdumpster",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,31 +73,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "fofa",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,15 +89,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "argosdns",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +113,55 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "bevigil",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,31 +177,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "certspotter",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "binaryedge",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,15 +201,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "censys",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
       "resource": "huntermap",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "abuseipdb",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -265,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,19 +313,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 79,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 204,
       "error": null
     },
     {
@@ -345,11 +337,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 239,
+      "duration_ms": 189,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -361,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 240,
+      "duration_ms": 264,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "securitytrails",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 445,
+      "duration_ms": 486,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1174,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1093,
       "error": null
     },
     {
@@ -449,19 +441,19 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatbook",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1803,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 0,
+      "error": null
     },
     {
       "resource": "riddler",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3079,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -469,7 +461,15 @@
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3080,
+      "duration_ms": 3040,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "threatminer",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "sitedossier",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3920,
+      "duration_ms": 3265,
       "error": null
     },
     {
       "resource": "whoisxml",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3482,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,7 @@
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3153,
+      "duration_ms": 3207,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7209,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "str-iherb.biz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 15426,
+      "duration_ms": 17602,
       "error": null
     },
     {
@@ -573,15 +557,31 @@
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33078,
+      "duration_ms": 29230,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "racent",
       "target": "str-iherb.biz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61687,
+      "duration_ms": 30763,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44581,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "str-iherb.biz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 51034,
       "error": null
     },
     {
