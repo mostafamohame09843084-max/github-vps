@@ -1,23 +1,23 @@
 {
   "root_domain": "surface.microsoft",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:43:10.510617+00:00",
-  "completed_at": "2026-11-14T16:44:20.490627+00:00",
-  "duration_ms": 69980,
+  "started_at": "2026-11-14T17:23:23.140079+00:00",
+  "completed_at": "2026-11-14T17:29:47.854235+00:00",
+  "duration_ms": 384714,
   "targets_scanned": [
     "surface.microsoft"
   ],
   "total_unique_findings": 2,
-  "fresh_findings_count": 1,
+  "fresh_findings_count": 2,
   "historical_findings_count": 2,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 1,
+  "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bevigil",
+      "resource": "chaos",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "binaryedge",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,39 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "fofa",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,127 +89,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "arpsyndicate",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +105,87 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "google",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -206,6 +198,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "surface.microsoft",
       "recursion_depth": 0,
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "odin",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "digitorus",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 67,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "quake",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "hudsonrock",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 70,
       "error": null
     },
     {
@@ -317,15 +325,7 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 96,
       "error": null
     },
     {
@@ -337,19 +337,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 226,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 262,
+      "duration_ms": 205,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -377,15 +377,23 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rapiddns",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 504,
+      "error": null
+    },
+    {
+      "resource": "shodan",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,11 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "hackertarget",
       "target": "surface.microsoft",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 577,
       "error": null
     },
     {
@@ -413,15 +421,7 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 494,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -429,7 +429,23 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2538,
+      "duration_ms": 1495,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3032,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 103,
       "error": null
     },
     {
@@ -441,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3078,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
+      "duration_ms": 3038,
       "error": null
     },
     {
@@ -469,11 +469,11 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3458,
+      "duration_ms": 3327,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -501,7 +501,7 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3098,
+      "duration_ms": 3051,
       "error": null
     },
     {
@@ -521,7 +521,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "zoomeyeapi",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,7 +529,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "windvane",
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +541,7 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7905,
+      "duration_ms": 6355,
       "error": null
     },
     {
@@ -549,31 +549,7 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23033,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32823,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42151,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "surface.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65970,
+      "duration_ms": 19524,
       "error": null
     },
     {
@@ -581,15 +557,39 @@
       "target": "surface.microsoft",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 68876,
+      "duration_ms": 20862,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31555,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "surface.microsoft",
       "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 36007,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65924,
+      "duration_ms": 61632,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "surface.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 384702,
       "error": null
     }
   ]

@@ -1,95 +1,31 @@
 {
   "root_domain": "mastercard.us",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:38:14.533633+00:00",
-  "completed_at": "2026-11-14T16:39:24.505732+00:00",
-  "duration_ms": 69972,
+  "started_at": "2026-11-14T17:23:22.860533+00:00",
+  "completed_at": "2026-11-14T17:29:44.864334+00:00",
+  "duration_ms": 382003,
   "targets_scanned": [
     "mastercard.us"
   ],
   "total_unique_findings": 74,
   "fresh_findings_count": 74,
-  "historical_findings_count": 0,
-  "new_findings_count": 74,
+  "historical_findings_count": 74,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domscan",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "censys",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "chinaz",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "bevigil",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,39 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "bufferover",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +97,54 @@
       "error": null
     },
     {
+      "resource": "facebook",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "c99",
       "target": "mastercard.us",
       "recursion_depth": 0,
@@ -193,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsdb",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +161,55 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "coderog",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +225,23 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 37,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "merklemap",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "odin",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "pugrecon",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "mastercard.us",
       "recursion_depth": 0,
@@ -297,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "hudsonrock",
       "target": "mastercard.us",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 3,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -313,19 +321,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 95,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 78,
       "error": null
     },
     {
@@ -341,15 +349,7 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 174,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 230,
+      "duration_ms": 170,
       "error": null
     },
     {
@@ -361,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 51,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 36,
+      "duration_ms": 459,
       "error": null
     },
     {
@@ -374,14 +382,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 47,
-      "duration_ms": 781,
+      "duration_ms": 800,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 1051,
+      "duration_ms": 906,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3074,
+      "duration_ms": 3073,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 67,
+      "duration_ms": 101,
       "error": null
     },
     {
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3050,
       "error": null
     },
     {
@@ -469,11 +469,11 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3355,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3097,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "mastercard.us",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "threatcrowd",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3054,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "windvane",
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 14743,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,15 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24967,
+      "duration_ms": 7234,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20835,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28854,
+      "duration_ms": 31117,
       "error": null
     },
     {
@@ -565,7 +565,7 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 64,
-      "duration_ms": 35055,
+      "duration_ms": 57220,
       "error": null
     },
     {
@@ -573,15 +573,7 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42149,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "mastercard.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65943,
+      "duration_ms": 61517,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "mastercard.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65800,
+      "duration_ms": 65757,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "mastercard.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 381985,
       "error": null
     }
   ]
