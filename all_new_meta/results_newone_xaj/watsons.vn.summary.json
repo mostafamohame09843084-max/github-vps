@@ -1,47 +1,23 @@
 {
   "root_domain": "watsons.vn",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:53:34.513515+00:00",
-  "completed_at": "2026-11-14T16:54:44.496512+00:00",
-  "duration_ms": 69982,
+  "started_at": "2026-11-14T17:35:32.860039+00:00",
+  "completed_at": "2026-11-14T17:36:42.841112+00:00",
+  "duration_ms": 69981,
   "targets_scanned": [
     "watsons.vn"
   ],
   "total_unique_findings": 24,
   "fresh_findings_count": 24,
-  "historical_findings_count": 1,
-  "new_findings_count": 23,
+  "historical_findings_count": 24,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "argosdns",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,103 +33,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +49,63 @@
       "error": null
     },
     {
+      "resource": "github",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "driftnet",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "bufferover",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +137,79 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "c99",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +229,11 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 33,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "netlas",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -253,15 +261,7 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -313,19 +313,19 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 73,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 176,
+      "duration_ms": 102,
       "error": null
     },
     {
@@ -345,23 +345,39 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 247,
+      "duration_ms": 188,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 838,
+      "duration_ms": 19,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 13,
-      "duration_ms": 957,
+      "duration_ms": 786,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 872,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3085,
+      "duration_ms": 3051,
       "error": null
     },
     {
@@ -449,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3074,
+      "duration_ms": 3037,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "thc",
       "target": "watsons.vn",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 23,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3275,
+      "duration_ms": 3457,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -517,7 +517,7 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3160,
+      "duration_ms": 3099,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10015,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "watsons.vn",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25091,
+      "duration_ms": 8554,
       "error": null
     },
     {
@@ -557,15 +549,15 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33074,
+      "duration_ms": 31791,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "submd",
       "target": "watsons.vn",
       "recursion_depth": 0,
-      "findings_count": 23,
-      "duration_ms": 37279,
+      "findings_count": 0,
+      "duration_ms": 43095,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61675,
+      "duration_ms": 61283,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "watsons.vn",
+      "recursion_depth": 0,
+      "findings_count": 23,
+      "duration_ms": 64858,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65968,
+      "duration_ms": 65964,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "watsons.vn",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65832,
+      "duration_ms": 65651,
       "error": null
     }
   ]

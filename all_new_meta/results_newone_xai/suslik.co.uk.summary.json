@@ -1,151 +1,23 @@
 {
   "root_domain": "suslik.co.uk",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:49:07.495068+00:00",
-  "completed_at": "2026-11-14T16:50:16.492073+00:00",
-  "duration_ms": 68997,
+  "started_at": "2026-11-14T17:35:42.985871+00:00",
+  "completed_at": "2026-11-14T17:36:48.836089+00:00",
+  "duration_ms": 65850,
   "targets_scanned": [
     "suslik.co.uk"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "domscan",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "argosdns",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "chinaz",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "bufferover",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "fullhunt",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -206,6 +86,134 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -222,14 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
       "error": null
     },
     {
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
       "error": null
     },
     {
@@ -281,7 +281,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +305,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +313,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +325,15 @@
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
+      "duration_ms": 92,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,31 +349,7 @@
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 185,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 245,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 170,
       "error": null
     },
     {
@@ -365,19 +357,11 @@
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 54,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 298,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hackertarget",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 16,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 515,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2229,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "shodanx",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3047,
+      "duration_ms": 23,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 486,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1147,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3046,
       "error": null
     },
     {
@@ -457,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3078,
+      "duration_ms": 3042,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "thc",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 38,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 103,
       "error": null
     },
     {
@@ -489,15 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "urlscan",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +489,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "virustotal",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,7 +497,23 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "threatcrowd",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3059,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3109,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "suslik.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11152,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -557,7 +541,7 @@
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 14647,
+      "duration_ms": 11439,
       "error": null
     },
     {
@@ -565,7 +549,7 @@
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 32803,
+      "duration_ms": 22670,
       "error": null
     },
     {
@@ -573,15 +557,15 @@
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32823,
+      "duration_ms": 31772,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66004,
+      "duration_ms": 32697,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "suslik.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65579,
+      "duration_ms": 33397,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61600,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "suslik.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65833,
       "error": null
     }
   ]
