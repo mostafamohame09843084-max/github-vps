@@ -1,9 +1,9 @@
 {
   "root_domain": "vistareu",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:37:00.190393+00:00",
-  "completed_at": "2026-11-13T08:38:09.181418+00:00",
-  "duration_ms": 68991,
+  "started_at": "2026-11-14T14:44:13.454522+00:00",
+  "completed_at": "2026-11-14T14:45:22.488874+00:00",
+  "duration_ms": 69034,
   "targets_scanned": [
     "vistareu"
   ],
@@ -13,83 +13,11 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "arpsyndicate",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "arpsyndicate",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "certspotter",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "c99",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "chaos",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +81,15 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "bufferover",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +105,23 @@
       "error": null
     },
     {
+      "resource": "domainsproject",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +137,71 @@
       "error": null
     },
     {
+      "resource": "coderog",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "github",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
       "resource": "huntermap",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 72,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "vistareu",
       "recursion_depth": 0,
@@ -265,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 66,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 77,
       "error": null
     },
     {
@@ -345,11 +345,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
+      "duration_ms": 230,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -358,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 266,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 388,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 493,
+      "duration_ms": 466,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 883,
+      "duration_ms": 1092,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -445,31 +453,15 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 40,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1605,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "riddler",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3091,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3060,
       "error": null
     },
     {
@@ -481,15 +473,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3077,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,7 +481,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,23 +505,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3481,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,15 +517,31 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3099,
+      "duration_ms": 3065,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "zoomeyeapi",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22052,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "windvane",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 14091,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30076,
+      "duration_ms": 26417,
       "error": null
     },
     {
@@ -565,7 +557,15 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33076,
+      "duration_ms": 30804,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46082,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61472,
+      "duration_ms": 61468,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 65993,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65558,
+      "duration_ms": 65181,
       "error": null
     }
   ]

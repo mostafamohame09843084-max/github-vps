@@ -1,9 +1,9 @@
 {
   "root_domain": "static-clario.co",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:38:16.184289+00:00",
-  "completed_at": "2026-11-13T08:39:25.182581+00:00",
-  "duration_ms": 68998,
+  "started_at": "2026-11-14T14:47:09.494461+00:00",
+  "completed_at": "2026-11-14T14:48:19.492633+00:00",
+  "duration_ms": 69998,
   "targets_scanned": [
     "static-clario.co"
   ],
@@ -13,11 +13,11 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
+      "resource": "binaryedge",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "dnsdb",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "github",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +41,47 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "domainsproject",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,78 +105,6 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
       "target": "static-clario.co",
       "recursion_depth": 0,
@@ -153,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "censys",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "digitalyama",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsrepo",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "chaos",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +153,15 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "driftnet",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "dnsdumpster",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +185,27 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "google",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,11 +257,27 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "netlas",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "profundis",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 106,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "anubis",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 74,
       "error": null
     },
     {
@@ -333,7 +325,15 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 208,
+      "duration_ms": 173,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,7 +349,7 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 239,
+      "duration_ms": 246,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 249,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 18,
       "error": null
     },
     {
@@ -421,23 +421,31 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 821,
+      "duration_ms": 1234,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1162,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 1316,
+      "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3070,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3039,
       "error": null
     },
     {
@@ -449,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "thc",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1390,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3079,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 94,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "urlscan",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -494,6 +494,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3095,
       "error": null
     },
     {
@@ -513,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3483,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "static-clario.co",
       "recursion_depth": 0,
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3108,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26264,
+      "duration_ms": 10894,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "racent",
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33066,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "static-clario.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61609,
+      "duration_ms": 13643,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 18574,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30535,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "static-clario.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61401,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 65986,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "static-clario.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65605,
+      "duration_ms": 65414,
       "error": null
     }
   ]

@@ -1,23 +1,23 @@
 {
   "root_domain": "qt-tv.net",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:40:40.193394+00:00",
-  "completed_at": "2026-11-13T08:41:46.183009+00:00",
-  "duration_ms": 65989,
+  "started_at": "2026-11-14T14:46:06.493897+00:00",
+  "completed_at": "2026-11-14T14:47:16.493893+00:00",
+  "duration_ms": 69999,
   "targets_scanned": [
     "qt-tv.net"
   ],
   "total_unique_findings": 3,
   "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "historical_findings_count": 3,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
+      "resource": "argosdns",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "github",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,39 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "chaos",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "binaryedge",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,14 +73,6 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
       "target": "qt-tv.net",
       "recursion_depth": 0,
@@ -129,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "certspotter",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,23 +89,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "chinaz",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "dnsdumpster",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +113,15 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "domscan",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +137,39 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "google",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "bufferover",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +193,35 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "domainsproject",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,7 +233,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,11 +265,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
+      "resource": "profundis",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 77,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "anubis",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 91,
       "error": null
     },
     {
@@ -341,15 +333,15 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 169,
+      "duration_ms": 205,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidscan",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,11 +349,35 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 241,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 265,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 72,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,31 +421,23 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 466,
+      "duration_ms": 883,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1192,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1318,
+      "duration_ms": 1099,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "qt-tv.net",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 126,
+      "findings_count": 0,
+      "duration_ms": 3082,
       "error": null
     },
     {
@@ -457,19 +449,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "qt-tv.net",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3119,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 131,
       "error": null
     },
     {
@@ -477,11 +461,27 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
+      "duration_ms": 3239,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3479,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "qt-tv.net",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3098,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3271,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "racent",
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3124,
+      "duration_ms": 10339,
       "error": null
     },
     {
@@ -557,23 +549,7 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 25552,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33079,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "qt-tv.net",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34037,
+      "duration_ms": 19016,
       "error": null
     },
     {
@@ -581,7 +557,23 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61641,
+      "duration_ms": 26934,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29951,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61887,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "qt-tv.net",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 65981,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "qt-tv.net",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65529,
       "error": null
     }
   ]

@@ -1,55 +1,23 @@
 {
   "root_domain": "starviz.online",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:33:46.192271+00:00",
-  "completed_at": "2026-11-13T08:34:55.181386+00:00",
-  "duration_ms": 68989,
+  "started_at": "2026-11-14T14:42:31.505576+00:00",
+  "completed_at": "2026-11-14T14:43:40.492243+00:00",
+  "duration_ms": 68986,
   "targets_scanned": [
     "starviz.online"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "bevigil",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,63 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "github",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "dnsrepo",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +57,31 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "argosdns",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,23 +97,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "certspotter",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +121,111 @@
       "error": null
     },
     {
+      "resource": "facebook",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bufferover",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "leakix",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,35 +257,11 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
       "error": null
     },
     {
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +305,23 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63,
+      "duration_ms": 84,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,23 +341,15 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 217,
+      "duration_ms": 186,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "hudsonrock",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 268,
       "error": null
     },
     {
@@ -361,19 +361,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 255,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 233,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 505,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 457,
+      "duration_ms": 524,
       "error": null
     },
     {
@@ -429,23 +429,15 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1112,
+      "duration_ms": 965,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1172,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3072,
       "error": null
     },
     {
@@ -457,19 +449,27 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "starviz.online",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
+      "findings_count": 2,
+      "duration_ms": 122,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3113,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "urlscan",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3461,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3108,
       "error": null
     },
     {
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3161,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33081,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "starviz.online",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45060,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,7 +541,31 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44854,
+      "duration_ms": 7182,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 11716,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 23647,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "starviz.online",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29262,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61603,
+      "duration_ms": 61562,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65977,
+      "duration_ms": 65975,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "starviz.online",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65405,
+      "duration_ms": 65103,
       "error": null
     }
   ]

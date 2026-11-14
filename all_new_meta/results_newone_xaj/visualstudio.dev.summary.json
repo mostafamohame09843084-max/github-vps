@@ -1,71 +1,23 @@
 {
   "root_domain": "visualstudio.dev",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:42:40.316398+00:00",
-  "completed_at": "2026-11-13T08:43:49.184803+00:00",
-  "duration_ms": 68868,
+  "started_at": "2026-11-14T14:49:59.723576+00:00",
+  "completed_at": "2026-11-14T14:51:09.490701+00:00",
+  "duration_ms": 69767,
   "targets_scanned": [
     "visualstudio.dev"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "google",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "bevigil",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "chaos",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "arpsyndicate",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +89,39 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "bufferover",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -178,6 +130,46 @@
     },
     {
       "resource": "domainsproject",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "digitalyama",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +201,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "dnsdb",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "digitorus",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,27 @@
       "error": null
     },
     {
+      "resource": "leakix",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -265,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "profundis",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,14 +290,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,15 @@
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 64,
+      "duration_ms": 107,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "alienvault",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 187,
       "error": null
     },
     {
@@ -337,23 +337,7 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 179,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 240,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -361,15 +345,23 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 217,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 261,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "redhuntlabs",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,15 +377,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
-      "error": null
-    },
-    {
-      "resource": "shodan",
+      "resource": "rsecloud",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +385,23 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45,
+      "error": null
+    },
+    {
       "resource": "securitytrails",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shodan",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -421,31 +421,23 @@
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 468,
+      "duration_ms": 518,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 939,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1098,
+      "duration_ms": 947,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -457,11 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
+      "duration_ms": 3054,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 116,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3088,
+      "duration_ms": 3276,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3071,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
@@ -505,23 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3269,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
-      "target": "visualstudio.dev",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3146,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,7 @@
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 6925,
+      "duration_ms": 10140,
       "error": null
     },
     {
@@ -557,15 +549,15 @@
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33074,
+      "duration_ms": 29805,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "racent",
       "target": "visualstudio.dev",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 37663,
+      "findings_count": 0,
+      "duration_ms": 41723,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42021,
+      "duration_ms": 42094,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "visualstudio.dev",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 49669,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65869,
+      "duration_ms": 65765,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "visualstudio.dev",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65464,
+      "duration_ms": 65856,
       "error": null
     }
   ]

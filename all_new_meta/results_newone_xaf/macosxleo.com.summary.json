@@ -1,21 +1,45 @@
 {
   "root_domain": "macosxleo.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:32:45.187165+00:00",
-  "completed_at": "2026-11-13T08:33:54.183283+00:00",
-  "duration_ms": 68996,
+  "started_at": "2026-11-14T14:34:16.506006+00:00",
+  "completed_at": "2026-11-14T14:35:28.640856+00:00",
+  "duration_ms": 72134,
   "targets_scanned": [
     "macosxleo.com"
   ],
-  "total_unique_findings": 2,
-  "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "total_unique_findings": 3,
+  "fresh_findings_count": 3,
+  "historical_findings_count": 2,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "dnsrepo",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "binaryedge",
       "target": "macosxleo.com",
@@ -25,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "driftnet",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,47 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "fofa",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -90,22 +82,6 @@
     },
     {
       "resource": "c99",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,47 +105,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsdumpster",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +129,23 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "fullhunt",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "certspotter",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "arpsyndicate",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +213,19 @@
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 30,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +253,27 @@
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "netlas",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +309,23 @@
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 59,
+      "duration_ms": 77,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "rapidapi",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 115,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 244,
       "error": null
     },
     {
@@ -349,15 +349,15 @@
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 206,
+      "duration_ms": 254,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 215,
+      "duration_ms": 68,
       "error": null
     },
     {
@@ -372,8 +372,8 @@
       "resource": "hackertarget",
       "target": "macosxleo.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 282,
+      "findings_count": 2,
+      "duration_ms": 532,
       "error": null
     },
     {
@@ -409,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 85,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -429,24 +421,24 @@
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 492,
+      "duration_ms": 482,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "myssl",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1450,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 983,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3079,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -457,11 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 124,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3082,
       "error": null
     },
     {
@@ -481,23 +481,15 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 3502,
       "error": null
     },
     {
       "resource": "virustotal",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,23 +505,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3354,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,47 +517,23 @@
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 3150,
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "zoomeyeapi",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23277,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "windvane",
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27191,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33079,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61497,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "macosxleo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -589,7 +541,55 @@
       "target": "macosxleo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65596,
+      "duration_ms": 4913,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 11542,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 10521,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28678,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61434,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65975,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "macosxleo.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 72124,
       "error": null
     }
   ]

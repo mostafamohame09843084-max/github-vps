@@ -1,31 +1,23 @@
 {
   "root_domain": "stateofdecay2.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:34:55.184175+00:00",
-  "completed_at": "2026-11-13T08:36:04.182069+00:00",
-  "duration_ms": 68997,
+  "started_at": "2026-11-14T14:43:40.499828+00:00",
+  "completed_at": "2026-11-14T14:44:50.494254+00:00",
+  "duration_ms": 69994,
   "targets_scanned": [
     "stateofdecay2.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "driftnet",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "fofa",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "coderog",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,71 +57,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "binaryedge",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,15 +73,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "bufferover",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +89,131 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "domainsproject",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -265,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -317,15 +317,15 @@
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 79,
+      "duration_ms": 82,
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hudsonrock",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 192,
+      "duration_ms": 238,
       "error": null
     },
     {
@@ -345,23 +345,39 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 206,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 507,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 498,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 87,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 465,
+      "duration_ms": 16,
       "error": null
     },
     {
@@ -429,7 +421,31 @@
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1268,
+      "duration_ms": 1067,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3359,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3050,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3047,
       "error": null
     },
     {
@@ -444,24 +460,8 @@
       "resource": "thc",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1965,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "riddler",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
+      "findings_count": 1,
+      "duration_ms": 125,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3090,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3093,
       "error": null
     },
     {
       "resource": "whoisxml",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,23 @@
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9955,
+      "duration_ms": 6736,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 10588,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "stateofdecay2.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 23611,
       "error": null
     },
     {
@@ -557,7 +565,7 @@
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33088,
+      "duration_ms": 30509,
       "error": null
     },
     {
@@ -565,15 +573,7 @@
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61745,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "stateofdecay2.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 61577,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "stateofdecay2.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 65981,
       "error": null
     },
     {

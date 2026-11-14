@@ -1,159 +1,31 @@
 {
   "root_domain": "qir-alliance.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:36:09.188576+00:00",
-  "completed_at": "2026-11-13T08:37:16.183447+00:00",
-  "duration_ms": 66994,
+  "started_at": "2026-11-14T14:41:32.493085+00:00",
+  "completed_at": "2026-11-14T14:42:42.492278+00:00",
+  "duration_ms": 69999,
   "targets_scanned": [
     "qir-alliance.org"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "dnsdb",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "fofa",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "domainsproject",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +73,118 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chaos",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
@@ -201,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsdumpster",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,7 +213,7 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -233,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,11 +261,11 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 59,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
@@ -309,27 +309,11 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83,
+      "duration_ms": 74,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 110,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 209,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 186,
+      "duration_ms": 287,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -361,23 +369,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "rapiddns",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 84,
+      "duration_ms": 497,
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 280,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,27 +409,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 286,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 18,
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "hackertarget",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 592,
+      "findings_count": 2,
+      "duration_ms": 823,
       "error": null
     },
     {
@@ -437,15 +429,15 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1042,
+      "duration_ms": 1788,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 133,
+      "findings_count": 0,
+      "duration_ms": 3056,
       "error": null
     },
     {
@@ -457,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "thc",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1192,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "trickest",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 105,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "shrewdeye",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 3042,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +481,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "sitedossier",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
+      "duration_ms": 3585,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3111,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "windvane",
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3094,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3264,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "qir-alliance.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3111,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,7 +541,23 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7388,
+      "duration_ms": 8112,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 9931,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 27639,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33083,
+      "duration_ms": 29257,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "qir-alliance.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61663,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65997,
+      "duration_ms": 65987,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "qir-alliance.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65714,
+      "duration_ms": 65580,
       "error": null
     }
   ]

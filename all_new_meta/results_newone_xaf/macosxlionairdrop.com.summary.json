@@ -1,23 +1,31 @@
 {
   "root_domain": "macosxlionairdrop.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:36:12.269388+00:00",
-  "completed_at": "2026-11-13T08:37:19.180580+00:00",
-  "duration_ms": 66911,
+  "started_at": "2026-11-14T14:43:30.516293+00:00",
+  "completed_at": "2026-11-14T14:44:36.489927+00:00",
+  "duration_ms": 65973,
   "targets_scanned": [
     "macosxlionairdrop.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
+      "resource": "fullhunt",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,23 @@
       "error": null
     },
     {
+      "resource": "arpsyndicate",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bevigil",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "builtwith",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "argosdns",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,14 +97,6 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
@@ -89,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "censys",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,23 +113,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "chinaz",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "google",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "domainsproject",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "dnsdb",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,23 +161,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "fofa",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +177,15 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "github",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,19 +201,11 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "driftnet",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
       "error": null
     },
     {
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "abuseipdb",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "leakix",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -262,6 +254,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -317,23 +317,7 @@
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 130,
+      "duration_ms": 73,
       "error": null
     },
     {
@@ -345,19 +329,35 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 218,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 191,
+      "duration_ms": 338,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -369,22 +369,6 @@
       "error": null
     },
     {
-      "resource": "robtex",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 261,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hackertarget",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 523,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "securitytrails",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 84,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -421,15 +413,7 @@
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 467,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -437,15 +421,31 @@
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1128,
+      "duration_ms": 1211,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 1528,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3081,
       "error": null
     },
     {
       "resource": "thc",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 119,
       "error": null
     },
     {
@@ -457,12 +457,12 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1560,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3039,
+      "error": null
     },
     {
       "resource": "trickest",
@@ -470,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3461,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatcrowd",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3053,
+      "duration_ms": 3093,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +537,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "racent",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3088,
+      "duration_ms": 11169,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "crtsh",
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3091,
+      "findings_count": 2,
+      "duration_ms": 26971,
       "error": null
     },
     {
@@ -565,7 +557,7 @@
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7497,
+      "duration_ms": 29187,
       "error": null
     },
     {
@@ -573,15 +565,7 @@
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33080,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "macosxlionairdrop.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65913,
+      "duration_ms": 31037,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "macosxlionairdrop.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65276,
+      "duration_ms": 49063,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61475,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "macosxlionairdrop.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65963,
       "error": null
     }
   ]

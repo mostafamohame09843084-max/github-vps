@@ -1,63 +1,31 @@
 {
   "root_domain": "niumba.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:39:01.202177+00:00",
-  "completed_at": "2026-11-13T08:40:10.212761+00:00",
-  "duration_ms": 69010,
+  "started_at": "2026-11-14T14:42:17.632036+00:00",
+  "completed_at": "2026-11-14T14:43:27.503095+00:00",
+  "duration_ms": 69871,
   "targets_scanned": [
     "niumba.com"
   ],
-  "total_unique_findings": 77,
-  "fresh_findings_count": 77,
-  "historical_findings_count": 0,
-  "new_findings_count": 77,
+  "total_unique_findings": 91,
+  "fresh_findings_count": 91,
+  "historical_findings_count": 77,
+  "new_findings_count": 14,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "dnsdb",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,71 +41,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "driftnet",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "arpsyndicate",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +73,55 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "fullhunt",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +137,31 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "chinaz",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "facebook",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +185,27 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "coderog",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "niumba.com",
       "recursion_depth": 0,
@@ -265,15 +257,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 40,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,23 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56,
+      "error": null
+    },
+    {
       "resource": "onyphe",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 79,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 85,
       "error": null
     },
     {
@@ -333,7 +333,7 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 172,
+      "duration_ms": 184,
       "error": null
     },
     {
@@ -345,23 +345,39 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 282,
+      "duration_ms": 246,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 15,
+      "duration_ms": 503,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,19 +393,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "shodan",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
       "error": null
     },
     {
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -421,23 +421,23 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 76,
-      "duration_ms": 587,
+      "duration_ms": 1114,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1284,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 1566,
+      "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3098,
       "error": null
     },
     {
@@ -449,11 +449,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "niumba.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
+      "findings_count": 15,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -461,11 +461,11 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3046,
+      "duration_ms": 3102,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -477,11 +477,11 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3272,
+      "duration_ms": 3460,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -501,11 +501,11 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3137,
+      "duration_ms": 3157,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +537,19 @@
       "error": null
     },
     {
+      "resource": "racent",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 11422,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 6863,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23454,
+      "duration_ms": 15743,
       "error": null
     },
     {
@@ -557,7 +557,15 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33084,
+      "duration_ms": 33081,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "niumba.com",
+      "recursion_depth": 0,
+      "findings_count": 13,
+      "duration_ms": 40441,
       "error": null
     },
     {
@@ -565,7 +573,7 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61320,
+      "duration_ms": 61760,
       "error": null
     },
     {
@@ -573,15 +581,7 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65970,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "niumba.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65970,
+      "duration_ms": 65849,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "niumba.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65031,
+      "duration_ms": 65189,
       "error": null
     }
   ]
