@@ -1,23 +1,23 @@
 {
   "root_domain": "voando26.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T09:00:53.276129+00:00",
-  "completed_at": "2026-11-13T09:02:02.181814+00:00",
-  "duration_ms": 68905,
+  "started_at": "2026-11-14T15:08:31.505336+00:00",
+  "completed_at": "2026-11-14T15:09:41.491503+00:00",
+  "duration_ms": 69986,
   "targets_scanned": [
     "voando26.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "facebook",
+      "resource": "domscan",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,15 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "chaos",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,15 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "fofa",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,15 +65,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "github",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "chinaz",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "arpsyndicate",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,79 +105,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "argosdns",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +121,87 @@
       "error": null
     },
     {
+      "resource": "fullhunt",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "google",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,15 +213,7 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "netlas",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -273,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 81,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 82,
       "error": null
     },
     {
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 181,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "voando26.com",
       "recursion_depth": 0,
@@ -345,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 186,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 257,
+      "duration_ms": 238,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 240,
       "error": null
     },
     {
@@ -389,11 +381,11 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
+      "duration_ms": 52,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -402,6 +394,14 @@
     },
     {
       "resource": "shodan",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "securitytrails",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -421,7 +421,7 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 463,
+      "duration_ms": 1339,
       "error": null
     },
     {
@@ -429,16 +429,8 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1141,
+      "duration_ms": 1689,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1525,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "threatbook",
@@ -461,7 +453,23 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3105,
+      "duration_ms": 3061,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3073,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3264,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3163,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "voando26.com",
       "recursion_depth": 0,
@@ -497,15 +497,15 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "threatcrowd",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3517,
+      "duration_ms": 3077,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "racent",
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3574,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3108,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33084,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "voando26.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47244,
+      "duration_ms": 20085,
       "error": null
     },
     {
@@ -573,7 +549,31 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61578,
+      "duration_ms": 20552,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27644,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30848,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "voando26.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 46814,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65897,
+      "duration_ms": 65992,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "voando26.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65392,
+      "duration_ms": 65292,
       "error": null
     }
   ]
