@@ -1,31 +1,23 @@
 {
   "root_domain": "subnorrepg.run",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:01:48.496100+00:00",
-  "completed_at": "2026-11-14T16:02:57.492323+00:00",
-  "duration_ms": 68996,
+  "started_at": "2026-11-15T16:20:50.742513+00:00",
+  "completed_at": "2026-11-15T16:21:56.747271+00:00",
+  "duration_ms": 66004,
   "targets_scanned": [
     "subnorrepg.run"
   ],
   "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 0,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "bufferover",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,103 +33,15 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "chinaz",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "github",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +97,79 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "arpsyndicate",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -206,6 +182,38 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "digitorus",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -265,11 +265,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "netlas",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 59,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
@@ -309,19 +309,11 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 87,
+      "duration_ms": 69,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,19 +329,19 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 186,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 229,
+      "duration_ms": 194,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 284,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 479,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1040,
+      "duration_ms": 1105,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1249,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3076,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3054,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -489,15 +481,15 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "threatminer",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 32,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "virustotal",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,11 +501,19 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3479,
       "error": null
     },
     {
       "resource": "whoisxml",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,23 +541,7 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3112,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27066,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32706,
+      "duration_ms": 3144,
       "error": null
     },
     {
@@ -565,23 +549,7 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40580,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65984,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "subnorrepg.run",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 66808,
+      "duration_ms": 12320,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "subnorrepg.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65594,
+      "duration_ms": 18584,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 24729,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33099,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65995,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "subnorrepg.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65995,
       "error": null
     }
   ]

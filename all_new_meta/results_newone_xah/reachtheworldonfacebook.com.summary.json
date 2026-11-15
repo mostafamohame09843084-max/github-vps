@@ -1,103 +1,23 @@
 {
   "root_domain": "reachtheworldonfacebook.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:00:13.523774+00:00",
-  "completed_at": "2026-11-14T16:01:22.493168+00:00",
-  "duration_ms": 68969,
+  "started_at": "2026-11-15T16:20:53.758281+00:00",
+  "completed_at": "2026-11-15T16:21:59.746885+00:00",
+  "duration_ms": 65988,
   "targets_scanned": [
     "reachtheworldonfacebook.com"
   ],
   "total_unique_findings": 8,
   "fresh_findings_count": 8,
-  "historical_findings_count": 0,
-  "new_findings_count": 8,
+  "historical_findings_count": 8,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "bufferover",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "certspotter",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "censys",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "dnsdumpster",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +73,31 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "digitalyama",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -154,6 +106,14 @@
     },
     {
       "resource": "fofa",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,31 +145,63 @@
       "error": null
     },
     {
+      "resource": "domainsproject",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chaos",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,11 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 30,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +253,23 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58,
+      "duration_ms": 35,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -305,15 +305,23 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 76,
+      "duration_ms": 78,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidfinder",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,15 +341,7 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 185,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 181,
       "error": null
     },
     {
@@ -349,7 +349,7 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 276,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 258,
+      "duration_ms": 293,
       "error": null
     },
     {
@@ -377,15 +377,23 @@
       "error": null
     },
     {
+      "resource": "rsecloud",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "securitytrails",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,27 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 388,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 467,
+      "duration_ms": 1291,
       "error": null
     },
     {
@@ -437,7 +429,7 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 1734,
+      "duration_ms": 1415,
       "error": null
     },
     {
@@ -461,7 +453,15 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3063,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -473,6 +473,14 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
       "resource": "trickest",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
@@ -481,27 +489,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3046,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3277,
       "error": null
     },
     {
@@ -518,6 +510,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -541,23 +541,15 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3083,
+      "duration_ms": 3138,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11032,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "reachtheworldonfacebook.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33074,
+      "findings_count": 5,
+      "duration_ms": 18193,
       "error": null
     },
     {
@@ -565,23 +557,23 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39891,
+      "duration_ms": 18863,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42338,
+      "duration_ms": 18260,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "reconcloud",
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65951,
+      "duration_ms": 28660,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "reachtheworldonfacebook.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65561,
+      "duration_ms": 49827,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "reachtheworldonfacebook.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65975,
       "error": null
     }
   ]
