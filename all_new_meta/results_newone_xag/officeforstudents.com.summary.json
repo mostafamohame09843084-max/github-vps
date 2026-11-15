@@ -1,23 +1,31 @@
 {
   "root_domain": "officeforstudents.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:19:27.569955+00:00",
-  "completed_at": "2026-11-14T18:20:32.837159+00:00",
-  "duration_ms": 65267,
+  "started_at": "2026-11-15T17:51:56.738478+00:00",
+  "completed_at": "2026-11-15T17:53:06.733172+00:00",
+  "duration_ms": 69994,
   "targets_scanned": [
     "officeforstudents.com"
   ],
   "total_unique_findings": 3,
-  "fresh_findings_count": 3,
-  "historical_findings_count": 2,
-  "new_findings_count": 1,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 1,
+  "historical_findings_count": 3,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 2,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "github",
+      "resource": "censys",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "dnsdb",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "certspotter",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,95 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "github",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "bufferover",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +89,55 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "facebook",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "coderog",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +161,15 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "binaryedge",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +185,23 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "domainsproject",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chinaz",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,7 +253,15 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 75,
+      "duration_ms": 60,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -317,23 +317,7 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 130,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 213,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 99,
       "error": null
     },
     {
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 174,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 298,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 292,
       "error": null
     },
     {
@@ -361,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rsecloud",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 325,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -373,15 +381,7 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 73,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 456,
+      "duration_ms": 520,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1384,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3046,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3057,
+      "duration_ms": 1421,
       "error": null
     },
     {
@@ -457,19 +441,27 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 130,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
+      "resource": "riddler",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 3135,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3089,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3503,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,7 +505,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -517,7 +517,7 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3099,
+      "duration_ms": 3092,
       "error": null
     },
     {
@@ -537,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 7868,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 6591,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32539,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "officeforstudents.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 36776,
+      "duration_ms": 11881,
       "error": null
     },
     {
@@ -573,7 +549,23 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 45100,
+      "duration_ms": 24109,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33091,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39925,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61607,
+      "duration_ms": 42097,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "officeforstudents.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65252,
+      "duration_ms": 65993,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "officeforstudents.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65863,
       "error": null
     }
   ]
