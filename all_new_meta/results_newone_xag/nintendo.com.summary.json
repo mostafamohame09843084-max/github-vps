@@ -1,21 +1,45 @@
 {
   "root_domain": "nintendo.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T14:50:56.767302+00:00",
-  "completed_at": "2026-11-15T14:52:06.040212+00:00",
-  "duration_ms": 69272,
+  "started_at": "2026-11-15T14:58:14.768336+00:00",
+  "completed_at": "2026-11-15T14:59:20.942006+00:00",
+  "duration_ms": 66173,
   "targets_scanned": [
     "nintendo.com"
   ],
   "total_unique_findings": 1520,
   "fresh_findings_count": 1519,
-  "historical_findings_count": 47,
-  "new_findings_count": 1473,
+  "historical_findings_count": 1520,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "digitalyama",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "fullhunt",
       "target": "nintendo.com",
@@ -25,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "arpsyndicate",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "censys",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -50,22 +66,6 @@
     },
     {
       "resource": "c99",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "domainsproject",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "bevigil",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "coderog",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "binaryedge",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,39 +145,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "dnsdumpster",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "chinaz",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "certspotter",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "dnsrepo",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,19 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 34,
       "error": null
     },
     {
       "resource": "intelx",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 62,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,19 +313,19 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 62,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
+      "duration_ms": 78,
       "error": null
     },
     {
@@ -345,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "nintendo.com",
       "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 261,
+      "findings_count": 0,
+      "duration_ms": 162,
       "error": null
     },
     {
@@ -365,15 +365,7 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "hackertarget",
       "target": "nintendo.com",
       "recursion_depth": 0,
-      "findings_count": 25,
-      "duration_ms": 925,
+      "findings_count": 0,
+      "duration_ms": 247,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,27 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 25,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 25,
+      "duration_ms": 574,
       "error": null
     },
     {
@@ -421,7 +429,7 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 14,
-      "duration_ms": 1125,
+      "duration_ms": 864,
       "error": null
     },
     {
@@ -429,7 +437,7 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3105,
+      "duration_ms": 3040,
       "error": null
     },
     {
@@ -437,7 +445,7 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3219,
+      "duration_ms": 3072,
       "error": null
     },
     {
@@ -449,31 +457,23 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 1036,
-      "duration_ms": 211,
+      "duration_ms": 179,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 3272,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3111,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3083,
+      "error": null
+    },
+    {
       "resource": "windvane",
       "target": "nintendo.com",
       "recursion_depth": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22147,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24981,
+      "duration_ms": 9933,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30278,
+      "duration_ms": 32067,
       "error": null
     },
     {
@@ -565,23 +557,15 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50452,
+      "duration_ms": 33500,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatminer",
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57889,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "nintendo.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65959,
+      "duration_ms": 42070,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "nintendo.com",
       "recursion_depth": 0,
       "findings_count": 917,
-      "duration_ms": 68863,
+      "duration_ms": 47646,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49628,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "nintendo.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65960,
       "error": null
     }
   ]
