@@ -1,61 +1,21 @@
 {
   "root_domain": "vrv.co",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:34:43.507838+00:00",
-  "completed_at": "2026-11-14T15:35:53.497125+00:00",
-  "duration_ms": 69989,
+  "started_at": "2026-11-15T16:01:00.739190+00:00",
+  "completed_at": "2026-11-15T16:02:06.748285+00:00",
+  "duration_ms": 66009,
   "targets_scanned": [
     "vrv.co"
   ],
-  "total_unique_findings": 52,
-  "fresh_findings_count": 52,
-  "historical_findings_count": 0,
-  "new_findings_count": 52,
+  "total_unique_findings": 53,
+  "fresh_findings_count": 53,
+  "historical_findings_count": 52,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "driftnet",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "certspotter",
       "target": "vrv.co",
@@ -65,15 +25,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "bufferover",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,95 +41,23 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "censys",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +73,127 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "chinaz",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
       "resource": "huntermap",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56,
       "error": null
     },
     {
@@ -261,19 +261,11 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
+      "duration_ms": 66,
       "error": null
     },
     {
       "resource": "netlas",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "vrv.co",
       "recursion_depth": 0,
@@ -309,7 +309,7 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 96,
+      "duration_ms": 123,
       "error": null
     },
     {
@@ -318,14 +318,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 209,
       "error": null
     },
     {
@@ -345,11 +337,19 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 209,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 277,
+      "duration_ms": 256,
       "error": null
     },
     {
@@ -361,15 +361,15 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 279,
+      "duration_ms": 51,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65,
+      "duration_ms": 315,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 837,
+      "duration_ms": 1240,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 16,
-      "duration_ms": 811,
+      "duration_ms": 1284,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3080,
+      "duration_ms": 3108,
       "error": null
     },
     {
@@ -449,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3093,
+      "duration_ms": 3064,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "thc",
       "target": "vrv.co",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3353,
+      "findings_count": 22,
+      "duration_ms": 118,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisxml",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "vrv.co",
       "recursion_depth": 0,
@@ -505,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3132,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -537,19 +537,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3110,
+      "error": null
+    },
+    {
       "resource": "racent",
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13418,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 47,
-      "duration_ms": 20288,
+      "duration_ms": 16086,
       "error": null
     },
     {
@@ -557,7 +557,15 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29071,
+      "duration_ms": 27002,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 47,
+      "duration_ms": 32970,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32081,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61477,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "vrv.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65966,
+      "duration_ms": 33082,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vrv.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65733,
+      "duration_ms": 44193,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vrv.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65975,
       "error": null
     }
   ]

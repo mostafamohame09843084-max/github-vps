@@ -1,71 +1,23 @@
 {
   "root_domain": "rairx.site",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:39:35.492528+00:00",
-  "completed_at": "2026-11-14T15:40:45.490169+00:00",
-  "duration_ms": 69997,
+  "started_at": "2026-11-15T16:01:41.753742+00:00",
+  "completed_at": "2026-11-15T16:02:47.749074+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "rairx.site"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domscan",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "c99",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +33,15 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "bufferover",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "certspotter",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "coderog",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,47 +81,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "fofa",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "github",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +105,31 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "facebook",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +145,63 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "dnsdb",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,11 +213,11 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 50,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -253,7 +253,7 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "anubis",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83,
+      "duration_ms": 102,
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 193,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,15 +329,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 219,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -369,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hudsonrock",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 273,
       "error": null
     },
     {
@@ -381,11 +357,35 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 62,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "robtex",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 378,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,15 +413,7 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 961,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -429,23 +421,15 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1297,
+      "duration_ms": 504,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "myssl",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3043,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 2113,
       "error": null
     },
     {
@@ -457,15 +441,15 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
+      "duration_ms": 3065,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "threatbook",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +457,31 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3522,
+      "duration_ms": 3052,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "sitedossier",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3274,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "whoisxml",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 14224,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "rairx.site",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20070,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25491,
+      "duration_ms": 8833,
       "error": null
     },
     {
@@ -565,23 +557,23 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31079,
+      "duration_ms": 30433,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "crtsh",
       "target": "rairx.site",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61606,
+      "findings_count": 2,
+      "duration_ms": 41316,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "racent",
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65989,
+      "duration_ms": 45906,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "rairx.site",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65467,
+      "duration_ms": 49780,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "rairx.site",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65980,
       "error": null
     }
   ]
