@@ -1,23 +1,31 @@
 {
   "root_domain": "macosx.de",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:30:26.193110+00:00",
-  "completed_at": "2026-11-13T08:31:36.181854+00:00",
-  "duration_ms": 69988,
+  "started_at": "2026-11-15T14:53:58.758224+00:00",
+  "completed_at": "2026-11-15T14:55:04.361334+00:00",
+  "duration_ms": 65603,
   "targets_scanned": [
     "macosx.de"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdumpster",
+      "resource": "driftnet",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,95 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,103 +153,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "google",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,6 +169,22 @@
       "error": null
     },
     {
+      "resource": "binaryedge",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
       "target": "macosx.de",
       "recursion_depth": 0,
@@ -177,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "coderog",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,39 +201,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "bevigil",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -226,6 +210,22 @@
     },
     {
       "resource": "huntermap",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 79,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 98,
       "error": null
     },
     {
@@ -329,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 246,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "macosx.de",
       "recursion_depth": 0,
@@ -337,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 243,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 249,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 252,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "reconeer",
       "target": "macosx.de",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 492,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "rapiddns",
       "target": "macosx.de",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 726,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,35 +401,51 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 28,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 947,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3060,
+      "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "shrewdeye",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1060,
+      "duration_ms": 3065,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3273,
       "error": null
     },
     {
       "resource": "thc",
       "target": "macosx.de",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 135,
       "error": null
     },
     {
@@ -449,19 +457,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "threatcrowd",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3055,
+      "duration_ms": 3085,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "submd",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3058,
+      "duration_ms": 8357,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "myssl",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 22968,
       "error": null
     },
     {
@@ -513,15 +513,7 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3131,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,11 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "zoomeyeapi",
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7012,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11635,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33073,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "macosx.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61361,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -573,7 +541,7 @@
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 25961,
       "error": null
     },
     {
@@ -581,15 +549,47 @@
       "target": "macosx.de",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 68325,
+      "duration_ms": 26538,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32813,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45147,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42254,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macosx.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64908,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "macosx.de",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65713,
+      "findings_count": 1,
+      "duration_ms": 53312,
       "error": null
     }
   ]

@@ -1,111 +1,23 @@
 {
   "root_domain": "q4inc.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:23:38.262153+00:00",
-  "completed_at": "2026-11-13T08:24:47.525857+00:00",
-  "duration_ms": 69263,
+  "started_at": "2026-11-15T14:53:53.773679+00:00",
+  "completed_at": "2026-11-15T14:55:04.273405+00:00",
+  "duration_ms": 70499,
   "targets_scanned": [
     "q4inc.com"
   ],
-  "total_unique_findings": 2353,
-  "fresh_findings_count": 2353,
-  "historical_findings_count": 0,
-  "new_findings_count": 2353,
+  "total_unique_findings": 4162,
+  "fresh_findings_count": 4162,
+  "historical_findings_count": 2353,
+  "new_findings_count": 1809,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "binaryedge",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "chinaz",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,23 +57,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "censys",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "dnsrepo",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +89,39 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "digitalyama",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +137,71 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "driftnet",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "arpsyndicate",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "abuseipdb",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +261,23 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -282,14 +290,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,23 +317,7 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 64,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 176,
+      "duration_ms": 107,
       "error": null
     },
     {
@@ -345,15 +329,15 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "q4inc.com",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 237,
+      "findings_count": 0,
+      "duration_ms": 180,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,15 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
+      "duration_ms": 253,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -373,15 +365,7 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hudsonrock",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 389,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 52,
-      "duration_ms": 519,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -429,23 +421,23 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 966,
+      "duration_ms": 930,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "rapiddns",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 52,
+      "duration_ms": 923,
+      "error": null
+    },
+    {
+      "resource": "riddler",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1195,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 2322,
-      "duration_ms": 1094,
+      "duration_ms": 3056,
       "error": null
     },
     {
@@ -457,15 +449,23 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3128,
+      "duration_ms": 3057,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "sitedossier",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3474,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +473,15 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "q4inc.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
+      "findings_count": 2337,
+      "duration_ms": 1121,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3097,
       "error": null
     },
     {
@@ -513,15 +513,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3151,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,31 +541,7 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12621,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33091,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61500,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "q4inc.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65912,
+      "duration_ms": 9893,
       "error": null
     },
     {
@@ -581,7 +549,39 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65912,
+      "duration_ms": 30951,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33007,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 1949,
+      "duration_ms": 45908,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61443,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "q4inc.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65917,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "q4inc.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65526,
+      "duration_ms": 65466,
       "error": null
     }
   ]
