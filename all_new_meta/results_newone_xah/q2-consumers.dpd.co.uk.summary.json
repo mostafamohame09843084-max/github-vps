@@ -1,135 +1,23 @@
 {
   "root_domain": "q2-consumers.dpd.co.uk",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:22:29.193960+00:00",
-  "completed_at": "2026-11-13T08:23:38.181616+00:00",
-  "duration_ms": 68987,
+  "started_at": "2026-11-15T14:52:47.767446+00:00",
+  "completed_at": "2026-11-15T14:53:53.733024+00:00",
+  "duration_ms": 65965,
   "targets_scanned": [
     "q2-consumers.dpd.co.uk"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "google",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
+      "resource": "coderog",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,6 +33,38 @@
       "error": null
     },
     {
+      "resource": "domainsproject",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
@@ -153,7 +73,23 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "chinaz",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "huntermap",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsrepo",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,15 +129,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "censys",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +145,31 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "domscan",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,11 +193,67 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "arpsyndicate",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -265,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 100,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 75,
       "error": null
     },
     {
@@ -329,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
@@ -337,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 189,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 195,
+      "duration_ms": 256,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -377,23 +377,15 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 364,
       "error": null
     },
     {
       "resource": "robtex",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -417,11 +409,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "rapiddns",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 543,
+      "duration_ms": 489,
       "error": null
     },
     {
@@ -429,23 +429,23 @@
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1192,
+      "duration_ms": 1067,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1278,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3037,
+      "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 120,
+      "findings_count": 0,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -457,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3073,
+      "findings_count": 2,
+      "duration_ms": 127,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3276,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3126,
       "error": null
     },
     {
@@ -537,51 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3139,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27811,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33087,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61515,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "q2-consumers.dpd.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65978,
-      "error": null
-    },
-    {
       "resource": "crtsh",
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65979,
+      "findings_count": 2,
+      "duration_ms": 20719,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "q2-consumers.dpd.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65659,
+      "duration_ms": 18605,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31983,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32159,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61328,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65891,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "q2-consumers.dpd.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65942,
       "error": null
     }
   ]
