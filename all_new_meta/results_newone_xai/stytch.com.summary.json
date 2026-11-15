@@ -1,23 +1,47 @@
 {
   "root_domain": "stytch.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:59:29.499483+00:00",
-  "completed_at": "2026-11-14T16:00:38.639169+00:00",
-  "duration_ms": 69139,
+  "started_at": "2026-11-15T16:18:34.739603+00:00",
+  "completed_at": "2026-11-15T16:19:40.736778+00:00",
+  "duration_ms": 65997,
   "targets_scanned": [
     "stytch.com"
   ],
   "total_unique_findings": 1060,
-  "fresh_findings_count": 1060,
-  "historical_findings_count": 0,
-  "new_findings_count": 1060,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 17,
+  "historical_findings_count": 1060,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1043,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
       "resource": "argosdns",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "driftnet",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +65,79 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "certspotter",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -50,6 +146,30 @@
     },
     {
       "resource": "dnsrepo",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,70 +193,6 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "coderog",
       "target": "stytch.com",
       "recursion_depth": 0,
@@ -145,79 +201,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "facebook",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -249,6 +249,22 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 51,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "stytch.com",
       "recursion_depth": 0,
@@ -257,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 55,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "onyphe",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,14 +290,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 83,
       "error": null
     },
     {
@@ -337,31 +329,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 262,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 270,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -369,7 +337,31 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "alienvault",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 193,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 246,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 469,
-      "error": null
-    },
-    {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 297,
       "error": null
     },
     {
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 13,
-      "duration_ms": 796,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 8,
-      "duration_ms": 1061,
+      "duration_ms": 1073,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 13,
+      "duration_ms": 1246,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 3084,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3067,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "whoisxml",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3359,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "sitedossier",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3351,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9050,
+      "duration_ms": 3114,
       "error": null
     },
     {
@@ -557,7 +549,15 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15150,
+      "duration_ms": 31314,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32768,
       "error": null
     },
     {
@@ -565,23 +565,15 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29881,
+      "duration_ms": 32591,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "stytch.com",
-      "recursion_depth": 0,
-      "findings_count": 1057,
-      "duration_ms": 40078,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65996,
+      "duration_ms": 47498,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "stytch.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65374,
+      "duration_ms": 49555,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "stytch.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65986,
       "error": null
     }
   ]

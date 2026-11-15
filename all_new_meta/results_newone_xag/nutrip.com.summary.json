@@ -1,21 +1,69 @@
 {
   "root_domain": "nutrip.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:49:51.505114+00:00",
-  "completed_at": "2026-11-14T15:51:00.493758+00:00",
-  "duration_ms": 68988,
+  "started_at": "2026-11-15T16:17:57.738460+00:00",
+  "completed_at": "2026-11-15T16:19:03.733612+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "nutrip.com"
   ],
   "total_unique_findings": 19,
-  "fresh_findings_count": 19,
-  "historical_findings_count": 0,
-  "new_findings_count": 19,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 3,
+  "historical_findings_count": 19,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 16,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "censys",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "fullhunt",
       "target": "nutrip.com",
@@ -33,15 +81,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "bufferover",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,63 +97,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "argosdns",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "arpsyndicate",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +137,39 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domainsproject",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "coderog",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "builtwith",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "c99",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,19 +209,11 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "abuseipdb",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -225,22 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "nutrip.com",
       "recursion_depth": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +261,23 @@
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "quake",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "hudsonrock",
       "target": "nutrip.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 71,
       "error": null
     },
     {
@@ -313,19 +321,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 67,
-      "error": null
-    },
-    {
       "resource": "rapidfinder",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 102,
       "error": null
     },
     {
@@ -341,15 +349,7 @@
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 258,
+      "duration_ms": 183,
       "error": null
     },
     {
@@ -361,27 +361,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 263,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 47,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "hackertarget",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -393,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 834,
+      "duration_ms": 545,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1963,
+      "duration_ms": 1318,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3121,
       "error": null
     },
     {
@@ -449,14 +457,6 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3035,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "nutrip.com",
       "recursion_depth": 0,
@@ -465,7 +465,15 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "threatminer",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 15,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +481,7 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "sitedossier",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3354,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3111,
+      "duration_ms": 3103,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11211,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 25269,
+      "duration_ms": 25785,
       "error": null
     },
     {
@@ -565,23 +557,15 @@
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31537,
+      "duration_ms": 33098,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "nutrip.com",
-      "recursion_depth": 0,
-      "findings_count": 18,
-      "duration_ms": 32526,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 33314,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "nutrip.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65538,
+      "duration_ms": 51099,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65985,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "nutrip.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65985,
       "error": null
     }
   ]
