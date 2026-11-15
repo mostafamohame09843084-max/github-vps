@@ -1,63 +1,23 @@
 {
   "root_domain": "walgreens.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:12:34.493510+00:00",
-  "completed_at": "2026-11-14T16:13:44.505967+00:00",
-  "duration_ms": 70012,
+  "started_at": "2026-11-15T16:37:15.740860+00:00",
+  "completed_at": "2026-11-15T16:38:25.084113+00:00",
+  "duration_ms": 69343,
   "targets_scanned": [
     "walgreens.com"
   ],
-  "total_unique_findings": 85,
-  "fresh_findings_count": 85,
-  "historical_findings_count": 0,
-  "new_findings_count": 85,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 2508,
+  "fresh_findings_count": 2504,
+  "historical_findings_count": 85,
+  "new_findings_count": 2423,
+  "reused_historical_findings_count": 4,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "c99",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "chaos",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "certspotter",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +49,23 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "google",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,39 +89,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,31 +105,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "dnsdumpster",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +121,87 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "fullhunt",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,7 +213,7 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -233,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "walgreens.com",
       "recursion_depth": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -270,6 +254,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56,
       "error": null
     },
     {
@@ -317,15 +317,7 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 202,
+      "duration_ms": 89,
       "error": null
     },
     {
@@ -345,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "walgreens.com",
       "recursion_depth": 0,
-      "findings_count": 18,
-      "duration_ms": 228,
+      "findings_count": 0,
+      "duration_ms": 242,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 246,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "walgreens.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 166,
+      "findings_count": 18,
+      "duration_ms": 281,
       "error": null
     },
     {
@@ -382,6 +374,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -413,7 +413,15 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 19,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 42,
+      "duration_ms": 780,
       "error": null
     },
     {
@@ -421,15 +429,15 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 8,
-      "duration_ms": 760,
+      "duration_ms": 1335,
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "riddler",
       "target": "walgreens.com",
       "recursion_depth": 0,
-      "findings_count": 60,
-      "duration_ms": 824,
+      "findings_count": 0,
+      "duration_ms": 3110,
       "error": null
     },
     {
@@ -441,19 +449,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "crtsh",
       "target": "walgreens.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3075,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1717,
+      "duration_ms": 3823,
       "error": null
     },
     {
@@ -461,67 +461,11 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3061,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3272,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3552,
       "error": null
     },
     {
       "resource": "urlscan",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3110,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "walgreens.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +481,67 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "sitedossier",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7147,
+      "duration_ms": 3355,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 1516,
+      "duration_ms": 578,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "windvane",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "walgreens.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3096,
       "error": null
     },
     {
@@ -549,15 +549,15 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21642,
+      "duration_ms": 19156,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20589,
+      "duration_ms": 26308,
       "error": null
     },
     {
@@ -565,15 +565,15 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33084,
+      "duration_ms": 30437,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "threatminer",
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 64070,
+      "duration_ms": 61414,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65986,
+      "duration_ms": 65983,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "walgreens.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65924,
+      "duration_ms": 65014,
       "error": null
     }
   ]

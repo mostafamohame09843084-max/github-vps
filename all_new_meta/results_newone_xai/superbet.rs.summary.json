@@ -1,16 +1,16 @@
 {
   "root_domain": "superbet.rs",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:18:29.500302+00:00",
-  "completed_at": "2026-11-14T16:19:38.495535+00:00",
-  "duration_ms": 68995,
+  "started_at": "2026-11-15T16:36:37.878621+00:00",
+  "completed_at": "2026-11-15T16:37:47.793885+00:00",
+  "duration_ms": 69915,
   "targets_scanned": [
     "superbet.rs"
   ],
-  "total_unique_findings": 28,
-  "fresh_findings_count": 28,
-  "historical_findings_count": 0,
-  "new_findings_count": 28,
+  "total_unique_findings": 456,
+  "fresh_findings_count": 456,
+  "historical_findings_count": 28,
+  "new_findings_count": 428,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
@@ -18,6 +18,102 @@
   "resource_executions": [
     {
       "resource": "fullhunt",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "facebook",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +137,23 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "fofa",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,15 +169,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "arpsyndicate",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,46 +193,6 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
       "target": "superbet.rs",
       "recursion_depth": 0,
@@ -137,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "certspotter",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,67 +209,11 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "digitorus",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -214,14 +222,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
       "error": null
     },
     {
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 93,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 95,
       "error": null
     },
     {
@@ -329,27 +329,19 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 179,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 243,
       "error": null
     },
     {
@@ -361,6 +353,14 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
       "resource": "redhuntlabs",
       "target": "superbet.rs",
       "recursion_depth": 0,
@@ -369,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "rapiddns",
       "target": "superbet.rs",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
+      "findings_count": 28,
+      "duration_ms": 775,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 28,
-      "duration_ms": 861,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 1132,
+      "duration_ms": 1008,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -449,19 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3048,
+      "duration_ms": 3098,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3270,
       "error": null
     },
     {
@@ -473,6 +473,14 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
       "resource": "trickest",
       "target": "superbet.rs",
       "recursion_depth": 0,
@@ -481,19 +489,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3097,
       "error": null
     },
     {
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,43 +537,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "alienvault",
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3133,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10684,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20067,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "superbet.rs",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27748,
+      "duration_ms": 22033,
       "error": null
     },
     {
@@ -573,7 +549,31 @@
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31073,
+      "duration_ms": 33101,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 450,
+      "duration_ms": 40747,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60806,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "superbet.rs",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61421,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65998,
+      "duration_ms": 65846,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "superbet.rs",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65586,
+      "duration_ms": 65501,
       "error": null
     }
   ]
