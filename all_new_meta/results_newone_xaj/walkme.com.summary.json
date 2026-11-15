@@ -1,39 +1,23 @@
 {
   "root_domain": "walkme.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:18:21.493555+00:00",
-  "completed_at": "2026-11-14T16:19:30.499323+00:00",
-  "duration_ms": 69005,
+  "started_at": "2026-11-15T16:43:00.743469+00:00",
+  "completed_at": "2026-11-15T16:44:10.792856+00:00",
+  "duration_ms": 70049,
   "targets_scanned": [
     "walkme.com"
   ],
-  "total_unique_findings": 81,
-  "fresh_findings_count": 81,
-  "historical_findings_count": 0,
-  "new_findings_count": 81,
+  "total_unique_findings": 396,
+  "fresh_findings_count": 396,
+  "historical_findings_count": 81,
+  "new_findings_count": 315,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "coderog",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "driftnet",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,39 +33,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "fullhunt",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,6 +49,30 @@
       "error": null
     },
     {
+      "resource": "censys",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdumpster",
       "target": "walkme.com",
       "recursion_depth": 0,
@@ -105,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "argosdns",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +89,47 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "bufferover",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,47 +153,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "bevigil",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "binaryedge",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "facebook",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,23 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "builtwith",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,19 +217,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
-      "resource": "leakix",
+      "resource": "huntermap",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -249,19 +241,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 71,
       "error": null
     },
     {
@@ -273,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "netlas",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +289,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "profundis",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
+      "duration_ms": 112,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,7 +325,7 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 183,
+      "duration_ms": 179,
       "error": null
     },
     {
@@ -345,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidfinder",
       "target": "walkme.com",
       "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 247,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 249,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -369,7 +361,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "hudsonrock",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 282,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +381,11 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 45,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,15 +413,15 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 27,
       "error": null
     },
     {
       "resource": "rapiddns",
       "target": "walkme.com",
       "recursion_depth": 0,
-      "findings_count": 74,
-      "duration_ms": 558,
+      "findings_count": 72,
+      "duration_ms": 730,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 866,
+      "duration_ms": 1042,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3075,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3068,
       "error": null
     },
     {
@@ -449,27 +457,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "walkme.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3095,
+      "findings_count": 214,
+      "duration_ms": 71,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3090,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 3268,
       "error": null
     },
     {
@@ -513,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3169,
       "error": null
     },
     {
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3145,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 8247,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "walkme.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20074,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,7 +541,15 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23229,
+      "duration_ms": 19263,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28228,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33077,
+      "duration_ms": 33081,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 349,
+      "duration_ms": 48585,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "walkme.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61827,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66003,
+      "duration_ms": 65982,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "walkme.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65553,
+      "duration_ms": 65872,
       "error": null
     }
   ]

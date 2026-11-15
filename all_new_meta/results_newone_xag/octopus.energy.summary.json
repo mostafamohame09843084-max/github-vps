@@ -1,23 +1,31 @@
 {
   "root_domain": "octopus.energy",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:16:56.493872+00:00",
-  "completed_at": "2026-11-14T16:18:06.497319+00:00",
-  "duration_ms": 70003,
+  "started_at": "2026-11-15T16:43:38.735460+00:00",
+  "completed_at": "2026-11-15T16:44:48.750153+00:00",
+  "duration_ms": 70014,
   "targets_scanned": [
     "octopus.energy"
   ],
-  "total_unique_findings": 27,
-  "fresh_findings_count": 27,
-  "historical_findings_count": 0,
-  "new_findings_count": 27,
+  "total_unique_findings": 91,
+  "fresh_findings_count": 91,
+  "historical_findings_count": 27,
+  "new_findings_count": 64,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bufferover",
+      "resource": "fullhunt",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,38 +41,6 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "arpsyndicate",
       "target": "octopus.energy",
       "recursion_depth": 0,
@@ -73,23 +49,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "google",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +65,79 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chaos",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "domainsproject",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "domscan",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "dnsdb",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "certspotter",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,55 +201,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdumpster",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 38,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "octopus.energy",
       "recursion_depth": 0,
@@ -257,19 +265,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "digitorus",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 68,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -305,23 +305,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "anubis",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 75,
+      "duration_ms": 91,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,11 +329,19 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 191,
+      "duration_ms": 227,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 230,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 241,
       "error": null
     },
     {
@@ -369,11 +361,19 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 258,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 79,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,15 +413,7 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 23,
-      "duration_ms": 885,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -429,7 +421,23 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1105,
+      "duration_ms": 966,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 23,
+      "duration_ms": 946,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3120,
       "error": null
     },
     {
@@ -438,14 +446,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3035,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3072,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3126,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3480,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3119,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "octopus.energy",
       "recursion_depth": 0,
@@ -505,23 +513,7 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3085,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "windvane",
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22057,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28007,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26961,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "octopus.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33079,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -573,7 +541,39 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61299,
+      "duration_ms": 20645,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27906,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31170,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33086,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "octopus.energy",
+      "recursion_depth": 0,
+      "findings_count": 76,
+      "duration_ms": 46405,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 65998,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "octopus.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65757,
+      "duration_ms": 65518,
       "error": null
     }
   ]

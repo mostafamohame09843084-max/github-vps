@@ -1,39 +1,23 @@
 {
   "root_domain": "superpal.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:25:41.517336+00:00",
-  "completed_at": "2026-11-14T16:26:48.177982+00:00",
-  "duration_ms": 66660,
+  "started_at": "2026-11-15T16:43:23.749195+00:00",
+  "completed_at": "2026-11-15T16:44:29.758181+00:00",
+  "duration_ms": 66008,
   "targets_scanned": [
     "superpal.io"
   ],
-  "total_unique_findings": 113,
-  "fresh_findings_count": 113,
-  "historical_findings_count": 0,
-  "new_findings_count": 113,
+  "total_unique_findings": 114,
+  "fresh_findings_count": 114,
+  "historical_findings_count": 113,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "facebook",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "dnsdb",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,63 +33,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "domainsproject",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "fofa",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +57,39 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "facebook",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,14 +113,6 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "binaryedge",
       "target": "superpal.io",
       "recursion_depth": 0,
@@ -169,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "arpsyndicate",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "builtwith",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +145,55 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "dnsdumpster",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +209,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +217,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,7 @@
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 56,
       "error": null
     },
     {
@@ -305,19 +305,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 105,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 60,
       "error": null
     },
     {
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 190,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "superpal.io",
       "recursion_depth": 0,
@@ -345,11 +337,19 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 189,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 20,
-      "duration_ms": 246,
+      "duration_ms": 241,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 266,
+      "duration_ms": 261,
       "error": null
     },
     {
@@ -389,15 +389,7 @@
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 165,
       "error": null
     },
     {
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 48,
-      "duration_ms": 798,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1131,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
+      "resource": "shodan",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 22,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 48,
+      "duration_ms": 754,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1119,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3110,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3065,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "threatbook",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3089,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 3487,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -497,15 +497,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3139,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "waybackarchive",
       "target": "superpal.io",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
+      "findings_count": 7,
+      "duration_ms": 17939,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatminer",
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18016,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 93,
-      "duration_ms": 28724,
+      "duration_ms": 20506,
       "error": null
     },
     {
@@ -565,7 +557,7 @@
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29509,
+      "duration_ms": 27285,
       "error": null
     },
     {
@@ -573,7 +565,23 @@
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32268,
+      "duration_ms": 32677,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42322,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "superpal.io",
+      "recursion_depth": 0,
+      "findings_count": 93,
+      "duration_ms": 45393,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "superpal.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65978,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "superpal.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 63212,
+      "duration_ms": 65985,
       "error": null
     }
   ]

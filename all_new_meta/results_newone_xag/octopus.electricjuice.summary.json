@@ -1,9 +1,9 @@
 {
   "root_domain": "octopus.electricjuice",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T16:42:32.783030+00:00",
-  "completed_at": "2026-11-15T16:43:38.732397+00:00",
-  "duration_ms": 65949,
+  "started_at": "2026-11-15T16:42:56.241378+00:00",
+  "completed_at": "2026-11-15T16:44:05.735935+00:00",
+  "duration_ms": 69494,
   "targets_scanned": [
     "octopus.electricjuice"
   ],
@@ -17,23 +17,55 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "google",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "leakix",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,23 +81,31 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "driftnet",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,46 +129,6 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
@@ -137,55 +137,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "domainsproject",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,23 +153,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "dnsrepo",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +169,15 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "chaos",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +193,59 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "fullhunt",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,23 +257,15 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
+      "error": null
+    },
+    {
       "resource": "odin",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,47 +281,23 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 195,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,15 +309,47 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 230,
+      "duration_ms": 57,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidapi",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 91,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 163,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -385,11 +385,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 252,
+      "error": null
+    },
+    {
+      "resource": "shodan",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -409,19 +417,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "rapiddns",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 461,
+      "duration_ms": 505,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1045,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3080,
+      "duration_ms": 1096,
       "error": null
     },
     {
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3091,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3086,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -469,7 +469,7 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 3353,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
@@ -517,7 +509,15 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3129,
+      "duration_ms": 3101,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17042,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "octopus.electricjuice",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28121,
+      "duration_ms": 27693,
       "error": null
     },
     {
@@ -557,15 +549,15 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33097,
+      "duration_ms": 32972,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "submd",
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33587,
+      "duration_ms": 45659,
       "error": null
     },
     {
@@ -573,7 +565,7 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45594,
+      "duration_ms": 50571,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62300,
+      "duration_ms": 61515,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "octopus.electricjuice",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65940,
+      "duration_ms": 65482,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "octopus.electricjuice",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65568,
       "error": null
     }
   ]

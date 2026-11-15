@@ -1,23 +1,23 @@
 {
   "root_domain": "recoregame.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:23:18.517869+00:00",
-  "completed_at": "2026-11-14T16:24:33.032749+00:00",
-  "duration_ms": 74514,
+  "started_at": "2026-11-15T16:42:41.743021+00:00",
+  "completed_at": "2026-11-15T16:43:50.735509+00:00",
+  "duration_ms": 68992,
   "targets_scanned": [
     "recoregame.com"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
+      "resource": "google",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,15 +25,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "domscan",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +41,23 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "arpsyndicate",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -58,6 +66,38 @@
     },
     {
       "resource": "c99",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,62 +121,6 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
       "target": "recoregame.com",
       "recursion_depth": 0,
@@ -145,39 +129,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "fofa",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +161,51 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "dnsdumpster",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 69,
+      "error": null
+    },
+    {
       "resource": "merklemap",
       "target": "recoregame.com",
       "recursion_depth": 0,
@@ -242,6 +242,14 @@
     },
     {
       "resource": "leakix",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +269,11 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 71,
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "profundis",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 101,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "anubis",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 97,
       "error": null
     },
     {
@@ -341,19 +333,11 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 187,
+      "duration_ms": 194,
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 255,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -361,15 +345,23 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 252,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
+      "duration_ms": 286,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 475,
+      "duration_ms": 547,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1664,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1697,
       "error": null
     },
     {
@@ -449,11 +441,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3050,
+      "duration_ms": 3069,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -481,15 +473,7 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
+      "resource": "urlscan",
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -501,7 +485,15 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 3278,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3235,
+      "error": null
+    },
+    {
       "resource": "windvane",
       "target": "recoregame.com",
       "recursion_depth": 0,
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "recoregame.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28310,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27485,
+      "findings_count": 2,
+      "duration_ms": 25207,
       "error": null
     },
     {
@@ -565,7 +549,31 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30070,
+      "duration_ms": 33077,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36185,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61527,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "recoregame.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61443,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65969,
+      "duration_ms": 65980,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "recoregame.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65510,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "recoregame.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 74496,
+      "duration_ms": 65058,
       "error": null
     }
   ]
