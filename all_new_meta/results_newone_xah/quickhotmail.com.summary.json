@@ -1,9 +1,9 @@
 {
   "root_domain": "quickhotmail.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:54:05.504317+00:00",
-  "completed_at": "2026-11-14T14:55:11.489876+00:00",
-  "duration_ms": 65985,
+  "started_at": "2026-11-15T15:17:44.747609+00:00",
+  "completed_at": "2026-11-15T15:18:53.735223+00:00",
+  "duration_ms": 68987,
   "targets_scanned": [
     "quickhotmail.com"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
+      "resource": "fullhunt",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,39 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "chaos",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,15 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "fofa",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +89,63 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "bufferover",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,54 +169,6 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "github",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
@@ -145,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "driftnet",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,31 +185,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "certspotter",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,23 +201,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "builtwith",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "intelx",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -249,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "abuseipdb",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 91,
       "error": null
     },
     {
@@ -273,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,15 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 100,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 206,
       "error": null
     },
     {
@@ -337,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 175,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 246,
       "error": null
     },
     {
@@ -373,7 +365,7 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "hudsonrock",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 347,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 64,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 539,
+      "duration_ms": 484,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1240,
+      "duration_ms": 1204,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "crtsh",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
+      "duration_ms": 1426,
       "error": null
     },
     {
@@ -445,7 +445,7 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 127,
+      "duration_ms": 97,
       "error": null
     },
     {
@@ -457,19 +457,19 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3047,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3081,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "urlscan",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3364,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3095,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,19 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "windvane",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9036,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16103,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "quickhotmail.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26504,
+      "duration_ms": 3120,
       "error": null
     },
     {
@@ -565,15 +549,23 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29726,
+      "duration_ms": 33112,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "submd",
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30521,
+      "duration_ms": 44082,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52399,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61605,
+      "duration_ms": 61582,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "quickhotmail.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65974,
+      "duration_ms": 65977,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "quickhotmail.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65522,
       "error": null
     }
   ]
