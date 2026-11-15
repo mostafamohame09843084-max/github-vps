@@ -1,23 +1,23 @@
 {
   "root_domain": "vr.fi",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:29:01.509589+00:00",
-  "completed_at": "2026-11-14T15:30:10.545049+00:00",
-  "duration_ms": 69035,
+  "started_at": "2026-11-15T15:55:20.736863+00:00",
+  "completed_at": "2026-11-15T15:56:29.780268+00:00",
+  "duration_ms": 69043,
   "targets_scanned": [
     "vr.fi"
   ],
-  "total_unique_findings": 353,
-  "fresh_findings_count": 353,
-  "historical_findings_count": 0,
-  "new_findings_count": 353,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 392,
+  "fresh_findings_count": 290,
+  "historical_findings_count": 353,
+  "new_findings_count": 39,
+  "reused_historical_findings_count": 102,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bevigil",
+      "resource": "driftnet",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,23 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "github",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -50,6 +34,46 @@
     },
     {
       "resource": "bufferover",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,31 +97,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "dnsrepo",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -106,30 +106,6 @@
     },
     {
       "resource": "google",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "builtwith",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +137,23 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domainsproject",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "facebook",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "argosdns",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "arpsyndicate",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,19 +201,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 56,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "domscan",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "intelx",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "leakix",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 67,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -266,6 +258,22 @@
     },
     {
       "resource": "odin",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "quake",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "hudsonrock",
       "target": "vr.fi",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 7,
+      "duration_ms": 78,
       "error": null
     },
     {
@@ -313,11 +321,19 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 107,
+      "duration_ms": 129,
       "error": null
     },
     {
@@ -333,23 +349,7 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 211,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 265,
+      "duration_ms": 180,
       "error": null
     },
     {
@@ -361,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "vr.fi",
       "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 305,
+      "findings_count": 0,
+      "duration_ms": 71,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 265,
       "error": null
     },
     {
@@ -382,14 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
       "error": null
     },
     {
@@ -413,7 +413,15 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 45,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 26,
+      "duration_ms": 787,
       "error": null
     },
     {
@@ -421,15 +429,23 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 702,
+      "duration_ms": 1019,
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "riddler",
       "target": "vr.fi",
       "recursion_depth": 0,
-      "findings_count": 27,
-      "duration_ms": 820,
+      "findings_count": 0,
+      "duration_ms": 3123,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3186,
       "error": null
     },
     {
@@ -441,35 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3069,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "vr.fi",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3067,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 279,
+      "duration_ms": 216,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 13,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3483,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3111,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "vr.fi",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 7472,
+      "duration_ms": 3152,
       "error": null
     },
     {
@@ -557,7 +549,15 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11100,
+      "duration_ms": 20466,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "vr.fi",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26670,
       "error": null
     },
     {
@@ -565,15 +565,15 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32800,
+      "duration_ms": 31598,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "vr.fi",
       "recursion_depth": 0,
-      "findings_count": 346,
-      "duration_ms": 37481,
+      "findings_count": 0,
+      "duration_ms": 61079,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65971,
+      "duration_ms": 65983,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "vr.fi",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65521,
+      "duration_ms": 65378,
       "error": null
     }
   ]
