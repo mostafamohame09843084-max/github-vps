@@ -1,9 +1,9 @@
 {
   "root_domain": "visiontrack-galaxy.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:31:36.202019+00:00",
-  "completed_at": "2026-11-13T08:33:36.180664+00:00",
-  "duration_ms": 119978,
+  "started_at": "2026-11-15T15:08:03.747228+00:00",
+  "completed_at": "2026-11-15T15:09:12.735208+00:00",
+  "duration_ms": 68987,
   "targets_scanned": [
     "visiontrack-galaxy.com"
   ],
@@ -13,17 +13,9 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "domainsproject",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "dnsrepo",
       "target": "visiontrack-galaxy.com",
@@ -33,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "github",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "chaos",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "censys",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "binaryedge",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "dnsdumpster",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +81,23 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "chinaz",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,31 +121,55 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "driftnet",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,31 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "fullhunt",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -214,22 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "netlas",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,19 +265,11 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "digitorus",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
@@ -309,19 +309,11 @@
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 109,
+      "duration_ms": 114,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,39 +329,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 248,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 259,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rapidscan",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +341,59 @@
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 383,
+      "duration_ms": 204,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 257,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "rsecloud",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
+      "resource": "shodan",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 476,
+      "duration_ms": 506,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1359,
+      "duration_ms": 1294,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3054,
       "error": null
     },
     {
@@ -441,35 +449,19 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1427,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3049,
+      "error": null
     },
     {
       "resource": "thc",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3067,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 116,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -517,15 +517,7 @@
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3271,
       "error": null
     },
     {
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3131,
+      "duration_ms": 3101,
       "error": null
     },
     {
@@ -549,39 +549,7 @@
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11204,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33108,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49499,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61664,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "visiontrack-galaxy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65965,
+      "duration_ms": 8854,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "visiontrack-galaxy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 119966,
+      "duration_ms": 29890,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30588,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65975,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65913,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "visiontrack-galaxy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65491,
       "error": null
     }
   ]
