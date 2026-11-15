@@ -1,23 +1,31 @@
 {
   "root_domain": "vwfs.gr",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:57:36.510609+00:00",
-  "completed_at": "2026-11-14T15:58:46.497161+00:00",
-  "duration_ms": 69986,
+  "started_at": "2026-11-15T16:23:30.765716+00:00",
+  "completed_at": "2026-11-15T16:24:39.744622+00:00",
+  "duration_ms": 68978,
   "targets_scanned": [
     "vwfs.gr"
   ],
-  "total_unique_findings": 33,
-  "fresh_findings_count": 33,
-  "historical_findings_count": 0,
-  "new_findings_count": 33,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 34,
+  "fresh_findings_count": 29,
+  "historical_findings_count": 33,
+  "new_findings_count": 1,
+  "reused_historical_findings_count": 5,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
       "resource": "facebook",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "bevigil",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "domainsproject",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +65,79 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "fullhunt",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,63 +161,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "censys",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,39 +177,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "domscan",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "dnsdumpster",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "driftnet",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +221,15 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 60,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -261,7 +261,7 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 68,
       "error": null
     },
     {
@@ -305,14 +305,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 87,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "vwfs.gr",
       "recursion_depth": 0,
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "anubis",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 99,
       "error": null
     },
     {
@@ -337,19 +329,27 @@
       "error": null
     },
     {
+      "resource": "crtsh",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 119,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 185,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 249,
+      "duration_ms": 184,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "vwfs.gr",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 256,
+      "findings_count": 0,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -373,11 +373,11 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 69,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,15 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 404,
       "error": null
     },
     {
@@ -421,7 +429,7 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 18,
-      "duration_ms": 793,
+      "duration_ms": 766,
       "error": null
     },
     {
@@ -429,23 +437,15 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1290,
+      "duration_ms": 1571,
       "error": null
     },
     {
       "resource": "thc",
       "target": "vwfs.gr",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3071,
+      "findings_count": 28,
+      "duration_ms": 119,
       "error": null
     },
     {
@@ -457,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 3065,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "urlscan",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +481,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "shrewdeye",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3117,
+      "duration_ms": 3106,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatminer",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 81,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,27 @@
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "vwfs.gr",
-      "recursion_depth": 0,
-      "findings_count": 32,
-      "duration_ms": 10868,
-      "error": null
-    },
-    {
-      "resource": "submd",
+      "resource": "windvane",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10397,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3355,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "vwfs.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3113,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13226,
+      "duration_ms": 29130,
       "error": null
     },
     {
@@ -565,15 +565,15 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32096,
+      "duration_ms": 32339,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61451,
+      "duration_ms": 47214,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65970,
+      "duration_ms": 65964,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "vwfs.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65825,
+      "duration_ms": 65561,
       "error": null
     }
   ]
