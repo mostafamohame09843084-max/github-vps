@@ -1,23 +1,23 @@
 {
   "root_domain": "marriottbonvoy.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:20:35.593650+00:00",
-  "completed_at": "2026-11-14T16:21:41.500432+00:00",
-  "duration_ms": 65906,
+  "started_at": "2026-11-15T16:35:06.747257+00:00",
+  "completed_at": "2026-11-15T16:36:12.751924+00:00",
+  "duration_ms": 66004,
   "targets_scanned": [
     "marriottbonvoy.com"
   ],
-  "total_unique_findings": 12,
-  "fresh_findings_count": 12,
-  "historical_findings_count": 0,
-  "new_findings_count": 12,
+  "total_unique_findings": 97,
+  "fresh_findings_count": 97,
+  "historical_findings_count": 12,
+  "new_findings_count": 85,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "arpsyndicate",
+      "resource": "bufferover",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "c99",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "censys",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,15 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "binaryedge",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,111 +65,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "dnsrepo",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +81,38 @@
       "error": null
     },
     {
+      "resource": "facebook",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
@@ -201,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "argosdns",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +129,83 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "chaos",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -249,7 +241,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +261,11 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
+      "duration_ms": 53,
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,14 +305,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 93,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 124,
       "error": null
     },
     {
@@ -337,23 +329,15 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 183,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 243,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,15 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -373,7 +365,15 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hudsonrock",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 304,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 12,
-      "duration_ms": 558,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 1230,
+      "duration_ms": 523,
       "error": null
     },
     {
@@ -437,7 +429,15 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3045,
+      "duration_ms": 3092,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3066,
       "error": null
     },
     {
@@ -452,36 +452,36 @@
       "resource": "thc",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 92,
+      "duration_ms": 126,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3052,
+      "duration_ms": 3275,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "threatcrowd",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 3150,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3270,
       "error": null
     },
     {
@@ -521,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "myssl",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 4,
+      "duration_ms": 23218,
       "error": null
     },
     {
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27726,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "marriottbonvoy.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30693,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,7 +541,31 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33468,
+      "duration_ms": 18597,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33076,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42168,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "marriottbonvoy.com",
+      "recursion_depth": 0,
+      "findings_count": 94,
+      "duration_ms": 47624,
       "error": null
     },
     {
@@ -573,15 +573,15 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44568,
+      "duration_ms": 53536,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "submd",
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55271,
+      "duration_ms": 61370,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "marriottbonvoy.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65883,
+      "duration_ms": 65973,
       "error": null
     }
   ]
