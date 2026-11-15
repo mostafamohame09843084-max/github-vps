@@ -1,23 +1,31 @@
 {
   "root_domain": "oasis.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:06:05.506839+00:00",
-  "completed_at": "2026-11-14T16:07:14.508592+00:00",
-  "duration_ms": 69001,
+  "started_at": "2026-11-15T16:33:38.742805+00:00",
+  "completed_at": "2026-11-15T16:34:44.750753+00:00",
+  "duration_ms": 66007,
   "targets_scanned": [
     "oasis.io"
   ],
   "total_unique_findings": 114,
   "fresh_findings_count": 114,
-  "historical_findings_count": 0,
-  "new_findings_count": 114,
+  "historical_findings_count": 114,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
+      "resource": "dnsrepo",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -26,54 +34,6 @@
     },
     {
       "resource": "c99",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,86 +57,6 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "google",
       "target": "oasis.io",
       "recursion_depth": 0,
@@ -185,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "builtwith",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +89,102 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "github",
       "target": "oasis.io",
       "recursion_depth": 0,
@@ -209,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chinaz",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 35,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +241,11 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
       "error": null
     },
     {
@@ -273,7 +257,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,23 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
       "resource": "pugrecon",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 92,
+      "duration_ms": 90,
       "error": null
     },
     {
@@ -321,19 +321,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 182,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 163,
       "error": null
     },
     {
@@ -349,7 +349,23 @@
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 259,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -357,11 +373,11 @@
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 257,
+      "duration_ms": 339,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rsecloud",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,19 +393,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "securitytrails",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
       "error": null
     },
     {
@@ -401,27 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 1124,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -429,23 +421,15 @@
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 20,
-      "duration_ms": 1151,
+      "duration_ms": 786,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "myssl",
       "target": "oasis.io",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3060,
+      "findings_count": 8,
+      "duration_ms": 1029,
       "error": null
     },
     {
@@ -457,27 +441,27 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3049,
+      "duration_ms": 3064,
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "thc",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3067,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +481,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 17,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -521,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3473,
       "error": null
     },
     {
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3085,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 8602,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "oasis.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31090,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,23 +541,23 @@
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 100,
-      "duration_ms": 42981,
+      "duration_ms": 5346,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56342,
+      "duration_ms": 3093,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "reconcloud",
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 32173,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "oasis.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65562,
+      "duration_ms": 33977,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61934,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62477,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "oasis.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65981,
       "error": null
     }
   ]
