@@ -1,15 +1,15 @@
 {
   "root_domain": "superbet.gr",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:15:01.505625+00:00",
-  "completed_at": "2026-11-14T16:16:10.491974+00:00",
-  "duration_ms": 68986,
+  "started_at": "2026-11-15T16:33:10.741362+00:00",
+  "completed_at": "2026-11-15T16:34:16.733957+00:00",
+  "duration_ms": 65992,
   "targets_scanned": [
     "superbet.gr"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domainsproject",
+      "resource": "github",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "fofa",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "dnsdb",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +41,23 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "domscan",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,55 +73,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsrepo",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "domainsproject",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,39 +105,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "digitalyama",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +121,22 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdumpster",
       "target": "superbet.gr",
       "recursion_depth": 0,
@@ -193,7 +145,47 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "google",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -202,6 +194,14 @@
     },
     {
       "resource": "driftnet",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +229,11 @@
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 47,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +257,23 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitorus",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "onyphe",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 84,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "anubis",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 104,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 109,
       "error": null
     },
     {
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 240,
+      "duration_ms": 294,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 300,
       "error": null
     },
     {
@@ -358,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 271,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 74,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 847,
+      "duration_ms": 703,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1099,
       "error": null
     },
     {
@@ -438,14 +438,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1013,
       "error": null
     },
     {
@@ -461,15 +453,23 @@
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3077,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3093,
+      "duration_ms": 3269,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 5061,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3086,
+      "duration_ms": 3096,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3846,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "crtsh",
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11123,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11155,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33093,
+      "duration_ms": 24079,
       "error": null
     },
     {
@@ -573,7 +549,39 @@
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41939,
+      "duration_ms": 20533,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32860,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 30580,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42183,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "superbet.gr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57691,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "superbet.gr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "superbet.gr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65584,
+      "duration_ms": 65983,
       "error": null
     }
   ]
