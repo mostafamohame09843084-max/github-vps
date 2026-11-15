@@ -1,71 +1,23 @@
 {
   "root_domain": "macos.download",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:19:30.195605+00:00",
-  "completed_at": "2026-11-13T08:20:39.181073+00:00",
-  "duration_ms": 68985,
+  "started_at": "2026-11-15T14:43:47.763713+00:00",
+  "completed_at": "2026-11-15T14:44:53.733497+00:00",
+  "duration_ms": 65969,
   "targets_scanned": [
     "macos.download"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "driftnet",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,38 +33,6 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
       "target": "macos.download",
       "recursion_depth": 0,
@@ -121,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "c99",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,23 +57,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "fullhunt",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "certspotter",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "censys",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "facebook",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +105,119 @@
       "error": null
     },
     {
+      "resource": "arpsyndicate",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdumpster",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,43 +233,11 @@
       "error": null
     },
     {
-      "resource": "huntermap",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
       "error": null
     },
     {
@@ -265,7 +249,31 @@
       "error": null
     },
     {
+      "resource": "netlas",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
       "resource": "odin",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 63,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "anubis",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 90,
       "error": null
     },
     {
@@ -345,11 +329,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 199,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 276,
+      "duration_ms": 253,
       "error": null
     },
     {
@@ -369,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 268,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,7 +385,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "shodan",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,27 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 323,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 724,
+      "duration_ms": 484,
       "error": null
     },
     {
@@ -437,15 +429,23 @@
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1262,
+      "duration_ms": 1129,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3113,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3086,
       "error": null
     },
     {
@@ -457,12 +457,12 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "thc",
       "target": "macos.download",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1505,
-      "error": "'list' object has no attribute 'get'"
+      "findings_count": 2,
+      "duration_ms": 143,
+      "error": null
     },
     {
       "resource": "urlscan",
@@ -470,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3273,
       "error": null
     },
     {
@@ -481,15 +489,23 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "virustotal",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3094,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "threatcrowd",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3128,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,19 +521,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
       "error": null
     },
     {
@@ -529,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3264,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3104,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16559,
+      "duration_ms": 11478,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 22373,
       "error": null
     },
     {
@@ -565,7 +557,23 @@
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32566,
+      "duration_ms": 31514,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36027,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "macos.download",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 48118,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61787,
+      "duration_ms": 61939,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "macos.download",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65977,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "macos.download",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65603,
+      "duration_ms": 65961,
       "error": null
     }
   ]
