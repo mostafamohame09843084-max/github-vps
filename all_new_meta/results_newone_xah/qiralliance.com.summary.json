@@ -1,9 +1,9 @@
 {
   "root_domain": "qiralliance.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:42:42.495114+00:00",
-  "completed_at": "2026-11-14T14:43:51.490032+00:00",
-  "duration_ms": 68994,
+  "started_at": "2026-11-15T15:06:18.751931+00:00",
+  "completed_at": "2026-11-15T15:07:27.734587+00:00",
+  "duration_ms": 68982,
   "targets_scanned": [
     "qiralliance.com"
   ],
@@ -17,55 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "coderog",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "certspotter",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "dnsrepo",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "fofa",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,47 +57,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "domscan",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "dnsdumpster",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +81,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "facebook",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +97,22 @@
       "error": null
     },
     {
+      "resource": "censys",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
       "target": "qiralliance.com",
       "recursion_depth": 0,
@@ -209,7 +121,87 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "fullhunt",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
+      "resource": "intelx",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -257,14 +257,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "qiralliance.com",
       "recursion_depth": 0,
@@ -273,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "digitorus",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 75,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,23 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 105,
+      "duration_ms": 87,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 188,
       "error": null
     },
     {
@@ -341,23 +349,7 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 268,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 384,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83,
+      "duration_ms": 225,
       "error": null
     },
     {
@@ -369,6 +361,14 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 252,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "qiralliance.com",
       "recursion_depth": 0,
@@ -377,23 +377,15 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "qiralliance.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 537,
+      "findings_count": 0,
+      "duration_ms": 322,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,11 @@
       "error": null
     },
     {
-      "resource": "shodanx",
+      "resource": "shodan",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -421,7 +413,15 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 493,
+      "duration_ms": 467,
+      "error": null
+    },
+    {
+      "resource": "shodanx",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1122,
+      "duration_ms": 2490,
       "error": null
     },
     {
@@ -437,15 +437,15 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3064,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "qiralliance.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3057,
+      "findings_count": 1,
+      "duration_ms": 104,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "qiralliance.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 98,
+      "findings_count": 0,
+      "duration_ms": 3078,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisfreaks",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "qiralliance.com",
       "recursion_depth": 0,
@@ -509,11 +517,11 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3098,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 5747,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12079,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "qiralliance.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 23684,
+      "duration_ms": 7677,
       "error": null
     },
     {
@@ -565,7 +549,15 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31769,
+      "duration_ms": 27618,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 32898,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61798,
+      "duration_ms": 61387,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "qiralliance.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65892,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 65969,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "qiralliance.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65121,
+      "duration_ms": 65101,
       "error": null
     }
   ]
