@@ -1,9 +1,9 @@
 {
   "root_domain": "nintendo.pt",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T15:10:46.766323+00:00",
-  "completed_at": "2026-11-15T15:11:52.753636+00:00",
-  "duration_ms": 65987,
+  "started_at": "2026-11-15T15:11:50.767015+00:00",
+  "completed_at": "2026-11-15T15:13:00.748060+00:00",
+  "duration_ms": 69981,
   "targets_scanned": [
     "nintendo.pt"
   ],
@@ -17,31 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domainsproject",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "bevigil",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,55 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "builtwith",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "chaos",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,55 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "google",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +73,95 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fullhunt",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chinaz",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +221,15 @@
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -257,6 +257,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "nintendo.pt",
       "recursion_depth": 0,
@@ -265,11 +273,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "profundis",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "nintendo.pt",
       "recursion_depth": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "nintendo.pt",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 105,
+      "findings_count": 1,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -321,19 +321,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 78,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 198,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 286,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 256,
       "error": null
     },
     {
@@ -366,6 +358,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 35,
+      "duration_ms": 802,
       "error": null
     },
     {
@@ -385,14 +393,6 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 35,
-      "duration_ms": 816,
-      "error": null
-    },
-    {
       "resource": "shodan",
       "target": "nintendo.pt",
       "recursion_depth": 0,
@@ -409,27 +409,27 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
-      "error": null
-    },
-    {
       "resource": "myssl",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 916,
+      "duration_ms": 830,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "shodanx",
       "target": "nintendo.pt",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 1059,
+      "findings_count": 0,
+      "duration_ms": 27,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 950,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 3070,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 41,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -449,19 +457,19 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 41,
-      "duration_ms": 59,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3121,
+      "duration_ms": 3054,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3354,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "nintendo.pt",
       "recursion_depth": 0,
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3170,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "nintendo.pt",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3101,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 18620,
+      "findings_count": 9,
+      "duration_ms": 22082,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24931,
+      "duration_ms": 26148,
       "error": null
     },
     {
@@ -565,15 +557,7 @@
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29056,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "nintendo.pt",
-      "recursion_depth": 0,
-      "findings_count": 9,
-      "duration_ms": 34936,
+      "duration_ms": 32875,
       "error": null
     },
     {
@@ -581,7 +565,15 @@
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58997,
+      "duration_ms": 50108,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61645,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "nintendo.pt",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65965,
+      "duration_ms": 65956,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "nintendo.pt",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65714,
       "error": null
     }
   ]

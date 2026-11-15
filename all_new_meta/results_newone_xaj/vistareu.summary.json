@@ -1,9 +1,9 @@
 {
   "root_domain": "vistareu",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:44:13.454522+00:00",
-  "completed_at": "2026-11-14T14:45:22.488874+00:00",
-  "duration_ms": 69034,
+  "started_at": "2026-11-15T15:12:37.736578+00:00",
+  "completed_at": "2026-11-15T15:13:43.733619+00:00",
+  "duration_ms": 65997,
   "targets_scanned": [
     "vistareu"
   ],
@@ -17,46 +17,6 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fofa",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "c99",
       "target": "vistareu",
       "recursion_depth": 0,
@@ -65,23 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "argosdns",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "domscan",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,6 +65,22 @@
       "error": null
     },
     {
+      "resource": "google",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdb",
       "target": "vistareu",
       "recursion_depth": 0,
@@ -121,7 +89,39 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "dnsrepo",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -130,6 +130,14 @@
     },
     {
       "resource": "driftnet",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "digitalyama",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "certspotter",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,15 +177,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "dnsdumpster",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "arpsyndicate",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "fofa",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -253,7 +253,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -273,14 +273,6 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "profundis",
       "target": "vistareu",
       "recursion_depth": 0,
@@ -290,6 +282,14 @@
     },
     {
       "resource": "onyphe",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,15 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 77,
+      "duration_ms": 72,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,11 +341,19 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 189,
+      "duration_ms": 192,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "hackertarget",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,7 +365,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 230,
+      "duration_ms": 283,
       "error": null
     },
     {
@@ -357,15 +373,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -385,11 +393,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "securitytrails",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 388,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 41,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 466,
+      "duration_ms": 518,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1092,
+      "duration_ms": 835,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3067,
       "error": null
     },
     {
@@ -453,23 +461,7 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3060,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
+      "resource": "urlscan",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "sitedossier",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 3277,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3081,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3065,
       "error": null
     },
     {
@@ -537,51 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14091,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26417,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30804,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46082,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61468,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "vistareu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65993,
+      "duration_ms": 10629,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "vistareu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65181,
+      "duration_ms": 11770,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 21756,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20343,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30131,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46664,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vistareu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65988,
       "error": null
     }
   ]
