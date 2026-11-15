@@ -1,21 +1,37 @@
 {
   "root_domain": "o365fileshareecloud.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:59:57.509523+00:00",
-  "completed_at": "2026-11-14T16:01:03.489616+00:00",
-  "duration_ms": 65980,
+  "started_at": "2026-11-15T16:27:57.739216+00:00",
+  "completed_at": "2026-11-15T16:29:07.737322+00:00",
+  "duration_ms": 69998,
   "targets_scanned": [
     "o365fileshareecloud.com"
   ],
-  "total_unique_findings": 2,
-  "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "total_unique_findings": 3,
+  "fresh_findings_count": 3,
+  "historical_findings_count": 2,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "facebook",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "driftnet",
       "target": "o365fileshareecloud.com",
@@ -25,7 +41,79 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "certspotter",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +129,55 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "bufferover",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,22 +201,6 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "github",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
@@ -89,7 +209,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "huntermap",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,135 +217,15 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "digitorus",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 41,
       "error": null
     },
     {
       "resource": "intelx",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
@@ -265,15 +257,23 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "odin",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "abuseipdb",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 103,
+      "duration_ms": 62,
       "error": null
     },
     {
@@ -329,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 204,
+      "duration_ms": 89,
       "error": null
     },
     {
@@ -345,31 +345,23 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 239,
+      "duration_ms": 168,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 249,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 255,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 543,
+      "duration_ms": 470,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2187,
+      "duration_ms": 1087,
       "error": null
     },
     {
@@ -441,14 +441,6 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3034,
-      "error": null
-    },
-    {
       "resource": "threatbook",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
@@ -457,19 +449,27 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3051,
+      "duration_ms": 3054,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "sitedossier",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3501,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "urlscan",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -501,7 +501,7 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3081,
+      "duration_ms": 3110,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "threatminer",
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 5083,
+      "findings_count": 0,
+      "duration_ms": 20743,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 26905,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25358,
+      "duration_ms": 26498,
       "error": null
     },
     {
@@ -557,7 +565,7 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32064,
+      "duration_ms": 33098,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54568,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 64032,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "o365fileshareecloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61637,
+      "duration_ms": 56128,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "o365fileshareecloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65961,
+      "duration_ms": 65990,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "o365fileshareecloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65950,
       "error": null
     }
   ]
