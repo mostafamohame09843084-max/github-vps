@@ -1,71 +1,23 @@
 {
   "root_domain": "nintendo.co.uk",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:20:48.196334+00:00",
-  "completed_at": "2026-11-13T08:21:54.194684+00:00",
-  "duration_ms": 65998,
+  "started_at": "2026-11-15T14:49:50.751166+00:00",
+  "completed_at": "2026-11-15T14:50:56.753631+00:00",
+  "duration_ms": 66002,
   "targets_scanned": [
     "nintendo.co.uk"
   ],
-  "total_unique_findings": 94,
-  "fresh_findings_count": 94,
-  "historical_findings_count": 0,
-  "new_findings_count": 94,
+  "total_unique_findings": 134,
+  "fresh_findings_count": 134,
+  "historical_findings_count": 94,
+  "new_findings_count": 40,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "google",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,14 +33,6 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
@@ -97,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "c99",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "driftnet",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "binaryedge",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "argosdns",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +81,23 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "bufferover",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "facebook",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +121,47 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "chaos",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "arpsyndicate",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "coderog",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,23 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "certspotter",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +233,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "merklemap",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,15 +249,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,19 +261,11 @@
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 68,
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
@@ -309,27 +309,11 @@
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 74,
+      "duration_ms": 87,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 223,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 191,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 251,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 260,
+      "duration_ms": 289,
       "error": null
     },
     {
@@ -369,7 +369,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,19 +381,11 @@
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 51,
       "error": null
     },
     {
-      "resource": "robtex",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 92,
-      "duration_ms": 875,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 998,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,43 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 92,
+      "duration_ms": 831,
+      "error": null
+    },
+    {
       "resource": "myssl",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 1552,
+      "duration_ms": 1495,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3068,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 120,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -457,23 +457,23 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3093,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3084,
+      "duration_ms": 3105,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "sitedossier",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3532,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3106,
       "error": null
     },
     {
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "reconcloud",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3106,
+      "duration_ms": 32587,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22051,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33127,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "nintendo.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34010,
+      "findings_count": 20,
+      "duration_ms": 45545,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42831,
+      "duration_ms": 44946,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49783,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "nintendo.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62903,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61264,
+      "duration_ms": 61749,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "nintendo.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65976,
+      "duration_ms": 65974,
       "error": null
     }
   ]
