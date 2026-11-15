@@ -1,127 +1,23 @@
 {
   "root_domain": "storytel.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:18:27.495382+00:00",
-  "completed_at": "2026-11-14T15:19:36.497824+00:00",
-  "duration_ms": 69002,
+  "started_at": "2026-11-15T15:40:40.742712+00:00",
+  "completed_at": "2026-11-15T15:41:46.778451+00:00",
+  "duration_ms": 66035,
   "targets_scanned": [
     "storytel.com"
   ],
   "total_unique_findings": 144,
-  "fresh_findings_count": 39,
+  "fresh_findings_count": 144,
   "historical_findings_count": 144,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 105,
+  "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "c99",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "fullhunt",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "arpsyndicate",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "dnsdb",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +73,95 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "dnsdumpster",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,23 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "builtwith",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,19 @@
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 36,
       "error": null
     },
     {
       "resource": "intelx",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +249,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 68,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 78,
       "error": null
     },
     {
@@ -341,7 +341,15 @@
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 195,
+      "duration_ms": 174,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 231,
       "error": null
     },
     {
@@ -349,7 +357,7 @@
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 258,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -358,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 264,
       "error": null
     },
     {
@@ -381,19 +381,11 @@
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 47,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 15,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 38,
-      "duration_ms": 767,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 1273,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 38,
+      "duration_ms": 907,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 1728,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3098,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 3067,
       "error": null
     },
     {
@@ -489,11 +481,27 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3283,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3141,
       "error": null
     },
     {
@@ -513,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3275,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "storytel.com",
       "recursion_depth": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "threatminer",
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3118,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22059,
+      "duration_ms": 20622,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32034,
+      "duration_ms": 32108,
       "error": null
     },
     {
@@ -565,23 +557,7 @@
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35927,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44188,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "storytel.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 34934,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "storytel.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65538,
+      "duration_ms": 34150,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 140,
+      "duration_ms": 45869,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45169,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "storytel.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65983,
       "error": null
     }
   ]
