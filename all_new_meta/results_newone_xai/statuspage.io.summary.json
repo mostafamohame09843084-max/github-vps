@@ -1,111 +1,31 @@
 {
   "root_domain": "statuspage.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:55:08.495480+00:00",
-  "completed_at": "2026-11-14T14:56:21.997448+00:00",
-  "duration_ms": 73501,
+  "started_at": "2026-11-15T15:18:28.835234+00:00",
+  "completed_at": "2026-11-15T15:19:44.634646+00:00",
+  "duration_ms": 75799,
   "targets_scanned": [
     "statuspage.io"
   ],
-  "total_unique_findings": 25626,
-  "fresh_findings_count": 25616,
-  "historical_findings_count": 57,
-  "new_findings_count": 25569,
-  "reused_historical_findings_count": 10,
+  "total_unique_findings": 25727,
+  "fresh_findings_count": 25719,
+  "historical_findings_count": 25626,
+  "new_findings_count": 101,
+  "reused_historical_findings_count": 8,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "github",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fullhunt",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "digitalyama",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,55 +49,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "domscan",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +65,30 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdumpster",
       "target": "statuspage.io",
       "recursion_depth": 0,
@@ -201,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "driftnet",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +105,107 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "coderog",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
+      "error": null
+    },
+    {
       "resource": "merklemap",
       "target": "statuspage.io",
       "recursion_depth": 0,
@@ -249,11 +249,19 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitorus",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -265,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "profundis",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -274,14 +282,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 70,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 97,
       "error": null
     },
     {
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 176,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "statuspage.io",
       "recursion_depth": 0,
@@ -345,19 +337,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 10,
-      "duration_ms": 265,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
+      "resource": "alienvault",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 183,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 255,
       "error": null
     },
     {
@@ -369,6 +361,14 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 10,
+      "duration_ms": 271,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "statuspage.io",
       "recursion_depth": 0,
@@ -377,19 +377,19 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 351,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 14,
-      "duration_ms": 839,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 25,
-      "duration_ms": 1428,
+      "duration_ms": 744,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 14,
+      "duration_ms": 2489,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3038,
+      "duration_ms": 3052,
       "error": null
     },
     {
@@ -453,7 +453,7 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3049,
+      "duration_ms": 3051,
       "error": null
     },
     {
@@ -461,23 +461,7 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3354,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 3283,
       "error": null
     },
     {
@@ -489,23 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "urlscan",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,11 +489,43 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "virustotal",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 25699,
+      "duration_ms": 15527,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20585,
       "error": null
     },
     {
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "windvane",
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13416,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 25599,
-      "duration_ms": 15531,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "statuspage.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 17814,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,15 +549,31 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32375,
+      "duration_ms": 29212,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29154,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "statuspage.io",
       "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 56214,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "statuspage.io",
+      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65067,
+      "duration_ms": 61836,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 65892,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "statuspage.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65746,
+      "duration_ms": 65395,
       "error": null
     }
   ]

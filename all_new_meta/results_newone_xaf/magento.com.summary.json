@@ -1,23 +1,87 @@
 {
   "root_domain": "magento.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:03:07.499084+00:00",
-  "completed_at": "2026-11-14T15:04:16.521138+00:00",
-  "duration_ms": 69022,
+  "started_at": "2026-11-15T15:19:00.739353+00:00",
+  "completed_at": "2026-11-15T15:20:09.786454+00:00",
+  "duration_ms": 69047,
   "targets_scanned": [
     "magento.com"
   ],
   "total_unique_findings": 363,
-  "fresh_findings_count": 209,
-  "historical_findings_count": 296,
-  "new_findings_count": 67,
-  "reused_historical_findings_count": 154,
+  "fresh_findings_count": 363,
+  "historical_findings_count": 363,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bevigil",
+      "resource": "fullhunt",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +97,55 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "domainsproject",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "bufferover",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,71 +177,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "bevigil",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,31 +193,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "fofa",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,23 +209,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "intelx",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +229,11 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 45,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "leakix",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,15 +249,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,27 +261,11 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 70,
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +289,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "profundis",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,23 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 67,
+      "duration_ms": 108,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,23 +341,23 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 187,
+      "duration_ms": 191,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "hudsonrock",
       "target": "magento.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 6,
+      "duration_ms": 250,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 254,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -358,14 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 273,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 364,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 28,
-      "duration_ms": 869,
+      "duration_ms": 604,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 1969,
+      "duration_ms": 2864,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3050,
+      "duration_ms": 3116,
       "error": null
     },
     {
@@ -449,19 +449,27 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 204,
-      "duration_ms": 65,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3147,
+      "duration_ms": 3078,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 204,
+      "duration_ms": 88,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -469,15 +477,7 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -489,7 +489,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "urlscan",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +505,23 @@
       "error": null
     },
     {
+      "resource": "whoisfreaks",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "sitedossier",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3356,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14375,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "magento.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29311,
+      "duration_ms": 3123,
       "error": null
     },
     {
@@ -565,15 +549,23 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27903,
+      "duration_ms": 25018,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29947,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "magento.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65982,
+      "findings_count": 291,
+      "duration_ms": 54227,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 65978,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "magento.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65906,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "magento.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65429,
+      "duration_ms": 65420,
       "error": null
     }
   ]
