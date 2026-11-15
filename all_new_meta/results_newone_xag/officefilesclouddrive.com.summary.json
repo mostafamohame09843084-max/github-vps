@@ -1,9 +1,9 @@
 {
   "root_domain": "officefilesclouddrive.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T17:48:35.737901+00:00",
-  "completed_at": "2026-11-15T17:49:44.736395+00:00",
-  "duration_ms": 68998,
+  "started_at": "2026-11-15T17:50:08.741023+00:00",
+  "completed_at": "2026-11-15T17:51:17.737302+00:00",
+  "duration_ms": 68996,
   "targets_scanned": [
     "officefilesclouddrive.com"
   ],
@@ -17,15 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fofa",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "builtwith",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,103 +33,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "google",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +73,95 @@
       "error": null
     },
     {
+      "resource": "argosdns",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "c99",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "fullhunt",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +229,11 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 48,
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +249,27 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
-      "error": null
-    },
-    {
-      "resource": "leakix",
+      "resource": "odin",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -273,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "pugrecon",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,14 +290,6 @@
     },
     {
       "resource": "onyphe",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,23 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 99,
+      "duration_ms": 89,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 90,
       "error": null
     },
     {
@@ -333,15 +349,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 187,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -349,27 +357,11 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 265,
+      "duration_ms": 248,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 281,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,6 +385,14 @@
       "error": null
     },
     {
+      "resource": "robtex",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "securitytrails",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
@@ -413,7 +413,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 475,
+      "duration_ms": 489,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2358,
+      "duration_ms": 1289,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "riddler",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 3241,
+      "findings_count": 0,
+      "duration_ms": 3078,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 3050,
       "error": null
     },
     {
@@ -473,14 +473,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
@@ -489,15 +481,15 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "threatminer",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 24,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "virustotal",
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -517,7 +509,15 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3271,
+      "duration_ms": 3269,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3139,
+      "duration_ms": 3107,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20283,
+      "duration_ms": 26772,
       "error": null
     },
     {
@@ -557,7 +557,15 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33086,
+      "duration_ms": 33083,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "officefilesclouddrive.com",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 35021,
       "error": null
     },
     {
@@ -565,15 +573,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56946,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "officefilesclouddrive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61748,
+      "duration_ms": 65931,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65986,
+      "duration_ms": 65984,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "officefilesclouddrive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65577,
+      "duration_ms": 65589,
       "error": null
     }
   ]

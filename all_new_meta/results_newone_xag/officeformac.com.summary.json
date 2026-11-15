@@ -1,9 +1,9 @@
 {
   "root_domain": "officeformac.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:18:00.843674+00:00",
-  "completed_at": "2026-11-14T18:19:27.565698+00:00",
-  "duration_ms": 86722,
+  "started_at": "2026-11-15T17:50:50.736747+00:00",
+  "completed_at": "2026-11-15T17:51:56.734982+00:00",
+  "duration_ms": 65998,
   "targets_scanned": [
     "officeformac.com"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "facebook",
+      "resource": "binaryedge",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,23 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "driftnet",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "certspotter",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +73,47 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "domscan",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,39 +137,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "c99",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,31 +153,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "bevigil",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "digitalyama",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "censys",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "dnsrepo",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "argosdns",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "facebook",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,19 +209,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +241,30 @@
       "error": null
     },
     {
+      "resource": "merklemap",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "officeformac.com",
       "recursion_depth": 0,
@@ -257,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "profundis",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 95,
       "error": null
     },
     {
@@ -321,19 +313,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 74,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 248,
       "error": null
     },
     {
@@ -345,19 +337,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 298,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 299,
+      "duration_ms": 185,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "officeformac.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 59,
+      "findings_count": 3,
+      "duration_ms": 266,
       "error": null
     },
     {
@@ -382,6 +374,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 514,
+      "duration_ms": 495,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1281,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3056,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 107,
+      "duration_ms": 1270,
       "error": null
     },
     {
@@ -457,11 +441,35 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3071,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3080,
+      "duration_ms": 3068,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -477,11 +485,11 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3353,
+      "duration_ms": 3267,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "virustotal",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -489,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "whoisfreaks",
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,15 +517,7 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3104,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3146,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8154,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12850,
+      "duration_ms": 24466,
       "error": null
     },
     {
@@ -557,31 +549,7 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29532,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61329,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65983,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "officeformac.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65020,
+      "duration_ms": 33090,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "officeformac.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 86710,
+      "duration_ms": 38359,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50152,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64371,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62088,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "officeformac.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65989,
       "error": null
     }
   ]
