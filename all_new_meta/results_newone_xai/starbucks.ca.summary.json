@@ -1,47 +1,23 @@
 {
   "root_domain": "starbucks.ca",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:21:13.259440+00:00",
-  "completed_at": "2026-11-13T08:22:22.191514+00:00",
-  "duration_ms": 68932,
+  "started_at": "2026-11-15T14:53:28.978932+00:00",
+  "completed_at": "2026-11-15T14:54:38.753378+00:00",
+  "duration_ms": 69774,
   "targets_scanned": [
     "starbucks.ca"
   ],
-  "total_unique_findings": 50,
-  "fresh_findings_count": 50,
-  "historical_findings_count": 0,
-  "new_findings_count": 50,
+  "total_unique_findings": 110,
+  "fresh_findings_count": 110,
+  "historical_findings_count": 50,
+  "new_findings_count": 60,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "coderog",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,79 +33,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsdb",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "fullhunt",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -170,6 +66,110 @@
     },
     {
       "resource": "digitalyama",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "c99",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "domainsproject",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
       "resource": "intelx",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 62,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 104,
+      "duration_ms": 106,
       "error": null
     },
     {
@@ -318,6 +318,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 206,
       "error": null
     },
     {
@@ -341,15 +349,7 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 215,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 251,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hackertarget",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 302,
+      "duration_ms": 274,
       "error": null
     },
     {
@@ -373,7 +373,7 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,16 +421,32 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 50,
-      "duration_ms": 798,
+      "duration_ms": 774,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 939,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 1026,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3057,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 72,
+      "duration_ms": 55,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -441,35 +457,19 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2408,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3101,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 3052,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3092,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3360,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3155,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,15 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24821,
+      "duration_ms": 9104,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 98,
+      "duration_ms": 21265,
       "error": null
     },
     {
@@ -557,23 +557,7 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33086,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44996,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "starbucks.ca",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61842,
+      "duration_ms": 31825,
       "error": null
     },
     {
@@ -581,7 +565,23 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65910,
+      "duration_ms": 55743,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61861,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "starbucks.ca",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65681,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "starbucks.ca",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65498,
+      "duration_ms": 65596,
       "error": null
     }
   ]
