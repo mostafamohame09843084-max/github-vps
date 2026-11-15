@@ -1,23 +1,31 @@
 {
   "root_domain": "mastercard.ch",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:32:18.501697+00:00",
-  "completed_at": "2026-11-14T16:33:27.490858+00:00",
-  "duration_ms": 68989,
+  "started_at": "2026-11-15T16:46:30.747935+00:00",
+  "completed_at": "2026-11-15T16:47:39.735837+00:00",
+  "duration_ms": 68987,
   "targets_scanned": [
     "mastercard.ch"
   ],
-  "total_unique_findings": 3,
-  "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "total_unique_findings": 4,
+  "fresh_findings_count": 4,
+  "historical_findings_count": 3,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fullhunt",
+      "resource": "chinaz",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,30 +49,6 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
       "target": "mastercard.ch",
       "recursion_depth": 0,
@@ -73,87 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "binaryedge",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +81,23 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "google",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +113,55 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "fullhunt",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +177,31 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "dnsdb",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "bevigil",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,19 +261,11 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 52,
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +289,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "profundis",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "anubis",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 85,
       "error": null
     },
     {
@@ -341,7 +333,15 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 189,
+      "duration_ms": 180,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 223,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 240,
       "error": null
     },
     {
@@ -369,15 +361,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 245,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,11 +381,11 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 57,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1404,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -429,15 +421,31 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 1541,
+      "duration_ms": 870,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "myssl",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1340,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3151,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3073,
       "error": null
     },
     {
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "mastercard.ch",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3044,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3064,
+      "findings_count": 4,
+      "duration_ms": 108,
       "error": null
     },
     {
@@ -473,14 +473,6 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "mastercard.ch",
       "recursion_depth": 0,
@@ -489,7 +481,23 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60,
+      "error": null
+    },
+    {
       "resource": "virustotal",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,15 +517,7 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3273,
       "error": null
     },
     {
@@ -541,31 +541,7 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 8270,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20066,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "mastercard.ch",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30343,
+      "duration_ms": 3105,
       "error": null
     },
     {
@@ -573,7 +549,31 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31350,
+      "duration_ms": 11420,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 31978,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34056,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "mastercard.ch",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46954,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65988,
+      "duration_ms": 65978,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "mastercard.ch",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65580,
+      "duration_ms": 65411,
       "error": null
     }
   ]
