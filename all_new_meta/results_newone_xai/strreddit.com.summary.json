@@ -1,9 +1,9 @@
 {
   "root_domain": "strreddit.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:42:10.516394+00:00",
-  "completed_at": "2026-11-14T15:43:19.489089+00:00",
-  "duration_ms": 68972,
+  "started_at": "2026-11-15T16:03:28.744280+00:00",
+  "completed_at": "2026-11-15T16:04:37.734722+00:00",
+  "duration_ms": 68990,
   "targets_scanned": [
     "strreddit.com"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
+      "resource": "fullhunt",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,23 +25,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "bufferover",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "driftnet",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,63 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "binaryedge",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +73,47 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "chinaz",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +137,30 @@
       "error": null
     },
     {
+      "resource": "certspotter",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "arpsyndicate",
       "target": "strreddit.com",
       "recursion_depth": 0,
@@ -201,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "fofa",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,15 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -241,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "netlas",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,23 +269,7 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,19 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 93,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 212,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,35 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 181,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
+      "duration_ms": 254,
       "error": null
     },
     {
@@ -369,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 285,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,7 +385,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "reconeer",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
+      "resource": "securitytrails",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 502,
+      "duration_ms": 461,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1745,
+      "duration_ms": 1112,
       "error": null
     },
     {
@@ -441,14 +441,6 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3055,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "strreddit.com",
       "recursion_depth": 0,
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3131,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
+      "duration_ms": 3075,
       "error": null
     },
     {
@@ -497,15 +497,7 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3096,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 5080,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,31 +541,7 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25061,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31566,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42026,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "strreddit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43488,
+      "duration_ms": 9480,
       "error": null
     },
     {
@@ -573,7 +549,31 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42209,
+      "duration_ms": 20674,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29128,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33058,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "strreddit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60459,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65959,
+      "duration_ms": 65986,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "strreddit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65118,
+      "duration_ms": 65162,
       "error": null
     }
   ]
