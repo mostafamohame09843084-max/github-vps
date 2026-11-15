@@ -1,47 +1,23 @@
 {
   "root_domain": "visakorea.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:21:22.192758+00:00",
-  "completed_at": "2026-11-13T08:22:31.183116+00:00",
-  "duration_ms": 68990,
+  "started_at": "2026-11-15T14:57:50.742282+00:00",
+  "completed_at": "2026-11-15T14:59:02.739812+00:00",
+  "duration_ms": 71997,
   "targets_scanned": [
     "visakorea.com"
   ],
-  "total_unique_findings": 5,
-  "fresh_findings_count": 5,
-  "historical_findings_count": 0,
-  "new_findings_count": 5,
+  "total_unique_findings": 7,
+  "fresh_findings_count": 7,
+  "historical_findings_count": 5,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "chaos",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "binaryedge",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,95 +49,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +65,55 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fullhunt",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +129,83 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "coderog",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
       "resource": "merklemap",
       "target": "visakorea.com",
       "recursion_depth": 0,
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "visakorea.com",
       "recursion_depth": 0,
@@ -265,15 +257,23 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 60,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "odin",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,15 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 76,
+      "duration_ms": 80,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "alienvault",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 236,
       "error": null
     },
     {
@@ -337,39 +337,7 @@
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 107,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 249,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 260,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rapidfinder",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +349,19 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 272,
+      "duration_ms": 252,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 269,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +369,23 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "reconeer",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "securitytrails",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -421,7 +413,7 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -429,15 +421,23 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 428,
+      "duration_ms": 461,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3044,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -449,23 +449,23 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "thc",
       "target": "visakorea.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 901,
+      "findings_count": 2,
+      "duration_ms": 99,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "sitedossier",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1517,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3265,
+      "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +473,15 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "threatcrowd",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 3076,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "myssl",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3070,
+      "duration_ms": 23598,
       "error": null
     },
     {
@@ -521,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "visakorea.com",
       "recursion_depth": 0,
@@ -537,27 +529,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "visakorea.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3129,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "visakorea.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 6289,
+      "findings_count": 3,
+      "duration_ms": 24411,
       "error": null
     },
     {
@@ -565,7 +549,15 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33107,
+      "duration_ms": 29374,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28458,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61252,
+      "duration_ms": 61711,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "visakorea.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65920,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 65981,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "visakorea.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65628,
+      "duration_ms": 65423,
       "error": null
     }
   ]
