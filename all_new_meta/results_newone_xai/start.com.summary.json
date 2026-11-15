@@ -1,119 +1,23 @@
 {
   "root_domain": "start.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:30:19.187100+00:00",
-  "completed_at": "2026-11-13T08:31:28.190179+00:00",
-  "duration_ms": 69003,
+  "started_at": "2026-11-15T15:02:39.739449+00:00",
+  "completed_at": "2026-11-15T15:03:45.743143+00:00",
+  "duration_ms": 66003,
   "targets_scanned": [
     "start.com"
   ],
-  "total_unique_findings": 32,
-  "fresh_findings_count": 32,
-  "historical_findings_count": 0,
-  "new_findings_count": 32,
+  "total_unique_findings": 36,
+  "fresh_findings_count": 36,
+  "historical_findings_count": 32,
+  "new_findings_count": 4,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,47 +33,39 @@
       "error": null
     },
     {
+      "resource": "facebook",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "certspotter",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "domscan",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "bevigil",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +105,103 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "dnsdumpster",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,27 @@
       "error": null
     },
     {
+      "resource": "huntermap",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -241,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "digitorus",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 57,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,31 +289,31 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 58,
       "error": null
     },
     {
       "resource": "quake",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 95,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 104,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "start.com",
       "recursion_depth": 0,
@@ -349,7 +341,7 @@
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 204,
+      "duration_ms": 190,
       "error": null
     },
     {
@@ -357,11 +349,27 @@
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 237,
+      "duration_ms": 263,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 284,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "robtex",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 71,
       "error": null
     },
     {
@@ -409,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 260,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 32,
-      "duration_ms": 602,
+      "duration_ms": 871,
       "error": null
     },
     {
@@ -437,7 +429,23 @@
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1018,
+      "duration_ms": 1957,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3102,
       "error": null
     },
     {
@@ -452,36 +460,28 @@
       "resource": "thc",
       "target": "start.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 13,
+      "duration_ms": 119,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatminer",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1225,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "riddler",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 51,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,23 +505,15 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3120,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3078,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,27 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "sitedossier",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
+      "duration_ms": 17864,
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "start.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3191,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 13271,
+      "findings_count": 1,
+      "duration_ms": 23404,
       "error": null
     },
     {
@@ -565,23 +557,15 @@
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33078,
+      "duration_ms": 30741,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61256,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "start.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 30747,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "start.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65670,
+      "duration_ms": 33899,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65938,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "start.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65983,
       "error": null
     }
   ]
