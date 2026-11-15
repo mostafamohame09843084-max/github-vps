@@ -1,9 +1,9 @@
 {
   "root_domain": "norcgdu.xyz",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T15:25:41.772948+00:00",
-  "completed_at": "2026-11-15T15:26:50.733072+00:00",
-  "duration_ms": 68960,
+  "started_at": "2026-11-15T15:26:47.794870+00:00",
+  "completed_at": "2026-11-15T15:27:53.735696+00:00",
+  "duration_ms": 65940,
   "targets_scanned": [
     "norcgdu.xyz"
   ],
@@ -17,31 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "certspotter",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,55 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "driftnet",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "chaos",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "coderog",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "facebook",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsrepo",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "bufferover",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "fofa",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "fullhunt",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +121,55 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "dnsdb",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +185,23 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "builtwith",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "google",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -226,6 +210,22 @@
     },
     {
       "resource": "huntermap",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,6 +257,14 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
@@ -265,15 +273,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 45,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "quake",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +305,23 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,15 +333,7 @@
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 91,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 126,
       "error": null
     },
     {
@@ -333,39 +349,7 @@
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 202,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 290,
+      "duration_ms": 186,
       "error": null
     },
     {
@@ -373,11 +357,11 @@
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 58,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 282,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -421,7 +421,15 @@
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 468,
+      "duration_ms": 462,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 1092,
       "error": null
     },
     {
@@ -429,15 +437,15 @@
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 902,
+      "duration_ms": 1060,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3060,
+      "findings_count": 2,
+      "duration_ms": 65,
       "error": null
     },
     {
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3047,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 99,
+      "duration_ms": 3103,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -513,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "shrewdeye",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3114,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3095,
       "error": null
     },
     {
@@ -537,19 +529,35 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3562,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3134,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25351,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 27900,
+      "duration_ms": 29896,
       "error": null
     },
     {
@@ -557,31 +565,7 @@
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32969,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42233,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61898,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "norcgdu.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65954,
+      "duration_ms": 33094,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "norcgdu.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65122,
+      "duration_ms": 49912,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 63879,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "norcgdu.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65929,
       "error": null
     }
   ]
