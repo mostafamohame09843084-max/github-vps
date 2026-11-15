@@ -1,93 +1,21 @@
 {
   "root_domain": "r3.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:20:44.508301+00:00",
-  "completed_at": "2026-11-14T15:22:05.636760+00:00",
-  "duration_ms": 81128,
+  "started_at": "2026-11-15T15:43:47.762737+00:00",
+  "completed_at": "2026-11-15T15:44:56.767458+00:00",
+  "duration_ms": 69004,
   "targets_scanned": [
     "r3.com"
   ],
   "total_unique_findings": 192,
   "fresh_findings_count": 192,
-  "historical_findings_count": 0,
-  "new_findings_count": 192,
+  "historical_findings_count": 192,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "certspotter",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "c99",
       "target": "r3.com",
@@ -97,23 +25,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "argosdns",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "fofa",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -138,6 +58,94 @@
     },
     {
       "resource": "facebook",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "bevigil",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +177,23 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "dnsrepo",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -182,38 +206,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
       "resource": "leakix",
       "target": "r3.com",
       "recursion_depth": 0,
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -337,27 +337,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -365,7 +349,7 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 256,
+      "duration_ms": 257,
       "error": null
     },
     {
@@ -373,11 +357,11 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58,
+      "duration_ms": 69,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -390,6 +374,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 361,
       "error": null
     },
     {
@@ -413,15 +413,15 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 27,
       "error": null
     },
     {
       "resource": "rapiddns",
       "target": "r3.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 1596,
+      "findings_count": 5,
+      "duration_ms": 921,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 1915,
+      "duration_ms": 2130,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -438,14 +446,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3065,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3049,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -485,7 +477,15 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3270,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3353,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3118,
+      "duration_ms": 3084,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 14104,
+      "duration_ms": 23786,
       "error": null
     },
     {
@@ -557,31 +557,7 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30916,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44554,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49921,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "r3.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65975,
+      "duration_ms": 33097,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "r3.com",
       "recursion_depth": 0,
       "findings_count": 190,
-      "duration_ms": 81048,
+      "duration_ms": 36446,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47981,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65964,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "r3.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65445,
       "error": null
     }
   ]

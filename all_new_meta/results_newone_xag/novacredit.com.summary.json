@@ -1,23 +1,23 @@
 {
   "root_domain": "novacredit.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:13:14.473621+00:00",
-  "completed_at": "2026-11-14T15:14:21.284675+00:00",
-  "duration_ms": 66811,
+  "started_at": "2026-11-15T15:43:32.758734+00:00",
+  "completed_at": "2026-11-15T15:44:42.742465+00:00",
+  "duration_ms": 69983,
   "targets_scanned": [
     "novacredit.com"
   ],
   "total_unique_findings": 34,
   "fresh_findings_count": 34,
-  "historical_findings_count": 0,
-  "new_findings_count": 34,
+  "historical_findings_count": 34,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "google",
+      "resource": "dnsdb",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,31 +25,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "driftnet",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "dnsdumpster",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -74,6 +50,14 @@
     },
     {
       "resource": "github",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,87 +81,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +97,47 @@
       "error": null
     },
     {
+      "resource": "google",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsrepo",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chaos",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +161,55 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "fullhunt",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +221,15 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 45,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +257,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,11 +269,11 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 52,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 107,
+      "duration_ms": 110,
       "error": null
     },
     {
@@ -318,22 +318,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 176,
       "error": null
     },
     {
@@ -349,7 +333,15 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 261,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 269,
+      "duration_ms": 267,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -369,19 +369,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 382,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 789,
+      "duration_ms": 1100,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 1528,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1607,
       "error": null
     },
     {
@@ -453,27 +445,11 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
+      "duration_ms": 3082,
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3059,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "thc",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +457,31 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3105,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3359,
+      "error": null
+    },
+    {
       "resource": "trickest",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -494,6 +494,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3098,
       "error": null
     },
     {
@@ -513,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
-      "error": null
-    },
-    {
       "resource": "zoomeyeapi",
       "target": "novacredit.com",
       "recursion_depth": 0,
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3083,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "novacredit.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 15127,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24984,
+      "duration_ms": 14643,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "threatminer",
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29605,
+      "duration_ms": 20761,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 26,
-      "duration_ms": 39743,
+      "duration_ms": 27678,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32695,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "novacredit.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56905,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65014,
+      "duration_ms": 65967,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "novacredit.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63373,
+      "duration_ms": 65391,
       "error": null
     }
   ]
