@@ -1,21 +1,53 @@
 {
   "root_domain": "vivmarkresidential.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:00:11.494751+00:00",
-  "completed_at": "2026-11-14T15:01:20.493326+00:00",
-  "duration_ms": 68998,
+  "started_at": "2026-11-15T15:28:39.736881+00:00",
+  "completed_at": "2026-11-15T15:29:45.740997+00:00",
+  "duration_ms": 66004,
   "targets_scanned": [
     "vivmarkresidential.com"
   ],
   "total_unique_findings": 8,
   "fresh_findings_count": 8,
-  "historical_findings_count": 0,
-  "new_findings_count": 8,
+  "historical_findings_count": 8,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "fullhunt",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "domainsproject",
       "target": "vivmarkresidential.com",
@@ -33,47 +65,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "certspotter",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,71 +81,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "domscan",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +97,63 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "coderog",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fofa",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "bevigil",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "argosdns",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +193,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "binaryedge",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chaos",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "abuseipdb",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +253,27 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 38,
       "error": null
     },
     {
       "resource": "odin",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,14 +290,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 94,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 84,
       "error": null
     },
     {
@@ -337,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 184,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
@@ -345,23 +345,31 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 243,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 257,
+      "duration_ms": 237,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 250,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +389,11 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 47,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "shodan",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 483,
+      "duration_ms": 455,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1368,
+      "duration_ms": 1160,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3089,
+      "duration_ms": 3055,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3067,
       "error": null
     },
     {
@@ -452,16 +460,16 @@
       "resource": "thc",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 8,
+      "duration_ms": 118,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3052,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -481,27 +489,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3050,
+      "error": null
+    },
+    {
       "resource": "zoomeyeapi",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "threatminer",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3081,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 21444,
+      "duration_ms": 20486,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26718,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "vivmarkresidential.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30718,
+      "duration_ms": 25429,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 8,
-      "duration_ms": 47637,
+      "duration_ms": 30490,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "reconcloud",
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66003,
+      "duration_ms": 31896,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34766,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vivmarkresidential.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65583,
+      "duration_ms": 39941,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vivmarkresidential.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65989,
       "error": null
     }
   ]

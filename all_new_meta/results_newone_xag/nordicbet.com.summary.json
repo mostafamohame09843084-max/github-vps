@@ -1,9 +1,9 @@
 {
   "root_domain": "nordicbet.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T15:28:00.739704+00:00",
-  "completed_at": "2026-11-15T15:29:10.796289+00:00",
-  "duration_ms": 70056,
+  "started_at": "2026-11-15T15:29:03.735428+00:00",
+  "completed_at": "2026-11-15T15:30:09.804826+00:00",
+  "duration_ms": 66069,
   "targets_scanned": [
     "nordicbet.com"
   ],
@@ -17,39 +17,39 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "chaos",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "fofa",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "dnsdumpster",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,71 +97,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "driftnet",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,39 +113,95 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "google",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +213,11 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 52,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "merklemap",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,6 +257,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "nordicbet.com",
       "recursion_depth": 0,
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,14 +305,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 71,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "nordicbet.com",
       "recursion_depth": 0,
@@ -321,11 +313,27 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 62,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 100,
       "error": null
     },
     {
@@ -341,15 +349,15 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 202,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -361,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "nordicbet.com",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 258,
+      "findings_count": 0,
+      "duration_ms": 275,
       "error": null
     },
     {
@@ -374,14 +382,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 64,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 872,
+      "duration_ms": 838,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 1342,
+      "duration_ms": 862,
       "error": null
     },
     {
@@ -437,15 +437,15 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3052,
+      "duration_ms": 3055,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "nordicbet.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3047,
+      "findings_count": 71,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -457,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 71,
-      "duration_ms": 110,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 75,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3098,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3353,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3117,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13006,
+      "duration_ms": 26303,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33098,
+      "duration_ms": 32333,
       "error": null
     },
     {
@@ -557,7 +565,7 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 311,
-      "duration_ms": 36572,
+      "duration_ms": 39737,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52930,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61748,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "nordicbet.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65978,
+      "duration_ms": 52933,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "nordicbet.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65770,
+      "duration_ms": 49849,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "nordicbet.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65996,
       "error": null
     }
   ]
