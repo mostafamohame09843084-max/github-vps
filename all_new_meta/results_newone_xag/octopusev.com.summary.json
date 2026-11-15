@@ -1,119 +1,23 @@
 {
   "root_domain": "octopusev.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:29:17.504262+00:00",
-  "completed_at": "2026-11-14T16:30:27.494052+00:00",
-  "duration_ms": 69989,
+  "started_at": "2026-11-15T16:55:57.745053+00:00",
+  "completed_at": "2026-11-15T16:57:07.740723+00:00",
+  "duration_ms": 69995,
   "targets_scanned": [
     "octopusev.com"
   ],
-  "total_unique_findings": 8,
-  "fresh_findings_count": 8,
-  "historical_findings_count": 0,
-  "new_findings_count": 8,
+  "total_unique_findings": 46,
+  "fresh_findings_count": 46,
+  "historical_findings_count": 8,
+  "new_findings_count": 38,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fullhunt",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "domscan",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "dnsdb",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,39 +57,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "github",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +73,102 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
       "target": "octopusev.com",
       "recursion_depth": 0,
@@ -209,11 +177,35 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "c99",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
       "resource": "merklemap",
       "target": "octopusev.com",
       "recursion_depth": 0,
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "octopusev.com",
       "recursion_depth": 0,
@@ -270,6 +262,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -317,7 +317,7 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 179,
+      "duration_ms": 84,
       "error": null
     },
     {
@@ -333,7 +333,7 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 203,
+      "duration_ms": 194,
       "error": null
     },
     {
@@ -345,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 246,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 286,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 69,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "rapiddns",
       "target": "octopusev.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
+      "findings_count": 8,
+      "duration_ms": 465,
       "error": null
     },
     {
@@ -413,7 +413,15 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 24,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1023,
       "error": null
     },
     {
@@ -421,23 +429,15 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1432,
+      "duration_ms": 1188,
       "error": null
     },
     {
-      "resource": "rapiddns",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 1312,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3108,
       "error": null
     },
     {
@@ -449,11 +449,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3084,
+      "duration_ms": 3082,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -477,15 +485,7 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3272,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3471,
       "error": null
     },
     {
@@ -501,15 +501,7 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "octopusev.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3071,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,27 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "windvane",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10173,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "octopusev.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20078,
+      "findings_count": 46,
+      "duration_ms": 7000,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20585,
+      "duration_ms": 26885,
       "error": null
     },
     {
@@ -565,7 +557,15 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29507,
+      "duration_ms": 33095,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "octopusev.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41967,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30429,
+      "duration_ms": 52928,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65989,
+      "duration_ms": 65984,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "octopusev.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65244,
+      "duration_ms": 65481,
       "error": null
     }
   ]
