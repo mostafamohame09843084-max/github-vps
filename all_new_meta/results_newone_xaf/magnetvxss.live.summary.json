@@ -1,21 +1,29 @@
 {
   "root_domain": "magnetvxss.live",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:14:34.519828+00:00",
-  "completed_at": "2026-11-14T15:15:44.492590+00:00",
-  "duration_ms": 69972,
+  "started_at": "2026-11-15T15:30:26.771189+00:00",
+  "completed_at": "2026-11-15T15:31:41.737493+00:00",
+  "duration_ms": 74966,
   "targets_scanned": [
     "magnetvxss.live"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "coderog",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "facebook",
       "target": "magnetvxss.live",
@@ -25,7 +33,15 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "github",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +57,31 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "certspotter",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,6 +105,30 @@
       "error": null
     },
     {
+      "resource": "digitalyama",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
@@ -81,87 +145,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdb",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "dnsrepo",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,15 +169,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "c99",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "argosdns",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +193,23 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "domscan",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +221,15 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "digitorus",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -265,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,15 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 76,
+      "duration_ms": 111,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "alienvault",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 191,
       "error": null
     },
     {
@@ -337,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "rapidscan",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 195,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 224,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 229,
       "error": null
     },
     {
@@ -366,6 +358,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 253,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -385,11 +393,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "securitytrails",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 352,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -421,15 +421,15 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 463,
+      "duration_ms": 492,
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "sitedossier",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1021,
+      "duration_ms": 3263,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3089,
+      "duration_ms": 6050,
       "error": null
     },
     {
@@ -449,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3083,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 99,
+      "duration_ms": 118,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3555,
+      "duration_ms": 7060,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3184,
       "error": null
     },
     {
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "submd",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 8504,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,19 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "windvane",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 6941,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16422,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "magnetvxss.live",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 26800,
+      "duration_ms": 22968,
       "error": null
     },
     {
@@ -565,15 +549,23 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31112,
+      "duration_ms": 32429,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "crtsh",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 39942,
+      "error": null
+    },
+    {
+      "resource": "racent",
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61637,
+      "duration_ms": 50510,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65958,
+      "duration_ms": 65954,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "magnetvxss.live",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61791,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "magnetvxss.live",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65866,
+      "duration_ms": 65349,
       "error": null
     }
   ]

@@ -1,9 +1,9 @@
 {
   "root_domain": "vlusaa.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:03:10.664580+00:00",
-  "completed_at": "2026-11-14T15:04:20.492811+00:00",
-  "duration_ms": 69828,
+  "started_at": "2026-11-15T15:31:23.279485+00:00",
+  "completed_at": "2026-11-15T15:32:28.737981+00:00",
+  "duration_ms": 65458,
   "targets_scanned": [
     "vlusaa.com"
   ],
@@ -17,63 +17,15 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "domainsproject",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fofa",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,31 +41,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "certspotter",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "digitalyama",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,39 +73,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "argosdns",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +97,126 @@
       "error": null
     },
     {
+      "resource": "c99",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "vlusaa.com",
       "recursion_depth": 0,
@@ -217,15 +225,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 26,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -265,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,15 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 121,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -325,7 +325,7 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 173,
+      "duration_ms": 175,
       "error": null
     },
     {
@@ -349,35 +349,19 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 254,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 87,
+      "duration_ms": 272,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 477,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -390,6 +374,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 73,
       "error": null
     },
     {
@@ -413,15 +413,15 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 27,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapiddns",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 967,
+      "duration_ms": 448,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 966,
+      "duration_ms": 1832,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -449,35 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3071,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3046,
+      "duration_ms": 3049,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "thc",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 109,
       "error": null
     },
     {
@@ -489,11 +473,35 @@
       "error": null
     },
     {
+      "resource": "urlscan",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3358,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3066,
       "error": null
     },
     {
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3352,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3060,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 15153,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25747,
+      "duration_ms": 9003,
       "error": null
     },
     {
@@ -565,7 +549,23 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30547,
+      "duration_ms": 31003,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42220,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46412,
       "error": null
     },
     {
@@ -573,15 +573,7 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36727,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "vlusaa.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65816,
+      "duration_ms": 49823,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vlusaa.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69818,
+      "duration_ms": 53812,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vlusaa.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65448,
       "error": null
     }
   ]
