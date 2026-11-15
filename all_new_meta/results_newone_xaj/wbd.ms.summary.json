@@ -1,87 +1,23 @@
 {
   "root_domain": "wbd.ms",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:53:30.992053+00:00",
-  "completed_at": "2026-11-14T17:54:40.836118+00:00",
-  "duration_ms": 69844,
+  "started_at": "2026-11-15T17:28:14.757277+00:00",
+  "completed_at": "2026-11-15T17:29:23.735655+00:00",
+  "duration_ms": 68978,
   "targets_scanned": [
     "wbd.ms"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 1,
-  "new_findings_count": 1,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "domscan",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,31 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "digitalyama",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "certspotter",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsdumpster",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "chaos",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +81,23 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "censys",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +113,14 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "argosdns",
       "target": "wbd.ms",
       "recursion_depth": 0,
@@ -193,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "arpsyndicate",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -202,6 +138,70 @@
     },
     {
       "resource": "dnsdb",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,7 +221,7 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -233,7 +233,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,19 +269,11 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 68,
       "error": null
     },
     {
       "resource": "profundis",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,19 +309,11 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 96,
+      "duration_ms": 116,
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 292,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 308,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 230,
+      "duration_ms": 310,
       "error": null
     },
     {
@@ -358,22 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 260,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 81,
       "error": null
     },
     {
@@ -390,6 +382,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 521,
+      "duration_ms": 446,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 921,
+      "duration_ms": 1014,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3078,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3081,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3088,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 118,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3271,
+      "duration_ms": 117,
       "error": null
     },
     {
@@ -489,11 +481,27 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3478,
       "error": null
     },
     {
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3119,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "threatcrowd",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 7895,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10781,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "wbd.ms",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31597,
+      "duration_ms": 3084,
       "error": null
     },
     {
@@ -565,15 +549,31 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 60742,
+      "duration_ms": 18466,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61479,
+      "duration_ms": 25733,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33084,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "wbd.ms",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62306,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65834,
+      "duration_ms": 65957,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "wbd.ms",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65945,
+      "duration_ms": 65399,
       "error": null
     }
   ]
