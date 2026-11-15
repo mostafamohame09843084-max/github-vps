@@ -1,23 +1,23 @@
 {
   "root_domain": "recom",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:20:52.505496+00:00",
-  "completed_at": "2026-11-14T16:22:01.489895+00:00",
-  "duration_ms": 68984,
+  "started_at": "2026-11-15T16:40:26.747654+00:00",
+  "completed_at": "2026-11-15T16:41:32.736676+00:00",
+  "duration_ms": 65989,
   "targets_scanned": [
     "recom"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
+      "resource": "censys",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,15 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "c99",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "coderog",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "chaos",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,15 +65,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "fullhunt",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "builtwith",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,39 +97,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "dnsrepo",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,55 +113,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "driftnet",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +129,86 @@
       "error": null
     },
     {
+      "resource": "facebook",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "recom",
       "recursion_depth": 0,
@@ -217,19 +217,19 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
       "resource": "huntermap",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 56,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 92,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 196,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "hackertarget",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 186,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 239,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -361,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 289,
       "error": null
     },
     {
@@ -385,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 541,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 835,
+      "duration_ms": 1084,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1223,
       "error": null
     },
     {
@@ -445,7 +445,7 @@
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
+      "duration_ms": 3065,
       "error": null
     },
     {
@@ -461,15 +461,7 @@
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3049,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3069,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 79,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 3150,
       "error": null
     },
     {
       "resource": "whoisxml",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3098,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 20303,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32038,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44086,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -573,15 +541,7 @@
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48141,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "recom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65972,
+      "duration_ms": 12512,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "recom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65528,
+      "duration_ms": 18452,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20588,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33082,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38755,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 43618,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "recom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65981,
       "error": null
     }
   ]

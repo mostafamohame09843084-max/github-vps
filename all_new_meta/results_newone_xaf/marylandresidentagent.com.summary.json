@@ -1,23 +1,23 @@
 {
   "root_domain": "marylandresidentagent.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:25:11.494705+00:00",
-  "completed_at": "2026-11-14T16:26:20.491153+00:00",
-  "duration_ms": 68996,
+  "started_at": "2026-11-15T16:39:42.746085+00:00",
+  "completed_at": "2026-11-15T16:40:51.736861+00:00",
+  "duration_ms": 68990,
   "targets_scanned": [
     "marylandresidentagent.com"
   ],
-  "total_unique_findings": 3,
-  "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "total_unique_findings": 14,
+  "fresh_findings_count": 14,
+  "historical_findings_count": 3,
+  "new_findings_count": 11,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "arpsyndicate",
+      "resource": "chinaz",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "dnsdumpster",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "github",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "dnsrepo",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "bevigil",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +81,15 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domscan",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "arpsyndicate",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "facebook",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "fofa",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "binaryedge",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,39 +137,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "argosdns",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +153,31 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "coderog",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "domainsproject",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +221,11 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 43,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "merklemap",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,7 +257,23 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
       "resource": "odin",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,19 +309,11 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 96,
+      "duration_ms": 86,
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 227,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 196,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 261,
+      "duration_ms": 244,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 268,
       "error": null
     },
     {
@@ -361,23 +369,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 263,
-      "error": null
-    },
-    {
       "resource": "robtex",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,11 +381,11 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 69,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 1353,
+      "duration_ms": 531,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1538,
+      "duration_ms": 1355,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3118,
       "error": null
     },
     {
@@ -441,27 +449,27 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3036,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3047,
+      "duration_ms": 3077,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 12,
+      "duration_ms": 104,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -481,27 +489,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 17,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3096,
+      "error": null
+    },
+    {
       "resource": "zoomeyeapi",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3063,
+      "findings_count": 11,
+      "duration_ms": 26925,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11971,
+      "duration_ms": 27982,
       "error": null
     },
     {
@@ -557,15 +557,7 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29723,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "marylandresidentagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45054,
+      "duration_ms": 33088,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52933,
+      "duration_ms": 49933,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "marylandresidentagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61301,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65989,
+      "duration_ms": 65979,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "marylandresidentagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65594,
+      "duration_ms": 65096,
       "error": null
     }
   ]
