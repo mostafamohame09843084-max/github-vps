@@ -1,191 +1,23 @@
 {
   "root_domain": "macos.software",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:21:49.190916+00:00",
-  "completed_at": "2026-11-13T08:22:55.181447+00:00",
+  "started_at": "2026-11-15T14:46:03.744677+00:00",
+  "completed_at": "2026-11-15T14:47:09.734859+00:00",
   "duration_ms": 65990,
   "targets_scanned": [
     "macos.software"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +33,175 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,15 +213,7 @@
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "huntermap",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +241,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 75,
+      "duration_ms": 92,
       "error": null
     },
     {
@@ -318,6 +318,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 178,
       "error": null
     },
     {
@@ -337,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 247,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 260,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 275,
+      "duration_ms": 252,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 268,
       "error": null
     },
     {
@@ -389,15 +389,7 @@
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 21,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 466,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1203,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 516,
+      "error": null
+    },
+    {
       "resource": "myssl",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1344,
+      "duration_ms": 1053,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3046,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3106,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3079,
+      "duration_ms": 3071,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 100,
       "error": null
     },
     {
@@ -489,19 +481,19 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
       "error": null
     },
     {
@@ -521,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "sitedossier",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3269,
       "error": null
     },
     {
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3135,
+      "duration_ms": 3088,
       "error": null
     },
     {
@@ -549,23 +549,7 @@
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7963,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33093,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "macos.software",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 38364,
+      "duration_ms": 9342,
       "error": null
     },
     {
@@ -573,15 +557,31 @@
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49860,
+      "duration_ms": 16439,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "reconcloud",
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61754,
+      "duration_ms": 31084,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35110,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "macos.software",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 64679,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "macos.software",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65979,
+      "duration_ms": 65980,
       "error": null
     }
   ]
