@@ -1,199 +1,23 @@
 {
   "root_domain": "wdesk.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:57:04.294665+00:00",
-  "completed_at": "2026-11-14T17:58:18.431028+00:00",
-  "duration_ms": 74136,
+  "started_at": "2026-11-15T17:31:42.739442+00:00",
+  "completed_at": "2026-11-15T17:32:52.783021+00:00",
+  "duration_ms": 70043,
   "targets_scanned": [
     "wdesk.com"
   ],
   "total_unique_findings": 302,
   "fresh_findings_count": 302,
-  "historical_findings_count": 43,
-  "new_findings_count": 259,
+  "historical_findings_count": 302,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +33,187 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "wdesk.com",
       "recursion_depth": 0,
@@ -269,11 +261,11 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54,
+      "duration_ms": 88,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,15 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 87,
+      "duration_ms": 131,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 200,
       "error": null
     },
     {
@@ -337,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 196,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 253,
+      "duration_ms": 282,
       "error": null
     },
     {
@@ -369,15 +361,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "wdesk.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 88,
+      "findings_count": 5,
+      "duration_ms": 288,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 81,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 42,
-      "duration_ms": 523,
+      "duration_ms": 781,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1148,
+      "duration_ms": 1166,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 3100,
       "error": null
     },
     {
@@ -453,7 +453,7 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3069,
+      "duration_ms": 3078,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 188,
-      "duration_ms": 157,
+      "duration_ms": 178,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3472,
       "error": null
     },
     {
@@ -481,23 +489,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3478,
-      "error": null
-    },
-    {
       "resource": "virustotal",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,7 +501,15 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 3120,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9778,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11186,
+      "duration_ms": 27910,
       "error": null
     },
     {
@@ -557,31 +549,7 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30126,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61660,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65530,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "wdesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65445,
+      "duration_ms": 33088,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "wdesk.com",
       "recursion_depth": 0,
       "findings_count": 296,
-      "duration_ms": 74018,
+      "duration_ms": 57174,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61397,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65892,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65982,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "wdesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65598,
       "error": null
     }
   ]
