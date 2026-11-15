@@ -1,69 +1,21 @@
 {
   "root_domain": "support.sonatype.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:35:51.498234+00:00",
-  "completed_at": "2026-11-14T16:37:01.491774+00:00",
-  "duration_ms": 69993,
+  "started_at": "2026-11-15T16:53:41.739618+00:00",
+  "completed_at": "2026-11-15T16:54:50.735919+00:00",
+  "duration_ms": 68996,
   "targets_scanned": [
     "support.sonatype.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "censys",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "dnsdumpster",
       "target": "support.sonatype.com",
@@ -73,7 +25,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "github",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +49,47 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "leakix",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "censys",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "google",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "domainsproject",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,23 +161,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +177,14 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
@@ -201,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "driftnet",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +201,31 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "merklemap",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,23 +241,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "huntermap",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +269,15 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,15 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 75,
+      "duration_ms": 95,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -329,31 +329,15 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 196,
+      "duration_ms": 178,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 262,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,15 +349,23 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 291,
+      "duration_ms": 248,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 286,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -393,7 +385,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "reconeer",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
+      "resource": "shodanx",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
+      "resource": "shodan",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -421,7 +421,7 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 450,
+      "duration_ms": 564,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1186,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3044,
+      "duration_ms": 1175,
       "error": null
     },
     {
@@ -461,15 +453,15 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3084,
+      "duration_ms": 3044,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -481,15 +473,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3466,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
+      "resource": "urlscan",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,7 +481,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatminer",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,11 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "whoisxml",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3111,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -537,19 +537,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3105,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18240,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32909,
+      "duration_ms": 25752,
       "error": null
     },
     {
@@ -557,23 +557,23 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33070,
+      "duration_ms": 31933,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "support.sonatype.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33883,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "support.sonatype.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42053,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "support.sonatype.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61652,
+      "findings_count": 2,
+      "duration_ms": 39057,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65976,
+      "duration_ms": 65985,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "support.sonatype.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 65618,
       "error": null
     }
   ]
