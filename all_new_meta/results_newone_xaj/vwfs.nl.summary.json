@@ -1,143 +1,23 @@
 {
   "root_domain": "vwfs.nl",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:03:18.508581+00:00",
-  "completed_at": "2026-11-14T16:04:24.502279+00:00",
-  "duration_ms": 65993,
+  "started_at": "2026-11-15T16:29:17.752883+00:00",
+  "completed_at": "2026-11-15T16:30:27.737454+00:00",
+  "duration_ms": 69984,
   "targets_scanned": [
     "vwfs.nl"
   ],
-  "total_unique_findings": 3,
-  "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "total_unique_findings": 7,
+  "fresh_findings_count": 7,
+  "historical_findings_count": 3,
+  "new_findings_count": 4,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "domainsproject",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "digitalyama",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +41,31 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "dnsdumpster",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "argosdns",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +89,47 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fullhunt",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +145,63 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "coderog",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,7 +213,7 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -233,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "vwfs.nl",
       "recursion_depth": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "digitorus",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 76,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "pugrecon",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 73,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 92,
       "error": null
     },
     {
@@ -337,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 193,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
       "target": "vwfs.nl",
       "recursion_depth": 0,
@@ -345,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 237,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hudsonrock",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 258,
       "error": null
     },
     {
@@ -381,11 +373,19 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 49,
       "error": null
     },
     {
       "resource": "robtex",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,15 +413,7 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 520,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -429,15 +421,31 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2631,
+      "duration_ms": 912,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "rapiddns",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 866,
+      "error": null
+    },
+    {
+      "resource": "riddler",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3102,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3058,
       "error": null
     },
     {
@@ -449,47 +457,15 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "vwfs.nl",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3070,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 7,
+      "duration_ms": 51,
       "error": null
     },
     {
       "resource": "urlscan",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,11 +481,35 @@
       "error": null
     },
     {
+      "resource": "trickest",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3137,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "vwfs.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3093,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7906,
+      "duration_ms": 27528,
       "error": null
     },
     {
@@ -557,15 +549,15 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33088,
+      "duration_ms": 29417,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "vwfs.nl",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42052,
+      "findings_count": 7,
+      "duration_ms": 37254,
       "error": null
     },
     {
@@ -573,15 +565,15 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50649,
+      "duration_ms": 64895,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "threatminer",
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62584,
+      "duration_ms": 61605,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vwfs.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 65971,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "vwfs.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65747,
       "error": null
     }
   ]
