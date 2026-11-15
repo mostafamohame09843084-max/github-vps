@@ -1,39 +1,23 @@
 {
   "root_domain": "wearehackerone.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:04:29.528865+00:00",
-  "completed_at": "2026-11-14T18:05:34.835333+00:00",
-  "duration_ms": 65306,
+  "started_at": "2026-11-15T17:38:35.743291+00:00",
+  "completed_at": "2026-11-15T17:39:41.737522+00:00",
+  "duration_ms": 65994,
   "targets_scanned": [
     "wearehackerone.com"
   ],
   "total_unique_findings": 9,
   "fresh_findings_count": 9,
-  "historical_findings_count": 2,
-  "new_findings_count": 7,
+  "historical_findings_count": 9,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "arpsyndicate",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "censys",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "github",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,54 +49,6 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
@@ -137,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "arpsyndicate",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +73,23 @@
       "error": null
     },
     {
+      "resource": "builtwith",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "certspotter",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,6 +105,38 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdb",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
@@ -177,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "fullhunt",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,14 +161,6 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
@@ -209,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "binaryedge",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +177,35 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "chaos",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 59,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,11 +261,11 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 48,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
@@ -309,7 +309,7 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 90,
+      "duration_ms": 92,
       "error": null
     },
     {
@@ -333,7 +333,7 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 199,
+      "duration_ms": 194,
       "error": null
     },
     {
@@ -345,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 272,
+      "duration_ms": 260,
       "error": null
     },
     {
@@ -361,11 +361,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 277,
+      "duration_ms": 284,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -381,11 +389,11 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 67,
+      "duration_ms": 51,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "securitytrails",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 8,
-      "duration_ms": 493,
+      "duration_ms": 758,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 1398,
+      "duration_ms": 2062,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3111,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 66,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -457,11 +449,27 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 5,
+      "duration_ms": 63,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3124,
+      "duration_ms": 3091,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3276,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3585,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisfreaks",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
@@ -509,11 +517,11 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3192,
+      "duration_ms": 3093,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "threatminer",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 13074,
+      "duration_ms": 20343,
       "error": null
     },
     {
@@ -549,23 +549,7 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32075,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37235,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "wearehackerone.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33575,
+      "duration_ms": 33061,
       "error": null
     },
     {
@@ -573,15 +557,31 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 62848,
+      "duration_ms": 37897,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "waybackarchive",
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61684,
+      "duration_ms": 34287,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42770,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "wearehackerone.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61929,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "wearehackerone.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65297,
+      "duration_ms": 65982,
       "error": null
     }
   ]
