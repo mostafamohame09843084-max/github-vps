@@ -1,21 +1,101 @@
 {
   "root_domain": "volkswagen.de",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:18:45.596227+00:00",
-  "completed_at": "2026-11-14T15:19:55.597921+00:00",
-  "duration_ms": 70001,
+  "started_at": "2026-11-15T15:45:00.782339+00:00",
+  "completed_at": "2026-11-15T15:46:10.866481+00:00",
+  "duration_ms": 70084,
   "targets_scanned": [
     "volkswagen.de"
   ],
-  "total_unique_findings": 795,
-  "fresh_findings_count": 791,
-  "historical_findings_count": 60,
-  "new_findings_count": 735,
-  "reused_historical_findings_count": 4,
+  "total_unique_findings": 1013,
+  "fresh_findings_count": 1008,
+  "historical_findings_count": 795,
+  "new_findings_count": 218,
+  "reused_historical_findings_count": 5,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "bufferover",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "arpsyndicate",
       "target": "volkswagen.de",
@@ -33,95 +113,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "dnsdumpster",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "bevigil",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "fofa",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +153,31 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "google",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,14 +193,6 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsrepo",
       "target": "volkswagen.de",
       "recursion_depth": 0,
@@ -193,15 +201,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "coderog",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +225,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 38,
+      "error": null
+    },
+    {
+      "resource": "leakix",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -241,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "abuseipdb",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 40,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 72,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 113,
       "error": null
     },
     {
@@ -333,7 +333,7 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 177,
+      "duration_ms": 183,
       "error": null
     },
     {
@@ -345,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 227,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 260,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -369,15 +361,23 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 274,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,15 +413,15 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 27,
       "error": null
     },
     {
       "resource": "rapiddns",
       "target": "volkswagen.de",
       "recursion_depth": 0,
-      "findings_count": 48,
-      "duration_ms": 864,
+      "findings_count": 45,
+      "duration_ms": 616,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 1846,
+      "duration_ms": 938,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3060,
       "error": null
     },
     {
@@ -449,35 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3041,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 3069,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "thc",
       "target": "volkswagen.de",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3281,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "volkswagen.de",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 513,
+      "duration_ms": 132,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +481,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3083,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3120,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "volkswagen.de",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25502,
+      "duration_ms": 25606,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33593,
+      "duration_ms": 32894,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42455,
+      "duration_ms": 34931,
       "error": null
     },
     {
@@ -565,7 +565,7 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 767,
-      "duration_ms": 61518,
+      "duration_ms": 48080,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61507,
+      "duration_ms": 61788,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65883,
+      "duration_ms": 65943,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "volkswagen.de",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65668,
+      "duration_ms": 65947,
       "error": null
     }
   ]
