@@ -1,55 +1,23 @@
 {
   "root_domain": "qutics.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:19:34.764441+00:00",
-  "completed_at": "2026-11-14T15:20:44.496808+00:00",
-  "duration_ms": 69732,
+  "started_at": "2026-11-15T15:42:38.137738+00:00",
+  "completed_at": "2026-11-15T15:43:47.750609+00:00",
+  "duration_ms": 69612,
   "targets_scanned": [
     "qutics.com"
   ],
-  "total_unique_findings": 35,
-  "fresh_findings_count": 35,
-  "historical_findings_count": 0,
-  "new_findings_count": 35,
+  "total_unique_findings": 65,
+  "fresh_findings_count": 65,
+  "historical_findings_count": 35,
+  "new_findings_count": 30,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "digitalyama",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "domscan",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,22 +49,6 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
       "target": "qutics.com",
       "recursion_depth": 0,
@@ -105,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "c99",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,15 +65,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "chinaz",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,47 +81,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "dnsrepo",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "github",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +113,99 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "builtwith",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -233,6 +225,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
       "resource": "leakix",
       "target": "qutics.com",
       "recursion_depth": 0,
@@ -246,6 +246,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -265,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +309,19 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66,
+      "duration_ms": 106,
       "error": null
     },
     {
       "resource": "rapidapi",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +337,27 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 177,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 229,
+      "duration_ms": 232,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 252,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -361,23 +369,15 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 365,
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +385,7 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 35,
-      "duration_ms": 504,
+      "duration_ms": 558,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1076,
+      "duration_ms": 1342,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -445,15 +453,7 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3051,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3056,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
+      "duration_ms": 3072,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -477,15 +485,7 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -517,15 +517,7 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3087,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3092,
       "error": null
     },
     {
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26808,
+      "duration_ms": 27328,
       "error": null
     },
     {
@@ -549,23 +549,15 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31336,
+      "duration_ms": 33089,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "qutics.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41765,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "qutics.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41858,
+      "findings_count": 61,
+      "duration_ms": 54166,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57650,
+      "duration_ms": 63534,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "qutics.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61680,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65702,
+      "duration_ms": 65582,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "qutics.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65861,
+      "duration_ms": 65652,
       "error": null
     }
   ]
