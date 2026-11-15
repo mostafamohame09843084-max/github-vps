@@ -1,21 +1,45 @@
 {
   "root_domain": "magicjackpot.ro",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:08:47.502519+00:00",
-  "completed_at": "2026-11-14T15:09:57.493613+00:00",
-  "duration_ms": 69991,
+  "started_at": "2026-11-15T15:24:47.738871+00:00",
+  "completed_at": "2026-11-15T15:25:53.734387+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "magicjackpot.ro"
   ],
-  "total_unique_findings": 9,
-  "fresh_findings_count": 9,
-  "historical_findings_count": 0,
-  "new_findings_count": 9,
+  "total_unique_findings": 10,
+  "fresh_findings_count": 10,
+  "historical_findings_count": 9,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "builtwith",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "dnsrepo",
       "target": "magicjackpot.ro",
@@ -25,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "bevigil",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "domainsproject",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "chaos",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,95 +121,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "argosdns",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +137,30 @@
       "error": null
     },
     {
+      "resource": "chinaz",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "google",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
@@ -201,11 +169,59 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "arpsyndicate",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -217,15 +233,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -265,11 +273,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "onyphe",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,31 +297,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 47,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -325,7 +309,15 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
+      "duration_ms": 90,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -337,39 +329,15 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 180,
+      "duration_ms": 196,
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rapidscan",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +349,43 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 250,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 265,
       "error": null
     },
     {
       "resource": "rsecloud",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 795,
+      "duration_ms": 504,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1011,
+      "duration_ms": 1061,
       "error": null
     },
     {
@@ -437,15 +437,15 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 3059,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3039,
+      "findings_count": 8,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 43,
+      "findings_count": 0,
+      "duration_ms": 3061,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3363,
-      "error": null
-    },
-    {
       "resource": "urlscan",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3360,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3107,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3094,
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "windvane",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11060,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20332,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27641,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "magicjackpot.ro",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31557,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -573,7 +541,39 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 44268,
+      "duration_ms": 13149,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28830,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32144,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 44214,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "magicjackpot.ro",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61397,
       "error": null
     },
     {
@@ -581,15 +581,15 @@
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65988,
+      "duration_ms": 65981,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "racent",
       "target": "magicjackpot.ro",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65771,
+      "duration_ms": 65936,
       "error": null
     }
   ]
