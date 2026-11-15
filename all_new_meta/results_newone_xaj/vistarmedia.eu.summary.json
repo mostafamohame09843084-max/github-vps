@@ -1,21 +1,29 @@
 {
   "root_domain": "vistarmedia.eu",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:46:31.516776+00:00",
-  "completed_at": "2026-11-14T14:47:41.493941+00:00",
-  "duration_ms": 69977,
+  "started_at": "2026-11-15T15:14:49.785199+00:00",
+  "completed_at": "2026-11-15T15:16:01.744051+00:00",
+  "duration_ms": 71958,
   "targets_scanned": [
     "vistarmedia.eu"
   ],
   "total_unique_findings": 3,
   "fresh_findings_count": 3,
-  "historical_findings_count": 2,
-  "new_findings_count": 1,
+  "historical_findings_count": 3,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "dnsdb",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "builtwith",
       "target": "vistarmedia.eu",
@@ -25,7 +33,55 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "fofa",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +97,23 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "certspotter",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -50,14 +122,6 @@
     },
     {
       "resource": "dnsdumpster",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,95 +145,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "chaos",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "bevigil",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "argosdns",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +177,43 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "digitalyama",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
@@ -249,19 +249,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 67,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,27 +305,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 113,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 73,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 182,
       "error": null
     },
     {
@@ -345,11 +337,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 191,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 278,
+      "duration_ms": 261,
       "error": null
     },
     {
@@ -361,15 +369,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 281,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +381,11 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58,
+      "duration_ms": 97,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 434,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1167,
+      "duration_ms": 505,
       "error": null
     },
     {
@@ -437,7 +429,23 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3061,
+      "duration_ms": 3075,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3118,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 144,
       "error": null
     },
     {
@@ -449,27 +457,19 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3105,
-      "error": null
-    },
-    {
       "resource": "sitedossier",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3559,
+      "duration_ms": 3564,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3115,
       "error": null
     },
     {
@@ -505,11 +505,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "myssl",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3114,
+      "duration_ms": 22877,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "reconcloud",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12812,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vistarmedia.eu",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 13316,
+      "duration_ms": 29502,
       "error": null
     },
     {
@@ -557,15 +549,23 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26678,
+      "duration_ms": 28961,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "crtsh",
+      "target": "vistarmedia.eu",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 41078,
+      "error": null
+    },
+    {
+      "resource": "racent",
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32056,
+      "duration_ms": 63019,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61671,
+      "duration_ms": 61627,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65963,
+      "duration_ms": 65940,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "vistarmedia.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65898,
+      "duration_ms": 65189,
       "error": null
     }
   ]
