@@ -1,23 +1,23 @@
 {
   "root_domain": "vliegwinkel.nl",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:01:20.503145+00:00",
-  "completed_at": "2026-11-14T15:03:10.651251+00:00",
-  "duration_ms": 110148,
+  "started_at": "2026-11-15T15:29:45.746806+00:00",
+  "completed_at": "2026-11-15T15:31:23.258515+00:00",
+  "duration_ms": 97511,
   "targets_scanned": [
     "vliegwinkel.nl"
   ],
-  "total_unique_findings": 217,
-  "fresh_findings_count": 217,
+  "total_unique_findings": 218,
+  "fresh_findings_count": 218,
   "historical_findings_count": 217,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
+      "resource": "driftnet",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,39 +25,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "argosdns",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "dnsdb",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +65,31 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "github",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,15 +105,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "fofa",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "coderog",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "arpsyndicate",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "builtwith",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "chinaz",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +177,22 @@
       "error": null
     },
     {
+      "resource": "digitalyama",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "google",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
@@ -193,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "censys",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,19 +209,11 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "digitorus",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 85,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
@@ -273,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "abuseipdb",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 84,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +305,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "anubis",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 98,
       "error": null
     },
     {
@@ -321,19 +321,19 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 177,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 190,
       "error": null
     },
     {
@@ -349,14 +349,6 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 230,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
       "duration_ms": 242,
       "error": null
     },
@@ -369,15 +361,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 250,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "reconeer",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 27,
-      "duration_ms": 783,
+      "duration_ms": 796,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1025,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1007,
       "error": null
     },
     {
@@ -445,11 +437,19 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3054,
+      "duration_ms": 3060,
       "error": null
     },
     {
       "resource": "thc",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 42,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
@@ -513,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3113,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3272,
       "error": null
     },
     {
@@ -537,11 +529,27 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "vliegwinkel.nl",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3082,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9972,
+      "duration_ms": 21076,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29570,
+      "duration_ms": 32498,
       "error": null
     },
     {
@@ -557,15 +565,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37060,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "vliegwinkel.nl",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61313,
+      "duration_ms": 58890,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65978,
+      "duration_ms": 65977,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65836,
+      "duration_ms": 65544,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "vliegwinkel.nl",
       "recursion_depth": 0,
       "findings_count": 212,
-      "duration_ms": 110058,
+      "duration_ms": 97413,
       "error": null
     }
   ]

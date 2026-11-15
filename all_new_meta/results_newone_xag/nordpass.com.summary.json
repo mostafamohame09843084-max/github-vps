@@ -1,23 +1,23 @@
 {
   "root_domain": "nordpass.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T15:29:10.814438+00:00",
-  "completed_at": "2026-11-15T15:30:29.692217+00:00",
-  "duration_ms": 78877,
+  "started_at": "2026-11-15T15:30:09.829490+00:00",
+  "completed_at": "2026-11-15T15:31:19.763222+00:00",
+  "duration_ms": 69933,
   "targets_scanned": [
     "nordpass.com"
   ],
   "total_unique_findings": 100,
-  "fresh_findings_count": 100,
+  "fresh_findings_count": 78,
   "historical_findings_count": 100,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 0,
+  "reused_historical_findings_count": 22,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
+      "resource": "fullhunt",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "fofa",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,39 +33,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "github",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "binaryedge",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +57,31 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "domainsproject",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,79 +113,15 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "arpsyndicate",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +137,83 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -233,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "nordpass.com",
       "recursion_depth": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "merklemap",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -273,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "hudsonrock",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 51,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +297,23 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 69,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,15 +325,7 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 73,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 86,
       "error": null
     },
     {
@@ -341,15 +349,15 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 173,
+      "duration_ms": 167,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -361,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "nordpass.com",
       "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 264,
+      "findings_count": 0,
+      "duration_ms": 251,
       "error": null
     },
     {
@@ -382,14 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 13,
-      "duration_ms": 533,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 1335,
+      "duration_ms": 912,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 13,
+      "duration_ms": 1119,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3055,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 3044,
       "error": null
     },
     {
@@ -461,7 +453,15 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 69,
-      "duration_ms": 101,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3071,
       "error": null
     },
     {
@@ -473,22 +473,6 @@
       "error": null
     },
     {
-      "resource": "virustotal",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 18,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "nordpass.com",
       "recursion_depth": 0,
@@ -497,7 +481,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "sitedossier",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3272,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,23 +505,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -541,7 +517,31 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3153,
+      "duration_ms": 3227,
+      "error": null
+    },
+    {
+      "resource": "windvane",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "zoomeyeapi",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 23978,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28025,
+      "duration_ms": 25051,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33075,
+      "duration_ms": 32875,
       "error": null
     },
     {
@@ -565,7 +565,15 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62527,
+      "duration_ms": 56416,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nordpass.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61559,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65912,
+      "duration_ms": 65895,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "nordpass.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65468,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "nordpass.com",
-      "recursion_depth": 0,
-      "findings_count": 72,
-      "duration_ms": 78840,
+      "duration_ms": 65678,
       "error": null
     }
   ]
