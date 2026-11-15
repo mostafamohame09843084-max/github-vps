@@ -1,111 +1,23 @@
 {
   "root_domain": "redoxengine.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:47:13.597952+00:00",
-  "completed_at": "2026-11-14T16:48:19.518475+00:00",
-  "duration_ms": 65920,
+  "started_at": "2026-11-15T17:06:08.357679+00:00",
+  "completed_at": "2026-11-15T17:07:17.777638+00:00",
+  "duration_ms": 69419,
   "targets_scanned": [
     "redoxengine.com"
   ],
   "total_unique_findings": 119,
-  "fresh_findings_count": 119,
-  "historical_findings_count": 56,
-  "new_findings_count": 63,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 116,
+  "historical_findings_count": 119,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 3,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,31 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "binaryedge",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +49,55 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "digitalyama",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +113,55 @@
       "error": null
     },
     {
+      "resource": "github",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "c99",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "bufferover",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +193,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "domscan",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -225,6 +217,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "redoxengine.com",
       "recursion_depth": 0,
@@ -233,7 +233,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,19 +269,11 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 42,
       "error": null
     },
     {
       "resource": "pugrecon",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,11 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66,
+      "duration_ms": 100,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +337,19 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 179,
+      "duration_ms": 199,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "redoxengine.com",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 250,
+      "findings_count": 0,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -361,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "redoxengine.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 273,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 72,
+      "findings_count": 3,
+      "duration_ms": 282,
       "error": null
     },
     {
@@ -382,6 +374,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 56,
-      "duration_ms": 1096,
+      "duration_ms": 897,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 2589,
+      "duration_ms": 1199,
       "error": null
     },
     {
@@ -453,7 +453,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3061,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -461,7 +461,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
+      "duration_ms": 3051,
       "error": null
     },
     {
@@ -469,7 +469,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3577,
+      "duration_ms": 3264,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "whoisxml",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3071,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3171,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22270,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "redoxengine.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29215,
+      "duration_ms": 27688,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29278,
+      "duration_ms": 33080,
       "error": null
     },
     {
@@ -565,15 +557,15 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 97,
-      "duration_ms": 57773,
+      "duration_ms": 40664,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "racent",
       "target": "redoxengine.com",
       "recursion_depth": 0,
-      "findings_count": 48,
-      "duration_ms": 59618,
+      "findings_count": 0,
+      "duration_ms": 44767,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61502,
+      "duration_ms": 61466,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "redoxengine.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65880,
+      "duration_ms": 65366,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "redoxengine.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65107,
       "error": null
     }
   ]

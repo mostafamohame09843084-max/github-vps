@@ -1,135 +1,23 @@
 {
   "root_domain": "od.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:24:49.843785+00:00",
-  "completed_at": "2026-11-14T17:25:59.838643+00:00",
-  "duration_ms": 69994,
+  "started_at": "2026-11-15T17:05:05.757737+00:00",
+  "completed_at": "2026-11-15T17:06:11.744822+00:00",
+  "duration_ms": 65987,
   "targets_scanned": [
     "od.com"
   ],
   "total_unique_findings": 56,
-  "fresh_findings_count": 14,
+  "fresh_findings_count": 12,
   "historical_findings_count": 56,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 42,
+  "reused_historical_findings_count": 44,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "dnsrepo",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "bevigil",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "chaos",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +49,47 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "github",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,6 +105,70 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdumpster",
       "target": "od.com",
       "recursion_depth": 0,
@@ -185,7 +177,23 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "google",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +209,15 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "abuseipdb",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,27 +233,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 57,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 56,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "od.com",
       "recursion_depth": 0,
@@ -297,19 +305,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "anubis",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 74,
+      "duration_ms": 104,
       "error": null
     },
     {
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 105,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "od.com",
       "recursion_depth": 0,
@@ -345,11 +337,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hackertarget",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 214,
+      "duration_ms": 250,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 279,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 84,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -389,7 +389,7 @@
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 809,
+      "duration_ms": 516,
       "error": null
     },
     {
@@ -417,11 +417,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "od.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 1082,
+      "findings_count": 0,
+      "duration_ms": 790,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1753,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3104,
+      "duration_ms": 1441,
       "error": null
     },
     {
@@ -452,8 +444,16 @@
       "resource": "thc",
       "target": "od.com",
       "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 134,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3069,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3113,
+      "duration_ms": 3085,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3462,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3117,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,19 @@
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 6667,
-      "error": null
-    },
-    {
-      "resource": "racent",
+      "resource": "windvane",
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10390,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3115,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26960,
+      "duration_ms": 25875,
       "error": null
     },
     {
@@ -565,23 +557,15 @@
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31518,
+      "duration_ms": 33078,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "crtsh",
       "target": "od.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61601,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "od.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65982,
+      "findings_count": 4,
+      "duration_ms": 49359,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "od.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65439,
+      "duration_ms": 50202,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55029,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "od.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65976,
       "error": null
     }
   ]

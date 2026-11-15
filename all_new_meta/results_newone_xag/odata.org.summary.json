@@ -1,21 +1,37 @@
 {
   "root_domain": "odata.org",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:25:59.843933+00:00",
-  "completed_at": "2026-11-14T17:27:05.835499+00:00",
-  "duration_ms": 65991,
+  "started_at": "2026-11-15T17:06:11.753368+00:00",
+  "completed_at": "2026-11-15T17:07:17.734944+00:00",
+  "duration_ms": 65981,
   "targets_scanned": [
     "odata.org"
   ],
   "total_unique_findings": 9,
-  "fresh_findings_count": 9,
-  "historical_findings_count": 7,
-  "new_findings_count": 2,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 5,
+  "historical_findings_count": 9,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 4,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "chaos",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "dnsdumpster",
       "target": "odata.org",
@@ -25,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "google",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "argosdns",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "driftnet",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +73,71 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "c99",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,87 +161,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "builtwith",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "bufferover",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,31 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "binaryedge",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +233,11 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
       "error": null
     },
     {
@@ -241,31 +249,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
       "resource": "netlas",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "digitorus",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 68,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +281,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 108,
       "error": null
     },
     {
@@ -337,27 +337,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 114,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 196,
+      "duration_ms": 190,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -369,6 +361,14 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 259,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "odata.org",
       "recursion_depth": 0,
@@ -377,23 +377,15 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "reconeer",
       "target": "odata.org",
       "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 500,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,35 +401,43 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 26,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapiddns",
       "target": "odata.org",
       "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 735,
+      "findings_count": 4,
+      "duration_ms": 457,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "myssl",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 1030,
+      "error": null
+    },
+    {
+      "resource": "thc",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3036,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3055,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -449,27 +449,27 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 121,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
+      "resource": "riddler",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3477,
+      "duration_ms": 3080,
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "shrewdeye",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3104,
+      "duration_ms": 3060,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "sitedossier",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3272,
       "error": null
     },
     {
@@ -505,11 +505,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15534,
+      "duration_ms": 3099,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "odata.org",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 22744,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25352,
+      "duration_ms": 26013,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31590,
+      "duration_ms": 33068,
       "error": null
     },
     {
@@ -565,7 +557,7 @@
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 33632,
+      "duration_ms": 34379,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50093,
+      "duration_ms": 49131,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "odata.org",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62899,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61554,
+      "duration_ms": 61515,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "odata.org",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65978,
+      "duration_ms": 65969,
       "error": null
     }
   ]
