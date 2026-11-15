@@ -1,9 +1,9 @@
 {
   "root_domain": "nu.com.co",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T15:58:29.794970+00:00",
-  "completed_at": "2026-11-15T15:59:38.747760+00:00",
-  "duration_ms": 68952,
+  "started_at": "2026-11-15T15:58:54.794213+00:00",
+  "completed_at": "2026-11-15T16:00:03.739231+00:00",
+  "duration_ms": 68945,
   "targets_scanned": [
     "nu.com.co"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bevigil",
+      "resource": "dnsdb",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,39 +25,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "builtwith",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "google",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "bufferover",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "github",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "dnsrepo",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +89,103 @@
       "error": null
     },
     {
+      "resource": "domainsproject",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "driftnet",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,91 +209,11 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "intelx",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
       "error": null
     },
     {
@@ -233,7 +225,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "merklemap",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,19 +265,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "nu.com.co",
       "recursion_depth": 0,
@@ -309,27 +309,11 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 126,
+      "duration_ms": 70,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 177,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,35 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 79,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 176,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -358,22 +366,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 315,
       "error": null
     },
     {
@@ -393,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hackertarget",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 263,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 943,
+      "duration_ms": 1310,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1583,
+      "duration_ms": 1782,
       "error": null
     },
     {
@@ -441,6 +441,14 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3151,
+      "error": null
+    },
+    {
       "resource": "threatbook",
       "target": "nu.com.co",
       "recursion_depth": 0,
@@ -449,19 +457,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3074,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
+      "duration_ms": 3153,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -478,14 +486,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 55,
       "error": null
     },
     {
@@ -509,19 +509,11 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3550,
+      "duration_ms": 3477,
       "error": null
     },
     {
       "resource": "whoisxml",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3115,
+      "duration_ms": 3173,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12529,
+      "duration_ms": 20410,
       "error": null
     },
     {
@@ -557,15 +557,7 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 26,
-      "duration_ms": 24762,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "nu.com.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33139,
+      "duration_ms": 22859,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33093,
+      "duration_ms": 33095,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "nu.com.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46158,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65944,
+      "duration_ms": 65930,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "nu.com.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65444,
+      "duration_ms": 65419,
       "error": null
     }
   ]
