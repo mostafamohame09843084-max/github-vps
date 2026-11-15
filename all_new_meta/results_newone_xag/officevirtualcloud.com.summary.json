@@ -1,9 +1,9 @@
 {
   "root_domain": "officevirtualcloud.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T18:04:26.750441+00:00",
-  "completed_at": "2026-11-15T18:05:32.734086+00:00",
-  "duration_ms": 65983,
+  "started_at": "2026-11-15T18:05:55.750810+00:00",
+  "completed_at": "2026-11-15T18:07:01.733601+00:00",
+  "duration_ms": 65982,
   "targets_scanned": [
     "officevirtualcloud.com"
   ],
@@ -17,7 +17,79 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "dnsdumpster",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,6 +113,14 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "argosdns",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
@@ -49,7 +129,31 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "dnsrepo",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "github",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "domainsproject",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,111 +201,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "facebook",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +217,23 @@
       "error": null
     },
     {
+      "resource": "huntermap",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 35,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "leakix",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "hudsonrock",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 67,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
@@ -317,15 +325,7 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 78,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 186,
+      "duration_ms": 100,
       "error": null
     },
     {
@@ -345,11 +345,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 266,
+      "duration_ms": 177,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -365,15 +373,7 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 298,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -385,15 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 64,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 519,
+      "duration_ms": 476,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1343,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1250,
       "error": null
     },
     {
@@ -453,27 +445,11 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3107,
+      "duration_ms": 3081,
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3078,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3283,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "thc",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +457,31 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3095,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 14,
+      "error": null
+    },
+    {
       "resource": "trickest",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisfreaks",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
@@ -505,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3123,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "threatcrowd",
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 17127,
+      "findings_count": 0,
+      "duration_ms": 3164,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29656,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33085,
+      "duration_ms": 27020,
       "error": null
     },
     {
@@ -565,7 +557,23 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 39953,
+      "duration_ms": 31493,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33091,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "officevirtualcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34076,
       "error": null
     },
     {
@@ -573,15 +581,7 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61447,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "officevirtualcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61402,
+      "duration_ms": 65929,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "officevirtualcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65974,
+      "duration_ms": 65973,
       "error": null
     }
   ]
