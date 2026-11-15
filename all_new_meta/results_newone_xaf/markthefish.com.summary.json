@@ -1,15 +1,15 @@
 {
   "root_domain": "markthefish.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:16:20.493577+00:00",
-  "completed_at": "2026-11-14T16:17:29.491579+00:00",
-  "duration_ms": 68998,
+  "started_at": "2026-11-15T16:31:34.742248+00:00",
+  "completed_at": "2026-11-15T16:32:43.735757+00:00",
+  "duration_ms": 68993,
   "targets_scanned": [
     "markthefish.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,47 +17,15 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "driftnet",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,87 +41,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "builtwith",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +57,31 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "argosdns",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "dnsdumpster",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +113,95 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "bufferover",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,7 +213,7 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -257,14 +257,6 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "markthefish.com",
       "recursion_depth": 0,
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "anubis",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 70,
+      "duration_ms": 112,
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -341,19 +325,19 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 176,
+      "duration_ms": 178,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 248,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 263,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 521,
+      "duration_ms": 492,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1178,
+      "duration_ms": 1084,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3054,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3097,
       "error": null
     },
     {
@@ -461,15 +453,15 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3039,
+      "duration_ms": 3086,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "thc",
       "target": "markthefish.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 121,
       "error": null
     },
     {
@@ -485,11 +477,35 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 65,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "virustotal",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +521,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "windvane",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "markthefish.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 15344,
+      "duration_ms": 3096,
       "error": null
     },
     {
@@ -557,15 +549,15 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31306,
+      "duration_ms": 33099,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "crtsh",
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32696,
+      "duration_ms": 38698,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36925,
+      "duration_ms": 45310,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "markthefish.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56596,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65986,
+      "duration_ms": 65989,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "markthefish.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65580,
+      "duration_ms": 65434,
       "error": null
     }
   ]
