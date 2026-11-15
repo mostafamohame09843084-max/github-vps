@@ -1,55 +1,23 @@
 {
   "root_domain": "macoslion.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:28:08.201511+00:00",
-  "completed_at": "2026-11-13T08:29:17.182587+00:00",
-  "duration_ms": 68981,
+  "started_at": "2026-11-15T14:51:41.770773+00:00",
+  "completed_at": "2026-11-15T14:52:47.736373+00:00",
+  "duration_ms": 65965,
   "targets_scanned": [
     "macoslion.com"
   ],
-  "total_unique_findings": 2,
-  "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "total_unique_findings": 3,
+  "fresh_findings_count": 3,
+  "historical_findings_count": 2,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "bevigil",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,6 +33,22 @@
       "error": null
     },
     {
+      "resource": "github",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "driftnet",
       "target": "macoslion.com",
       "recursion_depth": 0,
@@ -73,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "argosdns",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,23 +65,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "c99",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "chinaz",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +105,15 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "domscan",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -146,22 +122,6 @@
     },
     {
       "resource": "censys",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +145,30 @@
       "error": null
     },
     {
+      "resource": "digitalyama",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsrepo",
       "target": "macoslion.com",
       "recursion_depth": 0,
@@ -201,11 +185,35 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "certspotter",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "macoslion.com",
       "recursion_depth": 0,
@@ -249,7 +249,15 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "digitorus",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 51,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,15 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 78,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -333,7 +325,7 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 195,
       "error": null
     },
     {
@@ -345,15 +337,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 285,
+      "duration_ms": 257,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 263,
       "error": null
     },
     {
@@ -381,19 +381,11 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
+      "duration_ms": 54,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 17,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 498,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1310,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,43 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 504,
+      "error": null
+    },
+    {
       "resource": "myssl",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1421,
+      "duration_ms": 1877,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3069,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3082,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "macoslion.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
+      "findings_count": 3,
+      "duration_ms": 121,
       "error": null
     },
     {
@@ -469,11 +469,11 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 42,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3055,
-      "error": null
-    },
-    {
-      "resource": "windvane",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3668,
       "error": null
     },
     {
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "windvane",
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3470,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,7 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3125,
+      "duration_ms": 3114,
       "error": null
     },
     {
@@ -557,31 +549,7 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26767,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32071,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65971,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "macoslion.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65971,
+      "duration_ms": 10579,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "macoslion.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65582,
+      "duration_ms": 30351,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34728,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 50608,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65896,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "macoslion.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65948,
       "error": null
     }
   ]

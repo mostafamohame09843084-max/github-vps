@@ -1,61 +1,21 @@
 {
   "root_domain": "q13fox.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:21:20.190286+00:00",
-  "completed_at": "2026-11-13T08:22:29.184646+00:00",
-  "duration_ms": 68994,
+  "started_at": "2026-11-15T14:51:41.740015+00:00",
+  "completed_at": "2026-11-15T14:52:47.753860+00:00",
+  "duration_ms": 66013,
   "targets_scanned": [
     "q13fox.com"
   ],
-  "total_unique_findings": 17,
-  "fresh_findings_count": 17,
-  "historical_findings_count": 0,
-  "new_findings_count": 17,
+  "total_unique_findings": 21,
+  "fresh_findings_count": 21,
+  "historical_findings_count": 17,
+  "new_findings_count": 4,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "driftnet",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "chaos",
       "target": "q13fox.com",
@@ -65,63 +25,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "driftnet",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "builtwith",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "domainsproject",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -154,14 +58,6 @@
     },
     {
       "resource": "dnsdumpster",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +81,95 @@
       "error": null
     },
     {
+      "resource": "fullhunt",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bufferover",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "binaryedge",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chinaz",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +201,31 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "censys",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "huntermap",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,35 +305,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 104,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 82,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 115,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 209,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 263,
       "error": null
     },
     {
@@ -377,11 +377,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "reconeer",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
+      "duration_ms": 97,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 719,
+      "duration_ms": 800,
       "error": null
     },
     {
@@ -437,16 +429,16 @@
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1039,
+      "duration_ms": 986,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "riddler",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1481,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3103,
+      "error": null
     },
     {
       "resource": "threatbook",
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3040,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 17,
-      "duration_ms": 1176,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3083,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 86,
       "error": null
     },
     {
@@ -505,15 +505,23 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "whoisxml",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "sitedossier",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3366,
+      "error": null
+    },
+    {
+      "resource": "zoomeyeapi",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,27 +537,19 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3488,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3108,
+      "duration_ms": 3086,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 19,
+      "duration_ms": 18421,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7997,
+      "duration_ms": 27516,
       "error": null
     },
     {
@@ -565,23 +565,7 @@
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33082,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61942,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "q13fox.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 32319,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "q13fox.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65652,
+      "duration_ms": 49463,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60784,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "q13fox.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65987,
       "error": null
     }
   ]
