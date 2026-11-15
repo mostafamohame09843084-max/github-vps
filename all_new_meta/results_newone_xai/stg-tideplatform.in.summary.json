@@ -1,9 +1,9 @@
 {
   "root_domain": "stg-tideplatform.in",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:09:05.496588+00:00",
-  "completed_at": "2026-11-14T15:10:14.497880+00:00",
-  "duration_ms": 69001,
+  "started_at": "2026-11-15T15:31:35.564600+00:00",
+  "completed_at": "2026-11-15T15:32:44.744852+00:00",
+  "duration_ms": 69180,
   "targets_scanned": [
     "stg-tideplatform.in"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "github",
+      "resource": "arpsyndicate",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,103 +25,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "c99",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +41,31 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "driftnet",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -146,46 +74,6 @@
     },
     {
       "resource": "binaryedge",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +97,118 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
@@ -221,27 +221,19 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
       "resource": "huntermap",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,6 +249,22 @@
       "error": null
     },
     {
+      "resource": "leakix",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
@@ -265,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 63,
-      "error": null
-    },
-    {
       "resource": "onyphe",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "pugrecon",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -318,6 +310,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 78,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 215,
       "error": null
     },
     {
@@ -341,15 +349,7 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 258,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 491,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 324,
       "error": null
     },
     {
@@ -413,15 +413,15 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 27,
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "rapiddns",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 632,
+      "findings_count": 4,
+      "duration_ms": 513,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1136,
+      "duration_ms": 1112,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3076,
       "error": null
     },
     {
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3053,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3095,
+      "duration_ms": 3072,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3290,
+      "error": null
+    },
+    {
       "resource": "urlscan",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3105,
       "error": null
     },
     {
@@ -521,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3100,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14177,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "stg-tideplatform.in",
-      "recursion_depth": 0,
-      "findings_count": 40,
-      "duration_ms": 20756,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,7 +541,15 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25217,
+      "duration_ms": 25125,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 40,
+      "duration_ms": 28876,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32747,
+      "duration_ms": 32110,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42095,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "stg-tideplatform.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61739,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66001,
+      "duration_ms": 65159,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "stg-tideplatform.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65290,
+      "duration_ms": 65275,
       "error": null
     }
   ]
