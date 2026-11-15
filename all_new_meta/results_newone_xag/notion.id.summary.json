@@ -1,23 +1,31 @@
 {
   "root_domain": "notion.id",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:08:09.503648+00:00",
-  "completed_at": "2026-11-14T15:10:04.490521+00:00",
-  "duration_ms": 114986,
+  "started_at": "2026-11-15T15:39:38.739405+00:00",
+  "completed_at": "2026-11-15T15:40:48.736230+00:00",
+  "duration_ms": 69996,
   "targets_scanned": [
     "notion.id"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fullhunt",
+      "resource": "censys",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,87 @@
       "error": null
     },
     {
+      "resource": "domainsproject",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "certspotter",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "google",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "builtwith",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,15 +169,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "arpsyndicate",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,62 +185,6 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
       "target": "notion.id",
       "recursion_depth": 0,
@@ -169,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "chaos",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,31 +201,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "chinaz",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "netlas",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "notion.id",
       "recursion_depth": 0,
@@ -261,27 +269,11 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
       "resource": "pugrecon",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,19 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
+      "duration_ms": 93,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 196,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,15 +345,15 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hackertarget",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 177,
+      "duration_ms": 255,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "redhuntlabs",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,23 +365,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 217,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 245,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 265,
       "error": null
     },
     {
@@ -389,7 +389,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 562,
+      "duration_ms": 860,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1086,
+      "duration_ms": 1906,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3053,
+      "duration_ms": 3144,
       "error": null
     },
     {
@@ -445,7 +445,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3053,
+      "duration_ms": 3087,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 115,
+      "duration_ms": 118,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -477,15 +485,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3271,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3066,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3061,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 13785,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28697,
+      "duration_ms": 27089,
       "error": null
     },
     {
@@ -557,7 +549,23 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31385,
+      "duration_ms": 31998,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35906,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "notion.id",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54543,
       "error": null
     },
     {
@@ -565,7 +573,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42049,
+      "duration_ms": 61298,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "notion.id",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65083,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "notion.id",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 114977,
+      "duration_ms": 65762,
       "error": null
     }
   ]

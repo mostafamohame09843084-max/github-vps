@@ -1,55 +1,23 @@
 {
   "root_domain": "maineregisteredagent.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:23:45.508584+00:00",
-  "completed_at": "2026-11-14T15:24:55.494751+00:00",
-  "duration_ms": 69986,
+  "started_at": "2026-11-15T15:39:53.780352+00:00",
+  "completed_at": "2026-11-15T15:40:59.735407+00:00",
+  "duration_ms": 65955,
   "targets_scanned": [
     "maineregisteredagent.com"
   ],
   "total_unique_findings": 13,
   "fresh_findings_count": 13,
-  "historical_findings_count": 0,
-  "new_findings_count": 13,
+  "historical_findings_count": 13,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "c99",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "chaos",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,47 +33,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "domscan",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +57,23 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "dnsdumpster",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,39 +89,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "builtwith",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +105,38 @@
       "error": null
     },
     {
+      "resource": "argosdns",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
@@ -201,7 +145,63 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "bufferover",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +217,23 @@
       "error": null
     },
     {
+      "resource": "huntermap",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 40,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "merklemap",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitorus",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -317,7 +317,15 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 77,
+      "duration_ms": 69,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 243,
       "error": null
     },
     {
@@ -337,27 +345,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 191,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 249,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 264,
+      "findings_count": 0,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -377,15 +377,23 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rapiddns",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 1335,
+      "error": null
+    },
+    {
+      "resource": "securitytrails",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,27 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 1325,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -429,15 +421,15 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1580,
+      "duration_ms": 1517,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "alienvault",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1561,
       "error": null
     },
     {
@@ -445,7 +437,7 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3062,
+      "duration_ms": 3066,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 11,
+      "duration_ms": 102,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3036,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3356,
+      "duration_ms": 3303,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3125,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3055,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "waybackarchive",
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22164,
+      "findings_count": 5,
+      "duration_ms": 14059,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23744,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30979,
+      "duration_ms": 24155,
       "error": null
     },
     {
@@ -565,7 +557,23 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 11,
-      "duration_ms": 32361,
+      "duration_ms": 26217,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33076,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "maineregisteredagent.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54835,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61535,
+      "duration_ms": 61387,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "maineregisteredagent.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65971,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "maineregisteredagent.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65215,
+      "duration_ms": 65941,
       "error": null
     }
   ]
