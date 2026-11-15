@@ -1,23 +1,23 @@
 {
   "root_domain": "vwfs.ie",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:58:46.506335+00:00",
-  "completed_at": "2026-11-14T15:59:52.521621+00:00",
-  "duration_ms": 66015,
+  "started_at": "2026-11-15T16:24:39.756638+00:00",
+  "completed_at": "2026-11-15T16:25:49.750327+00:00",
+  "duration_ms": 69993,
   "targets_scanned": [
     "vwfs.ie"
   ],
-  "total_unique_findings": 91,
-  "fresh_findings_count": 91,
-  "historical_findings_count": 0,
-  "new_findings_count": 91,
+  "total_unique_findings": 109,
+  "fresh_findings_count": 109,
+  "historical_findings_count": 91,
+  "new_findings_count": 18,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
+      "resource": "bevigil",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,15 +25,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "censys",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "binaryedge",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,46 +81,6 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chaos",
       "target": "vwfs.ie",
       "recursion_depth": 0,
@@ -129,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "google",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,15 +97,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "github",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -154,6 +106,22 @@
     },
     {
       "resource": "arpsyndicate",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +145,47 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "chinaz",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "argosdns",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +209,15 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "abuseipdb",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,30 +233,6 @@
       "error": null
     },
     {
-      "resource": "intelx",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "vwfs.ie",
       "recursion_depth": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,11 +257,27 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitorus",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 87,
       "error": null
     },
     {
@@ -321,11 +313,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 68,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 207,
+      "duration_ms": 187,
       "error": null
     },
     {
@@ -349,7 +349,7 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 237,
+      "duration_ms": 264,
       "error": null
     },
     {
@@ -365,15 +365,7 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 267,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 274,
       "error": null
     },
     {
@@ -385,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 71,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 17,
-      "duration_ms": 539,
+      "duration_ms": 848,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 935,
+      "duration_ms": 1558,
       "error": null
     },
     {
@@ -437,15 +437,15 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3099,
+      "duration_ms": 3060,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "vwfs.ie",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3150,
+      "findings_count": 93,
+      "duration_ms": 120,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3578,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "vwfs.ie",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "threatcrowd",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3073,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3123,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 8474,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vwfs.ie",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12899,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,7 +541,7 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 91,
-      "duration_ms": 23181,
+      "duration_ms": 27136,
       "error": null
     },
     {
@@ -573,15 +549,31 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33095,
+      "duration_ms": 33070,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "submd",
       "target": "vwfs.ie",
       "recursion_depth": 0,
-      "findings_count": 53,
-      "duration_ms": 36471,
+      "findings_count": 0,
+      "duration_ms": 36613,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41091,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61591,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vwfs.ie",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65976,
+      "duration_ms": 65966,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "vwfs.ie",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65784,
       "error": null
     }
   ]

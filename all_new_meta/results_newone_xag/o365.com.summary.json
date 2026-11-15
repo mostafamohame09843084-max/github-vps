@@ -1,55 +1,23 @@
 {
   "root_domain": "o365.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:56:33.496210+00:00",
-  "completed_at": "2026-11-14T15:57:39.498668+00:00",
-  "duration_ms": 66002,
+  "started_at": "2026-11-15T16:24:39.738812+00:00",
+  "completed_at": "2026-11-15T16:25:45.734858+00:00",
+  "duration_ms": 65996,
   "targets_scanned": [
     "o365.com"
   ],
   "total_unique_findings": 7,
-  "fresh_findings_count": 7,
-  "historical_findings_count": 0,
-  "new_findings_count": 7,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 4,
+  "historical_findings_count": 7,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 3,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "arpsyndicate",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "digitalyama",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,70 +33,6 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "facebook",
       "target": "o365.com",
       "recursion_depth": 0,
@@ -137,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "domainsproject",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,6 +65,14 @@
       "error": null
     },
     {
+      "resource": "arpsyndicate",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bufferover",
       "target": "o365.com",
       "recursion_depth": 0,
@@ -185,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "fullhunt",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +89,23 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "argosdns",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "driftnet",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,7 +129,79 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "certspotter",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,11 +213,19 @@
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65,
+      "duration_ms": 66,
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "intelx",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +241,22 @@
       "error": null
     },
     {
+      "resource": "leakix",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "o365.com",
       "recursion_depth": 0,
@@ -257,23 +265,15 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 70,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 70,
-      "error": null
-    },
-    {
       "resource": "netlas",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +305,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "rapidapi",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "abuseipdb",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 77,
       "error": null
     },
     {
@@ -337,19 +337,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 109,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 210,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 189,
       "error": null
     },
     {
@@ -361,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 263,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "reconeer",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -385,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "rsecloud",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 289,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 528,
+      "duration_ms": 529,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1056,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3065,
+      "duration_ms": 1071,
       "error": null
     },
     {
@@ -457,11 +441,27 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3052,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3042,
+      "duration_ms": 3067,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
       "resource": "urlscan",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3351,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3357,
+      "duration_ms": 3115,
       "error": null
     },
     {
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3085,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "o365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12080,
-      "error": null
-    },
-    {
       "resource": "crtsh",
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 17564,
+      "duration_ms": 11043,
       "error": null
     },
     {
@@ -565,7 +549,7 @@
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30951,
+      "duration_ms": 33087,
       "error": null
     },
     {
@@ -573,15 +557,31 @@
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30560,
+      "duration_ms": 38089,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44912,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "o365.com",
       "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 37253,
+      "findings_count": 0,
+      "duration_ms": 49339,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "o365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61260,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "o365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 65984,
       "error": null
     }
   ]
