@@ -1,47 +1,23 @@
 {
   "root_domain": "vwfs.com.au",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:47:50.500555+00:00",
-  "completed_at": "2026-11-14T15:48:59.500748+00:00",
-  "duration_ms": 69000,
+  "started_at": "2026-11-15T16:13:55.743465+00:00",
+  "completed_at": "2026-11-15T16:15:01.746399+00:00",
+  "duration_ms": 66002,
   "targets_scanned": [
     "vwfs.com.au"
   ],
-  "total_unique_findings": 67,
-  "fresh_findings_count": 67,
-  "historical_findings_count": 0,
-  "new_findings_count": 67,
+  "total_unique_findings": 71,
+  "fresh_findings_count": 71,
+  "historical_findings_count": 67,
+  "new_findings_count": 4,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "driftnet",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "github",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "binaryedge",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "chaos",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,87 +73,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +89,119 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "builtwith",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,11 +213,11 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 51,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "odin",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "digitorus",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 66,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -274,14 +282,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 81,
+      "duration_ms": 96,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 190,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 194,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 236,
+      "duration_ms": 259,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 265,
       "error": null
     },
     {
@@ -369,15 +369,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 32,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 24,
-      "duration_ms": 514,
+      "duration_ms": 761,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1044,
+      "duration_ms": 1022,
       "error": null
     },
     {
@@ -437,23 +437,7 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3092,
       "error": null
     },
     {
@@ -465,7 +449,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "thc",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
+      "findings_count": 67,
+      "duration_ms": 126,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +481,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "crtsh",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3357,
+      "findings_count": 67,
+      "duration_ms": 4044,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "virustotal",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,11 +505,19 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3442,
       "error": null
     },
     {
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3111,
+      "duration_ms": 3146,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26846,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 67,
-      "duration_ms": 31172,
+      "duration_ms": 26597,
       "error": null
     },
     {
@@ -565,23 +557,7 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33113,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36239,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "vwfs.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65978,
+      "duration_ms": 31615,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "vwfs.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65544,
+      "duration_ms": 34386,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41097,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61412,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vwfs.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65981,
       "error": null
     }
   ]
