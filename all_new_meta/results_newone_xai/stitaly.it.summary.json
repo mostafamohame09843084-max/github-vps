@@ -1,9 +1,9 @@
 {
   "root_domain": "stitaly.it",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:13:54.509716+00:00",
-  "completed_at": "2026-11-14T15:15:03.496086+00:00",
-  "duration_ms": 68986,
+  "started_at": "2026-11-15T15:36:08.738258+00:00",
+  "completed_at": "2026-11-15T15:37:14.736344+00:00",
+  "duration_ms": 65998,
   "targets_scanned": [
     "stitaly.it"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
+      "resource": "bufferover",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "fofa",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "chaos",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "google",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +65,39 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "arpsyndicate",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "dnsdumpster",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,71 +145,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "github",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "c99",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "domainsproject",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,11 +213,11 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 44,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,19 +261,11 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
+      "duration_ms": 48,
       "error": null
     },
     {
       "resource": "odin",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,11 +313,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 112,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 190,
+      "duration_ms": 187,
       "error": null
     },
     {
@@ -345,23 +345,39 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 259,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 10,
-      "duration_ms": 270,
+      "duration_ms": 235,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 255,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -374,22 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 547,
+      "duration_ms": 496,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2016,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3058,
+      "duration_ms": 1253,
       "error": null
     },
     {
@@ -457,19 +441,35 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3064,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3051,
+      "duration_ms": 3049,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 3278,
       "error": null
     },
     {
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3273,
+      "duration_ms": 3138,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3076,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9190,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -557,15 +541,7 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 28184,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "stitaly.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30557,
+      "duration_ms": 13800,
       "error": null
     },
     {
@@ -573,15 +549,23 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43540,
+      "duration_ms": 22782,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "submd",
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65963,
+      "duration_ms": 25341,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31415,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "stitaly.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65547,
+      "duration_ms": 33551,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61381,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "stitaly.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65982,
       "error": null
     }
   ]

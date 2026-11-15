@@ -1,55 +1,23 @@
 {
   "root_domain": "mailgun.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:20:14.498379+00:00",
-  "completed_at": "2026-11-14T15:21:21.126053+00:00",
-  "duration_ms": 66627,
+  "started_at": "2026-11-15T15:36:10.736995+00:00",
+  "completed_at": "2026-11-15T15:37:16.739526+00:00",
+  "duration_ms": 66002,
   "targets_scanned": [
     "mailgun.com"
   ],
   "total_unique_findings": 44,
   "fresh_findings_count": 44,
-  "historical_findings_count": 0,
-  "new_findings_count": 44,
+  "historical_findings_count": 44,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fofa",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "builtwith",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "censys",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,63 +41,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "fofa",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +65,119 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "google",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,31 +201,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "argosdns",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,7 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 63,
       "error": null
     },
     {
@@ -257,14 +257,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "mailgun.com",
       "recursion_depth": 0,
@@ -273,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "digitorus",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 82,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 71,
+      "duration_ms": 103,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -341,7 +333,15 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 172,
+      "duration_ms": 186,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,7 +349,15 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 263,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,11 +365,35 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 266,
+      "duration_ms": 312,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "securitytrails",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shodan",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,43 +409,11 @@
       "error": null
     },
     {
-      "resource": "robtex",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 35,
-      "duration_ms": 769,
+      "duration_ms": 827,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 11,
-      "duration_ms": 1157,
+      "duration_ms": 1255,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
+      "duration_ms": 3055,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3040,
       "error": null
     },
     {
@@ -449,31 +457,23 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3065,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 30,
-      "duration_ms": 144,
+      "duration_ms": 101,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
       "resource": "urlscan",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -489,23 +489,7 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "virustotal",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +497,23 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3110,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3068,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7083,
+      "duration_ms": 27077,
       "error": null
     },
     {
@@ -557,31 +549,7 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30664,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 24,
-      "duration_ms": 48657,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 51930,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "mailgun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65993,
+      "duration_ms": 33101,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "mailgun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63123,
+      "duration_ms": 33779,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 24,
+      "duration_ms": 46612,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46715,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61386,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "mailgun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65975,
       "error": null
     }
   ]
