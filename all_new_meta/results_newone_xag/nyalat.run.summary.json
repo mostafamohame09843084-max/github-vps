@@ -1,23 +1,23 @@
 {
   "root_domain": "nyalat.run",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:54:18.509185+00:00",
-  "completed_at": "2026-11-14T15:55:24.489820+00:00",
-  "duration_ms": 65980,
+  "started_at": "2026-11-15T16:22:21.751717+00:00",
+  "completed_at": "2026-11-15T16:23:30.735198+00:00",
+  "duration_ms": 68983,
   "targets_scanned": [
     "nyalat.run"
   ],
   "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 0,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdumpster",
+      "resource": "domscan",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "facebook",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,38 +41,6 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
       "target": "nyalat.run",
       "recursion_depth": 0,
@@ -81,7 +49,15 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "builtwith",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +73,63 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "driftnet",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -106,6 +138,38 @@
     },
     {
       "resource": "digitalyama",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "fofa",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,71 +201,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "dnsdumpster",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,19 +221,11 @@
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 38,
       "error": null
     },
     {
       "resource": "intelx",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +241,22 @@
       "error": null
     },
     {
+      "resource": "leakix",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 90,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "nyalat.run",
       "recursion_depth": 0,
@@ -257,39 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
-      "error": null
-    },
-    {
       "resource": "netlas",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +281,35 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "digitorus",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 82,
+      "duration_ms": 94,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -318,6 +318,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 142,
       "error": null
     },
     {
@@ -341,23 +349,7 @@
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 217,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 254,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 261,
+      "duration_ms": 188,
       "error": null
     },
     {
@@ -377,14 +369,6 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "nyalat.run",
       "recursion_depth": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "hackertarget",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 256,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 523,
+      "duration_ms": 475,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 955,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3058,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 964,
       "error": null
     },
     {
@@ -457,11 +441,27 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3087,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3044,
+      "duration_ms": 3056,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3098,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3272,
       "error": null
     },
     {
@@ -537,35 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3062,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10567,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "nyalat.run",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9586,
-      "error": null
-    },
-    {
       "resource": "crtsh",
       "target": "nyalat.run",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 33058,
+      "findings_count": 0,
+      "duration_ms": 22040,
       "error": null
     },
     {
@@ -573,7 +549,23 @@
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33091,
+      "duration_ms": 33085,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34092,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42028,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47619,
+      "duration_ms": 55567,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "nyalat.run",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65968,
+      "duration_ms": 65975,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "nyalat.run",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65138,
       "error": null
     }
   ]
