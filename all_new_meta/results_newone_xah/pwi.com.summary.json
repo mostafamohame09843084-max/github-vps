@@ -1,191 +1,23 @@
 {
   "root_domain": "pwi.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:05:23.199987+00:00",
-  "completed_at": "2026-11-13T08:06:32.183635+00:00",
-  "duration_ms": 68983,
+  "started_at": "2026-11-15T14:36:14.735633+00:00",
+  "completed_at": "2026-11-15T14:37:20.736053+00:00",
+  "duration_ms": 66000,
   "targets_scanned": [
     "pwi.com"
   ],
   "total_unique_findings": 13,
   "fresh_findings_count": 13,
-  "historical_findings_count": 0,
-  "new_findings_count": 13,
+  "historical_findings_count": 13,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "digitalyama",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +33,175 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domainsproject",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,11 +261,19 @@
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 50,
       "error": null
     },
     {
       "resource": "odin",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,14 +290,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,15 @@
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 113,
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "crtsh",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 215,
+      "duration_ms": 112,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 225,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 267,
       "error": null
     },
     {
@@ -366,6 +358,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 352,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 89,
       "error": null
     },
     {
@@ -385,11 +393,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "securitytrails",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -401,19 +409,27 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15,
+      "duration_ms": 33,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 558,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 908,
       "error": null
     },
     {
@@ -421,23 +437,15 @@
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1038,
+      "duration_ms": 1050,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "thc",
       "target": "pwi.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1240,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "rapiddns",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 1473,
+      "findings_count": 8,
+      "duration_ms": 129,
       "error": null
     },
     {
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 97,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3081,
+      "duration_ms": 3076,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "shrewdeye",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 3039,
       "error": null
     },
     {
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3467,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "pwi.com",
       "recursion_depth": 0,
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "windvane",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3093,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3327,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3125,
+      "duration_ms": 3086,
       "error": null
     },
     {
@@ -557,31 +549,15 @@
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9648,
+      "duration_ms": 7491,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "racent",
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33077,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 44155,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "pwi.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65978,
+      "duration_ms": 15504,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "pwi.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65592,
+      "duration_ms": 18595,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30956,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61642,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "pwi.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65988,
       "error": null
     }
   ]

@@ -1,47 +1,23 @@
 {
   "root_domain": "macintosh.eu",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:12:42.187835+00:00",
-  "completed_at": "2026-11-13T08:13:51.183009+00:00",
-  "duration_ms": 68995,
+  "started_at": "2026-11-15T14:37:03.736121+00:00",
+  "completed_at": "2026-11-15T14:38:09.733069+00:00",
+  "duration_ms": 65996,
   "targets_scanned": [
     "macintosh.eu"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domscan",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bevigil",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "binaryedge",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "builtwith",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "google",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "arpsyndicate",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "certspotter",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,47 +89,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "coderog",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +113,47 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "digitalyama",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,55 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chaos",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,22 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "macintosh.eu",
       "recursion_depth": 0,
@@ -241,7 +241,31 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
+      "error": null
+    },
+    {
       "resource": "merklemap",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,31 +281,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "profundis",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 89,
       "error": null
     },
     {
@@ -329,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 182,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
       "target": "macintosh.eu",
       "recursion_depth": 0,
@@ -337,27 +345,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 174,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 240,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
+      "duration_ms": 258,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -369,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "macintosh.eu",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
+      "findings_count": 1,
+      "duration_ms": 491,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 450,
+      "duration_ms": 521,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 987,
+      "duration_ms": 1210,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -444,44 +452,36 @@
       "resource": "thc",
       "target": "macintosh.eu",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 137,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1262,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "riddler",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3085,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 3072,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3271,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,6 +497,14 @@
       "error": null
     },
     {
+      "resource": "whoisfreaks",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "macintosh.eu",
       "recursion_depth": 0,
@@ -505,19 +513,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "crtsh",
       "target": "macintosh.eu",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3058,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 4398,
       "error": null
     },
     {
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3576,
-      "error": null
-    },
-    {
       "resource": "threatcrowd",
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3131,
+      "duration_ms": 3106,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25401,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 27803,
+      "duration_ms": 14335,
       "error": null
     },
     {
@@ -573,15 +557,7 @@
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31697,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "macintosh.eu",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 66000,
+      "duration_ms": 32298,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "macintosh.eu",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65622,
+      "duration_ms": 31304,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41695,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61724,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "macintosh.eu",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65988,
       "error": null
     }
   ]
