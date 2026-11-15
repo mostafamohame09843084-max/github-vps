@@ -1,9 +1,9 @@
 {
   "root_domain": "oefr-kraken.energy",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T17:16:11.740449+00:00",
-  "completed_at": "2026-11-15T17:17:20.737608+00:00",
-  "duration_ms": 68997,
+  "started_at": "2026-11-15T17:17:41.738011+00:00",
+  "completed_at": "2026-11-15T17:18:50.738484+00:00",
+  "duration_ms": 69000,
   "targets_scanned": [
     "oefr-kraken.energy"
   ],
@@ -17,23 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "censys",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,38 +33,6 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "driftnet",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
@@ -89,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "dnsrepo",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -114,54 +50,6 @@
     },
     {
       "resource": "coderog",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "builtwith",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +81,31 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "dnsdumpster",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -202,6 +114,94 @@
     },
     {
       "resource": "github",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,7 +221,7 @@
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
@@ -257,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "odin",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 67,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "profundis",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 99,
       "error": null
     },
     {
@@ -321,6 +313,14 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 74,
+      "error": null
+    },
+    {
       "resource": "rapidscan",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
@@ -329,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 194,
+      "duration_ms": 88,
       "error": null
     },
     {
@@ -345,19 +345,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 176,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 254,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -369,22 +369,6 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
       "resource": "robtex",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "hackertarget",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 248,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 474,
+      "duration_ms": 454,
       "error": null
     },
     {
@@ -441,6 +441,14 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3083,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3067,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3093,
+      "duration_ms": 3082,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
       "resource": "trickest",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3352,
       "error": null
     },
     {
@@ -501,15 +501,7 @@
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3092,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3144,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26942,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "oefr-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33099,
+      "duration_ms": 13334,
       "error": null
     },
     {
@@ -557,15 +549,15 @@
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 19,
-      "duration_ms": 37938,
+      "duration_ms": 31076,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "reconcloud",
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42224,
+      "duration_ms": 33073,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65916,
+      "duration_ms": 41587,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "oefr-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61976,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 65986,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "oefr-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65058,
+      "duration_ms": 65192,
       "error": null
     }
   ]
