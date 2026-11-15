@@ -1,87 +1,23 @@
 {
   "root_domain": "oaprepair.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:03:29.510691+00:00",
-  "completed_at": "2026-11-14T16:04:55.505966+00:00",
-  "duration_ms": 85995,
+  "started_at": "2026-11-15T16:31:12.739068+00:00",
+  "completed_at": "2026-11-15T16:32:18.743915+00:00",
+  "duration_ms": 66004,
   "targets_scanned": [
     "oaprepair.com"
   ],
   "total_unique_findings": 12,
   "fresh_findings_count": 12,
-  "historical_findings_count": 0,
-  "new_findings_count": 12,
+  "historical_findings_count": 12,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "fullhunt",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "censys",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,23 +49,47 @@
       "error": null
     },
     {
+      "resource": "binaryedge",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domscan",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +105,55 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "github",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -154,14 +162,6 @@
     },
     {
       "resource": "certspotter",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "bevigil",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,23 +201,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
+      "resource": "argosdns",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,23 +217,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "huntermap",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +225,15 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "abuseipdb",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +289,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "onyphe",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 76,
+      "duration_ms": 108,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,23 +329,15 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 200,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 250,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 274,
+      "duration_ms": 261,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 309,
       "error": null
     },
     {
@@ -377,15 +377,23 @@
       "error": null
     },
     {
+      "resource": "rsecloud",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 59,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "shodan",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 12,
-      "duration_ms": 744,
+      "duration_ms": 577,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1396,
+      "duration_ms": 1524,
       "error": null
     },
     {
@@ -438,6 +438,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3137,
       "error": null
     },
     {
@@ -453,23 +461,15 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3040,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
       "duration_ms": 3092,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "threatminer",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "urlscan",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3270,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3355,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 3242,
       "error": null
     },
     {
@@ -549,39 +549,7 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7935,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14317,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32533,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44574,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "oaprepair.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65963,
+      "duration_ms": 8898,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "oaprepair.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85976,
+      "duration_ms": 15164,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33095,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49516,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53721,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "oaprepair.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65994,
       "error": null
     }
   ]
