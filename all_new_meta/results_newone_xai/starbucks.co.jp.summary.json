@@ -1,23 +1,23 @@
 {
   "root_domain": "starbucks.co.jp",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:23:28.189137+00:00",
-  "completed_at": "2026-11-13T08:24:37.214448+00:00",
-  "duration_ms": 69025,
+  "started_at": "2026-11-15T14:55:48.758582+00:00",
+  "completed_at": "2026-11-15T14:56:54.770329+00:00",
+  "duration_ms": 66011,
   "targets_scanned": [
     "starbucks.co.jp"
   ],
-  "total_unique_findings": 209,
-  "fresh_findings_count": 209,
-  "historical_findings_count": 0,
-  "new_findings_count": 209,
+  "total_unique_findings": 237,
+  "fresh_findings_count": 237,
+  "historical_findings_count": 209,
+  "new_findings_count": 28,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fullhunt",
+      "resource": "facebook",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,71 +25,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "bevigil",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "fofa",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +49,103 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "argosdns",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,46 +169,6 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "coderog",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
@@ -185,7 +177,15 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "google",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,19 +201,11 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "dnsdumpster",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
       "error": null
     },
     {
@@ -233,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "abuseipdb",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,15 +257,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "digitorus",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 67,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
+      "duration_ms": 126,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,11 +329,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hudsonrock",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 5,
+      "duration_ms": 261,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 189,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,15 +349,15 @@
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
+      "duration_ms": 283,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
-      "findings_count": 5,
-      "duration_ms": 262,
+      "findings_count": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -366,6 +366,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 453,
       "error": null
     },
     {
@@ -382,14 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 23,
-      "duration_ms": 810,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -429,15 +421,23 @@
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 1212,
+      "duration_ms": 1130,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "rapiddns",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 22,
+      "duration_ms": 2278,
+      "error": null
+    },
+    {
+      "resource": "riddler",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3046,
       "error": null
     },
     {
@@ -449,27 +449,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "thc",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1413,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "riddler",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3079,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 175,
+      "duration_ms": 56,
       "error": null
     },
     {
@@ -477,11 +461,27 @@
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 3052,
       "error": null
     },
     {
       "resource": "urlscan",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3831,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3266,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3126,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3146,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9638,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -557,31 +541,15 @@
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33090,
+      "duration_ms": 29105,
       "error": null
     },
     {
-      "resource": "crtsh",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 207,
-      "duration_ms": 58313,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61632,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "starbucks.co.jp",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 31413,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "starbucks.co.jp",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65597,
+      "duration_ms": 34424,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 207,
+      "duration_ms": 46232,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61521,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65960,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "starbucks.co.jp",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65891,
       "error": null
     }
   ]

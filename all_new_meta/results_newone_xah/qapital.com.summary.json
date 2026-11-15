@@ -1,55 +1,23 @@
 {
   "root_domain": "qapital.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:25:55.199057+00:00",
-  "completed_at": "2026-11-13T08:27:04.188064+00:00",
-  "duration_ms": 68989,
+  "started_at": "2026-11-15T14:56:16.740221+00:00",
+  "completed_at": "2026-11-15T14:57:22.739240+00:00",
+  "duration_ms": 65999,
   "targets_scanned": [
     "qapital.com"
   ],
-  "total_unique_findings": 37,
-  "fresh_findings_count": 37,
-  "historical_findings_count": 0,
-  "new_findings_count": 37,
+  "total_unique_findings": 43,
+  "fresh_findings_count": 43,
+  "historical_findings_count": 37,
+  "new_findings_count": 6,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "facebook",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "bevigil",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,31 +41,15 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,23 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "censys",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +89,15 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "arpsyndicate",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +113,31 @@
       "error": null
     },
     {
+      "resource": "builtwith",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fullhunt",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "github",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +161,51 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "domscan",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "abuseipdb",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 38,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +261,15 @@
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 56,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -305,35 +305,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 94,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 80,
       "error": null
     },
     {
@@ -345,11 +329,19 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 182,
+      "duration_ms": 192,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -369,6 +361,22 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 261,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "qapital.com",
       "recursion_depth": 0,
@@ -377,23 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -421,31 +421,23 @@
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 21,
-      "duration_ms": 562,
+      "duration_ms": 985,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 986,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "myssl",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1053,
+      "duration_ms": 1108,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "qapital.com",
       "recursion_depth": 0,
-      "findings_count": 37,
-      "duration_ms": 58,
+      "findings_count": 0,
+      "duration_ms": 3061,
       "error": null
     },
     {
@@ -457,19 +449,27 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3071,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3079,
+      "duration_ms": 3066,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 37,
+      "duration_ms": 120,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "sitedossier",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3456,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3456,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3067,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "qapital.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3104,
+      "findings_count": 43,
+      "duration_ms": 11033,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30872,
+      "duration_ms": 10837,
       "error": null
     },
     {
@@ -557,31 +557,7 @@
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33067,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45273,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61545,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "qapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65974,
+      "duration_ms": 28467,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "qapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65600,
+      "duration_ms": 49762,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61805,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65983,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "qapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65927,
       "error": null
     }
   ]
