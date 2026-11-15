@@ -1,9 +1,9 @@
 {
   "root_domain": "status-tide.co",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:52:53.493111+00:00",
-  "completed_at": "2026-11-14T14:54:02.493067+00:00",
-  "duration_ms": 68999,
+  "started_at": "2026-11-15T15:16:00.736423+00:00",
+  "completed_at": "2026-11-15T15:17:23.245750+00:00",
+  "duration_ms": 82509,
   "targets_scanned": [
     "status-tide.co"
   ],
@@ -16,30 +16,6 @@
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "arpsyndicate",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "google",
       "target": "status-tide.co",
@@ -57,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "argosdns",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,95 +57,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "coderog",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +81,127 @@
       "error": null
     },
     {
+      "resource": "github",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fofa",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,15 +257,23 @@
       "error": null
     },
     {
+      "resource": "netlas",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitorus",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 74,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,23 +317,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 62,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 199,
+      "duration_ms": 128,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 208,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 244,
+      "duration_ms": 254,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 261,
+      "duration_ms": 273,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 473,
+      "duration_ms": 490,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1472,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3277,
+      "duration_ms": 1611,
       "error": null
     },
     {
@@ -445,7 +437,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3053,
+      "duration_ms": 3063,
       "error": null
     },
     {
@@ -461,7 +453,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3060,
       "error": null
     },
     {
@@ -469,7 +461,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 120,
+      "duration_ms": 109,
       "error": null
     },
     {
@@ -489,15 +481,15 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "threatminer",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 24,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "virustotal",
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,7 +501,15 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
+      "duration_ms": 3275,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -541,15 +541,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3078,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20803,
+      "duration_ms": 3092,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27177,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "status-tide.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30143,
+      "duration_ms": 6903,
       "error": null
     },
     {
@@ -573,7 +557,15 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31213,
+      "duration_ms": 30068,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61908,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65997,
+      "duration_ms": 65986,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "status-tide.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65590,
+      "duration_ms": 65514,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "status-tide.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 82496,
       "error": null
     }
   ]

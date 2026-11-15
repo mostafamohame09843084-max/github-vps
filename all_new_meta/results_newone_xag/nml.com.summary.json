@@ -1,23 +1,55 @@
 {
   "root_domain": "nml.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:44:37.549739+00:00",
-  "completed_at": "2026-11-14T14:45:47.937587+00:00",
-  "duration_ms": 70387,
+  "started_at": "2026-11-15T15:16:25.832901+00:00",
+  "completed_at": "2026-11-15T15:17:35.136450+00:00",
+  "duration_ms": 69303,
   "targets_scanned": [
     "nml.com"
   ],
   "total_unique_findings": 3598,
-  "fresh_findings_count": 3560,
-  "historical_findings_count": 1922,
-  "new_findings_count": 1676,
-  "reused_historical_findings_count": 38,
+  "fresh_findings_count": 2073,
+  "historical_findings_count": 3598,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1525,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "binaryedge",
+      "resource": "chinaz",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,103 +73,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "bufferover",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +89,15 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "builtwith",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +113,15 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "facebook",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "bevigil",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "digitalyama",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +153,71 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "certspotter",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,30 +233,6 @@
       "error": null
     },
     {
-      "resource": "huntermap",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "nml.com",
       "recursion_depth": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +257,23 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "digitorus",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 82,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 91,
       "error": null
     },
     {
@@ -337,31 +329,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 15,
-      "duration_ms": 232,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 246,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 263,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -369,7 +337,31 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "alienvault",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 210,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 261,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 15,
+      "duration_ms": 267,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,11 +381,11 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 56,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "rsecloud",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 88,
-      "duration_ms": 802,
+      "duration_ms": 817,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1095,
+      "duration_ms": 1757,
       "error": null
     },
     {
@@ -437,7 +437,7 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3039,
+      "duration_ms": 3068,
       "error": null
     },
     {
@@ -445,7 +445,7 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3052,
+      "duration_ms": 3059,
       "error": null
     },
     {
@@ -461,27 +461,11 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 2016,
-      "duration_ms": 308,
+      "duration_ms": 327,
       "error": null
     },
     {
       "resource": "trickest",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3360,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,6 +481,22 @@
       "error": null
     },
     {
+      "resource": "urlscan",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
       "target": "nml.com",
       "recursion_depth": 0,
@@ -505,15 +505,23 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "whoisxml",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "sitedossier",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3324,
+      "error": null
+    },
+    {
+      "resource": "windvane",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "threatcrowd",
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 13438,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "nml.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20690,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27220,
+      "duration_ms": 13093,
       "error": null
     },
     {
@@ -565,15 +557,15 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30301,
+      "duration_ms": 29978,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "nml.com",
       "recursion_depth": 0,
-      "findings_count": 1757,
-      "duration_ms": 42309,
+      "findings_count": 0,
+      "duration_ms": 57332,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65931,
+      "duration_ms": 65890,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "nml.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65828,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "nml.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65686,
+      "duration_ms": 65194,
       "error": null
     }
   ]
