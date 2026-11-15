@@ -1,23 +1,23 @@
 {
   "root_domain": "og.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:43:38.847652+00:00",
-  "completed_at": "2026-11-14T18:44:48.839038+00:00",
-  "duration_ms": 69991,
+  "started_at": "2026-11-15T18:10:02.741671+00:00",
+  "completed_at": "2026-11-15T18:11:11.735769+00:00",
+  "duration_ms": 68994,
   "targets_scanned": [
     "og.com"
   ],
   "total_unique_findings": 11,
-  "fresh_findings_count": 11,
+  "fresh_findings_count": 7,
   "historical_findings_count": 11,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 0,
+  "reused_historical_findings_count": 4,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
+      "resource": "builtwith",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,31 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "fofa",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,39 +65,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
+      "resource": "arpsyndicate",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "domscan",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,63 +97,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "facebook",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,23 +113,23 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +145,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "censys",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,7 +153,79 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
+      "error": null
+    },
+    {
       "resource": "huntermap",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,23 +257,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56,
+      "duration_ms": 62,
       "error": null
     },
     {
       "resource": "odin",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,19 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 73,
+      "duration_ms": 84,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 193,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,31 +345,7 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 191,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 213,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 267,
       "error": null
     },
     {
@@ -389,15 +389,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 19,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 574,
+      "duration_ms": 489,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 1583,
+      "duration_ms": 1618,
       "error": null
     },
     {
@@ -437,15 +437,15 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3079,
+      "duration_ms": 3054,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -457,11 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "og.com",
       "recursion_depth": 0,
-      "findings_count": 11,
-      "duration_ms": 71,
+      "findings_count": 0,
+      "duration_ms": 3053,
       "error": null
     },
     {
@@ -477,7 +477,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3492,
+      "duration_ms": 3350,
       "error": null
     },
     {
@@ -497,15 +497,7 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3136,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "threatcrowd",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3112,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "og.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11138,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24608,
+      "duration_ms": 7212,
       "error": null
     },
     {
@@ -557,7 +549,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30285,
+      "duration_ms": 33071,
       "error": null
     },
     {
@@ -565,7 +557,15 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 53236,
+      "duration_ms": 54937,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "og.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57517,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61529,
+      "duration_ms": 61476,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65979,
+      "duration_ms": 65983,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "og.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65841,
+      "duration_ms": 65060,
       "error": null
     }
   ]
