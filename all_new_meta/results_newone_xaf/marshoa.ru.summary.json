@@ -1,45 +1,21 @@
 {
   "root_domain": "marshoa.ru",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:24:01.497413+00:00",
-  "completed_at": "2026-11-14T16:25:11.491677+00:00",
-  "duration_ms": 69994,
+  "started_at": "2026-11-15T16:38:33.743840+00:00",
+  "completed_at": "2026-11-15T16:39:42.737376+00:00",
+  "duration_ms": 68993,
   "targets_scanned": [
     "marshoa.ru"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 15,
+  "fresh_findings_count": 15,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 15,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "driftnet",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "arpsyndicate",
       "target": "marshoa.ru",
@@ -49,87 +25,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "domscan",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "dnsdumpster",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,23 +49,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "dnsdb",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +65,46 @@
       "error": null
     },
     {
+      "resource": "dnsrepo",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
       "target": "marshoa.ru",
       "recursion_depth": 0,
@@ -193,7 +113,87 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "chinaz",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 35,
       "error": null
     },
     {
       "resource": "huntermap",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "merklemap",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 90,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 198,
+      "duration_ms": 96,
       "error": null
     },
     {
@@ -337,23 +329,15 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 237,
+      "duration_ms": 245,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 275,
+      "duration_ms": 250,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "alienvault",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 68,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 321,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1260,
+      "duration_ms": 458,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1986,
+      "duration_ms": 2010,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -441,43 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3044,
+      "duration_ms": 3056,
       "error": null
     },
     {
       "resource": "thc",
       "target": "marshoa.ru",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3055,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
+      "findings_count": 15,
+      "duration_ms": 97,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "urlscan",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +481,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "threatminer",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3062,
+      "duration_ms": 30,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -521,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3355,
       "error": null
     },
     {
@@ -537,11 +529,35 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3109,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18530,
+      "duration_ms": 27185,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "marshoa.ru",
+      "recursion_depth": 0,
+      "findings_count": 14,
+      "duration_ms": 29391,
       "error": null
     },
     {
@@ -549,7 +565,7 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31649,
+      "duration_ms": 33089,
       "error": null
     },
     {
@@ -557,15 +573,7 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47240,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61747,
+      "duration_ms": 36752,
       "error": null
     },
     {
@@ -573,15 +581,7 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65977,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "marshoa.ru",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65977,
+      "duration_ms": 65989,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "marshoa.ru",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65360,
+      "duration_ms": 65464,
       "error": null
     }
   ]

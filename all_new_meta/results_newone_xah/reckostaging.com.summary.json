@@ -1,55 +1,23 @@
 {
   "root_domain": "reckostaging.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:19:46.513115+00:00",
-  "completed_at": "2026-11-14T16:20:52.497893+00:00",
-  "duration_ms": 65984,
+  "started_at": "2026-11-15T16:39:20.744175+00:00",
+  "completed_at": "2026-11-15T16:40:26.738312+00:00",
+  "duration_ms": 65994,
   "targets_scanned": [
     "reckostaging.com"
   ],
-  "total_unique_findings": 31,
-  "fresh_findings_count": 31,
-  "historical_findings_count": 0,
-  "new_findings_count": 31,
+  "total_unique_findings": 37,
+  "fresh_findings_count": 37,
+  "historical_findings_count": 31,
+  "new_findings_count": 6,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "argosdns",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "binaryedge",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "domscan",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,15 +49,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "dnsrepo",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "fofa",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "fullhunt",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +81,23 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "censys",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +113,31 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "chaos",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,6 +161,22 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "bevigil",
       "target": "reckostaging.com",
       "recursion_depth": 0,
@@ -169,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "dnsdumpster",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "builtwith",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,23 +201,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "coderog",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 42,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +241,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "merklemap",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 68,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "pugrecon",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 125,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "reckostaging.com",
       "recursion_depth": 0,
@@ -313,19 +321,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 68,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 197,
+      "duration_ms": 214,
       "error": null
     },
     {
@@ -349,15 +349,7 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 231,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 277,
       "error": null
     },
     {
@@ -365,11 +357,11 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 280,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 165,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 31,
-      "duration_ms": 481,
+      "duration_ms": 851,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1414,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3050,
+      "duration_ms": 1900,
       "error": null
     },
     {
@@ -461,23 +453,15 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3051,
+      "duration_ms": 3091,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "riddler",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3292,
       "error": null
     },
     {
@@ -489,7 +473,31 @@
       "error": null
     },
     {
+      "resource": "urlscan",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3455,
+      "error": null
+    },
+    {
       "resource": "virustotal",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,15 +517,7 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3080,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3175,
       "error": null
     },
     {
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "waybackarchive",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 6534,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 16296,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "reckostaging.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20455,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25322,
+      "duration_ms": 14978,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 31584,
       "error": null
     },
     {
@@ -573,15 +557,31 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32485,
+      "duration_ms": 32699,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "racent",
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33039,
+      "duration_ms": 33326,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60163,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "reckostaging.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61315,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "reckostaging.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65962,
+      "duration_ms": 65980,
       "error": null
     }
   ]

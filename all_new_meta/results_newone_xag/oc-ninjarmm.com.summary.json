@@ -1,9 +1,9 @@
 {
   "root_domain": "oc-ninjarmm.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:12:21.493708+00:00",
-  "completed_at": "2026-11-14T16:13:31.559854+00:00",
-  "duration_ms": 70066,
+  "started_at": "2026-11-15T16:39:26.736753+00:00",
+  "completed_at": "2026-11-15T16:40:32.733377+00:00",
+  "duration_ms": 65996,
   "targets_scanned": [
     "oc-ninjarmm.com"
   ],
@@ -17,7 +17,55 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
+      "resource": "github",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "argosdns",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +89,31 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "dnsdumpster",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,95 +137,15 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,23 +161,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "builtwith",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "driftnet",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
       "resource": "intelx",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
@@ -265,15 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 62,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 98,
+      "duration_ms": 72,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,31 +349,15 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 201,
+      "duration_ms": 189,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "reconeer",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 246,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -369,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 465,
+      "duration_ms": 495,
       "error": null
     },
     {
@@ -429,7 +429,23 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1355,
+      "duration_ms": 1204,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3120,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -445,31 +461,7 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3047,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3071,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3235,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
+      "resource": "trickest",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "sitedossier",
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3285,
+      "duration_ms": 3461,
       "error": null
     },
     {
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3091,
       "error": null
     },
     {
@@ -518,6 +510,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3116,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32334,
+      "duration_ms": 32306,
       "error": null
     },
     {
@@ -549,39 +549,7 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41923,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42165,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44973,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65994,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "oc-ninjarmm.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65136,
+      "duration_ms": 35919,
       "error": null
     },
     {
@@ -589,7 +557,39 @@
       "target": "oc-ninjarmm.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 70057,
+      "duration_ms": 41270,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53143,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60573,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61684,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "oc-ninjarmm.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65982,
       "error": null
     }
   ]
