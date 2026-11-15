@@ -1,9 +1,9 @@
 {
   "root_domain": "stagingcorporatetools.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:09:11.188728+00:00",
-  "completed_at": "2026-11-13T08:10:55.254377+00:00",
-  "duration_ms": 104065,
+  "started_at": "2026-11-15T14:42:18.737743+00:00",
+  "completed_at": "2026-11-15T14:43:24.735445+00:00",
+  "duration_ms": 65997,
   "targets_scanned": [
     "stagingcorporatetools.com"
   ],
@@ -13,11 +13,11 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domainsproject",
+      "resource": "fullhunt",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,23 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "dnsdumpster",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,23 +57,15 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,22 +89,6 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
@@ -105,39 +97,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "argosdns",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,23 +113,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "dnsdb",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +129,15 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "binaryedge",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +153,38 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
@@ -209,15 +193,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "fofa",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "bufferover",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 45,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "profundis",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "anubis",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 71,
+      "duration_ms": 121,
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -341,19 +325,19 @@
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 174,
+      "duration_ms": 196,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 232,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 252,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 273,
       "error": null
     },
     {
@@ -377,23 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61,
+      "duration_ms": 58,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,35 +401,51 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 24,
       "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1178,
-      "error": "'list' object has no attribute 'get'"
     },
     {
       "resource": "rapiddns",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1273,
+      "duration_ms": 451,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "myssl",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1547,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3035,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3043,
       "error": null
     },
     {
@@ -449,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "thc",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1528,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3068,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3052,
+      "duration_ms": 107,
       "error": null
     },
     {
@@ -486,6 +478,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -517,7 +517,7 @@
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3277,
       "error": null
     },
     {
@@ -541,39 +541,15 @@
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3080,
+      "duration_ms": 3086,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "racent",
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7862,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33079,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41817,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "stagingcorporatetools.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 18581,
       "error": null
     },
     {
@@ -581,7 +557,23 @@
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65616,
+      "duration_ms": 15574,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26662,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31429,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "stagingcorporatetools.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 104053,
+      "duration_ms": 61594,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "stagingcorporatetools.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65986,
       "error": null
     }
   ]
