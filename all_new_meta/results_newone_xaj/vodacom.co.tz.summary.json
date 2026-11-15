@@ -1,23 +1,23 @@
 {
   "root_domain": "vodacom.co.tz",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:10:50.501319+00:00",
-  "completed_at": "2026-11-14T15:12:03.213890+00:00",
-  "duration_ms": 72712,
+  "started_at": "2026-11-15T15:38:10.760073+00:00",
+  "completed_at": "2026-11-15T15:39:16.819306+00:00",
+  "duration_ms": 66059,
   "targets_scanned": [
     "vodacom.co.tz"
   ],
-  "total_unique_findings": 279,
-  "fresh_findings_count": 278,
+  "total_unique_findings": 292,
+  "fresh_findings_count": 292,
   "historical_findings_count": 279,
-  "new_findings_count": 0,
-  "reused_historical_findings_count": 1,
+  "new_findings_count": 13,
+  "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "digitalyama",
+      "resource": "bufferover",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,15 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "google",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +49,23 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "github",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,39 +81,23 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "driftnet",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,71 +121,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "fofa",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "fullhunt",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "coderog",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +153,55 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "argosdns",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +217,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 21,
-      "error": null
-    },
-    {
-      "resource": "leakix",
+      "resource": "intelx",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +225,23 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
       "resource": "merklemap",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,15 +269,7 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
-      "resource": "profundis",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 62,
       "error": null
     },
     {
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,19 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66,
+      "duration_ms": 123,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 185,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,35 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 254,
       "error": null
     },
     {
@@ -365,19 +357,11 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 17,
-      "duration_ms": 259,
+      "duration_ms": 289,
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 84,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 74,
-      "duration_ms": 1174,
+      "duration_ms": 742,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 1533,
+      "duration_ms": 2190,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3059,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3047,
       "error": null
     },
     {
@@ -461,19 +453,27 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3052,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "thc",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 204,
+      "duration_ms": 71,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3354,
+      "duration_ms": 42,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3075,
+      "duration_ms": 3280,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,51 +529,11 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "zoomeyeapi",
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15910,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 19837,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20610,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31408,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65985,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "vodacom.co.tz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65384,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -589,7 +541,55 @@
       "target": "vodacom.co.tz",
       "recursion_depth": 0,
       "findings_count": 257,
-      "duration_ms": 72594,
+      "duration_ms": 5155,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3108,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 10596,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33112,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49823,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65408,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vodacom.co.tz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65961,
       "error": null
     }
   ]
