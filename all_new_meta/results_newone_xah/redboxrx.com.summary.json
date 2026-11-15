@@ -1,119 +1,23 @@
 {
   "root_domain": "redboxrx.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:27:57.964541+00:00",
-  "completed_at": "2026-11-14T16:29:03.489746+00:00",
-  "duration_ms": 65525,
+  "started_at": "2026-11-15T16:47:14.746341+00:00",
+  "completed_at": "2026-11-15T16:48:24.738272+00:00",
+  "duration_ms": 69991,
   "targets_scanned": [
     "redboxrx.com"
   ],
-  "total_unique_findings": 2,
-  "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "total_unique_findings": 10,
+  "fresh_findings_count": 10,
+  "historical_findings_count": 2,
+  "new_findings_count": 8,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domscan",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "github",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,15 +33,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "domainsproject",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,15 +57,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "arpsyndicate",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "bufferover",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +81,23 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "digitalyama",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,6 +113,102 @@
       "error": null
     },
     {
+      "resource": "fullhunt",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "redboxrx.com",
       "recursion_depth": 0,
@@ -217,11 +217,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -257,7 +257,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 86,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 181,
+      "duration_ms": 98,
       "error": null
     },
     {
@@ -337,23 +329,15 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "alienvault",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 201,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 250,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,15 +349,23 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 262,
+      "duration_ms": 279,
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 284,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -382,6 +374,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 88,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1118,
+      "duration_ms": 21,
       "error": null
     },
     {
@@ -429,15 +421,15 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 1259,
+      "duration_ms": 760,
       "error": null
     },
     {
-      "resource": "threatbook",
+      "resource": "myssl",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1109,
       "error": null
     },
     {
@@ -449,11 +441,19 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3045,
+      "duration_ms": 3085,
       "error": null
     },
     {
@@ -461,7 +461,15 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3047,
+      "duration_ms": 3138,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3501,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
       "error": null
     },
     {
@@ -497,15 +497,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3539,
+      "duration_ms": 3103,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "submd",
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3050,
+      "duration_ms": 7438,
       "error": null
     },
     {
@@ -549,23 +549,7 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12889,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14500,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "redboxrx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24258,
+      "duration_ms": 19164,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32874,
+      "duration_ms": 32073,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "redboxrx.com",
       "recursion_depth": 0,
+      "findings_count": 10,
+      "duration_ms": 34799,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 64611,
+      "duration_ms": 61385,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "redboxrx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65514,
+      "duration_ms": 65978,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "redboxrx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65621,
       "error": null
     }
   ]
