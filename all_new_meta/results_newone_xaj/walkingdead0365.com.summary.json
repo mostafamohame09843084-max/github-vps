@@ -1,71 +1,23 @@
 {
   "root_domain": "walkingdead0365.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:17:12.499821+00:00",
-  "completed_at": "2026-11-14T16:18:21.490845+00:00",
-  "duration_ms": 68991,
+  "started_at": "2026-11-15T16:41:51.749349+00:00",
+  "completed_at": "2026-11-15T16:43:00.734952+00:00",
+  "duration_ms": 68985,
   "targets_scanned": [
     "walkingdead0365.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "bevigil",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +33,23 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "github",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,55 +65,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdumpster",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,23 +81,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "domainsproject",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,14 +97,6 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
@@ -209,11 +105,107 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "chaos",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -222,6 +214,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
@@ -265,15 +257,23 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 51,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "netlas",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,14 +329,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 189,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
@@ -345,11 +337,27 @@
       "error": null
     },
     {
+      "resource": "crtsh",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 120,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 205,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -361,23 +369,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 264,
-      "error": null
-    },
-    {
       "resource": "robtex",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,11 +381,11 @@
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 55,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "rsecloud",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 469,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1206,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "hudsonrock",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3169,
+      "duration_ms": 271,
+      "error": null
+    },
+    {
+      "resource": "shodanx",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 500,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 2669,
       "error": null
     },
     {
@@ -457,19 +449,27 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3099,
+      "findings_count": 2,
+      "duration_ms": 135,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "riddler",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3272,
+      "duration_ms": 3122,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3107,
       "error": null
     },
     {
@@ -505,11 +505,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3130,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -537,35 +537,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3116,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10857,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22052,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33078,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "walkingdead0365.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42121,
+      "duration_ms": 26158,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52158,
+      "duration_ms": 28082,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32111,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "walkingdead0365.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61557,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 65976,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "walkingdead0365.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65149,
+      "duration_ms": 65594,
       "error": null
     }
   ]
