@@ -1,23 +1,23 @@
 {
   "root_domain": "swyftx.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:05:12.155818+00:00",
-  "completed_at": "2026-11-14T18:06:35.237840+00:00",
-  "duration_ms": 83082,
+  "started_at": "2026-11-15T17:33:52.762016+00:00",
+  "completed_at": "2026-11-15T17:35:01.738189+00:00",
+  "duration_ms": 68976,
   "targets_scanned": [
     "swyftx.com"
   ],
-  "total_unique_findings": 24,
-  "fresh_findings_count": 24,
-  "historical_findings_count": 7,
-  "new_findings_count": 17,
-  "reused_historical_findings_count": 0,
+  "total_unique_findings": 27,
+  "fresh_findings_count": 23,
+  "historical_findings_count": 24,
+  "new_findings_count": 3,
+  "reused_historical_findings_count": 4,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "censys",
+      "resource": "dnsrepo",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "chaos",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,31 +33,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "chinaz",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "github",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "certspotter",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "binaryedge",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +89,55 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "domainsproject",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "driftnet",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,31 +169,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "bufferover",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "fullhunt",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "censys",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,31 +201,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "facebook",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +217,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +241,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 69,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -290,6 +282,14 @@
     },
     {
       "resource": "onyphe",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,15 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
+      "duration_ms": 106,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 179,
       "error": null
     },
     {
@@ -329,14 +337,6 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 206,
-      "error": null
-    },
-    {
       "resource": "rapidfinder",
       "target": "swyftx.com",
       "recursion_depth": 0,
@@ -345,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 263,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 265,
+      "duration_ms": 255,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "swyftx.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 168,
+      "findings_count": 1,
+      "duration_ms": 294,
       "error": null
     },
     {
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "reconeer",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 60,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 7,
-      "duration_ms": 782,
+      "duration_ms": 753,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1058,
+      "duration_ms": 1117,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -437,15 +445,7 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3088,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 23,
-      "duration_ms": 44,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -461,23 +461,7 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3509,
+      "duration_ms": 3077,
       "error": null
     },
     {
@@ -489,6 +473,22 @@
       "error": null
     },
     {
+      "resource": "trickest",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 38,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "swyftx.com",
       "recursion_depth": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3105,
+      "duration_ms": 3351,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13002,
+      "duration_ms": 3112,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29347,
+      "duration_ms": 9556,
       "error": null
     },
     {
@@ -557,15 +557,23 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31156,
+      "duration_ms": 33078,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "crtsh",
+      "target": "swyftx.com",
+      "recursion_depth": 0,
+      "findings_count": 19,
+      "duration_ms": 61062,
+      "error": null
+    },
+    {
+      "resource": "racent",
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61744,
+      "duration_ms": 65908,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65671,
+      "duration_ms": 65962,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "swyftx.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65299,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "swyftx.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 83065,
+      "duration_ms": 65488,
       "error": null
     }
   ]

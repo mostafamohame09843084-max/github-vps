@@ -1,9 +1,9 @@
 {
   "root_domain": "office365cloudstoragesk.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:59:05.836893+00:00",
-  "completed_at": "2026-11-14T18:00:11.835707+00:00",
-  "duration_ms": 65998,
+  "started_at": "2026-11-15T17:32:59.737364+00:00",
+  "completed_at": "2026-11-15T17:34:08.736912+00:00",
+  "duration_ms": 68999,
   "targets_scanned": [
     "office365cloudstoragesk.com"
   ],
@@ -17,7 +17,23 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "digitalyama",
+      "resource": "bufferover",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "bevigil",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +57,23 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "fofa",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,47 +97,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "github",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "dnsrepo",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "digitalyama",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,39 +137,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "driftnet",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +153,31 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "c99",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "chaos",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +201,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "censys",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -265,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 72,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +309,27 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 108,
+      "duration_ms": 104,
       "error": null
     },
     {
       "resource": "rapidapi",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 192,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 199,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 230,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -365,7 +365,7 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -381,19 +381,11 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66,
+      "duration_ms": 59,
       "error": null
     },
     {
       "resource": "robtex",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 507,
+      "duration_ms": 733,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1262,
+      "duration_ms": 1150,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3048,
+      "duration_ms": 3077,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -453,23 +461,15 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 3080,
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 123,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3358,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
@@ -513,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3120,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -537,27 +529,19 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "windvane",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9036,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12287,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30433,
+      "duration_ms": 3098,
       "error": null
     },
     {
@@ -565,23 +549,31 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 39266,
+      "duration_ms": 31100,
       "error": null
     },
     {
-      "resource": "waybackarchive",
-      "target": "office365cloudstoragesk.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 55593,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
+      "resource": "reconcloud",
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61359,
+      "duration_ms": 33078,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 35484,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65911,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "office365cloudstoragesk.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65990,
+      "duration_ms": 65983,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "office365cloudstoragesk.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65540,
       "error": null
     }
   ]
