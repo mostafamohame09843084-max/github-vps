@@ -1,23 +1,23 @@
 {
   "root_domain": "superawesome.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:07:30.542643+00:00",
-  "completed_at": "2026-11-14T16:08:40.494534+00:00",
-  "duration_ms": 69951,
+  "started_at": "2026-11-15T16:26:23.738255+00:00",
+  "completed_at": "2026-11-15T16:27:29.755505+00:00",
+  "duration_ms": 66017,
   "targets_scanned": [
     "superawesome.com"
   ],
-  "total_unique_findings": 13,
-  "fresh_findings_count": 13,
-  "historical_findings_count": 0,
-  "new_findings_count": 13,
+  "total_unique_findings": 114,
+  "fresh_findings_count": 114,
+  "historical_findings_count": 13,
+  "new_findings_count": 101,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
+      "resource": "builtwith",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,63 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "dnsrepo",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "arpsyndicate",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "github",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +57,15 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domscan",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "c99",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "dnsdumpster",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +97,23 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "argosdns",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "binaryedge",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +137,15 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "google",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "certspotter",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +177,43 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "dnsdb",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -225,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 37,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "superawesome.com",
       "recursion_depth": 0,
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "superawesome.com",
       "recursion_depth": 0,
@@ -257,23 +265,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
       "resource": "netlas",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,11 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 105,
+      "duration_ms": 101,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "rapidscan",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,23 +341,7 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 192,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 238,
+      "duration_ms": 193,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 269,
       "error": null
     },
     {
@@ -377,19 +377,19 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 56,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 13,
-      "duration_ms": 816,
+      "duration_ms": 746,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1516,
+      "duration_ms": 1696,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3065,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3052,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3046,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3356,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -478,6 +470,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -497,19 +497,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisxml",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3129,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10933,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20064,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20412,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "superawesome.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31197,
+      "duration_ms": 24710,
       "error": null
     },
     {
@@ -573,15 +557,15 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32650,
+      "duration_ms": 32724,
       "error": null
     },
     {
-      "resource": "commoncrawl",
+      "resource": "crtsh",
       "target": "superawesome.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65951,
+      "findings_count": 114,
+      "duration_ms": 36152,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "superawesome.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65659,
+      "duration_ms": 33994,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 63931,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "superawesome.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65987,
       "error": null
     }
   ]
