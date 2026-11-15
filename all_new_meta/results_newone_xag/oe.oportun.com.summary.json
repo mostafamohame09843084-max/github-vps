@@ -1,9 +1,9 @@
 {
   "root_domain": "oe.oportun.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:33:56.840304+00:00",
-  "completed_at": "2026-11-14T17:35:05.836504+00:00",
-  "duration_ms": 68996,
+  "started_at": "2026-11-15T17:13:59.737675+00:00",
+  "completed_at": "2026-11-15T17:15:05.734187+00:00",
+  "duration_ms": 65996,
   "targets_scanned": [
     "oe.oportun.com"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "leakix",
+      "resource": "binaryedge",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "chinaz",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "github",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -49,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "chaos",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "builtwith",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,15 +65,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "digitalyama",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "censys",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +97,55 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "leakix",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +169,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "coderog",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fofa",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "domainsproject",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +209,15 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "huntermap",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +233,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "bevigil",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,71 +241,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "domscan",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,7 +253,7 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -273,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +289,14 @@
       "error": null
     },
     {
+      "resource": "profundis",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
@@ -313,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66,
+      "duration_ms": 114,
       "error": null
     },
     {
@@ -337,27 +337,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 86,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 209,
+      "duration_ms": 177,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 257,
+      "duration_ms": 251,
       "error": null
     },
     {
@@ -369,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 256,
       "error": null
     },
     {
@@ -393,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -417,11 +409,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "securitytrails",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 337,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 431,
+      "duration_ms": 487,
       "error": null
     },
     {
@@ -437,7 +429,7 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 822,
+      "duration_ms": 1381,
       "error": null
     },
     {
@@ -453,7 +445,7 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 103,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -461,7 +453,15 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
+      "duration_ms": 3070,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3090,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3036,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3275,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
       "error": null
     },
     {
@@ -541,15 +541,15 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3078,
+      "duration_ms": 3131,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "crtsh",
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10195,
+      "duration_ms": 27915,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13036,
+      "duration_ms": 27435,
       "error": null
     },
     {
@@ -565,23 +565,7 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30218,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61573,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "oe.oportun.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 33088,
       "error": null
     },
     {
@@ -589,7 +573,23 @@
       "target": "oe.oportun.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65648,
+      "duration_ms": 34005,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50759,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "oe.oportun.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65988,
       "error": null
     }
   ]
