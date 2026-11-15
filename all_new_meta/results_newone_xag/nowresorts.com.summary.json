@@ -1,16 +1,16 @@
 {
   "root_domain": "nowresorts.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:20:53.500705+00:00",
-  "completed_at": "2026-11-14T15:22:04.491730+00:00",
-  "duration_ms": 70991,
+  "started_at": "2026-11-15T15:50:54.736630+00:00",
+  "completed_at": "2026-11-15T15:52:04.741763+00:00",
+  "duration_ms": 70005,
   "targets_scanned": [
     "nowresorts.com"
   ],
-  "total_unique_findings": 10,
-  "fresh_findings_count": 10,
-  "historical_findings_count": 0,
-  "new_findings_count": 10,
+  "total_unique_findings": 23,
+  "fresh_findings_count": 23,
+  "historical_findings_count": 10,
+  "new_findings_count": 13,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
@@ -18,14 +18,6 @@
   "resource_executions": [
     {
       "resource": "c99",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,39 +33,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,95 +49,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +65,119 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "chaos",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,15 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "certspotter",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,19 +217,19 @@
       "error": null
     },
     {
+      "resource": "intelx",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,15 +257,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,23 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
       "resource": "pugrecon",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,27 +305,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 76,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 215,
       "error": null
     },
     {
@@ -345,11 +337,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 95,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 169,
       "error": null
     },
     {
@@ -357,11 +357,19 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
+      "duration_ms": 78,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,15 +385,15 @@
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "hackertarget",
       "target": "nowresorts.com",
       "recursion_depth": 0,
-      "findings_count": 10,
-      "duration_ms": 1268,
+      "findings_count": 0,
+      "duration_ms": 268,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "shodan",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,19 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 10,
+      "duration_ms": 507,
       "error": null
     },
     {
@@ -421,7 +429,15 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2184,
+      "duration_ms": 1125,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -429,7 +445,7 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3132,
       "error": null
     },
     {
@@ -445,23 +461,7 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3057,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3152,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 3577,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,19 +509,11 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3111,
+      "duration_ms": 3158,
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "windvane",
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11292,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28929,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "nowresorts.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29631,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,15 +541,39 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28406,
+      "duration_ms": 11199,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31280,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "nowresorts.com",
       "recursion_depth": 0,
+      "findings_count": 22,
+      "duration_ms": 33281,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42056,
+      "duration_ms": 51937,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nowresorts.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61636,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 65984,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "nowresorts.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65438,
+      "duration_ms": 65852,
       "error": null
     }
   ]

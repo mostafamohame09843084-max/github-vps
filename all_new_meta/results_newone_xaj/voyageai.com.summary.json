@@ -1,31 +1,23 @@
 {
   "root_domain": "voyageai.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:24:25.508252+00:00",
-  "completed_at": "2026-11-14T15:25:35.503260+00:00",
-  "duration_ms": 69995,
+  "started_at": "2026-11-15T15:50:44.769610+00:00",
+  "completed_at": "2026-11-15T15:51:54.749648+00:00",
+  "duration_ms": 69980,
   "targets_scanned": [
     "voyageai.com"
   ],
-  "total_unique_findings": 52,
-  "fresh_findings_count": 52,
-  "historical_findings_count": 0,
-  "new_findings_count": 52,
+  "total_unique_findings": 57,
+  "fresh_findings_count": 57,
+  "historical_findings_count": 52,
+  "new_findings_count": 5,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "coderog",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "arpsyndicate",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,7 +33,47 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "google",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,15 +97,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "chaos",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "dnsrepo",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,31 +121,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "builtwith",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,22 +137,6 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "digitalyama",
       "target": "voyageai.com",
       "recursion_depth": 0,
@@ -161,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "driftnet",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,15 +153,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "dnsdb",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "fofa",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +177,43 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fullhunt",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -222,14 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27,
       "error": null
     },
     {
@@ -253,11 +253,11 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 40,
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,7 +265,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 101,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "voyageai.com",
       "recursion_depth": 0,
@@ -313,11 +321,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "alienvault",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 75,
+      "duration_ms": 178,
       "error": null
     },
     {
@@ -337,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 183,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 204,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 218,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 251,
       "error": null
     },
     {
@@ -381,19 +381,11 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 43,
       "error": null
     },
     {
       "resource": "rsecloud",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 756,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -429,15 +421,31 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 2331,
+      "duration_ms": 791,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "myssl",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 1207,
+      "error": null
+    },
+    {
+      "resource": "riddler",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3057,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3064,
       "error": null
     },
     {
@@ -449,27 +457,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "voyageai.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3079,
+      "findings_count": 56,
+      "duration_ms": 100,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "sitedossier",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3058,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "urlscan",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -501,15 +501,7 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3136,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3139,
       "error": null
     },
     {
@@ -521,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "whoisfreaks",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
+      "resource": "windvane",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8436,
+      "duration_ms": 25485,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10869,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "voyageai.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20417,
+      "duration_ms": 30550,
       "error": null
     },
     {
@@ -565,7 +557,7 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30836,
+      "duration_ms": 31657,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 52,
-      "duration_ms": 34370,
+      "duration_ms": 40128,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "voyageai.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61599,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65975,
+      "duration_ms": 65958,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "voyageai.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65922,
+      "duration_ms": 65798,
       "error": null
     }
   ]
