@@ -1,21 +1,77 @@
 {
   "root_domain": "officelive.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:20:32.854963+00:00",
-  "completed_at": "2026-11-14T18:21:42.842227+00:00",
-  "duration_ms": 69987,
+  "started_at": "2026-11-15T17:53:06.736937+00:00",
+  "completed_at": "2026-11-15T17:54:12.749168+00:00",
+  "duration_ms": 66012,
   "targets_scanned": [
     "officelive.com"
   ],
   "total_unique_findings": 34,
-  "fresh_findings_count": 34,
-  "historical_findings_count": 11,
-  "new_findings_count": 23,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 31,
+  "historical_findings_count": 34,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 3,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
+    {
+      "resource": "dnsdb",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
     {
       "resource": "digitalyama",
       "target": "officelive.com",
@@ -33,111 +89,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "dnsdumpster",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,23 +105,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "censys",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "certspotter",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +137,71 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "binaryedge",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,19 +221,11 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53,
+      "duration_ms": 30,
       "error": null
     },
     {
       "resource": "huntermap",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "merklemap",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,11 +241,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "merklemap",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -273,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +309,15 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 135,
+      "duration_ms": 90,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -329,31 +329,15 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 209,
+      "duration_ms": 194,
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,11 +349,35 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 284,
+      "duration_ms": 261,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 268,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "rsecloud",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -382,14 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 51,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 87,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 22,
-      "duration_ms": 861,
+      "duration_ms": 742,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1733,
+      "duration_ms": 1625,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 3059,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -453,23 +461,7 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 11,
-      "duration_ms": 108,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3480,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -489,19 +481,19 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 59,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3109,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3477,
+      "error": null
+    },
+    {
       "resource": "windvane",
       "target": "officelive.com",
       "recursion_depth": 0,
@@ -537,11 +537,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3129,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9518,
+      "duration_ms": 7534,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12944,
+      "duration_ms": 20028,
       "error": null
     },
     {
@@ -557,7 +565,7 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29940,
+      "duration_ms": 33097,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 18,
-      "duration_ms": 48969,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61379,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "officelive.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65967,
+      "duration_ms": 46660,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "officelive.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65493,
+      "duration_ms": 51448,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "officelive.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65996,
       "error": null
     }
   ]
