@@ -1,79 +1,23 @@
 {
   "root_domain": "oculusvr.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T17:03:59.738338+00:00",
-  "completed_at": "2026-11-15T17:05:05.746743+00:00",
-  "duration_ms": 66008,
+  "started_at": "2026-11-15T17:05:04.059057+00:00",
+  "completed_at": "2026-11-15T17:06:09.750917+00:00",
+  "duration_ms": 65691,
   "targets_scanned": [
     "oculusvr.com"
   ],
   "total_unique_findings": 132,
-  "fresh_findings_count": 94,
+  "fresh_findings_count": 103,
   "historical_findings_count": 132,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 38,
+  "reused_historical_findings_count": 29,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fofa",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "certspotter",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +33,15 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "c99",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,55 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "facebook",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "bevigil",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fullhunt",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +97,31 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "digitalyama",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,11 +137,75 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "arpsyndicate",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -222,6 +214,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -253,7 +253,7 @@
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,19 +305,19 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 75,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 83,
       "error": null
     },
     {
@@ -337,39 +337,31 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 130,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 193,
+      "duration_ms": 156,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 6,
-      "duration_ms": 256,
+      "duration_ms": 45,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 91,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 90,
-      "duration_ms": 1440,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -429,7 +421,23 @@
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 2066,
+      "duration_ms": 1245,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 90,
+      "duration_ms": 1735,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3108,
       "error": null
     },
     {
@@ -449,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3113,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -489,27 +481,19 @@
       "error": null
     },
     {
+      "resource": "threatminer",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 36,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3139,
       "error": null
     },
     {
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3469,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +529,19 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "windvane",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22076,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "threatcrowd",
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29429,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33096,
+      "duration_ms": 3179,
       "error": null
     },
     {
@@ -565,7 +549,31 @@
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33647,
+      "duration_ms": 18605,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 20,
+      "duration_ms": 24714,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31204,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "oculusvr.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47479,
       "error": null
     },
     {
@@ -573,15 +581,7 @@
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54945,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "oculusvr.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61657,
+      "duration_ms": 52609,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "oculusvr.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65986,
+      "duration_ms": 65665,
       "error": null
     }
   ]
