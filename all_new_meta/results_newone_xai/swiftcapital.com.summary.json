@@ -1,23 +1,23 @@
 {
   "root_domain": "swiftcapital.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:55:26.864261+00:00",
-  "completed_at": "2026-11-14T17:56:32.838731+00:00",
-  "duration_ms": 65974,
+  "started_at": "2026-11-15T17:24:43.748933+00:00",
+  "completed_at": "2026-11-15T17:25:49.738967+00:00",
+  "duration_ms": 65990,
   "targets_scanned": [
     "swiftcapital.com"
   ],
   "total_unique_findings": 32,
-  "fresh_findings_count": 32,
-  "historical_findings_count": 1,
-  "new_findings_count": 31,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 31,
+  "historical_findings_count": 32,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
+      "resource": "fofa",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "github",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,31 +33,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "censys",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,71 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "c99",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "builtwith",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "certspotter",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "dnsdb",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +97,39 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "fullhunt",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "coderog",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +153,55 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "dnsdumpster",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "arpsyndicate",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +217,7 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "intelx",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +225,23 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
       "resource": "merklemap",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "leakix",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,14 +257,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 64,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
@@ -273,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "digitorus",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,19 +309,11 @@
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
+      "duration_ms": 98,
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 222,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,15 +329,15 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 239,
+      "findings_count": 0,
+      "duration_ms": 191,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,31 @@
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 258,
+      "duration_ms": 255,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 261,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -377,23 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
       "resource": "rsecloud",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,6 +401,14 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
@@ -417,27 +417,27 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1350,
-      "error": null
-    },
-    {
       "resource": "rapiddns",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 9,
-      "duration_ms": 1492,
+      "duration_ms": 734,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "myssl",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3049,
+      "duration_ms": 1309,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -449,11 +449,11 @@
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
-      "findings_count": 9,
-      "duration_ms": 64,
+      "findings_count": 0,
+      "duration_ms": 3047,
       "error": null
     },
     {
@@ -461,7 +461,7 @@
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3065,
+      "duration_ms": 3084,
       "error": null
     },
     {
@@ -473,6 +473,14 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
+      "error": null
+    },
+    {
       "resource": "urlscan",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
@@ -481,15 +489,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "virustotal",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3653,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "whoisxml",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -509,11 +517,11 @@
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3091,
+      "duration_ms": 3103,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "zoomeyeapi",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,51 +537,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10363,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 13634,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29127,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 24,
-      "duration_ms": 49741,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "swiftcapital.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49925,
+      "duration_ms": 11989,
       "error": null
     },
     {
@@ -581,7 +549,39 @@
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61673,
+      "duration_ms": 20732,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 24,
+      "duration_ms": 24987,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33072,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47758,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "swiftcapital.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50167,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "swiftcapital.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65962,
+      "duration_ms": 65971,
       "error": null
     }
   ]
