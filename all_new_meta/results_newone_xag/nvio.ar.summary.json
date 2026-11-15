@@ -1,103 +1,23 @@
 {
   "root_domain": "nvio.ar",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:52:06.495289+00:00",
-  "completed_at": "2026-11-14T15:53:12.492252+00:00",
-  "duration_ms": 65996,
+  "started_at": "2026-11-15T16:20:09.737456+00:00",
+  "completed_at": "2026-11-15T16:21:15.745332+00:00",
+  "duration_ms": 66007,
   "targets_scanned": [
     "nvio.ar"
   ],
-  "total_unique_findings": 5,
-  "fresh_findings_count": 5,
-  "historical_findings_count": 0,
-  "new_findings_count": 5,
+  "total_unique_findings": 7,
+  "fresh_findings_count": 7,
+  "historical_findings_count": 5,
+  "new_findings_count": 2,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "facebook",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "certspotter",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "dnsdb",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "dnsdumpster",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "builtwith",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "github",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +81,15 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "bufferover",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,6 +105,30 @@
       "error": null
     },
     {
+      "resource": "dnsrepo",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domainsproject",
       "target": "nvio.ar",
       "recursion_depth": 0,
@@ -177,7 +137,15 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "bevigil",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "domscan",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "fofa",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 66,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,15 +257,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,23 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 96,
+      "error": null
+    },
+    {
       "resource": "pugrecon",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 90,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 215,
+      "duration_ms": 112,
       "error": null
     },
     {
@@ -337,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 123,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "nvio.ar",
       "recursion_depth": 0,
@@ -345,11 +345,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 220,
+      "duration_ms": 189,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 51,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 268,
       "error": null
     },
     {
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 892,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1056,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 808,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 962,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3065,
+      "duration_ms": 3103,
       "error": null
     },
     {
@@ -457,11 +449,27 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3040,
+      "duration_ms": 3060,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3462,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 3119,
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
       "resource": "racent",
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9357,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "nvio.ar",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 11056,
+      "duration_ms": 17590,
       "error": null
     },
     {
@@ -565,7 +549,15 @@
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26616,
+      "duration_ms": 21441,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20412,
       "error": null
     },
     {
@@ -573,15 +565,23 @@
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32078,
+      "duration_ms": 33067,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "nvio.ar",
       "recursion_depth": 0,
+      "findings_count": 7,
+      "duration_ms": 38381,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "nvio.ar",
+      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65057,
+      "duration_ms": 49897,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "nvio.ar",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 65997,
       "error": null
     }
   ]
