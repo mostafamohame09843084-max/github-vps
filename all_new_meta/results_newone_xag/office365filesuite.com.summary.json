@@ -1,9 +1,9 @@
 {
   "root_domain": "office365filesuite.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T17:38:35.741441+00:00",
-  "completed_at": "2026-11-15T17:39:41.741490+00:00",
-  "duration_ms": 66000,
+  "started_at": "2026-11-15T17:40:04.739414+00:00",
+  "completed_at": "2026-11-15T17:41:10.733182+00:00",
+  "duration_ms": 65993,
   "targets_scanned": [
     "office365filesuite.com"
   ],
@@ -17,7 +17,15 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
+      "resource": "argosdns",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,15 +41,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "builtwith",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,6 +57,14 @@
       "error": null
     },
     {
+      "resource": "driftnet",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domainsproject",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
@@ -65,7 +73,39 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domscan",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -74,30 +114,6 @@
     },
     {
       "resource": "dnsdb",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,6 +137,38 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
@@ -129,7 +177,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "arpsyndicate",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "coderog",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,59 +209,11 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "abuseipdb",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 29,
       "error": null
     },
     {
@@ -233,14 +233,6 @@
       "error": null
     },
     {
-      "resource": "merklemap",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,11 +257,27 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "odin",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -282,14 +290,6 @@
     },
     {
       "resource": "pugrecon",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 101,
+      "duration_ms": 88,
       "error": null
     },
     {
@@ -329,19 +329,43 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 225,
-      "error": null
-    },
-    {
       "resource": "rapidscan",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 108,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 181,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 68,
       "error": null
     },
     {
@@ -353,15 +377,7 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 266,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "robtex",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,15 +393,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "securitytrails",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -421,31 +421,15 @@
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 495,
+      "duration_ms": 461,
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "crtsh",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1012,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3066,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 3,
+      "duration_ms": 1486,
       "error": null
     },
     {
@@ -457,15 +441,7 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3099,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "thc",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +449,39 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "myssl",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3263,
+      "duration_ms": 2157,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3108,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3083,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,15 +497,15 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3094,
+      "duration_ms": 3352,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,27 +537,27 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "threatcrowd",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8988,
+      "duration_ms": 3109,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 11020,
+      "findings_count": 0,
+      "duration_ms": 18746,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20561,
+      "duration_ms": 25333,
       "error": null
     },
     {
@@ -565,15 +565,7 @@
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33075,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "office365filesuite.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 33915,
+      "duration_ms": 33076,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57935,
+      "duration_ms": 37191,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "office365filesuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61579,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "office365filesuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65986,
+      "duration_ms": 65985,
       "error": null
     }
   ]
