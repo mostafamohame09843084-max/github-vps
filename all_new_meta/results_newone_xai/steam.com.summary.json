@@ -1,31 +1,23 @@
 {
   "root_domain": "steam.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T14:58:35.505210+00:00",
-  "completed_at": "2026-11-14T14:59:41.491153+00:00",
-  "duration_ms": 65985,
+  "started_at": "2026-11-15T15:21:22.750168+00:00",
+  "completed_at": "2026-11-15T15:22:28.742764+00:00",
+  "duration_ms": 65992,
   "targets_scanned": [
     "steam.com"
   ],
   "total_unique_findings": 11,
-  "fresh_findings_count": 11,
+  "fresh_findings_count": 4,
   "historical_findings_count": 11,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 0,
+  "reused_historical_findings_count": 7,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "driftnet",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "domainsproject",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,46 +33,6 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
       "target": "steam.com",
       "recursion_depth": 0,
@@ -89,39 +41,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "builtwith",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,39 +57,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "censys",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +73,15 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "dnsdumpster",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +97,70 @@
       "error": null
     },
     {
+      "resource": "certspotter",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
       "target": "steam.com",
       "recursion_depth": 0,
@@ -209,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "arpsyndicate",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,19 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 19,
-      "error": null
-    },
-    {
-      "resource": "leakix",
+      "resource": "huntermap",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,19 +257,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
       "error": null
     },
     {
@@ -290,6 +282,14 @@
     },
     {
       "resource": "pugrecon",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,15 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 101,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,23 +341,7 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 187,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 4,
-      "duration_ms": 259,
+      "duration_ms": 178,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 265,
+      "duration_ms": 256,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 4,
+      "duration_ms": 282,
       "error": null
     },
     {
@@ -369,7 +369,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 88,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,15 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 64,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 497,
+      "duration_ms": 480,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1818,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3089,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1827,
       "error": null
     },
     {
@@ -457,23 +441,15 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3074,
+      "duration_ms": 3053,
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3556,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +457,31 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3052,
+      "error": null
+    },
+    {
       "resource": "urlscan",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 11,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3082,
+      "duration_ms": 3278,
       "error": null
     },
     {
@@ -521,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "steam.com",
       "recursion_depth": 0,
@@ -537,11 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "steam.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3207,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 7927,
+      "duration_ms": 16033,
       "error": null
     },
     {
@@ -549,15 +557,7 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11243,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "steam.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11287,
+      "duration_ms": 19612,
       "error": null
     },
     {
@@ -565,23 +565,23 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32952,
+      "duration_ms": 30346,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "steam.com",
       "recursion_depth": 0,
-      "findings_count": 9,
-      "duration_ms": 57597,
+      "findings_count": 0,
+      "duration_ms": 34314,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "racent",
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61698,
+      "duration_ms": 54942,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "steam.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65974,
+      "duration_ms": 65973,
       "error": null
     }
   ]
