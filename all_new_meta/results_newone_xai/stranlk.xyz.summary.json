@@ -1,16 +1,16 @@
 {
   "root_domain": "stranlk.xyz",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:25:12.531027+00:00",
-  "completed_at": "2026-11-14T15:26:18.495614+00:00",
-  "duration_ms": 65964,
+  "started_at": "2026-11-15T15:47:31.777328+00:00",
+  "completed_at": "2026-11-15T15:48:37.733327+00:00",
+  "duration_ms": 65955,
   "targets_scanned": [
     "stranlk.xyz"
   ],
   "total_unique_findings": 2,
   "fresh_findings_count": 2,
-  "historical_findings_count": 0,
-  "new_findings_count": 2,
+  "historical_findings_count": 2,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
@@ -25,63 +25,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "google",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,14 +41,6 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "chinaz",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
@@ -113,15 +49,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
+      "resource": "digitalyama",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -130,14 +58,6 @@
     },
     {
       "resource": "fofa",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "chaos",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -170,6 +90,46 @@
     },
     {
       "resource": "dnsdb",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "c99",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +161,63 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "domscan",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -214,22 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23,
       "error": null
     },
     {
@@ -249,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -261,27 +261,11 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 40,
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +289,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "onyphe",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "quake",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 68,
+      "duration_ms": 61,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,7 +325,7 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 186,
+      "duration_ms": 187,
       "error": null
     },
     {
@@ -345,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidfinder",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 236,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,11 +349,27 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 260,
+      "duration_ms": 250,
       "error": null
     },
     {
       "resource": "redhuntlabs",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 262,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,15 +389,7 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 466,
+      "duration_ms": 469,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1025,
+      "duration_ms": 1007,
       "error": null
     },
     {
@@ -441,6 +441,14 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3046,
+      "error": null
+    },
+    {
       "resource": "threatbook",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
@@ -449,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3056,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 3110,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -494,6 +494,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3076,
       "error": null
     },
     {
@@ -513,11 +521,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -529,43 +537,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "crtsh",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3048,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 17766,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 23851,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "stranlk.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30083,
+      "findings_count": 2,
+      "duration_ms": 21150,
       "error": null
     },
     {
@@ -573,15 +549,39 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28605,
+      "duration_ms": 18604,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "reconcloud",
       "target": "stranlk.xyz",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 38785,
+      "findings_count": 0,
+      "duration_ms": 31625,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42621,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56549,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "stranlk.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61426,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "stranlk.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65950,
+      "duration_ms": 65947,
       "error": null
     }
   ]
