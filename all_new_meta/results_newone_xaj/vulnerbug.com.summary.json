@@ -1,61 +1,21 @@
 {
   "root_domain": "vulnerbug.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:41:35.511191+00:00",
-  "completed_at": "2026-11-14T15:42:44.492374+00:00",
-  "duration_ms": 68981,
+  "started_at": "2026-11-15T16:07:47.764898+00:00",
+  "completed_at": "2026-11-15T16:09:17.934565+00:00",
+  "duration_ms": 90169,
   "targets_scanned": [
     "vulnerbug.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "total_unique_findings": 2926,
+  "fresh_findings_count": 2926,
+  "historical_findings_count": 1,
+  "new_findings_count": 2925,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "censys",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "digitalyama",
       "target": "vulnerbug.com",
@@ -73,55 +33,31 @@
       "error": null
     },
     {
+      "resource": "builtwith",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fofa",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,6 +73,22 @@
       "error": null
     },
     {
+      "resource": "chaos",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "argosdns",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
@@ -145,7 +97,87 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "certspotter",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,51 +201,11 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
       "error": null
     },
     {
@@ -225,15 +217,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "digitorus",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 57,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +261,23 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 63,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 97,
+      "duration_ms": 78,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -333,7 +325,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 181,
+      "duration_ms": 233,
       "error": null
     },
     {
@@ -345,11 +337,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 264,
+      "duration_ms": 259,
       "error": null
     },
     {
@@ -366,6 +358,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 283,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 485,
+      "duration_ms": 478,
       "error": null
     },
     {
@@ -429,15 +429,23 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1050,
+      "duration_ms": 1075,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3080,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3078,
       "error": null
     },
     {
@@ -449,19 +457,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "sitedossier",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3061,
+      "duration_ms": 3557,
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3068,
+      "findings_count": 2926,
+      "duration_ms": 1367,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3269,
       "error": null
     },
     {
@@ -501,7 +501,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3097,
+      "duration_ms": 3074,
       "error": null
     },
     {
@@ -521,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
@@ -537,19 +529,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "zoomeyeapi",
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10890,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vulnerbug.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20073,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -557,7 +541,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23366,
+      "duration_ms": 7505,
       "error": null
     },
     {
@@ -565,7 +549,15 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33090,
+      "duration_ms": 31203,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64896,
       "error": null
     },
     {
@@ -573,7 +565,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61455,
+      "duration_ms": 61803,
       "error": null
     },
     {
@@ -581,7 +573,7 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65955,
+      "duration_ms": 65960,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vulnerbug.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65107,
+      "duration_ms": 65228,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "vulnerbug.com",
+      "recursion_depth": 0,
+      "findings_count": 2165,
+      "duration_ms": 88699,
       "error": null
     }
   ]
