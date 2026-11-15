@@ -1,23 +1,23 @@
 {
   "root_domain": "recko.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:16:22.495343+00:00",
-  "completed_at": "2026-11-14T16:17:31.506762+00:00",
-  "duration_ms": 69011,
+  "started_at": "2026-11-15T16:35:56.744476+00:00",
+  "completed_at": "2026-11-15T16:37:02.759557+00:00",
+  "duration_ms": 66015,
   "targets_scanned": [
     "recko.io"
   ],
-  "total_unique_findings": 120,
-  "fresh_findings_count": 120,
-  "historical_findings_count": 0,
-  "new_findings_count": 120,
+  "total_unique_findings": 121,
+  "fresh_findings_count": 121,
+  "historical_findings_count": 120,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "github",
+      "resource": "c99",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,23 +25,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
+      "resource": "certspotter",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -50,78 +34,6 @@
     },
     {
       "resource": "chinaz",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,47 +57,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "dnsdumpster",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +73,118 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fullhunt",
       "target": "recko.io",
       "recursion_depth": 0,
@@ -209,7 +193,23 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "dnsrepo",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +221,11 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 43,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "recko.io",
       "recursion_depth": 0,
@@ -266,6 +258,22 @@
     },
     {
       "resource": "netlas",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,27 +297,11 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 78,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 177,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -345,11 +337,19 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 247,
+      "duration_ms": 181,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "hudsonrock",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 274,
+      "duration_ms": 269,
       "error": null
     },
     {
@@ -373,7 +373,7 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,15 +413,15 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 37,
+      "duration_ms": 19,
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "crtsh",
       "target": "recko.io",
       "recursion_depth": 0,
-      "findings_count": 64,
-      "duration_ms": 794,
+      "findings_count": 118,
+      "duration_ms": 465,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 1002,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3045,
+      "duration_ms": 970,
       "error": null
     },
     {
@@ -449,6 +441,14 @@
       "error": null
     },
     {
+      "resource": "rapiddns",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 62,
+      "duration_ms": 1669,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "recko.io",
       "recursion_depth": 0,
@@ -457,19 +457,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3061,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3083,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
+      "resource": "trickest",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatminer",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "shrewdeye",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 3070,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3071,
+      "duration_ms": 3091,
       "error": null
     },
     {
@@ -549,15 +557,7 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26625,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 118,
-      "duration_ms": 29626,
+      "duration_ms": 25730,
       "error": null
     },
     {
@@ -565,7 +565,15 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31577,
+      "duration_ms": 32970,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "recko.io",
+      "recursion_depth": 0,
+      "findings_count": 6,
+      "duration_ms": 37305,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43137,
+      "duration_ms": 57051,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "recko.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "recko.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65540,
+      "duration_ms": 65988,
       "error": null
     }
   ]
