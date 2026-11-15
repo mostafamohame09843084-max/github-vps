@@ -1,9 +1,9 @@
 {
   "root_domain": "officesharedcloudfile.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:34:17.468466+00:00",
-  "completed_at": "2026-11-14T18:35:26.836854+00:00",
-  "duration_ms": 69368,
+  "started_at": "2026-11-15T18:01:02.740859+00:00",
+  "completed_at": "2026-11-15T18:02:11.736331+00:00",
+  "duration_ms": 68995,
   "targets_scanned": [
     "officesharedcloudfile.com"
   ],
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bufferover",
+      "resource": "dnsdumpster",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,79 +25,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "google",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "fullhunt",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,15 +49,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "driftnet",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +65,55 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "arpsyndicate",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "argosdns",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +137,55 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "dnsrepo",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,15 +209,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "intelx",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +225,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
@@ -265,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "odin",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,15 +305,31 @@
       "error": null
     },
     {
+      "resource": "rapidapi",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 108,
+      "duration_ms": 84,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 197,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hackertarget",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 216,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 264,
       "error": null
     },
     {
@@ -349,7 +357,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 279,
+      "duration_ms": 284,
       "error": null
     },
     {
@@ -361,19 +369,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 285,
-      "error": null
-    },
-    {
       "resource": "reconeer",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 90,
+      "duration_ms": 52,
       "error": null
     },
     {
@@ -393,7 +393,7 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "shodan",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "securitytrails",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 462,
+      "duration_ms": 463,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1960,
+      "duration_ms": 1396,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3086,
+      "duration_ms": 3064,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -449,31 +457,23 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 110,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3096,
+      "duration_ms": 3082,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3352,
+      "duration_ms": 21,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "officesharedcloudfile.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3143,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "sitedossier",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3268,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,19 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "windvane",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20168,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "officesharedcloudfile.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3093,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 23535,
+      "duration_ms": 19051,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31309,
+      "duration_ms": 33076,
       "error": null
     },
     {
@@ -565,15 +565,15 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34714,
+      "duration_ms": 42816,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "racent",
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61682,
+      "duration_ms": 65928,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65356,
+      "duration_ms": 65983,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "officesharedcloudfile.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65434,
+      "duration_ms": 65533,
       "error": null
     }
   ]
