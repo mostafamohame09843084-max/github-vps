@@ -1,23 +1,63 @@
 {
   "root_domain": "oees-kraken.energy",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:35:05.839609+00:00",
-  "completed_at": "2026-11-14T17:36:23.022526+00:00",
-  "duration_ms": 77182,
+  "started_at": "2026-11-15T17:15:05.738140+00:00",
+  "completed_at": "2026-11-15T17:16:11.736811+00:00",
+  "duration_ms": 65998,
   "targets_scanned": [
     "oees-kraken.energy"
   ],
   "total_unique_findings": 23,
-  "fresh_findings_count": 23,
+  "fresh_findings_count": 22,
   "historical_findings_count": 23,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 0,
+  "reused_historical_findings_count": 1,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
+      "resource": "binaryedge",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +73,39 @@
       "error": null
     },
     {
+      "resource": "argosdns",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,135 +129,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +145,63 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "censys",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,14 +225,6 @@
       "error": null
     },
     {
-      "resource": "leakix",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
@@ -241,15 +233,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
-      "resource": "netlas",
+      "resource": "leakix",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -265,7 +249,31 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56,
+      "error": null
+    },
+    {
       "resource": "odin",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +309,23 @@
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 109,
+      "duration_ms": 92,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidapi",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 112,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 176,
       "error": null
     },
     {
@@ -345,19 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "hudsonrock",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 180,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 237,
       "error": null
     },
     {
@@ -369,23 +361,23 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 246,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65,
+      "duration_ms": 50,
       "error": null
     },
     {
       "resource": "robtex",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 471,
+      "duration_ms": 485,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1121,
+      "duration_ms": 1074,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3040,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
+      "duration_ms": 3068,
       "error": null
     },
     {
@@ -460,8 +452,24 @@
       "resource": "thc",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
-      "findings_count": 20,
-      "duration_ms": 121,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3081,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -481,27 +489,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3357,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3095,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3099,
+      "error": null
+    },
+    {
       "resource": "windvane",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "crtsh",
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 15804,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26779,
+      "findings_count": 20,
+      "duration_ms": 17646,
       "error": null
     },
     {
@@ -557,7 +549,31 @@
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30104,
+      "duration_ms": 33097,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33651,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42500,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "oees-kraken.energy",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49929,
       "error": null
     },
     {
@@ -565,7 +581,7 @@
       "target": "oees-kraken.energy",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61647,
+      "duration_ms": 61685,
       "error": null
     },
     {
@@ -574,22 +590,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 65986,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65051,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "oees-kraken.energy",
-      "recursion_depth": 0,
-      "findings_count": 20,
-      "duration_ms": 77166,
       "error": null
     }
   ]
