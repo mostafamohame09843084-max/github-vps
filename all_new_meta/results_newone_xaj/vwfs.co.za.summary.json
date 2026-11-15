@@ -1,15 +1,15 @@
 {
   "root_domain": "vwfs.co.za",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:43:32.499158+00:00",
-  "completed_at": "2026-11-14T15:44:41.493209+00:00",
-  "duration_ms": 68994,
+  "started_at": "2026-11-15T16:10:27.829499+00:00",
+  "completed_at": "2026-11-15T16:11:33.736925+00:00",
+  "duration_ms": 65907,
   "targets_scanned": [
     "vwfs.co.za"
   ],
-  "total_unique_findings": 12,
-  "fresh_findings_count": 12,
-  "historical_findings_count": 0,
+  "total_unique_findings": 24,
+  "fresh_findings_count": 24,
+  "historical_findings_count": 12,
   "new_findings_count": 12,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
+      "resource": "bufferover",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,63 +25,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
+      "resource": "c99",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +41,79 @@
       "error": null
     },
     {
+      "resource": "domscan",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdb",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +129,31 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "censys",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,47 +177,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "fullhunt",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "builtwith",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "coderog",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +225,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 57,
+      "duration_ms": 46,
       "error": null
     },
     {
@@ -249,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63,
-      "error": null
-    },
-    {
-      "resource": "odin",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 67,
       "error": null
     },
     {
@@ -273,7 +265,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "odin",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,7 +317,15 @@
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85,
+      "duration_ms": 93,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 190,
       "error": null
     },
     {
@@ -329,31 +337,7 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 166,
-      "error": null
-    },
-    {
       "resource": "rapidfinder",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 248,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,11 +349,11 @@
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 256,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +365,11 @@
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 57,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "hudsonrock",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 659,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 28,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 923,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 12,
-      "duration_ms": 970,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "shodan",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
+      "resource": "shodanx",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 12,
+      "duration_ms": 802,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 941,
+      "error": null
+    },
+    {
       "resource": "riddler",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
+      "duration_ms": 3091,
       "error": null
     },
     {
@@ -457,15 +449,31 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 21,
+      "duration_ms": 105,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3087,
+      "duration_ms": 3083,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "sitedossier",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3279,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +481,7 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
+      "duration_ms": 3104,
       "error": null
     },
     {
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3135,
-      "error": null
-    },
-    {
       "resource": "submd",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 8457,
+      "duration_ms": 8355,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "vwfs.co.za",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20071,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20499,
+      "findings_count": 22,
+      "duration_ms": 30395,
       "error": null
     },
     {
@@ -573,15 +557,7 @@
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31297,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "vwfs.co.za",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65998,
+      "duration_ms": 33137,
       "error": null
     },
     {
@@ -589,7 +565,31 @@
       "target": "vwfs.co.za",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65524,
+      "duration_ms": 50020,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64822,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61734,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "vwfs.co.za",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65892,
       "error": null
     }
   ]
