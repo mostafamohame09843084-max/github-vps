@@ -1,9 +1,9 @@
 {
   "root_domain": "officewcloud.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T18:06:38.737378+00:00",
-  "completed_at": "2026-11-15T18:07:47.739133+00:00",
-  "duration_ms": 69001,
+  "started_at": "2026-11-15T18:08:10.739082+00:00",
+  "completed_at": "2026-11-15T18:09:19.738345+00:00",
+  "duration_ms": 68999,
   "targets_scanned": [
     "officewcloud.com"
   ],
@@ -17,79 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fullhunt",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "argosdns",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "domscan",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "google",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,23 +49,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "github",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +65,71 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "certspotter",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "chaos",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "fofa",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,47 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "domainsproject",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -214,30 +230,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 42,
-      "error": null
-    },
-    {
-      "resource": "intelx",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
       "error": null
     },
     {
@@ -257,6 +249,22 @@
       "error": null
     },
     {
+      "resource": "odin",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "officewcloud.com",
       "recursion_depth": 0,
@@ -265,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "profundis",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "profundis",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "officewcloud.com",
       "recursion_depth": 0,
@@ -313,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 128,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 189,
+      "duration_ms": 57,
       "error": null
     },
     {
@@ -345,31 +337,31 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "anubis",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 96,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "alienvault",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 245,
+      "duration_ms": 159,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 68,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,11 +377,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "robtex",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 21,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 573,
+      "duration_ms": 511,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1201,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3067,
+      "duration_ms": 2188,
       "error": null
     },
     {
@@ -457,19 +441,27 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "riddler",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3053,
+      "duration_ms": 3154,
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3138,
       "error": null
     },
     {
@@ -481,15 +473,39 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "trickest",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3270,
       "error": null
     },
     {
       "resource": "virustotal",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3126,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +521,7 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
+      "resource": "windvane",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -529,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "submd",
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3099,
+      "duration_ms": 8509,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 6814,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "officewcloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 8521,
+      "duration_ms": 30604,
       "error": null
     },
     {
@@ -565,7 +557,15 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33083,
+      "duration_ms": 33072,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "officewcloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41779,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 65985,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65943,
+      "duration_ms": 65934,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "officewcloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65563,
+      "duration_ms": 65148,
       "error": null
     }
   ]
