@@ -1,23 +1,127 @@
 {
   "root_domain": "supplier.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:27:53.492601+00:00",
-  "completed_at": "2026-11-14T16:28:59.505994+00:00",
-  "duration_ms": 66013,
+  "started_at": "2026-11-15T16:45:38.737843+00:00",
+  "completed_at": "2026-11-15T16:46:44.735429+00:00",
+  "duration_ms": 65997,
   "targets_scanned": [
     "supplier.com"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 17,
+  "fresh_findings_count": 17,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 17,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "fullhunt",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "chinaz",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +137,31 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "dnsdumpster",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "dnsdb",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,87 +193,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "builtwith",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,59 +209,11 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "digitorus",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "supplier.com",
       "recursion_depth": 0,
@@ -265,15 +257,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 60,
-      "error": null
-    },
-    {
-      "resource": "profundis",
+      "resource": "netlas",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,23 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
+      "error": null
+    },
+    {
       "resource": "pugrecon",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,6 +305,14 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 95,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "supplier.com",
       "recursion_depth": 0,
@@ -313,19 +321,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 81,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 181,
+      "duration_ms": 215,
       "error": null
     },
     {
@@ -349,7 +349,7 @@
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 248,
+      "duration_ms": 252,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 264,
+      "duration_ms": 278,
       "error": null
     },
     {
@@ -369,7 +369,7 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,19 +381,11 @@
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 59,
       "error": null
     },
     {
-      "resource": "rsecloud",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 499,
+      "duration_ms": 500,
       "error": null
     },
     {
@@ -429,15 +429,15 @@
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1514,
+      "duration_ms": 1765,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3075,
       "error": null
     },
     {
@@ -449,23 +449,7 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3071,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3084,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
+      "resource": "thc",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +457,31 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "shrewdeye",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 3069,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3352,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "supplier.com",
       "recursion_depth": 0,
@@ -513,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "threatcrowd",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3114,
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3124,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9123,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10729,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "supplier.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32439,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -573,15 +541,47 @@
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43926,
+      "duration_ms": 26990,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 26566,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "supplier.com",
       "recursion_depth": 0,
+      "findings_count": 17,
+      "duration_ms": 27511,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "supplier.com",
+      "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44547,
+      "duration_ms": 32376,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33085,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "supplier.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42181,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "supplier.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65997,
+      "duration_ms": 65986,
       "error": null
     }
   ]
