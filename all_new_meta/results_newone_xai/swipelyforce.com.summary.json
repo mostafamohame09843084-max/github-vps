@@ -1,9 +1,9 @@
 {
   "root_domain": "swipelyforce.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:01:41.862419+00:00",
-  "completed_at": "2026-11-14T18:02:50.835912+00:00",
-  "duration_ms": 68973,
+  "started_at": "2026-11-15T17:30:30.763338+00:00",
+  "completed_at": "2026-11-15T17:31:40.736210+00:00",
+  "duration_ms": 69972,
   "targets_scanned": [
     "swipelyforce.com"
   ],
@@ -17,71 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "domscan",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "domainsproject",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "dnsdumpster",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "arpsyndicate",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "dnsdb",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "certspotter",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,15 +89,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "digitalyama",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "c99",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +113,15 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "chaos",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "binaryedge",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +145,63 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "github",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "huntermap",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 45,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 62,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "odin",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,15 +265,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "abuseipdb",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 75,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,27 +309,11 @@
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 96,
+      "duration_ms": 129,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 192,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 267,
+      "duration_ms": 281,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 58,
       "error": null
     },
     {
@@ -361,19 +369,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapiddns",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 267,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 522,
       "error": null
     },
     {
@@ -385,15 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 71,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 507,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1198,
+      "duration_ms": 1163,
       "error": null
     },
     {
@@ -437,7 +429,7 @@
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3065,
+      "duration_ms": 3068,
       "error": null
     },
     {
@@ -449,27 +441,27 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3050,
-      "error": null
-    },
-    {
       "resource": "thc",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 129,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3051,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3460,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "urlscan",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -494,6 +494,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3102,
       "error": null
     },
     {
@@ -513,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3111,
-      "error": null
-    },
-    {
       "resource": "zoomeyeapi",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "alienvault",
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27355,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30906,
+      "duration_ms": 17234,
       "error": null
     },
     {
@@ -557,7 +549,23 @@
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 54471,
+      "duration_ms": 31575,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33084,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "swipelyforce.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31663,
       "error": null
     },
     {
@@ -565,15 +573,7 @@
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 58626,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "swipelyforce.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61679,
+      "duration_ms": 65886,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65962,
+      "duration_ms": 65961,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "swipelyforce.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65093,
+      "duration_ms": 65228,
       "error": null
     }
   ]

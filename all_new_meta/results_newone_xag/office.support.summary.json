@@ -1,9 +1,9 @@
 {
   "root_domain": "office.support",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T17:28:35.742314+00:00",
-  "completed_at": "2026-11-15T17:29:41.733577+00:00",
-  "duration_ms": 65991,
+  "started_at": "2026-11-15T17:30:01.840856+00:00",
+  "completed_at": "2026-11-15T17:31:07.733384+00:00",
+  "duration_ms": 65892,
   "targets_scanned": [
     "office.support"
   ],
@@ -17,47 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chaos",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "facebook",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,87 +33,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "dnsdb",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "github",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "argosdns",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "arpsyndicate",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +89,119 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "c99",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "fullhunt",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "netlas",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "odin",
       "target": "office.support",
       "recursion_depth": 0,
@@ -265,15 +257,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 70,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
+      "resource": "netlas",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +265,23 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65,
+      "error": null
+    },
+    {
       "resource": "onyphe",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "pugrecon",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,11 +313,27 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 92,
+      "error": null
+    },
+    {
       "resource": "anubis",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 81,
+      "duration_ms": 104,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -333,23 +349,7 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 218,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
+      "duration_ms": 176,
       "error": null
     },
     {
@@ -361,15 +361,15 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "reconeer",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
+      "duration_ms": 64,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "rsecloud",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 46,
+      "duration_ms": 253,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 600,
+      "duration_ms": 494,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1074,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3075,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1120,
       "error": null
     },
     {
@@ -457,19 +441,35 @@
       "error": null
     },
     {
+      "resource": "threatbook",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3078,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3105,
+      "duration_ms": 3103,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3266,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -497,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "office.support",
       "recursion_depth": 0,
@@ -513,11 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3156,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "threatcrowd",
       "target": "office.support",
       "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 28675,
+      "findings_count": 0,
+      "duration_ms": 3128,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32165,
+      "duration_ms": 25146,
       "error": null
     },
     {
@@ -557,7 +557,15 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33091,
+      "duration_ms": 33100,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 35834,
       "error": null
     },
     {
@@ -565,23 +573,7 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 53617,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 57920,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "office.support",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61570,
+      "duration_ms": 49448,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "office.support",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
+      "duration_ms": 65882,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "office.support",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65816,
       "error": null
     }
   ]
