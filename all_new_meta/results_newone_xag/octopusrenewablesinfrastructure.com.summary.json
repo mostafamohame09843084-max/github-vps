@@ -1,15 +1,15 @@
 {
   "root_domain": "octopusrenewablesinfrastructure.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:30:27.501346+00:00",
-  "completed_at": "2026-11-14T16:31:39.491182+00:00",
-  "duration_ms": 71989,
+  "started_at": "2026-11-15T16:57:07.750747+00:00",
+  "completed_at": "2026-11-15T16:58:16.735736+00:00",
+  "duration_ms": 68984,
   "targets_scanned": [
     "octopusrenewablesinfrastructure.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,87 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
+      "resource": "arpsyndicate",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "argosdns",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +41,47 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "c99",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +97,87 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "domainsproject",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -154,46 +194,6 @@
     },
     {
       "resource": "dnsdumpster",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,19 +225,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -249,19 +241,11 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
       "error": null
     },
     {
@@ -273,7 +257,15 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "abuseipdb",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,19 @@
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 79,
+      "duration_ms": 103,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 193,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,35 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 188,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 261,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 250,
       "error": null
     },
     {
@@ -369,19 +361,19 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 269,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 315,
       "error": null
     },
     {
@@ -393,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "reconeer",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 54,
       "error": null
     },
     {
@@ -409,11 +401,27 @@
       "error": null
     },
     {
+      "resource": "crtsh",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 307,
+      "error": null
+    },
+    {
+      "resource": "securitytrails",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -421,15 +429,7 @@
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 454,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3097,
+      "duration_ms": 483,
       "error": null
     },
     {
@@ -441,11 +441,11 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "myssl",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3077,
+      "findings_count": 1,
+      "duration_ms": 1389,
       "error": null
     },
     {
@@ -457,15 +457,23 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "riddler",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3267,
+      "duration_ms": 3063,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "threatminer",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -473,15 +481,7 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3075,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "shrewdeye",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3075,
       "error": null
     },
     {
@@ -513,15 +513,7 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 19684,
-      "error": null
-    },
-    {
-      "resource": "windvane",
+      "resource": "whoisxml",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,27 @@
       "error": null
     },
     {
-      "resource": "myssl",
-      "target": "octopusrenewablesinfrastructure.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 23299,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
+      "resource": "windvane",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30624,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3354,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "octopusrenewablesinfrastructure.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3112,
       "error": null
     },
     {
@@ -557,23 +557,23 @@
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33512,
+      "duration_ms": 25241,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "reconcloud",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65063,
+      "duration_ms": 33078,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "racent",
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61500,
+      "duration_ms": 36083,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65978,
+      "duration_ms": 65976,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "octopusrenewablesinfrastructure.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65490,
+      "duration_ms": 65595,
       "error": null
     }
   ]

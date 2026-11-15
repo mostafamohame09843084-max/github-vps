@@ -1,127 +1,23 @@
 {
   "root_domain": "warmoda.digital",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:32:07.492695+00:00",
-  "completed_at": "2026-11-14T16:33:13.489795+00:00",
-  "duration_ms": 65997,
+  "started_at": "2026-11-15T16:56:38.735766+00:00",
+  "completed_at": "2026-11-15T16:57:47.735906+00:00",
+  "duration_ms": 69000,
   "targets_scanned": [
     "warmoda.digital"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 1,
+  "fresh_findings_count": 1,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "google",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
+      "resource": "certspotter",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,38 +33,6 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "bufferover",
       "target": "warmoda.digital",
       "recursion_depth": 0,
@@ -177,7 +41,23 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "c99",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +73,70 @@
       "error": null
     },
     {
+      "resource": "binaryedge",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
       "target": "warmoda.digital",
       "recursion_depth": 0,
@@ -201,7 +145,63 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "builtwith",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,23 +217,15 @@
       "error": null
     },
     {
-      "resource": "huntermap",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "abuseipdb",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32,
+      "duration_ms": 39,
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "huntermap",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +261,15 @@
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66,
+      "duration_ms": 68,
+      "error": null
+    },
+    {
+      "resource": "netlas",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -309,27 +309,11 @@
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 89,
+      "duration_ms": 109,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 175,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,19 +329,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 187,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "hackertarget",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 253,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 267,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hudsonrock",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56,
+      "duration_ms": 282,
       "error": null
     },
     {
@@ -385,15 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "reconeer",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 47,
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "robtex",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 580,
+      "duration_ms": 464,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1068,
+      "duration_ms": 1015,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3316,
       "error": null
     },
     {
@@ -437,7 +445,7 @@
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3081,
+      "duration_ms": 3065,
       "error": null
     },
     {
@@ -449,19 +457,19 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3073,
+      "duration_ms": 3077,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 130,
       "error": null
     },
     {
@@ -481,15 +489,23 @@
       "error": null
     },
     {
+      "resource": "virustotal",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatminer",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 43,
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "whoisfreaks",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -502,22 +518,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
       "error": null
     },
     {
@@ -537,35 +537,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3275,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3105,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12360,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20078,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "warmoda.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26977,
+      "duration_ms": 3103,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32505,
+      "duration_ms": 33077,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "submd",
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52661,
+      "duration_ms": 44461,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 59915,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "warmoda.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 65990,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "warmoda.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65540,
       "error": null
     }
   ]

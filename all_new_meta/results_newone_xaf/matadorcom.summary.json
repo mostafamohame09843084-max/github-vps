@@ -1,9 +1,9 @@
 {
   "root_domain": "matadorcom",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:36:02.932197+00:00",
-  "completed_at": "2026-11-14T17:37:08.834397+00:00",
-  "duration_ms": 65902,
+  "started_at": "2026-11-15T16:57:05.778482+00:00",
+  "completed_at": "2026-11-15T16:58:14.734817+00:00",
+  "duration_ms": 68956,
   "targets_scanned": [
     "matadorcom"
   ],
@@ -17,6 +17,30 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "arpsyndicate",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domscan",
       "target": "matadorcom",
       "recursion_depth": 0,
@@ -25,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "certspotter",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,23 +57,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
+      "resource": "bevigil",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "coderog",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,63 +89,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "fofa",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "chinaz",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "digitalyama",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "dnsdb",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +137,39 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "builtwith",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +185,31 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "github",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +225,11 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitorus",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -249,11 +249,19 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "abuseipdb",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 58,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "pugrecon",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,14 +297,6 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
       "target": "matadorcom",
       "recursion_depth": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 78,
-      "error": null
-    },
-    {
       "resource": "anubis",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 112,
+      "duration_ms": 131,
       "error": null
     },
     {
-      "resource": "rapidfinder",
+      "resource": "rapidapi",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,11 +329,35 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 169,
+      "duration_ms": 186,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 245,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 247,
       "error": null
     },
     {
@@ -365,7 +373,7 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
+      "duration_ms": 47,
       "error": null
     },
     {
@@ -374,14 +382,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 247,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 363,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 509,
+      "duration_ms": 495,
       "error": null
     },
     {
@@ -437,15 +429,15 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 798,
+      "duration_ms": 991,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
+      "duration_ms": 3073,
       "error": null
     },
     {
@@ -457,19 +449,27 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3059,
+      "duration_ms": 3074,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "threatminer",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3199,
+      "duration_ms": 62,
       "error": null
     },
     {
@@ -501,7 +501,7 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3270,
+      "duration_ms": 3354,
       "error": null
     },
     {
@@ -541,31 +541,15 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
+      "duration_ms": 3112,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "crtsh",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10855,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 16583,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "matadorcom",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27045,
+      "duration_ms": 9363,
       "error": null
     },
     {
@@ -573,15 +557,23 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31037,
+      "duration_ms": 33097,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61667,
+      "duration_ms": 45579,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57885,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "matadorcom",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65895,
+      "duration_ms": 65944,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "matadorcom",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65484,
       "error": null
     }
   ]
