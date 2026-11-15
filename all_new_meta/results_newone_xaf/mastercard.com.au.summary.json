@@ -1,23 +1,23 @@
 {
   "root_domain": "mastercard.com.au",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:15:32.426236+00:00",
-  "completed_at": "2026-11-14T17:18:04.316801+00:00",
-  "duration_ms": 151890,
+  "started_at": "2026-11-15T16:48:58.856350+00:00",
+  "completed_at": "2026-11-15T16:50:07.890293+00:00",
+  "duration_ms": 69033,
   "targets_scanned": [
     "mastercard.com.au"
   ],
-  "total_unique_findings": 360,
-  "fresh_findings_count": 360,
-  "historical_findings_count": 76,
-  "new_findings_count": 284,
+  "total_unique_findings": 402,
+  "fresh_findings_count": 402,
+  "historical_findings_count": 360,
+  "new_findings_count": 42,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "arpsyndicate",
+      "resource": "bevigil",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,23 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "binaryedge",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -34,6 +50,38 @@
     },
     {
       "resource": "certspotter",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "facebook",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,39 +113,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "arpsyndicate",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "domscan",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "dnsdb",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,47 +153,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "builtwith",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +169,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "chinaz",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +177,31 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "chaos",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,14 +217,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 393,
-      "error": null
-    },
-    {
       "resource": "intelx",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
@@ -233,31 +225,15 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "abuseipdb",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 43,
       "error": null
     },
     {
       "resource": "leakix",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 100,
-      "error": null
-    },
-    {
-      "resource": "odin",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,11 +249,19 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "merklemap",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -289,7 +273,15 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "odin",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +309,15 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 474,
+      "duration_ms": 105,
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "rapidapi",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 162,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -337,39 +329,15 @@
       "error": null
     },
     {
-      "resource": "rapidfinder",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "alienvault",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 563,
+      "duration_ms": 192,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 162,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rapidfinder",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -380,20 +348,20 @@
       "resource": "hackertarget",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
-      "findings_count": 51,
-      "duration_ms": 529,
+      "findings_count": 0,
+      "duration_ms": 250,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hudsonrock",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 2,
+      "duration_ms": 302,
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "redhuntlabs",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +377,43 @@
       "error": null
     },
     {
+      "resource": "robtex",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shodan",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 39,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 76,
-      "duration_ms": 1105,
+      "duration_ms": 883,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 2266,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3750,
+      "duration_ms": 1938,
       "error": null
     },
     {
@@ -445,7 +437,7 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3239,
+      "duration_ms": 3097,
       "error": null
     },
     {
@@ -457,27 +449,19 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3069,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 351,
-      "duration_ms": 228,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "virustotal",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 106,
       "error": null
     },
     {
@@ -489,11 +473,27 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "threatminer",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3114,
+      "duration_ms": 34,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -509,7 +509,7 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3578,
+      "duration_ms": 3268,
       "error": null
     },
     {
@@ -541,23 +541,15 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3160,
+      "duration_ms": 3114,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "crtsh",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14971,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20379,
+      "findings_count": 389,
+      "duration_ms": 20735,
       "error": null
     },
     {
@@ -565,15 +557,31 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32593,
+      "duration_ms": 33096,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "racent",
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61374,
+      "duration_ms": 39803,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47940,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "mastercard.com.au",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65878,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "mastercard.com.au",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65357,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "mastercard.com.au",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 151801,
+      "duration_ms": 65327,
       "error": null
     }
   ]
