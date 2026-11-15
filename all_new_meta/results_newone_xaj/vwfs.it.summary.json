@@ -1,87 +1,23 @@
 {
   "root_domain": "vwfs.it",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:59:52.546775+00:00",
-  "completed_at": "2026-11-14T16:01:02.497509+00:00",
-  "duration_ms": 69950,
+  "started_at": "2026-11-15T16:25:49.770176+00:00",
+  "completed_at": "2026-11-15T16:26:58.770865+00:00",
+  "duration_ms": 69000,
   "targets_scanned": [
     "vwfs.it"
   ],
-  "total_unique_findings": 23,
-  "fresh_findings_count": 23,
-  "historical_findings_count": 0,
-  "new_findings_count": 23,
+  "total_unique_findings": 224,
+  "fresh_findings_count": 224,
+  "historical_findings_count": 23,
+  "new_findings_count": 201,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdb",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "dnsrepo",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,38 +33,6 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "binaryedge",
       "target": "vwfs.it",
       "recursion_depth": 0,
@@ -137,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "chinaz",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "domainsproject",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +65,71 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "dnsdb",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,6 +145,46 @@
       "error": null
     },
     {
+      "resource": "certspotter",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "facebook",
       "target": "vwfs.it",
       "recursion_depth": 0,
@@ -201,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "domscan",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "fullhunt",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,14 +217,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
-      "error": null
-    },
-    {
       "resource": "leakix",
       "target": "vwfs.it",
       "recursion_depth": 0,
@@ -241,7 +225,39 @@
       "error": null
     },
     {
+      "resource": "intelx",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44,
+      "error": null
+    },
+    {
       "resource": "merklemap",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "netlas",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,22 +273,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 39,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "pugrecon",
       "target": "vwfs.it",
       "recursion_depth": 0,
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 106,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 183,
+      "duration_ms": 109,
       "error": null
     },
     {
@@ -345,11 +337,27 @@
       "error": null
     },
     {
+      "resource": "hackertarget",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 251,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 235,
+      "duration_ms": 283,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -361,11 +369,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "alienvault",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
+      "duration_ms": 371,
       "error": null
     },
     {
@@ -382,14 +390,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 58,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 916,
+      "duration_ms": 37,
       "error": null
     },
     {
@@ -429,15 +421,15 @@
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 20,
-      "duration_ms": 1548,
+      "duration_ms": 518,
       "error": null
     },
     {
-      "resource": "threatbook",
+      "resource": "myssl",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1015,
       "error": null
     },
     {
@@ -445,11 +437,11 @@
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3068,
+      "duration_ms": 3072,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "threatbook",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -465,11 +457,27 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "thc",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 159,
+      "duration_ms": 163,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3284,
+      "duration_ms": 35,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -489,14 +497,6 @@
       "error": null
     },
     {
-      "resource": "virustotal",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "vwfs.it",
       "recursion_depth": 0,
@@ -505,23 +505,15 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3109,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,27 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "vwfs.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3101,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9577,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vwfs.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 14846,
+      "duration_ms": 27976,
       "error": null
     },
     {
@@ -557,23 +557,23 @@
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33111,
+      "duration_ms": 32886,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "vwfs.it",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44931,
+      "findings_count": 207,
+      "duration_ms": 40820,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "racent",
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61461,
+      "duration_ms": 59465,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65931,
+      "duration_ms": 65954,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "vwfs.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65703,
+      "duration_ms": 65344,
       "error": null
     }
   ]
