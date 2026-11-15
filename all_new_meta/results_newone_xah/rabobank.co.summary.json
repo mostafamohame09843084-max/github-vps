@@ -1,9 +1,9 @@
 {
   "root_domain": "rabobank.co",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:26:45.521563+00:00",
-  "completed_at": "2026-11-14T15:28:09.492653+00:00",
-  "duration_ms": 83971,
+  "started_at": "2026-11-15T15:49:27.795552+00:00",
+  "completed_at": "2026-11-15T15:50:33.745445+00:00",
+  "duration_ms": 65949,
   "targets_scanned": [
     "rabobank.co"
   ],
@@ -17,7 +17,15 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "certspotter",
+      "resource": "argosdns",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,7 +41,23 @@
       "error": null
     },
     {
+      "resource": "binaryedge",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "c99",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,127 +89,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "dnsdb",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +105,111 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fofa",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +229,11 @@
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
+      "duration_ms": 44,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "merklemap",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,19 +249,11 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "digitorus",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -313,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "anubis",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63,
+      "duration_ms": 83,
       "error": null
     },
     {
@@ -337,19 +337,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 205,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 234,
+      "duration_ms": 237,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 256,
+      "duration_ms": 289,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 56,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "alienvault",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 363,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 30,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -421,15 +421,7 @@
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 466,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3066,
+      "duration_ms": 459,
       "error": null
     },
     {
@@ -437,15 +429,7 @@
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3665,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1154,
       "error": null
     },
     {
@@ -457,19 +441,35 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3268,
-      "error": null
-    },
-    {
       "resource": "riddler",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 4266,
+      "duration_ms": 3055,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3081,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "threatminer",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 65,
       "error": null
     },
     {
@@ -505,11 +505,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "sitedossier",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3817,
+      "duration_ms": 3275,
       "error": null
     },
     {
@@ -537,51 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19589,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20624,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24016,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32288,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29030,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "rabobank.co",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65955,
+      "duration_ms": 3145,
       "error": null
     },
     {
@@ -589,7 +549,47 @@
       "target": "rabobank.co",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83957,
+      "duration_ms": 24986,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30635,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33843,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47212,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 51857,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "rabobank.co",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65936,
       "error": null
     }
   ]
