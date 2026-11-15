@@ -1,23 +1,47 @@
 {
   "root_domain": "macosforge.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:24:01.188187+00:00",
-  "completed_at": "2026-11-13T08:25:38.194459+00:00",
-  "duration_ms": 97006,
+  "started_at": "2026-11-15T14:48:19.741528+00:00",
+  "completed_at": "2026-11-15T14:49:29.736392+00:00",
+  "duration_ms": 69994,
   "targets_scanned": [
     "macosforge.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fullhunt",
+      "resource": "facebook",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,95 +65,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,6 +81,14 @@
       "error": null
     },
     {
+      "resource": "domainsproject",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "arpsyndicate",
       "target": "macosforge.com",
       "recursion_depth": 0,
@@ -153,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "bevigil",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "github",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,14 +121,6 @@
       "error": null
     },
     {
-      "resource": "argosdns",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "c99",
       "target": "macosforge.com",
       "recursion_depth": 0,
@@ -193,7 +129,63 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "google",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "fullhunt",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,7 +213,15 @@
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 49,
+      "error": null
+    },
+    {
+      "resource": "intelx",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,6 +249,14 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "macosforge.com",
       "recursion_depth": 0,
@@ -258,22 +266,6 @@
     },
     {
       "resource": "odin",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 29,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,23 @@
       "error": null
     },
     {
+      "resource": "onyphe",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,11 +317,19 @@
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 60,
+      "duration_ms": 88,
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "alienvault",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 183,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 185,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hudsonrock",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 224,
+      "duration_ms": 243,
       "error": null
     },
     {
@@ -361,19 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 72,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 249,
       "error": null
     },
     {
@@ -385,19 +377,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 353,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
+      "resource": "rsecloud",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 466,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -429,7 +421,23 @@
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1220,
+      "duration_ms": 1177,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 1283,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3066,
       "error": null
     },
     {
@@ -441,27 +449,27 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1251,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 3074,
+      "error": null
     },
     {
       "resource": "thc",
       "target": "macosforge.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 98,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "sitedossier",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3206,
+      "duration_ms": 3273,
       "error": null
     },
     {
@@ -481,15 +489,23 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "virustotal",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3194,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "threatcrowd",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3110,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -502,22 +518,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3477,
       "error": null
     },
     {
@@ -537,27 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3201,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 9023,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "macosforge.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 18429,
+      "duration_ms": 19537,
       "error": null
     },
     {
@@ -565,7 +549,15 @@
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20746,
+      "duration_ms": 20683,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 25821,
       "error": null
     },
     {
@@ -573,7 +565,15 @@
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33087,
+      "duration_ms": 30523,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macosforge.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48245,
       "error": null
     },
     {
@@ -581,15 +581,15 @@
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65987,
+      "duration_ms": 65981,
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "waybackarchive",
       "target": "macosforge.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 96997,
+      "duration_ms": 65482,
       "error": null
     }
   ]
