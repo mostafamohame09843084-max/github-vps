@@ -1,16 +1,16 @@
 {
   "root_domain": "marionnaud.it",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:59:57.520635+00:00",
-  "completed_at": "2026-11-14T16:01:23.500227+00:00",
-  "duration_ms": 85979,
+  "started_at": "2026-11-15T16:15:11.744173+00:00",
+  "completed_at": "2026-11-15T16:16:20.739473+00:00",
+  "duration_ms": 68995,
   "targets_scanned": [
     "marionnaud.it"
   ],
-  "total_unique_findings": 9,
-  "fresh_findings_count": 9,
-  "historical_findings_count": 0,
-  "new_findings_count": 9,
+  "total_unique_findings": 24,
+  "fresh_findings_count": 24,
+  "historical_findings_count": 9,
+  "new_findings_count": 15,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
@@ -18,54 +18,6 @@
   "resource_executions": [
     {
       "resource": "certspotter",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,23 +41,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "domainsproject",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,6 +57,22 @@
       "error": null
     },
     {
+      "resource": "dnsdumpster",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "binaryedge",
       "target": "marionnaud.it",
       "recursion_depth": 0,
@@ -129,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "builtwith",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +89,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "c99",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "digitalyama",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "arpsyndicate",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +113,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "github",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +137,39 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "bevigil",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +185,23 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "chinaz",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,7 +213,7 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41,
+      "duration_ms": 35,
       "error": null
     },
     {
@@ -249,7 +249,7 @@
       "error": null
     },
     {
-      "resource": "netlas",
+      "resource": "odin",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,7 +257,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "netlas",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,19 +269,11 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42,
+      "duration_ms": 58,
       "error": null
     },
     {
       "resource": "onyphe",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "profundis",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "profundis",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +297,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "quake",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,11 +309,11 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 93,
+      "duration_ms": 70,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -341,15 +333,15 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 198,
+      "duration_ms": 215,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidscan",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 249,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,7 +349,15 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 259,
+      "duration_ms": 253,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 264,
       "error": null
     },
     {
@@ -373,7 +373,7 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 66,
+      "duration_ms": 61,
       "error": null
     },
     {
@@ -413,15 +413,7 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1013,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -429,7 +421,15 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 9,
-      "duration_ms": 1643,
+      "duration_ms": 1006,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1038,
       "error": null
     },
     {
@@ -437,7 +437,15 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
+      "duration_ms": 3071,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 21,
+      "duration_ms": 51,
       "error": null
     },
     {
@@ -449,27 +457,11 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3038,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3086,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "urlscan",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3569,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3045,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3360,
       "error": null
     },
     {
@@ -537,11 +537,19 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "threatcrowd",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19693,
+      "duration_ms": 3131,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "marionnaud.it",
+      "recursion_depth": 0,
+      "findings_count": 17,
+      "duration_ms": 29841,
       "error": null
     },
     {
@@ -549,7 +557,7 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29277,
+      "duration_ms": 33109,
       "error": null
     },
     {
@@ -557,15 +565,15 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48266,
+      "duration_ms": 37071,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "submd",
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61891,
+      "duration_ms": 61388,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65946,
+      "duration_ms": 65984,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "marionnaud.it",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65322,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "marionnaud.it",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 85950,
+      "duration_ms": 65522,
       "error": null
     }
   ]
