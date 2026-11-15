@@ -1,47 +1,39 @@
 {
   "root_domain": "octopusenergy.fr",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:24:49.499649+00:00",
-  "completed_at": "2026-11-14T16:25:59.894619+00:00",
-  "duration_ms": 70394,
+  "started_at": "2026-11-15T16:52:01.836793+00:00",
+  "completed_at": "2026-11-15T16:53:07.740357+00:00",
+  "duration_ms": 65903,
   "targets_scanned": [
     "octopusenergy.fr"
   ],
-  "total_unique_findings": 11,
-  "fresh_findings_count": 11,
-  "historical_findings_count": 0,
-  "new_findings_count": 11,
+  "total_unique_findings": 19,
+  "fresh_findings_count": 19,
+  "historical_findings_count": 11,
+  "new_findings_count": 8,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
+      "resource": "github",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "github",
+      "resource": "certspotter",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "dnsrepo",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +65,31 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "chaos",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +105,15 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "binaryedge",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "fofa",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "bufferover",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +153,15 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "driftnet",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "chinaz",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,39 +193,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "argosdns",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +209,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "huntermap",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +221,11 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 39,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "intelx",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 63,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 53,
       "error": null
     },
     {
@@ -305,39 +305,7 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 87,
-      "error": null
-    },
-    {
       "resource": "rapidapi",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 172,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -349,11 +317,27 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 256,
+      "duration_ms": 84,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "anubis",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 142,
+      "error": null
+    },
+    {
+      "resource": "rapidfinder",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,15 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 269,
+      "duration_ms": 251,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -373,7 +365,15 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -385,11 +385,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "rapiddns",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 3,
+      "duration_ms": 477,
       "error": null
     },
     {
@@ -413,15 +413,15 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 22,
       "error": null
     },
     {
-      "resource": "rapiddns",
+      "resource": "alienvault",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 513,
+      "findings_count": 0,
+      "duration_ms": 635,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 987,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3061,
+      "duration_ms": 965,
       "error": null
     },
     {
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3077,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3064,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3073,
       "error": null
     },
     {
@@ -481,11 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "sitedossier",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 3478,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3352,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3083,
+      "error": null
+    },
+    {
       "resource": "zoomeyeapi",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
@@ -537,35 +537,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "waybackarchive",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3096,
+      "findings_count": 11,
+      "duration_ms": 14456,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 11340,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26088,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27257,
+      "findings_count": 19,
+      "duration_ms": 28054,
       "error": null
     },
     {
@@ -573,7 +557,31 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31809,
+      "duration_ms": 31360,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42985,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50817,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "octopusenergy.fr",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61871,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "octopusenergy.fr",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "octopusenergy.fr",
-      "recursion_depth": 0,
-      "findings_count": 11,
-      "duration_ms": 66951,
+      "duration_ms": 65882,
       "error": null
     }
   ]
