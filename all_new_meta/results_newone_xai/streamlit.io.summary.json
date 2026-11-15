@@ -1,55 +1,23 @@
 {
   "root_domain": "streamlit.io",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:34:25.498349+00:00",
-  "completed_at": "2026-11-14T15:35:51.496937+00:00",
-  "duration_ms": 85998,
+  "started_at": "2026-11-15T15:56:42.748428+00:00",
+  "completed_at": "2026-11-15T15:57:48.738990+00:00",
+  "duration_ms": 65990,
   "targets_scanned": [
     "streamlit.io"
   ],
-  "total_unique_findings": 14,
-  "fresh_findings_count": 14,
-  "historical_findings_count": 0,
-  "new_findings_count": 14,
+  "total_unique_findings": 37,
+  "fresh_findings_count": 37,
+  "historical_findings_count": 14,
+  "new_findings_count": 23,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "github",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
+      "resource": "builtwith",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "censys",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,6 +49,22 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "digitalyama",
       "target": "streamlit.io",
       "recursion_depth": 0,
@@ -89,7 +73,23 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "dnsdumpster",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,15 +105,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "certspotter",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,15 +121,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "chaos",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "bufferover",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +153,39 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "c99",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "github",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,15 +209,7 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "huntermap",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,15 +229,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "huntermap",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -253,7 +253,15 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 68,
+      "error": null
+    },
+    {
+      "resource": "odin",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -265,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "onyphe",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,23 +297,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "quake",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rapidapi",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -318,6 +310,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 99,
+      "error": null
+    },
+    {
+      "resource": "rapidapi",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -341,15 +341,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 205,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 232,
+      "duration_ms": 180,
       "error": null
     },
     {
@@ -357,7 +349,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 289,
+      "duration_ms": 256,
       "error": null
     },
     {
@@ -369,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hudsonrock",
       "target": "streamlit.io",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 1,
+      "duration_ms": 279,
       "error": null
     },
     {
@@ -390,6 +382,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 62,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 23,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 1147,
+      "duration_ms": 1130,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 13,
-      "duration_ms": 1597,
+      "duration_ms": 2023,
       "error": null
     },
     {
@@ -441,14 +441,6 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3079,
-      "error": null
-    },
-    {
       "resource": "threatbook",
       "target": "streamlit.io",
       "recursion_depth": 0,
@@ -457,19 +449,19 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3066,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3153,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3085,
       "error": null
     },
     {
@@ -477,11 +469,19 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3478,
+      "duration_ms": 3279,
       "error": null
     },
     {
       "resource": "trickest",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3115,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3072,
+      "error": null
+    },
+    {
       "resource": "zoomeyeapi",
       "target": "streamlit.io",
       "recursion_depth": 0,
@@ -537,11 +537,27 @@
       "error": null
     },
     {
+      "resource": "racent",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 12520,
+      "error": null
+    },
+    {
       "resource": "submd",
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9409,
+      "duration_ms": 26375,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "streamlit.io",
+      "recursion_depth": 0,
+      "findings_count": 37,
+      "duration_ms": 28552,
       "error": null
     },
     {
@@ -549,15 +565,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31960,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36796,
+      "duration_ms": 32882,
       "error": null
     },
     {
@@ -565,7 +573,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44324,
+      "duration_ms": 49819,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61411,
+      "duration_ms": 61478,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "streamlit.io",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65981,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "streamlit.io",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 85985,
+      "duration_ms": 65965,
       "error": null
     }
   ]

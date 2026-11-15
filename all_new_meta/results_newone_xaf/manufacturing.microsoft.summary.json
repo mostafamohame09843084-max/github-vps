@@ -1,55 +1,23 @@
 {
   "root_domain": "manufacturing.microsoft",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:40:59.504015+00:00",
-  "completed_at": "2026-11-14T15:42:10.549327+00:00",
-  "duration_ms": 71045,
+  "started_at": "2026-11-15T15:56:50.753148+00:00",
+  "completed_at": "2026-11-15T15:58:00.733916+00:00",
+  "duration_ms": 69980,
   "targets_scanned": [
     "manufacturing.microsoft"
   ],
   "total_unique_findings": 1,
   "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "historical_findings_count": 1,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
+      "resource": "chinaz",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "fullhunt",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,95 +41,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
+      "resource": "dnsdumpster",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "bevigil",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "driftnet",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +81,127 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "dnsrepo",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +217,19 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 50,
+      "error": null
+    },
+    {
       "resource": "intelx",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61,
       "error": null
     },
     {
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 66,
       "error": null
     },
     {
@@ -309,7 +309,7 @@
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 77,
+      "duration_ms": 105,
       "error": null
     },
     {
@@ -321,19 +321,19 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 186,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 181,
       "error": null
     },
     {
@@ -349,7 +349,7 @@
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 222,
+      "duration_ms": 239,
       "error": null
     },
     {
@@ -357,19 +357,11 @@
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 263,
+      "duration_ms": 248,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,11 +377,19 @@
       "error": null
     },
     {
+      "resource": "robtex",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "reconeer",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 494,
+      "duration_ms": 969,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1278,
+      "duration_ms": 1044,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3067,
       "error": null
     },
     {
@@ -441,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shrewdeye",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3046,
+      "duration_ms": 3069,
       "error": null
     },
     {
       "resource": "thc",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3044,
+      "findings_count": 1,
+      "duration_ms": 119,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
-      "resource": "threatminer",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 73,
-      "error": null
-    },
-    {
       "resource": "trickest",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3087,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,51 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "windvane",
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3061,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 16709,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 19854,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30874,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65976,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "manufacturing.microsoft",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 63967,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -589,7 +541,55 @@
       "target": "manufacturing.microsoft",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 71033,
+      "duration_ms": 25184,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 28150,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30753,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33105,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61394,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65973,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "manufacturing.microsoft",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65632,
       "error": null
     }
   ]
