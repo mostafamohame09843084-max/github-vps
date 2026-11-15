@@ -1,29 +1,21 @@
 {
   "root_domain": "start.gg",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:31:28.202811+00:00",
-  "completed_at": "2026-11-13T08:32:37.184713+00:00",
-  "duration_ms": 68981,
+  "started_at": "2026-11-15T15:03:45.753308+00:00",
+  "completed_at": "2026-11-15T15:04:54.736253+00:00",
+  "duration_ms": 68982,
   "targets_scanned": [
     "start.gg"
   ],
-  "total_unique_findings": 16,
-  "fresh_findings_count": 16,
-  "historical_findings_count": 0,
-  "new_findings_count": 16,
+  "total_unique_findings": 19,
+  "fresh_findings_count": 19,
+  "historical_findings_count": 16,
+  "new_findings_count": 3,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "fofa",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "domainsproject",
       "target": "start.gg",
@@ -33,79 +25,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "bevigil",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "dnsrepo",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +49,31 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "binaryedge",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +97,79 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "github",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "argosdns",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,23 +193,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "digitalyama",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,19 +249,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 59,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 77,
+      "duration_ms": 108,
       "error": null
     },
     {
@@ -329,6 +329,14 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 238,
+      "error": null
+    },
+    {
       "resource": "rapidfinder",
       "target": "start.gg",
       "recursion_depth": 0,
@@ -341,23 +349,7 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 246,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 257,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 88,
+      "duration_ms": 253,
       "error": null
     },
     {
@@ -369,6 +361,14 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 302,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "start.gg",
       "recursion_depth": 0,
@@ -377,11 +377,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "reconeer",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 412,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 524,
+      "duration_ms": 519,
       "error": null
     },
     {
@@ -429,7 +429,23 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 5,
-      "duration_ms": 1120,
+      "duration_ms": 1105,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3039,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3057,
       "error": null
     },
     {
@@ -441,27 +457,19 @@
       "error": null
     },
     {
-      "resource": "racent",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 1411,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
       "resource": "thc",
       "target": "start.gg",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 17,
+      "duration_ms": 97,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "sitedossier",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3085,
+      "duration_ms": 3267,
       "error": null
     },
     {
@@ -470,14 +478,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3073,
       "error": null
     },
     {
@@ -505,23 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
+      "duration_ms": 3101,
       "error": null
     },
     {
       "resource": "whoisfreaks",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,11 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3186,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -549,7 +541,7 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9656,
+      "duration_ms": 6994,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33067,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "start.gg",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61263,
+      "duration_ms": 30170,
       "error": null
     },
     {
@@ -573,7 +557,15 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 11,
-      "duration_ms": 65774,
+      "duration_ms": 54194,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61390,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65966,
+      "duration_ms": 65971,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "start.gg",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65930,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "start.gg",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65464,
+      "duration_ms": 65076,
       "error": null
     }
   ]

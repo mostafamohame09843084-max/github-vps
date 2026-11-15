@@ -1,151 +1,23 @@
 {
   "root_domain": "visible.xyz",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:27:07.192972+00:00",
-  "completed_at": "2026-11-13T08:28:13.180761+00:00",
-  "duration_ms": 65987,
+  "started_at": "2026-11-15T15:03:29.739266+00:00",
+  "completed_at": "2026-11-15T15:04:35.734740+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "visible.xyz"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
-  "new_findings_count": 1,
+  "total_unique_findings": 14,
+  "fresh_findings_count": 14,
+  "historical_findings_count": 1,
+  "new_findings_count": 13,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "censys",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "google",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "c99",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "argosdns",
+      "resource": "domainsproject",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "certspotter",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "facebook",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +73,143 @@
       "error": null
     },
     {
+      "resource": "fofa",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdumpster",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,11 +229,11 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27,
+      "duration_ms": 30,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "leakix",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -234,14 +242,6 @@
     },
     {
       "resource": "merklemap",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "leakix",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,7 +269,7 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 49,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -305,27 +305,19 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 94,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "anubis",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 79,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 106,
       "error": null
     },
     {
@@ -345,11 +337,27 @@
       "error": null
     },
     {
+      "resource": "alienvault",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 185,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 249,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 231,
+      "duration_ms": 279,
       "error": null
     },
     {
@@ -361,23 +369,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 258,
-      "error": null
-    },
-    {
       "resource": "robtex",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -389,7 +381,15 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 52,
+      "duration_ms": 88,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 783,
+      "duration_ms": 1674,
       "error": null
     },
     {
@@ -429,31 +429,7 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 955,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2335,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "threatbook",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "thc",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 1933,
       "error": null
     },
     {
@@ -461,19 +437,11 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 3062,
       "error": null
     },
     {
-      "resource": "urlscan",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -489,6 +457,38 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 10,
+      "duration_ms": 102,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3266,
+      "error": null
+    },
+    {
+      "resource": "trickest",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "virustotal",
       "target": "visible.xyz",
       "recursion_depth": 0,
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3458,
+      "duration_ms": 3077,
       "error": null
     },
     {
@@ -521,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "visible.xyz",
       "recursion_depth": 0,
@@ -537,27 +529,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "zoomeyeapi",
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3102,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 22164,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "visible.xyz",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26659,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -565,7 +541,15 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33068,
+      "duration_ms": 30288,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29887,
       "error": null
     },
     {
@@ -573,7 +557,15 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44610,
+      "duration_ms": 34397,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 13,
+      "duration_ms": 42737,
       "error": null
     },
     {
@@ -581,7 +573,15 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61993,
+      "duration_ms": 61449,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "visible.xyz",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65924,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "visible.xyz",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65979,
+      "duration_ms": 65985,
       "error": null
     }
   ]
