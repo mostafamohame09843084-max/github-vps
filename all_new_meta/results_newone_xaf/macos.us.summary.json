@@ -1,45 +1,21 @@
 {
   "root_domain": "macos.us",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:22:55.188535+00:00",
-  "completed_at": "2026-11-13T08:24:01.181414+00:00",
-  "duration_ms": 65992,
+  "started_at": "2026-11-15T14:47:09.738378+00:00",
+  "completed_at": "2026-11-15T14:48:19.734683+00:00",
+  "duration_ms": 69996,
   "targets_scanned": [
     "macos.us"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
-    {
-      "resource": "github",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
     {
       "resource": "fullhunt",
       "target": "macos.us",
@@ -49,15 +25,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "bufferover",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,39 +41,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "dnsdb",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +57,15 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
+      "resource": "chinaz",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +81,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "censys",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +89,23 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "builtwith",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "certspotter",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +137,15 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "bevigil",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +161,23 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "arpsyndicate",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +193,15 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "dnsrepo",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "digitalyama",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -226,6 +210,22 @@
     },
     {
       "resource": "huntermap",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 29,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,19 +269,11 @@
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 36,
+      "duration_ms": 37,
       "error": null
     },
     {
       "resource": "onyphe",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "pugrecon",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 99,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,19 +313,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "anubis",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 114,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 92,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "hudsonrock",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 267,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 175,
+      "duration_ms": 278,
       "error": null
     },
     {
@@ -361,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "hackertarget",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 234,
+      "duration_ms": 356,
       "error": null
     },
     {
@@ -377,11 +377,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 243,
+      "duration_ms": 166,
       "error": null
     },
     {
@@ -409,19 +409,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 69,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16,
+      "duration_ms": 24,
       "error": null
     },
     {
@@ -429,7 +421,31 @@
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 622,
+      "duration_ms": 1082,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1326,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3060,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 122,
       "error": null
     },
     {
@@ -441,35 +457,19 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "shrewdeye",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1197,
-      "error": "'list' object has no attribute 'get'"
-    },
-    {
-      "resource": "thc",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3075,
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "sitedossier",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1210,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3357,
       "error": null
     },
     {
@@ -481,11 +481,11 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "trickest",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3055,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3072,
       "error": null
     },
     {
@@ -521,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "threatcrowd",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3085,
       "error": null
     },
     {
@@ -537,19 +529,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3137,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -557,7 +541,15 @@
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10330,
+      "duration_ms": 6713,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 2,
+      "duration_ms": 29366,
       "error": null
     },
     {
@@ -565,7 +557,15 @@
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33087,
+      "duration_ms": 31359,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 52521,
       "error": null
     },
     {
@@ -573,15 +573,7 @@
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61382,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "macos.us",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61153,
+      "duration_ms": 61376,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "macos.us",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65983,
+      "duration_ms": 65986,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "macos.us",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65455,
       "error": null
     }
   ]

@@ -1,8 +1,8 @@
 {
   "root_domain": "stagingrunnr.in",
   "recursive_depth": 0,
-  "started_at": "2026-11-13T08:14:19.190513+00:00",
-  "completed_at": "2026-11-13T08:15:28.181564+00:00",
+  "started_at": "2026-11-15T14:46:42.743139+00:00",
+  "completed_at": "2026-11-15T14:47:51.735086+00:00",
   "duration_ms": 68991,
   "targets_scanned": [
     "stagingrunnr.in"
@@ -13,83 +13,11 @@
   "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
-  "successful_resource_executions": 71,
-  "failed_resource_executions": 1,
+  "successful_resource_executions": 72,
+  "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "github",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
+      "resource": "certspotter",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +33,47 @@
       "error": null
     },
     {
+      "resource": "arpsyndicate",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "dnsdb",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,6 +89,14 @@
       "error": null
     },
     {
+      "resource": "google",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "fofa",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
@@ -129,47 +105,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "github",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,6 +121,62 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "censys",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
@@ -193,7 +185,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "digitalyama",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "argosdns",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +201,7 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "bevigil",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -221,7 +213,15 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 34,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -249,11 +249,11 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "digitorus",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -265,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "digitorus",
+      "resource": "odin",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 56,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,15 +317,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 87,
       "error": null
     },
     {
@@ -333,7 +325,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 192,
+      "duration_ms": 210,
       "error": null
     },
     {
@@ -345,15 +337,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 247,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidfinder",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,7 +349,23 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 230,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 245,
       "error": null
     },
     {
@@ -381,7 +381,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 50,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 15,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,23 +421,31 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 827,
+      "duration_ms": 504,
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "myssl",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 938,
-      "error": "'list' object has no attribute 'get'"
+      "duration_ms": 1042,
+      "error": null
     },
     {
-      "resource": "thc",
+      "resource": "riddler",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3079,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3101,
       "error": null
     },
     {
@@ -449,35 +457,11 @@
       "error": null
     },
     {
-      "resource": "myssl",
+      "resource": "thc",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1037,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3099,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3063,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 116,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -501,11 +485,11 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3274,
+      "duration_ms": 3270,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "virustotal",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -518,6 +502,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3118,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "crtsh",
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3199,
+      "duration_ms": 9746,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10140,
+      "duration_ms": 27778,
       "error": null
     },
     {
@@ -557,7 +557,15 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33069,
+      "duration_ms": 31662,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "stagingrunnr.in",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 44881,
       "error": null
     },
     {
@@ -565,7 +573,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42270,
+      "duration_ms": 61267,
       "error": null
     },
     {
@@ -573,15 +581,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65985,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "stagingrunnr.in",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65985,
+      "duration_ms": 65981,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "stagingrunnr.in",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65605,
+      "duration_ms": 65119,
       "error": null
     }
   ]
