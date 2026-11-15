@@ -1,119 +1,23 @@
 {
   "root_domain": "okg.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T18:47:10.842579+00:00",
-  "completed_at": "2026-11-14T18:48:16.848111+00:00",
-  "duration_ms": 66005,
+  "started_at": "2026-11-15T18:13:27.743849+00:00",
+  "completed_at": "2026-11-15T18:14:33.739318+00:00",
+  "duration_ms": 65995,
   "targets_scanned": [
     "okg.com"
   ],
   "total_unique_findings": 38,
-  "fresh_findings_count": 38,
-  "historical_findings_count": 25,
-  "new_findings_count": 13,
-  "reused_historical_findings_count": 0,
+  "fresh_findings_count": 28,
+  "historical_findings_count": 38,
+  "new_findings_count": 0,
+  "reused_historical_findings_count": 10,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "bevigil",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "c99",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,39 +33,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
+      "resource": "chaos",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,23 +49,31 @@
       "error": null
     },
     {
+      "resource": "bevigil",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "coderog",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +89,119 @@
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "bufferover",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -225,11 +217,19 @@
       "error": null
     },
     {
+      "resource": "huntermap",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "abuseipdb",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "okg.com",
       "recursion_depth": 0,
@@ -265,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "digitorus",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 70,
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "odin",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -290,6 +282,14 @@
     },
     {
       "resource": "profundis",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "onyphe",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,23 +317,7 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 100,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 264,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 83,
       "error": null
     },
     {
@@ -345,11 +329,19 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidscan",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 293,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 177,
       "error": null
     },
     {
@@ -357,27 +349,19 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 8,
-      "duration_ms": 374,
+      "duration_ms": 228,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 254,
       "error": null
     },
     {
       "resource": "redhuntlabs",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,6 +377,14 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "okg.com",
       "recursion_depth": 0,
@@ -401,11 +393,19 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "securitytrails",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 83,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shodan",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -413,7 +413,7 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 22,
+      "duration_ms": 25,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 4,
-      "duration_ms": 518,
+      "duration_ms": 455,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 6,
-      "duration_ms": 1329,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3122,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3097,
+      "duration_ms": 2078,
       "error": null
     },
     {
@@ -457,11 +441,35 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3081,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "okg.com",
       "recursion_depth": 0,
-      "findings_count": 13,
-      "duration_ms": 65,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "shrewdeye",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3065,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3484,
       "error": null
     },
     {
@@ -481,14 +489,6 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3359,
-      "error": null
-    },
-    {
       "resource": "virustotal",
       "target": "okg.com",
       "recursion_depth": 0,
@@ -501,11 +501,11 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3159,
+      "duration_ms": 3104,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,7 +513,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "crtsh",
       "target": "okg.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 13085,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31439,
+      "findings_count": 12,
+      "duration_ms": 28295,
       "error": null
     },
     {
@@ -557,23 +549,31 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 32871,
+      "duration_ms": 33064,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 31690,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "okg.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 42394,
       "error": null
     },
     {
       "resource": "waybackarchive",
       "target": "okg.com",
       "recursion_depth": 0,
-      "findings_count": 8,
-      "duration_ms": 31827,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "okg.com",
-      "recursion_depth": 0,
-      "findings_count": 12,
-      "duration_ms": 39186,
+      "findings_count": 0,
+      "duration_ms": 50247,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 61351,
+      "duration_ms": 61737,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "okg.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65984,
+      "duration_ms": 65981,
       "error": null
     }
   ]
