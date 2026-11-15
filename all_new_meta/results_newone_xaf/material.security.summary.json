@@ -1,151 +1,23 @@
 {
   "root_domain": "material.security",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:38:14.868304+00:00",
-  "completed_at": "2026-11-14T17:39:24.993744+00:00",
-  "duration_ms": 70125,
+  "started_at": "2026-11-15T16:59:24.767529+00:00",
+  "completed_at": "2026-11-15T17:00:33.896533+00:00",
+  "duration_ms": 69129,
   "targets_scanned": [
     "material.security"
   ],
   "total_unique_findings": 1227,
   "fresh_findings_count": 1227,
-  "historical_findings_count": 907,
-  "new_findings_count": 320,
+  "historical_findings_count": 1227,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "c99",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
+      "resource": "github",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "dnsdb",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "bevigil",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,23 +49,7 @@
       "error": null
     },
     {
-      "resource": "github",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
+      "resource": "dnsdumpster",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +65,143 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "builtwith",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 28,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "chinaz",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -233,7 +217,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "leakix",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,7 +225,31 @@
       "error": null
     },
     {
-      "resource": "leakix",
+      "resource": "huntermap",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 47,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -254,14 +262,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41,
       "error": null
     },
     {
@@ -281,7 +281,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "pugrecon",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "onyphe",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,23 +305,15 @@
       "error": null
     },
     {
+      "resource": "anubis",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 76,
+      "error": null
+    },
+    {
       "resource": "rapidapi",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 72,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,11 +329,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "rapidfinder",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 82,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -349,7 +341,23 @@
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 183,
+      "duration_ms": 192,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 282,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 289,
       "error": null
     },
     {
@@ -361,19 +369,11 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "reconeer",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 255,
-      "error": null
-    },
-    {
-      "resource": "robtex",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 64,
       "error": null
     },
     {
@@ -385,15 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 86,
-      "error": null
-    },
-    {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,27 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20,
+      "duration_ms": 47,
       "error": null
     },
     {
       "resource": "rapiddns",
       "target": "material.security",
       "recursion_depth": 0,
-      "findings_count": 35,
-      "duration_ms": 755,
+      "findings_count": 34,
+      "duration_ms": 937,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 1875,
+      "duration_ms": 1233,
       "error": null
     },
     {
@@ -437,15 +437,7 @@
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3060,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3037,
+      "duration_ms": 3246,
       "error": null
     },
     {
@@ -457,31 +449,23 @@
       "error": null
     },
     {
+      "resource": "shrewdeye",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3201,
+      "error": null
+    },
+    {
       "resource": "thc",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 983,
-      "duration_ms": 180,
+      "duration_ms": 326,
       "error": null
     },
     {
       "resource": "trickest",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "sitedossier",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3282,
-      "error": null
-    },
-    {
-      "resource": "urlscan",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,11 +481,27 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "urlscan",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3100,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 69,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3354,
       "error": null
     },
     {
@@ -521,14 +521,6 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "windvane",
       "target": "material.security",
       "recursion_depth": 0,
@@ -537,19 +529,19 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "zoomeyeapi",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 10200,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "reconcloud",
+      "resource": "threatcrowd",
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29648,
+      "duration_ms": 3159,
       "error": null
     },
     {
@@ -557,7 +549,23 @@
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 27829,
+      "duration_ms": 9068,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33088,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "material.security",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49908,
       "error": null
     },
     {
@@ -565,15 +573,7 @@
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 907,
-      "duration_ms": 54053,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "material.security",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61663,
+      "duration_ms": 53672,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65958,
+      "duration_ms": 65967,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "material.security",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65847,
+      "duration_ms": 65028,
       "error": null
     }
   ]
