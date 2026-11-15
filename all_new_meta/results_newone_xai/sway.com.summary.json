@@ -1,119 +1,23 @@
 {
   "root_domain": "sway.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T17:48:58.845536+00:00",
-  "completed_at": "2026-11-14T17:50:24.445447+00:00",
-  "duration_ms": 85599,
+  "started_at": "2026-11-15T17:18:59.741386+00:00",
+  "completed_at": "2026-11-15T17:20:09.745203+00:00",
+  "duration_ms": 70003,
   "targets_scanned": [
     "sway.com"
   ],
   "total_unique_findings": 38,
   "fresh_findings_count": 38,
-  "historical_findings_count": 3,
-  "new_findings_count": 35,
+  "historical_findings_count": 38,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "argosdns",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domscan",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "dnsdb",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +41,95 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "c99",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domainsproject",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +153,23 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "argosdns",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,14 +185,6 @@
       "error": null
     },
     {
-      "resource": "chinaz",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
       "target": "sway.com",
       "recursion_depth": 0,
@@ -193,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
+      "resource": "coderog",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +201,15 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "censys",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -213,19 +221,11 @@
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 27,
       "error": null
     },
     {
       "resource": "huntermap",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "intelx",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 32,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "sway.com",
       "recursion_depth": 0,
@@ -273,11 +265,11 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "digitorus",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 45,
       "error": null
     },
     {
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "pugrecon",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 69,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "anubis",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 110,
       "error": null
     },
     {
@@ -341,35 +333,11 @@
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 217,
+      "duration_ms": 208,
       "error": null
     },
     {
-      "resource": "hudsonrock",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 275,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 69,
-      "error": null
-    },
-    {
-      "resource": "robtex",
+      "resource": "rapidscan",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +349,11 @@
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 353,
+      "duration_ms": 250,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "redhuntlabs",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +361,31 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "hudsonrock",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 282,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 34,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 19,
-      "duration_ms": 1048,
+      "duration_ms": 805,
       "error": null
     },
     {
@@ -429,23 +429,7 @@
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 2440,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3078,
-      "error": null
-    },
-    {
-      "resource": "shrewdeye",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3077,
+      "duration_ms": 1548,
       "error": null
     },
     {
@@ -460,20 +444,28 @@
       "resource": "thc",
       "target": "sway.com",
       "recursion_depth": 0,
-      "findings_count": 22,
-      "duration_ms": 124,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "riddler",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3528,
+      "duration_ms": 3066,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "shrewdeye",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3077,
+      "error": null
+    },
+    {
+      "resource": "trickest",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +473,15 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "sitedossier",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3309,
+      "error": null
+    },
+    {
+      "resource": "urlscan",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,22 +497,6 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3100,
-      "error": null
-    },
-    {
-      "resource": "whoisfreaks",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "sway.com",
       "recursion_depth": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "windvane",
+      "resource": "threatcrowd",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3125,
+      "error": null
+    },
+    {
+      "resource": "whoisfreaks",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,51 +529,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "windvane",
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24934,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 24647,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 30565,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 34341,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61428,
-      "error": null
-    },
-    {
-      "resource": "commoncrawl",
-      "target": "sway.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -589,7 +541,55 @@
       "target": "sway.com",
       "recursion_depth": 0,
       "findings_count": 24,
-      "duration_ms": 85581,
+      "duration_ms": 11335,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 20628,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 27910,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33103,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49985,
+      "error": null
+    },
+    {
+      "resource": "commoncrawl",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65986,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "sway.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65757,
       "error": null
     }
   ]
