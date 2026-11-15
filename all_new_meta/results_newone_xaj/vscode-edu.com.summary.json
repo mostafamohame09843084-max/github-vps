@@ -1,15 +1,15 @@
 {
   "root_domain": "vscode-edu.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:35:53.509349+00:00",
-  "completed_at": "2026-11-14T15:36:59.497552+00:00",
-  "duration_ms": 65988,
+  "started_at": "2026-11-15T16:02:06.757854+00:00",
+  "completed_at": "2026-11-15T16:03:15.737560+00:00",
+  "duration_ms": 68979,
   "targets_scanned": [
     "vscode-edu.com"
   ],
-  "total_unique_findings": 1,
-  "fresh_findings_count": 1,
-  "historical_findings_count": 0,
+  "total_unique_findings": 2,
+  "fresh_findings_count": 2,
+  "historical_findings_count": 1,
   "new_findings_count": 1,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsrepo",
+      "resource": "domscan",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,39 +25,7 @@
       "error": null
     },
     {
-      "resource": "c99",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "dnsdumpster",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "dnsrepo",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,31 +49,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
+      "resource": "censys",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +65,15 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "chinaz",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +89,39 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "arpsyndicate",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,22 +145,6 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "google",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
@@ -185,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "argosdns",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +169,39 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "chaos",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +217,23 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "huntermap",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "digitorus",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 46,
+      "error": null
+    },
+    {
+      "resource": "merklemap",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -241,11 +249,19 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "netlas",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 55,
       "error": null
     },
     {
@@ -257,23 +273,7 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 44,
-      "error": null
-    },
-    {
-      "resource": "netlas",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "onyphe",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -309,7 +309,7 @@
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 108,
+      "duration_ms": 77,
       "error": null
     },
     {
@@ -329,47 +329,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 256,
-      "error": null
-    },
-    {
       "resource": "rapidfinder",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 292,
-      "error": null
-    },
-    {
-      "resource": "reconeer",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 46,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "robtex",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,11 +341,19 @@
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 379,
+      "duration_ms": 193,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "hackertarget",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 247,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,7 +361,31 @@
       "error": null
     },
     {
-      "resource": "securitytrails",
+      "resource": "hudsonrock",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 289,
+      "error": null
+    },
+    {
+      "resource": "reconeer",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 57,
+      "error": null
+    },
+    {
+      "resource": "robtex",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,31 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodanx",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 21,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 456,
-      "error": null
-    },
-    {
-      "resource": "myssl",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 2004,
-      "error": null
-    },
-    {
-      "resource": "thc",
+      "resource": "securitytrails",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -441,11 +409,35 @@
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "shodanx",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3054,
+      "duration_ms": 32,
+      "error": null
+    },
+    {
+      "resource": "rapiddns",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 541,
+      "error": null
+    },
+    {
+      "resource": "myssl",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 1232,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 1,
+      "duration_ms": 1418,
       "error": null
     },
     {
@@ -457,27 +449,19 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
+      "resource": "thc",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3044,
+      "findings_count": 2,
+      "duration_ms": 125,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "riddler",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3050,
       "error": null
     },
     {
@@ -489,7 +473,7 @@
       "error": null
     },
     {
-      "resource": "virustotal",
+      "resource": "trickest",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -497,7 +481,15 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "shrewdeye",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3092,
+      "error": null
+    },
+    {
+      "resource": "virustotal",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -513,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3276,
-      "error": null
-    },
-    {
-      "resource": "zoomeyeapi",
+      "resource": "whoisfreaks",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -537,43 +529,19 @@
       "error": null
     },
     {
+      "resource": "zoomeyeapi",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "threatcrowd",
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 6055,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 1,
-      "duration_ms": 8411,
-      "error": null
-    },
-    {
-      "resource": "submd",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 10161,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20071,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "vscode-edu.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 27098,
+      "duration_ms": 3094,
       "error": null
     },
     {
@@ -581,7 +549,31 @@
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33085,
+      "duration_ms": 32495,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 34750,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61131,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61390,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "vscode-edu.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65979,
+      "duration_ms": 65966,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "vscode-edu.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65536,
       "error": null
     }
   ]

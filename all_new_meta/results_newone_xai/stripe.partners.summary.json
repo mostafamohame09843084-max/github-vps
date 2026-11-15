@@ -1,23 +1,23 @@
 {
   "root_domain": "stripe.partners",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:40:44.505015+00:00",
-  "completed_at": "2026-11-14T15:42:10.508510+00:00",
-  "duration_ms": 86003,
+  "started_at": "2026-11-15T16:02:18.793118+00:00",
+  "completed_at": "2026-11-15T16:03:28.737765+00:00",
+  "duration_ms": 69944,
   "targets_scanned": [
     "stripe.partners"
   ],
-  "total_unique_findings": 3,
-  "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "total_unique_findings": 7,
+  "fresh_findings_count": 7,
+  "historical_findings_count": 3,
+  "new_findings_count": 4,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
+      "resource": "censys",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,7 +25,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "arpsyndicate",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "dnsrepo",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "domainsproject",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "driftnet",
+      "resource": "digitalyama",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,7 +73,39 @@
       "error": null
     },
     {
-      "resource": "bevigil",
+      "resource": "fofa",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "driftnet",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "domainsproject",
+      "resource": "binaryedge",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "chinaz",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +145,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "bevigil",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +153,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "domscan",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +161,7 @@
       "error": null
     },
     {
-      "resource": "arpsyndicate",
+      "resource": "c99",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,39 +177,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +193,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "certspotter",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,11 +201,19 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "argosdns",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitorus",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,6 +241,14 @@
       "error": null
     },
     {
+      "resource": "merklemap",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "stripe.partners",
       "recursion_depth": 0,
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
       "resource": "odin",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 43,
       "error": null
     },
     {
@@ -309,11 +309,27 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 95,
+      "duration_ms": 77,
       "error": null
     },
     {
       "resource": "rapidapi",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 176,
+      "error": null
+    },
+    {
+      "resource": "rapidscan",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -329,27 +345,11 @@
       "error": null
     },
     {
-      "resource": "rapidscan",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "hackertarget",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 2,
-      "duration_ms": 293,
+      "duration_ms": 248,
       "error": null
     },
     {
@@ -361,23 +361,15 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
+      "resource": "hudsonrock",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 777,
+      "duration_ms": 299,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "shodan",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -393,6 +385,14 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 54,
+      "error": null
+    },
+    {
       "resource": "securitytrails",
       "target": "stripe.partners",
       "recursion_depth": 0,
@@ -401,7 +401,7 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "robtex",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 18,
+      "duration_ms": 31,
       "error": null
     },
     {
@@ -421,15 +421,15 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 1316,
+      "duration_ms": 1117,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "rapiddns",
       "target": "stripe.partners",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3059,
+      "findings_count": 2,
+      "duration_ms": 1091,
       "error": null
     },
     {
@@ -441,15 +441,31 @@
       "error": null
     },
     {
+      "resource": "thc",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3083,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3070,
+      "duration_ms": 3058,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "trickest",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -461,23 +477,7 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3272,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26,
-      "error": null
-    },
-    {
-      "resource": "trickest",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3359,
       "error": null
     },
     {
@@ -497,19 +497,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3122,
-      "error": null
-    },
-    {
       "resource": "whoisfreaks",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "threatcrowd",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3129,
       "error": null
     },
     {
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "submd",
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 16225,
+      "duration_ms": 26004,
       "error": null
     },
     {
@@ -549,15 +549,15 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 29151,
+      "duration_ms": 30526,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "crtsh",
       "target": "stripe.partners",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 26478,
+      "findings_count": 7,
+      "duration_ms": 35826,
       "error": null
     },
     {
@@ -565,7 +565,15 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40676,
+      "duration_ms": 55877,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "stripe.partners",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61982,
       "error": null
     },
     {
@@ -573,7 +581,7 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65977,
+      "duration_ms": 65933,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "stripe.partners",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65333,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "stripe.partners",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 85991,
+      "duration_ms": 65423,
       "error": null
     }
   ]
