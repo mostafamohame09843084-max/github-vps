@@ -1,31 +1,23 @@
 {
   "root_domain": "office365drivecloudsuite.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T17:35:14.743755+00:00",
-  "completed_at": "2026-11-15T17:36:20.733870+00:00",
-  "duration_ms": 65990,
+  "started_at": "2026-11-15T17:36:43.743361+00:00",
+  "completed_at": "2026-11-15T17:37:49.732078+00:00",
+  "duration_ms": 65988,
   "targets_scanned": [
     "office365drivecloudsuite.com"
   ],
   "total_unique_findings": 3,
-  "fresh_findings_count": 3,
+  "fresh_findings_count": 0,
   "historical_findings_count": 3,
   "new_findings_count": 0,
-  "reused_historical_findings_count": 0,
+  "reused_historical_findings_count": 3,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "builtwith",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "binaryedge",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -41,23 +33,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fofa",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -73,31 +49,7 @@
       "error": null
     },
     {
-      "resource": "certspotter",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "binaryedge",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
+      "resource": "chinaz",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "chaos",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -121,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "c99",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,47 +81,7 @@
       "error": null
     },
     {
-      "resource": "bevigil",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
+      "resource": "builtwith",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +97,23 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "censys",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +129,7 @@
       "error": null
     },
     {
-      "resource": "censys",
+      "resource": "dnsdumpster",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,7 +137,7 @@
       "error": null
     },
     {
-      "resource": "intelx",
+      "resource": "google",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,15 +145,87 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "bufferover",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 26,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
       "resource": "huntermap",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 70,
+      "error": null
+    },
+    {
+      "resource": "intelx",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -257,19 +257,19 @@
       "error": null
     },
     {
+      "resource": "digitorus",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 86,
+      "error": null
+    },
+    {
       "resource": "netlas",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitorus",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 48,
       "error": null
     },
     {
@@ -281,15 +281,15 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "abuseipdb",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 87,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "rapidapi",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,7 +305,7 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
+      "resource": "profundis",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -313,15 +313,7 @@
       "error": null
     },
     {
-      "resource": "anubis",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 92,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
+      "resource": "pugrecon",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -337,19 +329,19 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 183,
+      "duration_ms": 126,
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "rapidscan",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 251,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -369,6 +361,14 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64,
+      "error": null
+    },
+    {
       "resource": "robtex",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
@@ -385,19 +385,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "alienvault",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 381,
       "error": null
     },
     {
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 550,
+      "duration_ms": 486,
       "error": null
     },
     {
@@ -429,7 +429,7 @@
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1113,
+      "duration_ms": 1103,
       "error": null
     },
     {
@@ -441,14 +441,6 @@
       "error": null
     },
     {
-      "resource": "riddler",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3062,
-      "error": null
-    },
-    {
       "resource": "threatbook",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
@@ -457,11 +449,19 @@
       "error": null
     },
     {
+      "resource": "riddler",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3072,
+      "error": null
+    },
+    {
       "resource": "shrewdeye",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3090,
+      "duration_ms": 3075,
       "error": null
     },
     {
@@ -473,11 +473,11 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 38,
       "error": null
     },
     {
@@ -497,11 +497,11 @@
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "sitedossier",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3274,
       "error": null
     },
     {
@@ -513,11 +513,11 @@
       "error": null
     },
     {
-      "resource": "crtsh",
+      "resource": "whoisfreaks",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
-      "findings_count": 3,
-      "duration_ms": 6163,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -541,7 +541,7 @@
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3163,
+      "duration_ms": 3146,
       "error": null
     },
     {
@@ -549,15 +549,7 @@
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 12010,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "office365drivecloudsuite.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 18587,
+      "duration_ms": 11870,
       "error": null
     },
     {
@@ -565,15 +557,23 @@
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33086,
+      "duration_ms": 33110,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "crtsh",
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 41947,
+      "duration_ms": 45062,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "office365drivecloudsuite.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 49758,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "office365drivecloudsuite.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65930,
+      "duration_ms": 65892,
       "error": null
     }
   ]
