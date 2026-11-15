@@ -1,8 +1,8 @@
 {
   "root_domain": "novapherex.digital",
   "recursive_depth": 0,
-  "started_at": "2026-11-15T15:45:48.737242+00:00",
-  "completed_at": "2026-11-15T15:46:57.733000+00:00",
+  "started_at": "2026-11-15T15:46:24.739956+00:00",
+  "completed_at": "2026-11-15T15:47:33.735351+00:00",
   "duration_ms": 68995,
   "targets_scanned": [
     "novapherex.digital"
@@ -17,7 +17,7 @@
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "dnsdumpster",
+      "resource": "chaos",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -33,71 +33,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "google",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domscan",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,54 +49,6 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
       "target": "novapherex.digital",
       "recursion_depth": 0,
@@ -169,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "arpsyndicate",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "bufferover",
+      "resource": "censys",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
+      "resource": "domainsproject",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,6 +89,94 @@
       "error": null
     },
     {
+      "resource": "bufferover",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fofa",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "domscan",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "driftnet",
       "target": "novapherex.digital",
       "recursion_depth": 0,
@@ -209,19 +185,35 @@
       "error": null
     },
     {
-      "resource": "digitorus",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 36,
-      "error": null
-    },
-    {
-      "resource": "intelx",
+      "resource": "chinaz",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 41,
       "error": null
     },
     {
@@ -233,7 +225,7 @@
       "error": null
     },
     {
-      "resource": "merklemap",
+      "resource": "intelx",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -249,15 +241,7 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 49,
-      "error": null
-    },
-    {
-      "resource": "odin",
+      "resource": "merklemap",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -273,15 +257,15 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "digitorus",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "odin",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,6 +281,22 @@
       "error": null
     },
     {
+      "resource": "pugrecon",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "quake",
       "target": "novapherex.digital",
       "recursion_depth": 0,
@@ -305,31 +305,15 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "hudsonrock",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 82,
+      "duration_ms": 78,
       "error": null
     },
     {
       "resource": "rapidapi",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 191,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -345,19 +329,27 @@
       "error": null
     },
     {
-      "resource": "hudsonrock",
+      "resource": "anubis",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 263,
+      "duration_ms": 95,
       "error": null
     },
     {
-      "resource": "hackertarget",
+      "resource": "rapidfinder",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 268,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 182,
       "error": null
     },
     {
@@ -373,11 +365,11 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 55,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -385,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "hackertarget",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 246,
+      "error": null
+    },
+    {
+      "resource": "rsecloud",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -413,7 +413,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 23,
+      "duration_ms": 42,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 455,
+      "duration_ms": 461,
       "error": null
     },
     {
@@ -429,15 +429,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1033,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3106,
+      "duration_ms": 1065,
       "error": null
     },
     {
@@ -446,6 +438,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -461,15 +461,15 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3063,
+      "duration_ms": 3060,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatminer",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3264,
+      "duration_ms": 43,
       "error": null
     },
     {
@@ -505,19 +505,19 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3134,
-      "error": null
-    },
-    {
       "resource": "whoisxml",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "sitedossier",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3265,
       "error": null
     },
     {
@@ -537,19 +537,19 @@
       "error": null
     },
     {
+      "resource": "threatcrowd",
+      "target": "novapherex.digital",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3097,
+      "error": null
+    },
+    {
       "resource": "crtsh",
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 2,
-      "duration_ms": 16254,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "novapherex.digital",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20649,
+      "duration_ms": 19975,
       "error": null
     },
     {
@@ -557,7 +557,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 33086,
+      "duration_ms": 32459,
       "error": null
     },
     {
@@ -565,7 +565,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 40675,
+      "duration_ms": 49933,
       "error": null
     },
     {
@@ -573,7 +573,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 42134,
+      "duration_ms": 58102,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65982,
+      "duration_ms": 65990,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "novapherex.digital",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65180,
+      "duration_ms": 65591,
       "error": null
     }
   ]

@@ -1,39 +1,23 @@
 {
   "root_domain": "volume.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:19:55.644164+00:00",
-  "completed_at": "2026-11-14T15:21:01.494447+00:00",
-  "duration_ms": 65850,
+  "started_at": "2026-11-15T15:46:10.918525+00:00",
+  "completed_at": "2026-11-15T15:47:19.743018+00:00",
+  "duration_ms": 68824,
   "targets_scanned": [
     "volume.com"
   ],
-  "total_unique_findings": 24,
-  "fresh_findings_count": 8,
+  "total_unique_findings": 39,
+  "fresh_findings_count": 39,
   "historical_findings_count": 24,
-  "new_findings_count": 0,
-  "reused_historical_findings_count": 16,
+  "new_findings_count": 15,
+  "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "domainsproject",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
+      "resource": "dnsdb",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -42,6 +26,14 @@
     },
     {
       "resource": "bevigil",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -65,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "arpsyndicate",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -81,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "binaryedge",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -89,39 +81,7 @@
       "error": null
     },
     {
-      "resource": "censys",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "driftnet",
+      "resource": "chinaz",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +97,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "facebook",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -145,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "domscan",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +113,15 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
+      "resource": "domainsproject",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,15 +137,7 @@
       "error": null
     },
     {
-      "resource": "dnsdb",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
+      "resource": "driftnet",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,7 +161,47 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "chaos",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -217,19 +217,19 @@
       "error": null
     },
     {
+      "resource": "abuseipdb",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 40,
+      "error": null
+    },
+    {
       "resource": "huntermap",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "abuseipdb",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31,
       "error": null
     },
     {
@@ -249,14 +249,6 @@
       "error": null
     },
     {
-      "resource": "odin",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "netlas",
       "target": "volume.com",
       "recursion_depth": 0,
@@ -269,11 +261,11 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 35,
+      "duration_ms": 45,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -282,6 +274,14 @@
     },
     {
       "resource": "onyphe",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "profundis",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,23 +305,15 @@
       "error": null
     },
     {
-      "resource": "rapidapi",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "anubis",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 85,
+      "duration_ms": 73,
       "error": null
     },
     {
-      "resource": "rapidscan",
+      "resource": "rapidapi",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -341,19 +333,11 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 214,
+      "duration_ms": 176,
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 251,
-      "error": null
-    },
-    {
-      "resource": "redhuntlabs",
+      "resource": "rapidscan",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -365,11 +349,11 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 1,
-      "duration_ms": 252,
+      "duration_ms": 262,
       "error": null
     },
     {
-      "resource": "robtex",
+      "resource": "redhuntlabs",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,11 +361,11 @@
       "error": null
     },
     {
-      "resource": "reconeer",
+      "resource": "hackertarget",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 50,
+      "duration_ms": 275,
       "error": null
     },
     {
@@ -393,7 +377,15 @@
       "error": null
     },
     {
-      "resource": "shodan",
+      "resource": "reconeer",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 60,
+      "error": null
+    },
+    {
+      "resource": "robtex",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,19 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 19,
-      "error": null
-    },
-    {
-      "resource": "rapiddns",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 7,
-      "duration_ms": 814,
+      "duration_ms": 26,
       "error": null
     },
     {
@@ -429,15 +421,15 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1451,
+      "duration_ms": 1462,
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "rapiddns",
       "target": "volume.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "findings_count": 7,
+      "duration_ms": 1972,
       "error": null
     },
     {
@@ -445,15 +437,7 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3057,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3100,
       "error": null
     },
     {
@@ -465,19 +449,27 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3277,
-      "error": null
-    },
-    {
-      "resource": "trickest",
+      "resource": "threatbook",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "thc",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 38,
+      "duration_ms": 51,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -497,6 +489,14 @@
       "error": null
     },
     {
+      "resource": "trickest",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "whoisxml",
       "target": "volume.com",
       "recursion_depth": 0,
@@ -505,23 +505,15 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3273,
+      "error": null
+    },
+    {
       "resource": "whoisfreaks",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3086,
-      "error": null
-    },
-    {
-      "resource": "windvane",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,27 @@
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "windvane",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11332,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "threatminer",
+      "resource": "threatcrowd",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 20657,
+      "duration_ms": 3095,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 16,
+      "duration_ms": 26374,
       "error": null
     },
     {
@@ -557,15 +557,7 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31510,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "volume.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 41908,
+      "duration_ms": 33079,
       "error": null
     },
     {
@@ -573,15 +565,15 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 47452,
+      "duration_ms": 34724,
       "error": null
     },
     {
-      "resource": "waybackarchive",
+      "resource": "submd",
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44659,
+      "duration_ms": 34337,
       "error": null
     },
     {
@@ -589,7 +581,15 @@
       "target": "volume.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65839,
+      "duration_ms": 65813,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "volume.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 65350,
       "error": null
     }
   ]
