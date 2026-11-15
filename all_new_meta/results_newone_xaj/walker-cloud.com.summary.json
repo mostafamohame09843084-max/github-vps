@@ -1,87 +1,23 @@
 {
   "root_domain": "walker-cloud.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:16:03.501297+00:00",
-  "completed_at": "2026-11-14T16:17:12.490054+00:00",
-  "duration_ms": 68988,
+  "started_at": "2026-11-15T16:40:42.809185+00:00",
+  "completed_at": "2026-11-15T16:41:51.740344+00:00",
+  "duration_ms": 68931,
   "targets_scanned": [
     "walker-cloud.com"
   ],
-  "total_unique_findings": 3,
-  "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "total_unique_findings": 33,
+  "fresh_findings_count": 33,
+  "historical_findings_count": 3,
+  "new_findings_count": 30,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "censys",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "facebook",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
+      "resource": "chinaz",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -97,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "fofa",
+      "resource": "builtwith",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -105,7 +41,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
+      "resource": "dnsrepo",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -113,7 +49,7 @@
       "error": null
     },
     {
-      "resource": "c99",
+      "resource": "arpsyndicate",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,14 +65,6 @@
       "error": null
     },
     {
-      "resource": "coderog",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "fullhunt",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
@@ -145,7 +73,7 @@
       "error": null
     },
     {
-      "resource": "builtwith",
+      "resource": "binaryedge",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +81,15 @@
       "error": null
     },
     {
-      "resource": "chinaz",
+      "resource": "censys",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +105,7 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "fofa",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,7 +121,7 @@
       "error": null
     },
     {
-      "resource": "digitalyama",
+      "resource": "domainsproject",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -193,7 +129,15 @@
       "error": null
     },
     {
-      "resource": "google",
+      "resource": "domscan",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -209,15 +153,55 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
+      "resource": "digitalyama",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 44,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "huntermap",
+      "resource": "coderog",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -230,6 +214,22 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "huntermap",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 39,
       "error": null
     },
     {
@@ -261,7 +261,7 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63,
+      "duration_ms": 49,
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "pugrecon",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -289,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "pugrecon",
+      "resource": "profundis",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -317,23 +317,7 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 78,
-      "error": null
-    },
-    {
-      "resource": "rapidscan",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "crtsh",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 115,
+      "duration_ms": 84,
       "error": null
     },
     {
@@ -345,11 +329,43 @@
       "error": null
     },
     {
+      "resource": "rapidscan",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "alienvault",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 189,
+      "duration_ms": 202,
+      "error": null
+    },
+    {
+      "resource": "hudsonrock",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 237,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 273,
+      "error": null
+    },
+    {
+      "resource": "redhuntlabs",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -357,11 +373,11 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 49,
       "error": null
     },
     {
-      "resource": "redhuntlabs",
+      "resource": "rsecloud",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -377,19 +393,11 @@
       "error": null
     },
     {
-      "resource": "rsecloud",
+      "resource": "shodan",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hackertarget",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 250,
       "error": null
     },
     {
@@ -401,27 +409,11 @@
       "error": null
     },
     {
-      "resource": "shodan",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "hudsonrock",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 254,
-      "error": null
-    },
-    {
       "resource": "shodanx",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 25,
+      "duration_ms": 30,
       "error": null
     },
     {
@@ -429,7 +421,7 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 493,
+      "duration_ms": 504,
       "error": null
     },
     {
@@ -437,7 +429,15 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1417,
+      "duration_ms": 1328,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3095,
       "error": null
     },
     {
@@ -449,19 +449,19 @@
       "error": null
     },
     {
-      "resource": "thc",
+      "resource": "shrewdeye",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3073,
       "error": null
     },
     {
-      "resource": "riddler",
+      "resource": "thc",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3069,
+      "findings_count": 25,
+      "duration_ms": 59,
       "error": null
     },
     {
@@ -473,14 +473,6 @@
       "error": null
     },
     {
-      "resource": "shrewdeye",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3071,
-      "error": null
-    },
-    {
       "resource": "urlscan",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
@@ -489,23 +481,15 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3267,
+      "error": null
+    },
+    {
       "resource": "virustotal",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 47,
-      "error": null
-    },
-    {
-      "resource": "whoisxml",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -521,7 +505,15 @@
       "error": null
     },
     {
-      "resource": "zoomeyeapi",
+      "resource": "threatcrowd",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3134,
+      "error": null
+    },
+    {
+      "resource": "whoisxml",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,19 +529,19 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "zoomeyeapi",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3268,
+      "duration_ms": 0,
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "threatminer",
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3088,
+      "duration_ms": 20597,
       "error": null
     },
     {
@@ -557,15 +549,7 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 11853,
-      "error": null
-    },
-    {
-      "resource": "reconcloud",
-      "target": "walker-cloud.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 31392,
+      "duration_ms": 27892,
       "error": null
     },
     {
@@ -573,7 +557,23 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 38725,
+      "duration_ms": 29586,
+      "error": null
+    },
+    {
+      "resource": "reconcloud",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 32757,
+      "error": null
+    },
+    {
+      "resource": "crtsh",
+      "target": "walker-cloud.com",
+      "recursion_depth": 0,
+      "findings_count": 31,
+      "duration_ms": 55114,
       "error": null
     },
     {
@@ -581,7 +581,7 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65980,
+      "duration_ms": 65916,
       "error": null
     },
     {
@@ -589,7 +589,7 @@
       "target": "walker-cloud.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65651,
+      "duration_ms": 65061,
       "error": null
     }
   ]

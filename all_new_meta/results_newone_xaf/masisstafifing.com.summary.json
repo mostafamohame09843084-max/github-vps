@@ -1,119 +1,23 @@
 {
   "root_domain": "masisstafifing.com",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T16:26:20.496286+00:00",
-  "completed_at": "2026-11-14T16:27:27.490357+00:00",
-  "duration_ms": 66994,
+  "started_at": "2026-11-15T16:40:51.744853+00:00",
+  "completed_at": "2026-11-15T16:41:57.738476+00:00",
+  "duration_ms": 65993,
   "targets_scanned": [
     "masisstafifing.com"
   ],
   "total_unique_findings": 3,
   "fresh_findings_count": 3,
-  "historical_findings_count": 0,
-  "new_findings_count": 3,
+  "historical_findings_count": 3,
+  "new_findings_count": 0,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "chinaz",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "builtwith",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fofa",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdumpster",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "google",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "argosdns",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsrepo",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "certspotter",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
+      "resource": "censys",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -129,7 +33,7 @@
       "error": null
     },
     {
-      "resource": "chaos",
+      "resource": "fofa",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -137,7 +41,15 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "bufferover",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -153,7 +65,47 @@
       "error": null
     },
     {
-      "resource": "coderog",
+      "resource": "fullhunt",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "certspotter",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "argosdns",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "c99",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +121,55 @@
       "error": null
     },
     {
+      "resource": "dnsdb",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "digitalyama",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "domscan",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "coderog",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -185,23 +185,23 @@
       "error": null
     },
     {
-      "resource": "fullhunt",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "domainsproject",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "builtwith",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -229,7 +229,7 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 48,
+      "duration_ms": 36,
       "error": null
     },
     {
@@ -261,7 +261,7 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 80,
+      "duration_ms": 60,
       "error": null
     },
     {
@@ -317,23 +317,7 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 91,
-      "error": null
-    },
-    {
-      "resource": "alienvault",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 190,
-      "error": null
-    },
-    {
-      "resource": "rapidfinder",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 95,
       "error": null
     },
     {
@@ -345,11 +329,27 @@
       "error": null
     },
     {
+      "resource": "rapidfinder",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 192,
+      "error": null
+    },
+    {
       "resource": "hudsonrock",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 242,
+      "duration_ms": 232,
       "error": null
     },
     {
@@ -357,7 +357,7 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 252,
+      "duration_ms": 262,
       "error": null
     },
     {
@@ -369,6 +369,14 @@
       "error": null
     },
     {
+      "resource": "reconeer",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 53,
+      "error": null
+    },
+    {
       "resource": "rsecloud",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
@@ -377,23 +385,7 @@
       "error": null
     },
     {
-      "resource": "reconeer",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 45,
-      "error": null
-    },
-    {
       "resource": "robtex",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "securitytrails",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "securitytrails",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 24,
+      "duration_ms": 20,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 433,
+      "duration_ms": 557,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3122,
+      "duration_ms": 1348,
+      "error": null
+    },
+    {
+      "resource": "riddler",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3094,
       "error": null
     },
     {
@@ -441,39 +449,31 @@
       "error": null
     },
     {
-      "resource": "thc",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "riddler",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3066,
-      "error": null
-    },
-    {
       "resource": "shrewdeye",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3057,
+      "duration_ms": 3053,
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "thc",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 3,
+      "duration_ms": 114,
+      "error": null
+    },
+    {
+      "resource": "threatminer",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3265,
+      "duration_ms": 24,
       "error": null
     },
     {
-      "resource": "urlscan",
+      "resource": "trickest",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -481,7 +481,7 @@
       "error": null
     },
     {
-      "resource": "trickest",
+      "resource": "urlscan",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -494,14 +494,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatcrowd",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3049,
       "error": null
     },
     {
@@ -521,6 +513,14 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3270,
+      "error": null
+    },
+    {
       "resource": "windvane",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
@@ -537,11 +537,11 @@
       "error": null
     },
     {
-      "resource": "racent",
+      "resource": "threatcrowd",
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9860,
+      "duration_ms": 3110,
       "error": null
     },
     {
@@ -549,7 +549,7 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9819,
+      "duration_ms": 25143,
       "error": null
     },
     {
@@ -557,7 +557,23 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31005,
+      "duration_ms": 33096,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 37019,
+      "error": null
+    },
+    {
+      "resource": "waybackarchive",
+      "target": "masisstafifing.com",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 33955,
       "error": null
     },
     {
@@ -565,15 +581,7 @@
       "target": "masisstafifing.com",
       "recursion_depth": 0,
       "findings_count": 3,
-      "duration_ms": 37175,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 61736,
+      "duration_ms": 45342,
       "error": null
     },
     {
@@ -582,14 +590,6 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 65984,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "masisstafifing.com",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 63193,
       "error": null
     }
   ]
