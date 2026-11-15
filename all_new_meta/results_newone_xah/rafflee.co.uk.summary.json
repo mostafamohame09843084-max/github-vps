@@ -1,23 +1,23 @@
 {
   "root_domain": "rafflee.co.uk",
   "recursive_depth": 0,
-  "started_at": "2026-11-14T15:38:26.503647+00:00",
-  "completed_at": "2026-11-14T15:39:35.489832+00:00",
-  "duration_ms": 68986,
+  "started_at": "2026-11-15T16:00:35.736719+00:00",
+  "completed_at": "2026-11-15T16:01:41.738028+00:00",
+  "duration_ms": 66001,
   "targets_scanned": [
     "rafflee.co.uk"
   ],
-  "total_unique_findings": 0,
-  "fresh_findings_count": 0,
+  "total_unique_findings": 28,
+  "fresh_findings_count": 28,
   "historical_findings_count": 0,
-  "new_findings_count": 0,
+  "new_findings_count": 28,
   "reused_historical_findings_count": 0,
   "total_resource_executions": 72,
   "successful_resource_executions": 72,
   "failed_resource_executions": 0,
   "resource_executions": [
     {
-      "resource": "fofa",
+      "resource": "digitalyama",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -25,23 +25,7 @@
       "error": null
     },
     {
-      "resource": "binaryedge",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "c99",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "censys",
+      "resource": "domscan",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -57,95 +41,7 @@
       "error": null
     },
     {
-      "resource": "dnsdumpster",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bevigil",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "digitalyama",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "bufferover",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "fullhunt",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chinaz",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "certspotter",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "coderog",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "domainsproject",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "github",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "chaos",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "dnsdb",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -161,7 +57,7 @@
       "error": null
     },
     {
-      "resource": "facebook",
+      "resource": "domainsproject",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -169,7 +65,7 @@
       "error": null
     },
     {
-      "resource": "dnsrepo",
+      "resource": "fofa",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -177,15 +73,7 @@
       "error": null
     },
     {
-      "resource": "google",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "arpsyndicate",
+      "resource": "c99",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -201,11 +89,131 @@
       "error": null
     },
     {
-      "resource": "domscan",
+      "resource": "coderog",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsrepo",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bufferover",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "bevigil",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "binaryedge",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chinaz",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "github",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "facebook",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "google",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdumpster",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "dnsdb",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "arpsyndicate",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "censys",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "chaos",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "fullhunt",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "abuseipdb",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 48,
       "error": null
     },
     {
@@ -225,22 +233,6 @@
       "error": null
     },
     {
-      "resource": "abuseipdb",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 33,
-      "error": null
-    },
-    {
-      "resource": "leakix",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
       "resource": "merklemap",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
@@ -249,7 +241,7 @@
       "error": null
     },
     {
-      "resource": "odin",
+      "resource": "leakix",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -269,11 +261,11 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 34,
+      "duration_ms": 53,
       "error": null
     },
     {
-      "resource": "profundis",
+      "resource": "odin",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -281,7 +273,7 @@
       "error": null
     },
     {
-      "resource": "onyphe",
+      "resource": "profundis",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -297,7 +289,7 @@
       "error": null
     },
     {
-      "resource": "quake",
+      "resource": "onyphe",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -305,11 +297,11 @@
       "error": null
     },
     {
-      "resource": "anubis",
+      "resource": "quake",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 79,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -321,11 +313,11 @@
       "error": null
     },
     {
-      "resource": "alienvault",
+      "resource": "anubis",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 196,
+      "duration_ms": 82,
       "error": null
     },
     {
@@ -334,6 +326,14 @@
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
+      "error": null
+    },
+    {
+      "resource": "alienvault",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 179,
       "error": null
     },
     {
@@ -349,7 +349,15 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 259,
+      "duration_ms": 239,
+      "error": null
+    },
+    {
+      "resource": "hackertarget",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 253,
       "error": null
     },
     {
@@ -361,15 +369,7 @@
       "error": null
     },
     {
-      "resource": "hackertarget",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 272,
-      "error": null
-    },
-    {
-      "resource": "rsecloud",
+      "resource": "robtex",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -381,19 +381,11 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 63,
+      "duration_ms": 46,
       "error": null
     },
     {
-      "resource": "robtex",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "shodan",
+      "resource": "rsecloud",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -409,11 +401,19 @@
       "error": null
     },
     {
+      "resource": "shodan",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
+      "error": null
+    },
+    {
       "resource": "shodanx",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 17,
+      "duration_ms": 28,
       "error": null
     },
     {
@@ -421,7 +421,7 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 553,
+      "duration_ms": 1700,
       "error": null
     },
     {
@@ -429,7 +429,15 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 1148,
+      "duration_ms": 2234,
+      "error": null
+    },
+    {
+      "resource": "threatbook",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 0,
       "error": null
     },
     {
@@ -445,15 +453,7 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3056,
-      "error": null
-    },
-    {
-      "resource": "threatbook",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 0,
+      "duration_ms": 3077,
       "error": null
     },
     {
@@ -461,7 +461,7 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3121,
+      "duration_ms": 3055,
       "error": null
     },
     {
@@ -473,19 +473,19 @@
       "error": null
     },
     {
+      "resource": "sitedossier",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 3274,
+      "error": null
+    },
+    {
       "resource": "trickest",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
       "duration_ms": 0,
-      "error": null
-    },
-    {
-      "resource": "threatminer",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 40,
       "error": null
     },
     {
@@ -497,7 +497,7 @@
       "error": null
     },
     {
-      "resource": "whoisxml",
+      "resource": "whoisfreaks",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -505,15 +505,15 @@
       "error": null
     },
     {
-      "resource": "sitedossier",
+      "resource": "threatcrowd",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 3269,
+      "duration_ms": 3111,
       "error": null
     },
     {
-      "resource": "whoisfreaks",
+      "resource": "whoisxml",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
@@ -537,35 +537,27 @@
       "error": null
     },
     {
-      "resource": "threatcrowd",
+      "resource": "waybackarchive",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 3100,
+      "findings_count": 3,
+      "duration_ms": 15048,
       "error": null
     },
     {
-      "resource": "submd",
+      "resource": "threatminer",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 9262,
-      "error": null
-    },
-    {
-      "resource": "racent",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 12686,
+      "duration_ms": 20444,
       "error": null
     },
     {
       "resource": "crtsh",
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 20067,
+      "findings_count": 28,
+      "duration_ms": 31027,
       "error": null
     },
     {
@@ -573,7 +565,23 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 31439,
+      "duration_ms": 32768,
+      "error": null
+    },
+    {
+      "resource": "submd",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 61345,
+      "error": null
+    },
+    {
+      "resource": "racent",
+      "target": "rafflee.co.uk",
+      "recursion_depth": 0,
+      "findings_count": 0,
+      "duration_ms": 64927,
       "error": null
     },
     {
@@ -581,15 +589,7 @@
       "target": "rafflee.co.uk",
       "recursion_depth": 0,
       "findings_count": 0,
-      "duration_ms": 65993,
-      "error": null
-    },
-    {
-      "resource": "waybackarchive",
-      "target": "rafflee.co.uk",
-      "recursion_depth": 0,
-      "findings_count": 0,
-      "duration_ms": 65473,
+      "duration_ms": 65983,
       "error": null
     }
   ]
